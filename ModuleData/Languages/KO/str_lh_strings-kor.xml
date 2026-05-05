@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="식량이 떨어졌다 — 부대가 고블린 한 마리({GOBLIN})를 먹었다. 남은 고블린: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="식량이 떨어졌다 — 오크들이 포로({PRISONER})를 잡아먹었다. 남은 포로: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="당신이 직접 격파한 수: {KILLS} / {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (당신의 동료가 추가로 {EXTRA} 명을 처치했다.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="다양한 종류의 적을 처치한 보너스로 오크 1명과 고블린 1명을 추가로 받는다." />
+    <string id="lh_brawl_diversity_orc" text="다양한 종류의 적을 처치한 보너스로 오크 1명을 추가로 받는다." />
+    <string id="lh_brawl_diversity_goblin" text="다양한 종류의 적을 처치한 보너스로 고블린 1명을 추가로 받는다." />
+    <string id="lh_orc_castle_recruit" text="오크 정예 모집" />
+    <string id="lh_orc_castle_recruit_intro" text="씨족의 보스들이 거대한 오크 전사들을 데리고 나왔다 — 그들이 사납게 노려보며 보수를 기다린다. 보유 자금: {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="요새의 오크 정예" />
+    <string id="lh_castle_recruit_leave" text="뒤로" />
+    <string id="lh_castle_elite_cap" text="이미 {LH_REGULARS_COUNT}명의 오크 보이에 비해 정예 {LH_ELITE_COUNT}명이 있다. 한도 — 보이 {LH_RATIO}명당 정예 1명. 먼저 마을과 도시에서 보이를 더 모집하라." />
+    <string id="lh_castle_no_gold" text="자금 부족" />
+    <string id="lh_castle_party_full" text="부대가 가득 찼다" />
+    <string id="lh_village_hire_goblins" text="고블린 모집 (100{GOLD_ICON} / 2명)" />
+    <string id="lh_village_no_gold" text="최소 100 골드가 필요하다" />
+    <string id="lh_village_no_orcs" text="고블린은 오크에게만 봉사한다 — 부대에 오크가 없으면 따라가지 않는다." />
+    <string id="lh_village_goblin_cap" text="현재 오크 {LH_ORC_COUNT}명에 고블린 {LH_GOBLIN_COUNT}명이 있다. 한도 — 오크 1명당 고블린 4명. 먼저 오크를 더 모집하라." />
+    <string id="lh_castle_recruit_msg" text="모집 완료: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="모집 완료: {TROOP} (고블린 시종 {COUNT}명 동반)" />
+    <string id="lh_village_goblin_hired" text="모집 완료: 고블린 {COUNT}명 (비용 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} 가 고블린 시종 +{COUNT}명을 데려왔다" />
+    <string id="lh_goblin_companions_capped" text="고블린 +{COUNT}명 (원래 {DESIRED}명을 원했지만, 4:1 한도에 도달)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="궁수 보이 보스" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="빅언 오크" />
+    <string id="lh_troop_tor_gs_black_orc" text="흑색 오크" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="멧돼지 보이 빅언" />
+    <string id="lh_troop_tor_gs_orc_boss" text="오크 보스" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="흑색 오크 짐승" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="흑색 오크 보스" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="흑색 오크 광전사" />
+    <string id="lh_troop_tor_gs_goblin" text="고블린" />
+    <string id="lh_troop_tor_gs_orc" text="오크" />
+    <string id="lh_troop_tor_gs_orc_boy" text="오크 보이" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="오크 초파" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="오크 궁수 보이" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="오크 멧돼지 보이" />
+    <string id="lh_teef_cart_trimmed" text="이빨이 부족하다 — 오크 {COUNT}명을 덜 모집했다 (사용 {SPENT}, 보유 {HAVE})." />
+    <string id="lh_castle_challenge_button" text="오크 정예에게 결투를 신청" />
+    <string id="lh_castle_challenge_intro" text="영주의 홀에 짐승들이 줄지어 서 있다. 한 명을 골라라 — 1대1, 죽음의 결투." />
+    <string id="lh_castle_challenge_title" text="오크 정예와의 결투" />
+    <string id="lh_castle_challenge_back" text="뒤로" />
+    <string id="lh_castle_challenge_disabled_culture" text="오크만이 오크에게 도전할 수 있다." />
+    <string id="lh_castle_challenge_disabled_siege" text="요새가 포위 중에는 안 된다." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="이 전사는 아직 회복 중이다. {DAYS}일 더 기다려라." />
+    <string id="lh_castle_challenge_no_troop" text="TOR가 이 유닛을 로드하지 않았다." />
+    <string id="lh_castle_challenge_victory_desc" text="승리! {TROOP} 가 쓰러졌다. 보상: 이빨 +{TEEF}{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="패배. {TROOP} 가 더 강했다. 베팅은 몰수되고, 너는 부끄러움을 안고 떠난다." />
+    <string id="lh_castle_challenge_victory_accept" text="보상을 받는다" />
+    <string id="lh_castle_challenge_defeat_accept" text="부끄러움을 안고 떠난다" />
+    <string id="lh_castle_challenge_option_verb" text="결투 신청: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[결투] 유닛 '{TROOP_ID}'가 로드되지 않았다." />
+    <string id="lh_castle_challenge_err_no_scene" text="[결투] 이 성에는 적합한 장면이 없다 (영주의 홀 누락)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[결투] 베팅에 쓸 이빨이 부족하다." />
+    <string id="lh_castle_challenge_err_no_gold" text="[결투] 베팅에 쓸 자금이 부족하다." />
+    <string id="lh_castle_challenge_err_generic" text="[결투] 오류: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", 그리고 그의 동족 한 명이 너의 부대에 합류한다" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: 경제 모드 선택" />
+    <string id="lh_settings_economy_desc" text="이 선택은 저장 파일에 잠긴다. 변경하려면 새 게임을 시작해야 한다." />
+    <string id="lh_settings_economy_teef_title" text="오크 이빨 경제 (워해머 설정)" />
+    <string id="lh_settings_economy_teef_hint" text="성에서 전투로 얻은 이빨(오크 화폐)로 오크 정예를 구매한다. 고블린은 여전히 자금 사용. 보유한 오크 도시/성마다 매일 이빨 +5. 워해머 판타지 설정에 부합 — 오크는 자금을 존중하지 않는다." />
+    <string id="lh_settings_economy_classic_title" text="클래식 (모든 것을 자금으로)" />
+    <string id="lh_settings_economy_classic_hint" text="오크와 고블린을 원본 TOR처럼 자금으로 모집한다. 이빨 경제 없음, 매일 영지 수입 없음. 단순하고 익숙하다." />
+    <string id="lh_settings_economy_confirm" text="확인" />
+    <string id="lh_castle_no_teef" text="이빨 부족: 필요 {LH_TEEF_NEEDED}, 보유 {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="오크 영웅 전용. 오크는 외부인을 받아들이지 않는다." />
+    <string id="lh_teef_daily_msg" text="당신의 오크 도시와 성에서 이빨 +{TEEF} ({COUNT}개)" />
+    <string id="lh_teef_battle_msg" text="숙련된 적 {COUNT}명(T4+)에게서 이빨 +{TEEF}을 뽑아냈다." />
+    <string id="lh_teef_lord_kill_msg" text="영주 {NAME}을 처치하여 이빨 +{TEEF} 획득." />
+    <string id="lh_castle_challenge_no_fee_teef" text="결투를 신청하려면 이빨 {FEE}이 필요하다 (보유 {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="결투를 신청하려면 자금 {FEE}이 필요하다 (보유 {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 비용 -{TEEF} 이빨." />
+    <string id="lh_teef_recruit_no_teef" text="{TROOP} 모집에 이빨 부족 (필요 {NEED}, 보유 {HAVE})." />
+    <string id="lh_teef_unit" text="이빨" />
+    <string id="lh_bt_conflict_title" text="모드 충돌: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="제3자 BetterTime 모드가 Lore-Hardcore와 함께 로드되었다. 이 모드는 The Old Realms와 호환되지 않는다 — UI MapBar 오버라이드를 통해 충돌이 발생한다.{newline}{newline}Lore-Hardcore에는 이미 BetterTime 기능이 포함되어 있다:{newline}D3 / Numpad3 — 빨리감기 ×4{newline}D4 / Numpad4 — 초고속 ×8{newline}키를 놓으면 — 정상 속도로 복귀{newline}{newline}권장: 게임을 종료하고, Bannerlord 런처에서 제3자 BetterTime을 비활성화하거나 제거한 후, 재시작하라." />
+    <string id="lh_bt_conflict_ok" text="알겠다, 수정하겠다" />
+    <string id="lh_tournament_cannot_leave" text="싸움 아직 안 끝났다. 도망치지 마." />
+  </strings>
+</base>

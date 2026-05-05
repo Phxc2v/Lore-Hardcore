@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="食料が尽きた — 部隊はゴブリン1匹({GOBLIN})を食べた。残りのゴブリン: {COUNT}。" />
+    <string id="lh_cannibal_prisoner_eaten" text="食料が尽きた — オークたちは捕虜({PRISONER})を食べた。残りの捕虜: {COUNT}。" />
+    <string id="lh_brawl_kills_line" text="あなたが乱闘で直接撃破した数: {KILLS} / {TOTAL}。" />
+    <string id="lh_brawl_kills_allies_extra" text="(味方がさらに {EXTRA} 体を仕留めた。)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="異なる種類の敵を狩った報酬として、オーク1体とゴブリン1体を追加で受け取った。" />
+    <string id="lh_brawl_diversity_orc" text="異なる種類の敵を狩った報酬として、オーク1体を追加で受け取った。" />
+    <string id="lh_brawl_diversity_goblin" text="異なる種類の敵を狩った報酬として、ゴブリン1体を追加で受け取った。" />
+    <string id="lh_orc_castle_recruit" text="オーク精鋭の募集" />
+    <string id="lh_orc_castle_recruit_intro" text="氏族のボスたちが屈強なオーク戦士を連れてきた — 彼らは荒々しく睨みつけ、報酬を待っている。所持金: {LH_PLAYER_GOLD}{GOLD_ICON}。" />
+    <string id="lh_orc_castle_recruit_title" text="要塞のオーク精鋭" />
+    <string id="lh_castle_recruit_leave" text="戻る" />
+    <string id="lh_castle_elite_cap" text="既にオーク・ボーイ {LH_REGULARS_COUNT}名に対し精鋭 {LH_ELITE_COUNT}名がいる。上限 — ボーイ {LH_RATIO}名につき精鋭1名。先に村と町でボーイをもっと募集せよ。" />
+    <string id="lh_castle_no_gold" text="資金不足" />
+    <string id="lh_castle_party_full" text="部隊が満員" />
+    <string id="lh_village_hire_goblins" text="ゴブリンを募集(100{GOLD_ICON} / 2体)" />
+    <string id="lh_village_no_gold" text="最低100ゴールド必要" />
+    <string id="lh_village_no_orcs" text="ゴブリンはオークにのみ仕える — 部隊にオークがいなければ付いて来ない。" />
+    <string id="lh_village_goblin_cap" text="現在オーク {LH_ORC_COUNT}名に対しゴブリン {LH_GOBLIN_COUNT}体がいる。上限 — オーク1名につきゴブリン4体。先にオークをもっと募集せよ。" />
+    <string id="lh_castle_recruit_msg" text="募集完了: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="募集完了: {TROOP}(ゴブリン従者 {COUNT}体を伴う)" />
+    <string id="lh_village_goblin_hired" text="募集完了: ゴブリン {COUNT}体(費用 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} がゴブリン従者 +{COUNT}体を連れてきた" />
+    <string id="lh_goblin_companions_capped" text="ゴブリン +{COUNT}体(本来 {DESIRED} 体を望んだが、4:1 上限に到達)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓ボーイ・ボス" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="ビッグン・オーク" />
+    <string id="lh_troop_tor_gs_black_orc" text="ブラック・オーク" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="ボア・ボーイ・ビッグン" />
+    <string id="lh_troop_tor_gs_orc_boss" text="オーク・ボス" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="ブラック・オーク・ブルート" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="ブラック・オーク・ボス" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="ブラック・オーク・バーサーカー" />
+    <string id="lh_troop_tor_gs_goblin" text="ゴブリン" />
+    <string id="lh_troop_tor_gs_orc" text="オーク" />
+    <string id="lh_troop_tor_gs_orc_boy" text="オーク・ボーイ" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="オーク・チョッパ" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="オーク・弓ボーイ" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="オーク・ボア・ボーイ" />
+    <string id="lh_teef_cart_trimmed" text="牙が足りない — オークを {COUNT}名少なく募集した(使用 {SPENT}、所持 {HAVE})。" />
+    <string id="lh_castle_challenge_button" text="オーク精鋭に決闘を申し込む" />
+    <string id="lh_castle_challenge_intro" text="領主の広間に屈強な戦士たちが並ぶ。一人を選べ — 1対1、死闘だ。" />
+    <string id="lh_castle_challenge_title" text="オーク精鋭との決闘" />
+    <string id="lh_castle_challenge_back" text="戻る" />
+    <string id="lh_castle_challenge_disabled_culture" text="オークだけがオークに挑むことができる。" />
+    <string id="lh_castle_challenge_disabled_siege" text="要塞が包囲中はできない。" />
+    <string id="lh_castle_challenge_disabled_cooldown" text="この戦士はまだ回復中だ。あと {DAYS} 日待て。" />
+    <string id="lh_castle_challenge_no_troop" text="TOR がこの兵士をロードしていない。" />
+    <string id="lh_castle_challenge_victory_desc" text="勝利!{TROOP} は倒された。報酬: 牙 +{TEEF}{REWARD_TROOP}。" />
+    <string id="lh_castle_challenge_defeat_desc" text="敗北。{TROOP} の方が強かった。賭け金は没収され、お前は恥を抱えて立ち去る。" />
+    <string id="lh_castle_challenge_victory_accept" text="報酬を受け取る" />
+    <string id="lh_castle_challenge_defeat_accept" text="恥を抱えて立ち去る" />
+    <string id="lh_castle_challenge_option_verb" text="決闘を申し込む: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[決闘] 兵士 '{TROOP_ID}' がロードされていない。" />
+    <string id="lh_castle_challenge_err_no_scene" text="[決闘] この城には適切な場面がない(領主の広間が欠落)。" />
+    <string id="lh_castle_challenge_err_no_teef" text="[決闘] 賭けに使う牙が足りない。" />
+    <string id="lh_castle_challenge_err_no_gold" text="[決闘] 賭けに使う資金が足りない。" />
+    <string id="lh_castle_challenge_err_generic" text="[決闘] エラー: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text="、そして同種の一人が部隊に加わる" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: 経済モード選択" />
+    <string id="lh_settings_economy_desc" text="この選択はセーブにロックされる。変更するには新しいゲームを開始する必要がある。" />
+    <string id="lh_settings_economy_teef_title" text="オークの牙経済(ウォーハンマー設定)" />
+    <string id="lh_settings_economy_teef_hint" text="城で戦闘で得た牙(オークの通貨)で精鋭を購入する。ゴブリンは引き続き資金。所有するオークの町や城ごとに毎日 牙 +5。ウォーハンマー・ファンタジー設定に忠実 — オークは資金を尊重しない。" />
+    <string id="lh_settings_economy_classic_title" text="クラシック(すべて資金で)" />
+    <string id="lh_settings_economy_classic_hint" text="オークとゴブリンを原版 TOR と同じく資金で募集する。牙経済なし、領地からの毎日収入なし。シンプルで馴染みやすい。" />
+    <string id="lh_settings_economy_confirm" text="確認" />
+    <string id="lh_castle_no_teef" text="牙が不足: 必要 {LH_TEEF_NEEDED}、所持 {LH_TEEF_HAVE}。" />
+    <string id="lh_castle_not_orc" text="オーク英雄専用。オークは外の者を受け入れない。" />
+    <string id="lh_teef_daily_msg" text="あなたのオークの町と城から牙 +{TEEF}({COUNT}件)" />
+    <string id="lh_teef_battle_msg" text="熟練した敵 {COUNT}人(T4+)から牙 +{TEEF} を叩き出した。" />
+    <string id="lh_teef_lord_kill_msg" text="領主 {NAME} を撃破して牙 +{TEEF} 獲得。" />
+    <string id="lh_castle_challenge_no_fee_teef" text="決闘を申し込むには牙 {FEE} が必要(所持 {HAVE})。" />
+    <string id="lh_castle_challenge_no_fee_gold" text="決闘を申し込むには資金 {FEE} が必要(所持 {HAVE})。" />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 費用 -{TEEF} 牙。" />
+    <string id="lh_teef_recruit_no_teef" text="{TROOP} の募集に牙不足(必要 {NEED}、所持 {HAVE})。" />
+    <string id="lh_teef_unit" text="牙" />
+    <string id="lh_bt_conflict_title" text="MOD 競合: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="サードパーティの BetterTime MOD が Lore-Hardcore と一緒にロードされている。この MOD は The Old Realms と互換性がない — UI MapBar のオーバーライドで衝突する。{newline}{newline}Lore-Hardcore は既に BetterTime 機能を含んでいる:{newline}D3 / Numpad3 — 早送り ×4{newline}D4 / Numpad4 — 超高速 ×8{newline}キーを離す — 通常速度に戻る{newline}{newline}推奨: ゲームを終了し、Bannerlord ランチャーでサードパーティの BetterTime を無効化または削除して、再起動せよ。" />
+    <string id="lh_bt_conflict_ok" text="了解、修正する" />
+    <string id="lh_tournament_cannot_leave" text="まだ戦いは終わってない。逃げるな。" />
+  </strings>
+</base>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Kein Proviant — die Truppe hat einen Goblin gegessen ({GOBLIN}). Verbleibende Goblins: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Kein Proviant — die Orks haben einen Gefangenen gegessen ({PRISONER}). Verbleibende Gefangene: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Du hast persönlich in der Schlägerei besiegt: {KILLS} von {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (deine Verbündeten haben weitere {EXTRA} erledigt.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Du erhältst zusätzlich 1 Ork und 1 Goblin als Bonus für die Jagd auf verschiedene Arten." />
+    <string id="lh_brawl_diversity_orc" text="Du erhältst zusätzlich 1 Ork als Bonus für die Jagd auf verschiedene Arten." />
+    <string id="lh_brawl_diversity_goblin" text="Du erhältst zusätzlich 1 Goblin als Bonus für die Jagd auf verschiedene Arten." />
+    <string id="lh_orc_castle_recruit" text="Orkische Elite anwerben" />
+    <string id="lh_orc_castle_recruit_intro" text="Die Clanbosse haben mächtige Orkschläger herausgeführt — sie starren dich grimmig an und warten auf dein Gold. Du hast {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Orkische Elite der Festung" />
+    <string id="lh_castle_recruit_leave" text="Zurück" />
+    <string id="lh_castle_elite_cap" text="Bereits {LH_ELITE_COUNT} Schläger bei {LH_REGULARS_COUNT} Orkjungen. Limit — 1 Schläger pro {LH_RATIO} Jungen. Wirb erst mehr Orkjungen in Dörfern und Städten an." />
+    <string id="lh_castle_no_gold" text="Nicht genug Gold" />
+    <string id="lh_castle_party_full" text="Truppe voll" />
+    <string id="lh_village_hire_goblins" text="Goblins anwerben (100{GOLD_ICON} für 2)" />
+    <string id="lh_village_no_gold" text="Mindestens 100 Gold benötigt" />
+    <string id="lh_village_no_orcs" text="Goblins dienen Orks — ohne Orks in der Truppe folgen sie nicht" />
+    <string id="lh_village_goblin_cap" text="Du hast {LH_GOBLIN_COUNT} Goblins bei {LH_ORC_COUNT} Orks. Limit — 4 Goblins pro Ork. Wirb erst mehr Orks an." />
+    <string id="lh_castle_recruit_msg" text="Angeworben: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Angeworben: {TROOP} (+{COUNT} Goblin-Diener)" />
+    <string id="lh_village_goblin_hired" text="Angeworben: {COUNT} Goblins (für {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} Goblin-Diener für {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} Goblins (wollte {DESIRED}, 4:1-Limit erreicht)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Pfeilknecht-Anführer" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Großer Ork" />
+    <string id="lh_troop_tor_gs_black_orc" text="Schwarzer Ork" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Großer Eberreiter" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Ork-Boss" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Schwarzer Ork-Schläger" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Schwarzer Ork-Boss" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Schwarzer Ork-Berserker" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Ork" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Ork-Junge" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Ork-Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Ork-Bogenschütze" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Ork-Eberreiter" />
+    <string id="lh_teef_cart_trimmed" text="Nicht genug Zähne — {COUNT} Orks weniger angeheuert (ausgegeben {SPENT}, hatte {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Eine Ork-Elite zum Zweikampf herausfordern" />
+    <string id="lh_castle_challenge_intro" text="Im Saal des Lords versammeln sich die Ork-Brutalos. Wähle dein Ziel." />
+    <string id="lh_castle_challenge_title" text="Duell mit der Ork-Elite" />
+    <string id="lh_castle_challenge_back" text="Zurück" />
+    <string id="lh_castle_challenge_disabled_culture" text="Nur Orks können Orks zum Kampf herausfordern." />
+    <string id="lh_castle_challenge_disabled_siege" text="Nicht während einer Belagerung." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Dieser Kämpfer erholt sich noch. Warte noch {DAYS} Tage." />
+    <string id="lh_castle_challenge_no_troop" text="Diese Einheit ist von TOR nicht geladen." />
+    <string id="lh_castle_challenge_victory_desc" text="Der Ork {TROOP} liegt tot zu deinen Füßen. +{TEEF} Zähne{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Der Ork {TROOP} war stärker. Dein Einsatz ist verloren und du gehst in Schande davon." />
+    <string id="lh_castle_challenge_victory_accept" text="Reiß die Zähne aus der Leiche" />
+    <string id="lh_castle_challenge_defeat_accept" text="In Schande davongehen" />
+    <string id="lh_castle_challenge_option_verb" text="Zum Duell herausfordern: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Duell] Einheit '{TROOP_ID}' ist nicht geladen." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Duell] Keine passende Szene in dieser Burg (lordshall fehlt)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Duell] Nicht genug Zähne für den Einsatz." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Duell] Nicht genug Gold für den Einsatz." />
+    <string id="lh_castle_challenge_err_generic" text="[Duell] Fehler: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", und einer seinesgleichen schließt sich deiner Gruppe an" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: Wirtschaftswahl" />
+    <string id="lh_settings_economy_desc" text="Diese Wahl wird im Spielstand gesperrt. Zum Ändern starte ein neues Spiel." />
+    <string id="lh_settings_economy_teef_title" text="Orkische Zahnwirtschaft (Warhammer-Kanon)" />
+    <string id="lh_settings_economy_teef_hint" text="Kaufe orkische Eliten in Burgen für Zähne (Ork-Währung), die du im Kampf verdienst. Goblins werden weiterhin mit Gold bezahlt. +5 Zähne pro Tag für jede orkische Stadt/Burg, die du besitzt. Lore-getreu nach Warhammer Fantasy — Orks respektieren Gold nicht." />
+    <string id="lh_settings_economy_classic_title" text="Klassisch (alles für Gold)" />
+    <string id="lh_settings_economy_classic_hint" text="Orks und Goblins werden für Gold angeheuert, wie im Standard-TOR. Keine Zahnwirtschaft, kein täglicher Einkommen aus Lehen. Einfach und vertraut." />
+    <string id="lh_settings_economy_confirm" text="Bestätigen" />
+    <string id="lh_castle_no_teef" text="Nicht genug Zähne: brauchen {LH_TEEF_NEEDED}, haben {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Nur für orkische Helden. Orks respektieren keine Außenseiter." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} Zähne von deinen orkischen Städten und Burgen ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} Zähne aus {COUNT} erfahrenen Feinden geschlagen (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} Zähne für getöteten Lord {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Benötige {FEE} Zähne für die Herausforderung (habe {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Benötige {FEE} Gold für die Herausforderung (habe {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} Zähne für {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Nicht genug Zähne für {TROOP} (benötigt {NEED}, hat {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Mod-Konflikt: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Der Drittanbieter-Mod BetterTime ist zusammen mit Lore-Hardcore geladen. Dieser Mod ist NICHT mit The Old Realms kompatibel.{newline}{newline}Lore-Hardcore ENTHÄLT BEREITS die BetterTime-Funktionalität:{newline}D3 / Numpad3 — Vorlauf ×4{newline}D4 / Numpad4 — Ultra-Vorlauf ×8{newline}Taste loslassen — zurück zur Normalgeschwindigkeit{newline}{newline}EMPFEHLUNG: Spiel schließen, Drittanbieter-BetterTime im Launcher deaktivieren, neu starten." />
+    <string id="lh_bt_conflict_ok" text="Verstanden, ich kümmere mich darum" />
+    <string id="lh_teef_unit" text="Zähne" />
+    <string id="lh_tournament_cannot_leave" text="Da Kampf is noch nich aus. Kein Abhau'n." />
+  </strings>
+</base>

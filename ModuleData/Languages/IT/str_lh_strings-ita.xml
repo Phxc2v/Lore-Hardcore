@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Niente cibo — la compagnia ha mangiato un goblin ({GOBLIN}). Goblin rimasti: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Niente cibo — gli orchi hanno mangiato un prigioniero ({PRISONER}). Prigionieri rimasti: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Hai personalmente abbattuto nella rissa: {KILLS} su {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (i tuoi alleati ne hanno finiti altri {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Ricevi in più 1 orco e 1 goblin come bonus per aver cacciato tipi diversi." />
+    <string id="lh_brawl_diversity_orc" text="Ricevi in più 1 orco come bonus per aver cacciato tipi diversi." />
+    <string id="lh_brawl_diversity_goblin" text="Ricevi in più 1 goblin come bonus per aver cacciato tipi diversi." />
+    <string id="lh_orc_castle_recruit" text="Recluta élite orca" />
+    <string id="lh_orc_castle_recruit_intro" text="I capi del clan hanno fatto uscire orchi giganteschi — ti fissano feroci, aspettando il tuo oro. Hai {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Élite orca della fortezza" />
+    <string id="lh_castle_recruit_leave" text="Indietro" />
+    <string id="lh_castle_elite_cap" text="Già {LH_ELITE_COUNT} bruti per {LH_REGULARS_COUNT} ragazzi orchi. Limite — 1 bruto ogni {LH_RATIO} ragazzi. Recluta prima più ragazzi nei villaggi e nelle città." />
+    <string id="lh_castle_no_gold" text="Oro insufficiente" />
+    <string id="lh_castle_party_full" text="Compagnia piena" />
+    <string id="lh_village_hire_goblins" text="Recluta goblin (100{GOLD_ICON} per 2)" />
+    <string id="lh_village_no_gold" text="Servono almeno 100 monete d'oro" />
+    <string id="lh_village_no_orcs" text="I goblin servono gli orchi — senza orchi nella tua compagnia non ti seguiranno" />
+    <string id="lh_village_goblin_cap" text="Hai {LH_GOBLIN_COUNT} goblin per {LH_ORC_COUNT} orchi. Limite — 4 goblin per orco. Recluta prima più orchi." />
+    <string id="lh_castle_recruit_msg" text="Reclutato: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Reclutato: {TROOP} (+{COUNT} goblin servitori)" />
+    <string id="lh_village_goblin_hired" text="Reclutato: {COUNT} goblin (per {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin servitori per {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblin (voleva {DESIRED}, raggiunto limite 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Capo Arcere" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Grosso Orco" />
+    <string id="lh_troop_tor_gs_black_orc" text="Orco Nero" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Grosso Cavalcacinghiali" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Capo Orco" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Bruto Orco Nero" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Capo Orco Nero" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Berserker Orco Nero" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Orco" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Orco Giovane" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Orco Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Orco Arciere" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Orco Cavaliere di Cinghiale" />
+    <string id="lh_teef_cart_trimmed" text="Non abbastanza denti — {COUNT} orchi in meno reclutati (speso {SPENT}, aveva {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Sfidare un'élite orchesca a duello singolo" />
+    <string id="lh_castle_challenge_intro" text="Nella sala del signore si radunano i bruti orcheschi. Scegli la tua vittima." />
+    <string id="lh_castle_challenge_title" text="Duello con l'élite orchesca" />
+    <string id="lh_castle_challenge_back" text="Indietro" />
+    <string id="lh_castle_challenge_disabled_culture" text="Solo gli orchi possono sfidare gli orchi." />
+    <string id="lh_castle_challenge_disabled_siege" text="Non durante un assedio." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Questo combattente si sta ancora riprendendo. Aspetta altri {DAYS} giorni." />
+    <string id="lh_castle_challenge_no_troop" text="Questa unità non è caricata da TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="L'orco {TROOP} giace morto ai tuoi piedi. +{TEEF} denti{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="L'orco {TROOP} era più forte. Perdi la tua scommessa e te ne vai nella vergogna." />
+    <string id="lh_castle_challenge_victory_accept" text="Strappa i denti dal cadavere" />
+    <string id="lh_castle_challenge_defeat_accept" text="Andarsene nella vergogna" />
+    <string id="lh_castle_challenge_option_verb" text="Sfida a duello: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Duello] Unità '{TROOP_ID}' non caricata." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Duello] Nessuna scena adatta in questo castello (lordshall mancante)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Duello] Non hai abbastanza denti per la posta." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Duello] Non hai abbastanza oro per la posta." />
+    <string id="lh_castle_challenge_err_generic" text="[Duello] Errore: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", e uno dei suoi simili si unisce alla tua banda" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: scelta dell'economia" />
+    <string id="lh_settings_economy_desc" text="Questa scelta è fissata nel salvataggio. Per cambiarla, inizia una nuova partita." />
+    <string id="lh_settings_economy_teef_title" text="Economia dei denti orcheschi (canone Warhammer)" />
+    <string id="lh_settings_economy_teef_hint" text="Acquista l'élite orchesca nei castelli con denti (valuta orchesca) guadagnati in battaglia. I goblin usano ancora oro. +5 denti al giorno per ogni città/castello orchesco posseduto. Fedele al lore di Warhammer Fantasy — gli orchi non rispettano l'oro." />
+    <string id="lh_settings_economy_classic_title" text="Classica (tutto per oro)" />
+    <string id="lh_settings_economy_classic_hint" text="Orchi e goblin sono reclutati con oro come nel TOR vanilla. Niente economia dei denti, niente entrate giornaliere dai feudi. Semplice e familiare." />
+    <string id="lh_settings_economy_confirm" text="Conferma" />
+    <string id="lh_castle_no_teef" text="Denti insufficienti: servono {LH_TEEF_NEEDED}, hai {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Solo per eroi orcheschi. Gli orchi non rispettano gli estranei." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} denti dalle tue città e castelli orcheschi ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} denti strappati a {COUNT} nemici esperti (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} denti per aver ucciso il signore {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Servono {FEE} denti per la sfida (hai {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Servono {FEE} d'oro per la sfida (hai {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} denti per {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Denti insufficienti per {TROOP} (serve {NEED}, ha {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Conflitto mod: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Il mod terzo BetterTime è caricato insieme a Lore-Hardcore. Questo mod NON è compatibile con The Old Realms.{newline}{newline}Lore-Hardcore INCLUDE GIÀ la funzionalità BetterTime:{newline}D3 / Numpad3 — avanti veloce ×4{newline}D4 / Numpad4 — ultra veloce ×8{newline}Rilascia il tasto — torna alla velocità normale{newline}{newline}RACCOMANDAZIONE: chiudi il gioco, disattiva BetterTime terzo nel Launcher, riavvia." />
+    <string id="lh_bt_conflict_ok" text="Capito, sistemerò" />
+    <string id="lh_teef_unit" text="denti" />
+    <string id="lh_tournament_cannot_leave" text="La lotta non è finita. Niente fuga." />
+  </strings>
+</base>

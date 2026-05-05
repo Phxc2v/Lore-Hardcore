@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="没吃的了 — 部队吃掉了一个哥布林({GOBLIN})。剩余哥布林:{COUNT}。" />
+    <string id="lh_cannibal_prisoner_eaten" text="没吃的了 — 绿皮吃掉了一名俘虏({PRISONER})。剩余俘虏:{COUNT}。" />
+    <string id="lh_brawl_kills_line" text="你在斗殴中亲手击败:{KILLS} / {TOTAL}。" />
+    <string id="lh_brawl_kills_allies_extra" text="(你的同伴又解决了 {EXTRA} 个。)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="因击杀不同种类敌人,你额外获得 1 个兽人和 1 个哥布林。" />
+    <string id="lh_brawl_diversity_orc" text="因击杀不同种类敌人,你额外获得 1 个兽人。" />
+    <string id="lh_brawl_diversity_goblin" text="因击杀不同种类敌人,你额外获得 1 个哥布林。" />
+    <string id="lh_orc_castle_recruit" text="招募兽人精锐" />
+    <string id="lh_orc_castle_recruit_intro" text="氏族老大们带出了魁梧的兽人壮汉 — 他们凶狠地盯着你,等着付钱。你有 {LH_PLAYER_GOLD}{GOLD_ICON}。" />
+    <string id="lh_orc_castle_recruit_title" text="要塞中的兽人精锐" />
+    <string id="lh_castle_recruit_leave" text="返回" />
+    <string id="lh_castle_elite_cap" text="已有 {LH_ELITE_COUNT} 名壮汉对应 {LH_REGULARS_COUNT} 名兽人小子。上限 — 每 {LH_RATIO} 名小子配 1 名壮汉。先在村庄和城镇招募更多小子。" />
+    <string id="lh_castle_no_gold" text="金钱不足" />
+    <string id="lh_castle_party_full" text="队伍已满员" />
+    <string id="lh_village_hire_goblins" text="招募哥布林(100{GOLD_ICON} / 2 个)" />
+    <string id="lh_village_no_gold" text="至少需要 100 金" />
+    <string id="lh_village_no_orcs" text="哥布林只伺候兽人 — 队伍里没有兽人,它们不会跟随。" />
+    <string id="lh_village_goblin_cap" text="你有 {LH_GOBLIN_COUNT} 个哥布林对应 {LH_ORC_COUNT} 个兽人。上限 — 每个兽人配 4 个哥布林。先招募更多兽人。" />
+    <string id="lh_castle_recruit_msg" text="已招募:{TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="已招募:{TROOP}(附带 {COUNT} 个哥布林仆从)" />
+    <string id="lh_village_goblin_hired" text="已招募:{COUNT} 个哥布林(花费 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} 带来 +{COUNT} 个哥布林仆从" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} 个哥布林(原想 {DESIRED} 个,达到了 4:1 上限)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓箭小子老大" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="大块头兽人" />
+    <string id="lh_troop_tor_gs_black_orc" text="黑兽人" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="野猪小子大块头" />
+    <string id="lh_troop_tor_gs_orc_boss" text="兽人老大" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="黑兽人蛮兽" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="黑兽人老大" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="黑兽人狂战士" />
+    <string id="lh_troop_tor_gs_goblin" text="哥布林" />
+    <string id="lh_troop_tor_gs_orc" text="兽人" />
+    <string id="lh_troop_tor_gs_orc_boy" text="兽人小子" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="兽人砍霸" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="兽人弓箭小子" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="兽人野猪小子" />
+    <string id="lh_teef_cart_trimmed" text="牙齿不够 — 少招募了 {COUNT} 个兽人(花费 {SPENT},拥有 {HAVE})。" />
+    <string id="lh_castle_challenge_button" text="向兽人精锐挑战决斗" />
+    <string id="lh_castle_challenge_intro" text="蛮兽们在领主大厅排成一排。选一个 — 一对一,生死决斗。" />
+    <string id="lh_castle_challenge_title" text="与兽人精锐决斗" />
+    <string id="lh_castle_challenge_back" text="返回" />
+    <string id="lh_castle_challenge_disabled_culture" text="只有兽人才能挑战兽人。" />
+    <string id="lh_castle_challenge_disabled_siege" text="要塞被围攻时不行。" />
+    <string id="lh_castle_challenge_disabled_cooldown" text="这个战士还在恢复中。再等 {DAYS} 天。" />
+    <string id="lh_castle_challenge_no_troop" text="TOR 未加载此单位。" />
+    <string id="lh_castle_challenge_victory_desc" text="胜利!{TROOP} 已被击杀。奖励:+{TEEF} 牙齿{REWARD_TROOP}。" />
+    <string id="lh_castle_challenge_defeat_desc" text="失败。{TROOP} 更胜一筹。你的赌注没收,你灰头土脸地离开。" />
+    <string id="lh_castle_challenge_victory_accept" text="领取奖励" />
+    <string id="lh_castle_challenge_defeat_accept" text="灰头土脸地离开" />
+    <string id="lh_castle_challenge_option_verb" text="挑战决斗:" />
+    <string id="lh_castle_challenge_err_no_troop" text="[挑战] 单位 '{TROOP_ID}' 未加载。" />
+    <string id="lh_castle_challenge_err_no_scene" text="[挑战] 此城堡没有合适的场景(缺少领主大厅)。" />
+    <string id="lh_castle_challenge_err_no_teef" text="[挑战] 牙齿不足支付赌注。" />
+    <string id="lh_castle_challenge_err_no_gold" text="[挑战] 金钱不足支付赌注。" />
+    <string id="lh_castle_challenge_err_generic" text="[挑战] 错误:{ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=",并且他的一个同类加入你的队伍" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore:经济模式选择" />
+    <string id="lh_settings_economy_desc" text="此选择会锁定到存档中。如需更改,请开始新游戏。" />
+    <string id="lh_settings_economy_teef_title" text="兽人牙齿经济(战锤设定)" />
+    <string id="lh_settings_economy_teef_hint" text="在城堡用战斗获得的牙齿(兽人货币)购买兽人精锐。哥布林仍用金钱。你拥有的每个兽人城镇/城堡每日 +5 牙齿。符合战锤奇幻设定 — 兽人不在乎金钱。" />
+    <string id="lh_settings_economy_classic_title" text="经典模式(一切用金钱)" />
+    <string id="lh_settings_economy_classic_hint" text="兽人和哥布林按照原版 TOR 用金钱招募。无牙齿经济,无每日封地收入。简单熟悉。" />
+    <string id="lh_settings_economy_confirm" text="确认" />
+    <string id="lh_castle_no_teef" text="牙齿不足:需要 {LH_TEEF_NEEDED},拥有 {LH_TEEF_HAVE}。" />
+    <string id="lh_castle_not_orc" text="仅限兽人英雄。兽人不接纳外人。" />
+    <string id="lh_teef_daily_msg" text="来自你的兽人城镇和城堡的 +{TEEF} 牙齿(共 {COUNT} 个)" />
+    <string id="lh_teef_battle_msg" text="从 {COUNT} 个精锐敌人(T4+)身上敲下 +{TEEF} 牙齿。" />
+    <string id="lh_teef_lord_kill_msg" text="击杀领主 {NAME} 获得 +{TEEF} 牙齿。" />
+    <string id="lh_castle_challenge_no_fee_teef" text="发起挑战需要 {FEE} 牙齿(拥有 {HAVE})。" />
+    <string id="lh_castle_challenge_no_fee_gold" text="发起挑战需要 {FEE} 金(拥有 {HAVE})。" />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 花费 -{TEEF} 牙齿。" />
+    <string id="lh_teef_recruit_no_teef" text="招募 {TROOP} 牙齿不足(需要 {NEED},拥有 {HAVE})。" />
+    <string id="lh_bt_conflict_title" text="模组冲突:BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="第三方 BetterTime 模组与 Lore-Hardcore 同时加载。该模组与 The Old Realms 不兼容 — 它通过 UI MapBar 覆写产生冲突。{newline}{newline}Lore-Hardcore 已包含 BetterTime 功能:{newline}D3 / Numpad3 — 快进 ×4{newline}D4 / Numpad4 — 超快 ×8{newline}松开按键 — 回到正常速度{newline}{newline}建议:关闭游戏,在 Bannerlord 启动器中禁用或移除第三方 BetterTime,然后重启。" />
+    <string id="lh_bt_conflict_ok" text="明白,我来修复" />
+    <string id="lh_teef_unit" text="牙齿" />
+    <string id="lh_tournament_cannot_leave" text="战斗还没结束。不准跑。" />
+  </strings>
+</base>

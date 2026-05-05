@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Пустой стаб для срабатывания tor_monsters.xslt. Все правки идут через XSLT
+    поверх TOR_Armory's tor_monsters.xml. Сюда entries не добавлять.
+-->
+<Monsters/>

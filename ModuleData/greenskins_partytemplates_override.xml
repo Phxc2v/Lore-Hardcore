@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Lore-Hardcore — DIAGNOSTIC STEP 1 of binary search.
+
+    Only ONE template override, only min/max tune, NO new troop IDs.
+    Original TOR (tor_partytemplates.xml): troll_party_template = 1..4 tor_gs_trolls
+    This override: troll_party_template = 1..2 tor_gs_trolls
+
+    Goal: verify that the partyTemplates override *mechanism* itself does not crash.
+    If stable → the crash in / was in bandit/lord templates specifically,
+    not in the override mechanism. We then add templates one at a time in +.
+    If crashes → fall back to XSLT approach (see docs/NEXT_SESSION.md §4A).
+-->
+<partyTemplates>
+    <MBPartyTemplate id="troll_party_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.tor_gs_trolls" />
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

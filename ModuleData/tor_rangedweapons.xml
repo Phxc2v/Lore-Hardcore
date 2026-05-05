@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Lore-Hardcore — пустой стаб для override.
+    Правила в tor_rangedweapons.xslt.
+    XmlName id="Items" path="tor_rangedweapons" в SubModule.xml.
+-->
+<Items>
+</Items>

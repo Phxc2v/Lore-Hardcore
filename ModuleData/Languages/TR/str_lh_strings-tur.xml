@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Yiyecek bitti — birlik bir gobliny yedi ({GOBLIN}). Kalan goblin: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Yiyecek bitti — orklar bir esiri yediler ({PRISONER}). Kalan esir: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Arena dövüşünde bizzat öldürdüğün: {KILLS}/{TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (müttefiklerin {EXTRA} tane daha bitirdi.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Farklı türleri avladığın için bonus olarak 1 ork ve 1 goblin de kazandın." />
+    <string id="lh_brawl_diversity_orc" text="Farklı türleri avladığın için bonus olarak 1 ork da kazandın." />
+    <string id="lh_brawl_diversity_goblin" text="Farklı türleri avladığın için bonus olarak 1 goblin de kazandın." />
+    <string id="lh_orc_castle_recruit" text="Ork seçkinlerini topla" />
+    <string id="lh_orc_castle_recruit_intro" text="Klan başları kocaman ork kabadayılarını dışarı çıkardı — sana vahşice bakıyorlar, altınını bekliyorlar. {LH_PLAYER_GOLD}{GOLD_ICON} altının var." />
+    <string id="lh_orc_castle_recruit_title" text="Kalenin ork seçkinleri" />
+    <string id="lh_castle_recruit_leave" text="Geri" />
+    <string id="lh_castle_elite_cap" text="Zaten {LH_ELITE_COUNT} kabadayı var, {LH_REGULARS_COUNT} ork çocuğuyla. Sınır — her {LH_RATIO} çocuk için 1 kabadayı. Önce köylerde ve şehirlerde daha çok ork çocuğu topla." />
+    <string id="lh_castle_no_gold" text="Yeterli altın yok" />
+    <string id="lh_castle_party_full" text="Birlik dolu" />
+    <string id="lh_village_hire_goblins" text="Goblin topla (100{GOLD_ICON} 2 için)" />
+    <string id="lh_village_no_gold" text="En az 100 altın gerekiyor" />
+    <string id="lh_village_no_orcs" text="Goblinler orklara hizmet eder — birlikte ork yoksa peşinden gitmezler" />
+    <string id="lh_village_goblin_cap" text="{LH_GOBLIN_COUNT} goblin var, {LH_ORC_COUNT} orka. Sınır — her ork için 4 goblin. Önce daha çok ork topla." />
+    <string id="lh_castle_recruit_msg" text="Toplandı: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Toplandı: {TROOP} (+{COUNT} goblin hizmetkâr)" />
+    <string id="lh_village_goblin_hired" text="Toplandı: {COUNT} goblin ({PRICE}{GOLD_ICON} karşılığında)" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin hizmetkâr — {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblin ({DESIRED} istedi, 4:1 sınıra ulaştı)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Okçu Reisi" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Koca Ork" />
+    <string id="lh_troop_tor_gs_black_orc" text="Kara Ork" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Koca Yaban Domuzu Süvarisi" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Ork Reisi" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Kara Ork Vahşisi" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Kara Ork Reisi" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Kara Ork Berserkeri" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Ork" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Ork Çocuk" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Ork Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Ork Okçu" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Ork Yaban Domuzu Süvarisi" />
+    <string id="lh_teef_cart_trimmed" text="Yeterince diş yok — {COUNT} ork daha az asker alındı ({SPENT} harcandı, {HAVE} vardı)." />
+    <string id="lh_castle_challenge_button" text="Bir ork seçkinini teke tek dövüşe çağır" />
+    <string id="lh_castle_challenge_intro" text="Lordun salonunda ork vahşileri toplandı. Kurbanını seç." />
+    <string id="lh_castle_challenge_title" text="Ork seçkiniyle düello" />
+    <string id="lh_castle_challenge_back" text="Geri" />
+    <string id="lh_castle_challenge_disabled_culture" text="Orkları sadece orklar dövüşe çağırabilir." />
+    <string id="lh_castle_challenge_disabled_siege" text="Kuşatma sırasında olmaz." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Bu savaşçı hâlâ toparlanıyor. {DAYS} gün daha bekle." />
+    <string id="lh_castle_challenge_no_troop" text="Bu birim TOR tarafından yüklenmedi." />
+    <string id="lh_castle_challenge_victory_desc" text="Ork {TROOP} ayaklarının dibinde ölü yatıyor. +{TEEF} diş{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Ork {TROOP} daha güçlüydü. Bahsini kaybettin ve utançla çekildin." />
+    <string id="lh_castle_challenge_victory_accept" text="Cesetten dişleri sök" />
+    <string id="lh_castle_challenge_defeat_accept" text="Utançla çekil" />
+    <string id="lh_castle_challenge_option_verb" text="Düelloya çağır: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Düello] Birim '{TROOP_ID}' yüklenmedi." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Düello] Bu kalede uygun sahne yok (lordshall eksik)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Düello] Bahis için yeterli diş yok." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Düello] Bahis için yeterli altın yok." />
+    <string id="lh_castle_challenge_err_generic" text="[Düello] Hata: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", ve onun gibi biri grubuna katılır" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: ekonomi seçimi" />
+    <string id="lh_settings_economy_desc" text="Bu seçim kaydında sabittir. Değiştirmek için yeni oyuna başla." />
+    <string id="lh_settings_economy_teef_title" text="Ork diş ekonomisi (Warhammer kanonu)" />
+    <string id="lh_settings_economy_teef_hint" text="Kale ork seçkinlerini savaşta kazanılan dişlerle (ork para birimi) satın al. Goblinler hâlâ altın kullanır. Sahip olduğun her ork şehri/kalesi için günde +5 diş. Warhammer Fantasy lore'una sadık — orklar altına saygı duymaz." />
+    <string id="lh_settings_economy_classic_title" text="Klasik (her şey altın için)" />
+    <string id="lh_settings_economy_classic_hint" text="Orklar ve goblinler vanilla TOR'daki gibi altın için işe alınır. Diş ekonomisi yok, fiefden günlük gelir yok. Basit ve tanıdık." />
+    <string id="lh_settings_economy_confirm" text="Onayla" />
+    <string id="lh_castle_no_teef" text="Yeterli diş yok: {LH_TEEF_NEEDED} gerek, {LH_TEEF_HAVE} var." />
+    <string id="lh_castle_not_orc" text="Sadece ork kahramanlar için. Orklar yabancılara saygı duymaz." />
+    <string id="lh_teef_daily_msg" text="Ork şehir ve kalelerinden +{TEEF} diş ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="{COUNT} tecrübeli düşmandan (T4+) +{TEEF} diş söküldü." />
+    <string id="lh_teef_lord_kill_msg" text="{NAME} lord'unu öldürdüğün için +{TEEF} diş." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Meydan okumak için {FEE} diş gerek (var {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Meydan okumak için {FEE} altın gerek (var {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} için -{TEEF} diş." />
+    <string id="lh_teef_recruit_no_teef" text="{TROOP} için yeterli diş yok ({NEED} gerek, {HAVE} var)." />
+    <string id="lh_bt_conflict_title" text="Mod çatışması: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Üçüncü taraf BetterTime modu Lore-Hardcore ile birlikte yüklendi. Bu mod The Old Realms ile UYUMSUZ.{newline}{newline}Lore-Hardcore ZATEN BetterTime işlevini içerir:{newline}D3 / Numpad3 — hızlı ileri ×4{newline}D4 / Numpad4 — ultra hızlı ×8{newline}Tuşu bırak — normal hıza dön{newline}{newline}ÖNERİ: oyunu kapat, üçüncü taraf BetterTime'ı Launcher'da devre dışı bırak, yeniden başlat." />
+    <string id="lh_bt_conflict_ok" text="Anladım, halledeceğim" />
+    <string id="lh_teef_unit" text="diş" />
+    <string id="lh_tournament_cannot_leave" text="Dövüş bitmedi. Kaçış yok." />
+  </strings>
+</base>

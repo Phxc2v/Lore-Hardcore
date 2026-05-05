@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Еды нет — отряд съел гоблина ({GOBLIN}). Осталось гоблинов: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Еды нет — орки съели пленника ({PRISONER}). Осталось пленных: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Ты лично сразил в бою: {KILLS} из {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (ещё {EXTRA} добили твои союзники.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Тебе дополнительно дали 1 орка и 1 гоблина за охоту на разные виды." />
+    <string id="lh_brawl_diversity_orc" text="Тебе дополнительно дали 1 орка за охоту на разные виды." />
+    <string id="lh_brawl_diversity_goblin" text="Тебе дополнительно дали 1 гоблина за охоту на разные виды." />
+    <string id="lh_orc_castle_recruit" text="Нанять орочью элиту" />
+    <string id="lh_orc_castle_recruit_intro" text="Боссы клана вывели здоровенных орков-громил, что зыркают на тебя свирепо и ждут твоей платы. У тебя {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Орочья элита крепости" />
+    <string id="lh_castle_recruit_leave" text="Назад" />
+    <string id="lh_castle_elite_cap" text="Уже {LH_ELITE_COUNT} громил при {LH_REGULARS_COUNT} орков-пацанов. Лимит — 1 громила на {LH_RATIO} пацанов. Сначала найми ещё пацанов в деревнях и городах." />
+    <string id="lh_castle_no_gold" text="Недостаточно золота" />
+    <string id="lh_castle_party_full" text="Отряд переполнен" />
+    <string id="lh_village_hire_goblins" text="Нанять гоблинов (100{GOLD_ICON} за 2)" />
+    <string id="lh_village_no_gold" text="Нужно минимум 100 золота" />
+    <string id="lh_village_no_orcs" text="Гоблины служат оркам — без орков в отряде они не пойдут" />
+    <string id="lh_village_goblin_cap" text="У тебя {LH_GOBLIN_COUNT} гоблинов на {LH_ORC_COUNT} орков. Лимит — 4 гоблина на одного орка. Найми сначала орков." />
+    <string id="lh_castle_recruit_msg" text="Нанято: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Нанято: {TROOP} (+{COUNT} гоблинов-прислужников)" />
+    <string id="lh_village_goblin_hired" text="Нанято: {COUNT} гоблинов (за {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} гоблинов-прислужников за {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} гоблинов (хотел {DESIRED}, упёрся в лимит 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Орк-стрелок-вождь" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Орк-Здоровяк" />
+    <string id="lh_troop_tor_gs_black_orc" text="Чёрный орк" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Здоровяк-кабанник" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Орк-вождь" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Чёрный орк-брут" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Чёрный орк-вождь" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Чёрный орк-берсерк" />
+    <string id="lh_troop_tor_gs_goblin" text="Гоблин" />
+    <string id="lh_troop_tor_gs_orc" text="Орк" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Орк-пацан" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Орк-Чоппа" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Орк-стрелок" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Орк-кабанник" />
+    <string id="lh_teef_cart_trimmed" text="Жубов не хватит — нанял на {COUNT} орков меньше (потратил {SPENT}, было {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Вызвать орочью элиту на поединок" />
+    <string id="lh_castle_challenge_intro" text="В зале лорда стоят орочьи громилы. Выбирай противника — поединок 1 на 1 до смерти одного из вас." />
+    <string id="lh_castle_challenge_title" text="Поединок с орочьей элитой" />
+    <string id="lh_castle_challenge_back" text="Назад" />
+    <string id="lh_castle_challenge_disabled_culture" text="Только орк может вызвать орка на поединок." />
+    <string id="lh_castle_challenge_disabled_siege" text="Замок в осаде — не до поединков." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Этот противник ещё восстанавливается после прошлого боя. Жди ещё {DAYS} дн." />
+    <string id="lh_castle_challenge_no_troop" text="Этот юнит не найден в TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Победа! {TROOP} повержен. Награда: +{TEEF} жубов{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Поражение. {TROOP} оказался сильнее. Твоя ставка проиграна, ты уходишь в позоре." />
+    <string id="lh_castle_challenge_victory_accept" text="Забрать награду" />
+    <string id="lh_castle_challenge_defeat_accept" text="Уйти в позоре" />
+    <string id="lh_castle_challenge_option_verb" text="Вызвать на поединок: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Поединок] Юнит '{TROOP_ID}' не найден." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Поединок] В этом замке нет подходящей сцены (lordshall не найден)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Поединок] Не хватает зубов на ставку." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Поединок] Не хватает золота на ставку." />
+    <string id="lh_castle_challenge_err_generic" text="[Поединок] Ошибка: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", и один такой же присоединяется к твоему отряду" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: выбор экономики" />
+    <string id="lh_settings_economy_desc" text="Этот выбор фиксируется в save. Чтобы сменить — начни новую игру." />
+    <string id="lh_settings_economy_teef_title" text="Зубная экономика орков (по канону Warhammer)" />
+    <string id="lh_settings_economy_teef_hint" text="Орочью элиту в замках покупаешь за зубы (teef), которые зарабатываешь в боях. Гоблины — за золото. +5 зубов в день за каждый твой орочий город/замок. Лорно по Warhammer Fantasy — орки золото не уважают." />
+    <string id="lh_settings_economy_classic_title" text="Классическая (всё за золото)" />
+    <string id="lh_settings_economy_classic_hint" text="Орки и гоблины нанимаются за золото как в обычном TOR. Без зубной экономики, без дневного дохода с фьефа. Простая и привычная." />
+    <string id="lh_settings_economy_confirm" text="Подтвердить" />
+    <string id="lh_castle_no_teef" text="Не хватает жубов: нужно {LH_TEEF_NEEDED}, есть {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Только орочьему герою. Орки не уважают чужаков." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} жубов от твоих орочьих городов и замков ({COUNT} шт.)" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} жубов выбито с {COUNT} матёрых врагов (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} жубов за убитого лорда {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Чтобы вызвать на бой, нужно {FEE} жубов (есть {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Чтобы вызвать на бой, нужно {FEE} золота (есть {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} жубов за {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Не хватает жубов на {TROOP} (нужно {NEED}, есть {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Конфликт модов: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Обнаружен сторонний мод BetterTime вместе с Lore-Hardcore. Этот мод НЕ совместим с The Old Realms — конфликтует через override UI панели времени.{newline}{newline}Lore-Hardcore УЖЕ ВКЛЮЧАЕТ функционал BetterTime:{newline}D3 / Numpad3 — ускорение времени ×4{newline}D4 / Numpad4 — экстра-ускорение ×8{newline}При отпускании клавиши — возврат к нормальной скорости{newline}{newline}РЕКОМЕНДАЦИЯ: закройте игру, отключите или удалите сторонний BetterTime в Bannerlord Launcher, перезапустите." />
+    <string id="lh_bt_conflict_ok" text="Понял, я разберусь" />
+    <string id="lh_teef_unit" text="жубов" />
+    <string id="lh_tournament_cannot_leave" text="Бой ещё не закончен. Не убегай." />
+  </strings>
+</base>

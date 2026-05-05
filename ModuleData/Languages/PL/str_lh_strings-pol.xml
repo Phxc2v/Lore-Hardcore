@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Brak jedzenia — drużyna zjadła goblina ({GOBLIN}). Pozostało goblinów: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Brak jedzenia — orkowie zjedli więźnia ({PRISONER}). Pozostało więźniów: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Osobiście pokonałeś w bójce: {KILLS} z {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (twoi sojusznicy dobili kolejnych {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Otrzymujesz dodatkowo 1 orka i 1 goblina jako bonus za polowanie na różne typy." />
+    <string id="lh_brawl_diversity_orc" text="Otrzymujesz dodatkowo 1 orka jako bonus za polowanie na różne typy." />
+    <string id="lh_brawl_diversity_goblin" text="Otrzymujesz dodatkowo 1 goblina jako bonus za polowanie na różne typy." />
+    <string id="lh_orc_castle_recruit" text="Werbuj orczą elitę" />
+    <string id="lh_orc_castle_recruit_intro" text="Bossowie klanu wyprowadzili potężnych orczych zbirów — patrzą na ciebie groźnie, czekając na twoje złoto. Masz {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Orcza elita twierdzy" />
+    <string id="lh_castle_recruit_leave" text="Wstecz" />
+    <string id="lh_castle_elite_cap" text="Już {LH_ELITE_COUNT} zbirów na {LH_REGULARS_COUNT} orczych chłopaków. Limit — 1 zbir na {LH_RATIO} chłopaków. Najpierw zwerbuj więcej chłopaków we wsiach i miastach." />
+    <string id="lh_castle_no_gold" text="Za mało złota" />
+    <string id="lh_castle_party_full" text="Drużyna pełna" />
+    <string id="lh_village_hire_goblins" text="Werbuj gobliny (100{GOLD_ICON} za 2)" />
+    <string id="lh_village_no_gold" text="Potrzeba minimum 100 złota" />
+    <string id="lh_village_no_orcs" text="Gobliny służą orkom — bez orków w drużynie nie pójdą" />
+    <string id="lh_village_goblin_cap" text="Masz {LH_GOBLIN_COUNT} goblinów na {LH_ORC_COUNT} orków. Limit — 4 gobliny na orka. Najpierw zwerbuj więcej orków." />
+    <string id="lh_castle_recruit_msg" text="Zwerbowano: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Zwerbowano: {TROOP} (+{COUNT} goblinów-sług)" />
+    <string id="lh_village_goblin_hired" text="Zwerbowano: {COUNT} goblinów (za {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblinów-sług dla {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblinów (chciał {DESIRED}, osiągnięto limit 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Wódz Łuczników" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Wielki Ork" />
+    <string id="lh_troop_tor_gs_black_orc" text="Czarny Ork" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Wielki Jeździec Dzika" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Wódz Orków" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Czarny Ork-Brutal" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Wódz Czarnych Orków" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Czarny Ork-Berserker" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Ork" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Ork-Młokos" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Ork-Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Ork-Łucznik" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Ork na Dziku" />
+    <string id="lh_teef_cart_trimmed" text="Za mało zębów — {COUNT} orków mniej zwerbowanych (wydano {SPENT}, miałeś {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Wyzwać orkową elitę na pojedynek" />
+    <string id="lh_castle_challenge_intro" text="W sali pana zebrały się orkowe brutale. Wybierz swoją ofiarę." />
+    <string id="lh_castle_challenge_title" text="Pojedynek z orkową elitą" />
+    <string id="lh_castle_challenge_back" text="Wstecz" />
+    <string id="lh_castle_challenge_disabled_culture" text="Tylko orkowie mogą wyzywać orków." />
+    <string id="lh_castle_challenge_disabled_siege" text="Nie podczas oblężenia." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Ten wojownik wciąż dochodzi do siebie. Czekaj jeszcze {DAYS} dni." />
+    <string id="lh_castle_challenge_no_troop" text="Ta jednostka nie jest załadowana przez TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Ork {TROOP} leży martwy u twoich stóp. +{TEEF} zębów{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Ork {TROOP} okazał się silniejszy. Tracisz stawkę i odchodzisz w hańbie." />
+    <string id="lh_castle_challenge_victory_accept" text="Wyrwij zęby z trupa" />
+    <string id="lh_castle_challenge_defeat_accept" text="Odejść w hańbie" />
+    <string id="lh_castle_challenge_option_verb" text="Wyzwij na pojedynek: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Pojedynek] Jednostka '{TROOP_ID}' nie jest załadowana." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Pojedynek] Brak odpowiedniej sceny w tym zamku (brakuje lordshall)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Pojedynek] Za mało zębów na zakład." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Pojedynek] Za mało złota na zakład." />
+    <string id="lh_castle_challenge_err_generic" text="[Pojedynek] Błąd: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", a jeden taki sam dołącza do twojej drużyny" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: wybór gospodarki" />
+    <string id="lh_settings_economy_desc" text="Ten wybór jest zapisany w grze. Aby go zmienić, rozpocznij nową grę." />
+    <string id="lh_settings_economy_teef_title" text="Orkowa gospodarka zębów (kanon Warhammera)" />
+    <string id="lh_settings_economy_teef_hint" text="Kupuj orkową elitę w zamkach za zęby (orkową walutę) zarabiane w bitwie. Gobliny nadal używają złota. +5 zębów dziennie za każde posiadane orkowe miasto/zamek. Zgodne z lore Warhammer Fantasy — orkowie nie szanują złota." />
+    <string id="lh_settings_economy_classic_title" text="Klasyczna (wszystko za złoto)" />
+    <string id="lh_settings_economy_classic_hint" text="Orkowie i gobliny są werbowani za złoto jak w zwykłym TOR. Bez gospodarki zębów, bez dziennego dochodu z lenna. Proste i znajome." />
+    <string id="lh_settings_economy_confirm" text="Potwierdź" />
+    <string id="lh_castle_no_teef" text="Za mało zębów: potrzebne {LH_TEEF_NEEDED}, masz {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Tylko dla orkowych bohaterów. Orkowie nie szanują obcych." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} zębów z twoich orkowych miast i zamków ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} zębów wybitych z {COUNT} doświadczonych wrogów (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} zębów za zabicie pana {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Potrzeba {FEE} zębów na wyzwanie (ma {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Potrzeba {FEE} złota na wyzwanie (ma {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} zębów za {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Nie ma wystarczająco zębów na {TROOP} (potrzeba {NEED}, ma {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Konflikt modów: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Wykryto zewnętrzny mod BetterTime razem z Lore-Hardcore. Ten mod NIE jest zgodny z The Old Realms.{newline}{newline}Lore-Hardcore JUŻ ZAWIERA funkcję BetterTime:{newline}D3 / Numpad3 — przyspieszenie ×4{newline}D4 / Numpad4 — ekstra przyspieszenie ×8{newline}Puść klawisz — powrót do normalnej prędkości{newline}{newline}ZALECENIE: zamknij grę, wyłącz zewnętrzny BetterTime w Launcherze, uruchom ponownie." />
+    <string id="lh_bt_conflict_ok" text="Zrozumiałem, naprawię" />
+    <string id="lh_teef_unit" text="zębów" />
+    <string id="lh_tournament_cannot_leave" text="Walka się jeszcze nie skończyła. Bez ucieczki." />
+  </strings>
+</base>

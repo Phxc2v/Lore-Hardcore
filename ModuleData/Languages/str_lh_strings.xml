@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Out of food — the party ate a goblin ({GOBLIN}). Goblins left: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Out of food — the orcs ate a prisoner ({PRISONER}). Prisoners left: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="You personally defeated in the brawl: {KILLS} of {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (your allies finished off another {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="You also got 1 orc and 1 goblin as a bonus for hunting different kinds." />
+    <string id="lh_brawl_diversity_orc" text="You also got 1 orc as a bonus for hunting different kinds." />
+    <string id="lh_brawl_diversity_goblin" text="You also got 1 goblin as a bonus for hunting different kinds." />
+    <string id="lh_orc_castle_recruit" text="Recruit orcish elite" />
+    <string id="lh_orc_castle_recruit_intro" text="Da clan bosses brought out massive orc bruisers — they glare at you fierce, waitin' fer payment. You got {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Orcish elite of the fortress" />
+    <string id="lh_castle_recruit_leave" text="Back" />
+    <string id="lh_castle_elite_cap" text="Already {LH_ELITE_COUNT} bruisers for {LH_REGULARS_COUNT} orc boyz. Limit — 1 bruiser per {LH_RATIO} boyz. Recruit more boyz first in villages and towns." />
+    <string id="lh_castle_no_gold" text="Not enough gold" />
+    <string id="lh_castle_party_full" text="Party is full" />
+    <string id="lh_village_hire_goblins" text="Recruit goblins (100{GOLD_ICON} for 2)" />
+    <string id="lh_village_no_gold" text="Need at least 100 gold" />
+    <string id="lh_village_no_orcs" text="Goblins serve orcs — without orcs in your party they won't follow" />
+    <string id="lh_village_goblin_cap" text="You have {LH_GOBLIN_COUNT} goblins for {LH_ORC_COUNT} orcs. Limit — 4 goblins per orc. Recruit more orcs first." />
+    <string id="lh_castle_recruit_msg" text="Recruited: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Recruited: {TROOP} (+{COUNT} goblin servants)" />
+    <string id="lh_village_goblin_hired" text="Recruited: {COUNT} goblins (for {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin servants for {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblins (wanted {DESIRED}, hit 4:1 limit)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Arrer Boy Boss" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Big'Un Orc" />
+    <string id="lh_troop_tor_gs_black_orc" text="Black Orc" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Boar Boy Big'Un" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Orc Boss" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Black Orc Brute" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Black Orc Boss" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Black Orc Berzerka" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Orc" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Orc Boy" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Orc Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Orc Arrer Boy" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Orc Boar Boy" />
+    <string id="lh_teef_cart_trimmed" text="Not enough teef — recruited {COUNT} fewer orcs (spent {SPENT}, had {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Challenge an orc elite to a duel" />
+    <string id="lh_castle_challenge_intro" text="Brutes line up in da lord's hall. Pick one — duel to da death, 1 on 1." />
+    <string id="lh_castle_challenge_title" text="Duel with orcish elite" />
+    <string id="lh_castle_challenge_back" text="Back" />
+    <string id="lh_castle_challenge_disabled_culture" text="Only an orc can challenge an orc." />
+    <string id="lh_castle_challenge_disabled_siege" text="Not while da fort is besieged." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Dis fighter is still recovering. Wait {DAYS} more days." />
+    <string id="lh_castle_challenge_no_troop" text="This unit isn't loaded by TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Victory! {TROOP} is slain. Reward: +{TEEF} teef{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Defeat. {TROOP} proved tougher. Your wager is forfeit and you walk away in shame." />
+    <string id="lh_castle_challenge_victory_accept" text="Take your reward" />
+    <string id="lh_castle_challenge_defeat_accept" text="Walk away in shame" />
+    <string id="lh_castle_challenge_option_verb" text="Challenge to a duel: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Challenge] Unit '{TROOP_ID}' is not loaded." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Challenge] No suitable scene in this castle (lordshall missing)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Challenge] Not enough teef for the wager." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Challenge] Not enough gold for the wager." />
+    <string id="lh_castle_challenge_err_generic" text="[Challenge] Error: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", and one of his kind joins your party" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: economy choice" />
+    <string id="lh_settings_economy_desc" text="This choice is locked into your save. To change it, start a new game." />
+    <string id="lh_settings_economy_teef_title" text="Orcish Teef Economy (Warhammer canon)" />
+    <string id="lh_settings_economy_teef_hint" text="Buy orcish elite in castles for teef (orc currency) earned in battle. Goblins still use gold. +5 teef per day for each orc town/castle you own. Lore-accurate to Warhammer Fantasy — orcs don't respect gold." />
+    <string id="lh_settings_economy_classic_title" text="Classic (everything for gold)" />
+    <string id="lh_settings_economy_classic_hint" text="Orcs and goblins are hired for gold as in vanilla TOR. No teef economy, no daily fief income. Simple and familiar." />
+    <string id="lh_settings_economy_confirm" text="Confirm" />
+    <string id="lh_castle_no_teef" text="Not enough teef: need {LH_TEEF_NEEDED}, have {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Only for orc heroes. Orcs don't respect outsiders." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} teef from your orc towns and castles ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} teef knocked out of {COUNT} seasoned enemies (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} teef for killing lord {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Need {FEE} teef to issue the challenge (have {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Need {FEE} gold to issue the challenge (have {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} teef for {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Not enough teef for {TROOP} (need {NEED}, have {HAVE})." />
+    <string id="lh_teef_unit" text="teef" />
+    <string id="lh_bt_conflict_title" text="Mod conflict: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="The third-party BetterTime mod is loaded together with Lore-Hardcore. This mod is NOT compatible with The Old Realms — it conflicts via UI MapBar override.{newline}{newline}Lore-Hardcore ALREADY INCLUDES BetterTime functionality:{newline}D3 / Numpad3 — fast forward ×4{newline}D4 / Numpad4 — ultra fast ×8{newline}Release the key — back to normal speed{newline}{newline}RECOMMENDATION: close the game, disable or remove third-party BetterTime in Bannerlord Launcher, restart." />
+    <string id="lh_bt_conflict_ok" text="Understood, I'll fix it" />
+    <string id="lh_tournament_cannot_leave" text="Da fight ain't over. No runnin'." />
+  </strings>
+</base>

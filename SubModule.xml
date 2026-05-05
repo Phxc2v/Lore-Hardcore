@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Lore-Hardcore — TOR Balance Overhaul"/>
+    <Id value="LoreHardcore"/>
+    <Version value="v1.3.15"/>
+    <DefaultModule value="false"/>
+    <ModuleCategory value="Singleplayer"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <Official value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native" DependentVersion="v1.3.15"/>
+        <DependedModule Id="SandBoxCore" DependentVersion="v1.3.15"/>
+        <DependedModule Id="Sandbox" DependentVersion="v1.3.15"/>
+        <DependedModule Id="CustomBattle" DependentVersion="v1.3.15"/>
+        <DependedModule Id="StoryMode" DependentVersion="v1.3.15"/>
+        <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.4.2"/>
+        <DependedModule Id="TOR_Core" DependentVersion="v1.3.15"/>
+        <DependedModule Id="TOR_Armory" DependentVersion="v1.3.15"/>
+    </DependedModules>
+    <!-- Жёсткий порядок загрузки: Harmony первый, все core+TOR до нас, мы последние. -->
+    <DependedModuleMetadatas>
+        <DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="Native" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="TOR_Core" order="LoadBeforeThis"/>
+        <DependedModuleMetadata id="TOR_Armory" order="LoadBeforeThis"/>
+    </DependedModuleMetadatas>
+    <SubModules>
+        <SubModule>
+            <Name value="LoreHardcore Harmony"/>
+            <DLLName value="LoreHardcoreHarmony.dll"/>
+            <SubModuleClassType value="LoreHardcoreHarmony.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none"/>
+                <Tag key="IsNoRenderModeElement" value="false"/>
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <!-- XSLT overrides задают хардкор baseline. DLL накладывает +40% HP, +30% skill сверху. -->
+        <XmlNode>
+            <XmlName id="partyTemplates" path="greenskins_partytemplates_override" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="partyTemplates" path="tor_partytemplates" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="NPCCharacters" path="tor_troopdefinitions" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /><GameType value="CustomGame" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Factions" path="tor_clans" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="EquipmentRosters" path="tor_equipment_sets" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /><GameType value="CustomGame" /><GameType value="EditorGame" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="SPCultures" path="tor_cultures" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /><GameType value="CustomGame" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="tor_rangedweapons" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /><GameType value="CustomGame" /><GameType value="EditorGame" /></IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Monsters" path="tor_monsters" />
+            <IncludedGameTypes><GameType value="Campaign" /><GameType value="CampaignStoryMode" /><GameType value="CustomGame" /><GameType value="EditorGame" /></IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

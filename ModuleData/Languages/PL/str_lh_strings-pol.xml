@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Brak jedzenia — drużyna zjadła goblina ({GOBLIN}). Pozostało goblinów: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Brak jedzenia — orkowie zjedli więźnia ({PRISONER}). Pozostało więźniów: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Osobiście pokonałeś w bójce: {KILLS} z {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (twoi sojusznicy dobili kolejnych {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Otrzymujesz dodatkowo 1 orka i 1 goblina jako bonus za polowanie na różne typy." />
+    <string id="lh_brawl_diversity_orc" text="Otrzymujesz dodatkowo 1 orka jako bonus za polowanie na różne typy." />
+    <string id="lh_brawl_diversity_goblin" text="Otrzymujesz dodatkowo 1 goblina jako bonus za polowanie na różne typy." />
+    <string id="lh_brawl_victory_reward_no_gold" text="Zdobyłeś {RENOWN_REWARD} sławy i {TEEF_REWARD}{CR_ICON} Zębów." />
+    <string id="lh_shrine_loot_result_only_gold" text="Pomyślnie złupiłeś sanktuarium i zdobyłeś {TOTAL_GOLD} złota." />
+    <string id="lh_orc_castle_recruit" text="Werbuj orczą elitę" />
+    <string id="lh_orc_castle_recruit_intro" text="Bossowie klanu wyprowadzili potężnych orczych zbirów — patrzą na ciebie groźnie, czekając na twoje złoto. Masz {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Orcza elita twierdzy" />
+    <string id="lh_castle_recruit_leave" text="Wstecz" />
+    <string id="lh_castle_elite_cap" text="Już {LH_ELITE_COUNT} zbirów na {LH_REGULARS_COUNT} orczych chłopaków. Limit — 1 zbir na {LH_RATIO} chłopaków. Najpierw zwerbuj więcej chłopaków we wsiach i miastach." />
+    <string id="lh_castle_no_gold" text="Za mało złota" />
+    <string id="lh_castle_party_full" text="Drużyna pełna" />
+    <string id="lh_village_hire_goblins" text="Werbuj gobliny (100{GOLD_ICON} za 2)" />
+    <string id="lh_village_no_gold" text="Potrzeba minimum 100 złota" />
+    <string id="lh_village_no_orcs" text="Gobliny służą orkom — bez orków w drużynie nie pójdą" />
+    <string id="lh_village_goblin_cap" text="Masz {LH_GOBLIN_COUNT} goblinów na {LH_ORC_COUNT} orków. Limit — 4 gobliny na orka. Najpierw zwerbuj więcej orków." />
+    <string id="lh_castle_recruit_msg" text="Zwerbowano: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Zwerbowano: {TROOP} (+{COUNT} goblinów-sług)" />
+    <string id="lh_village_goblin_hired" text="Zwerbowano: {COUNT} goblinów (za {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblinów-sług dla {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblinów (chciał {DESIRED}, osiągnięto limit 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Wódz Łuczników" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Wielki Ork" />
+    <string id="lh_troop_tor_gs_black_orc" text="Czarny Ork" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Wielki Jeździec Dzika" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Wódz Orków" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Czarny Ork-Brutal" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Wódz Czarnych Orków" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Czarny Ork-Berserker" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Ork" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Ork-Młokos" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Ork-Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Ork-Łucznik" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Ork na Dziku" />
+    <string id="lh_teef_cart_trimmed" text="Za mało zębów — {COUNT} orków mniej zwerbowanych (wydano {SPENT}, miałeś {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Wyzwać orkową elitę na pojedynek" />
+    <string id="lh_castle_challenge_intro" text="W sali pana zebrały się orkowe brutale. Wybierz swoją ofiarę." />
+    <string id="lh_castle_challenge_title" text="Pojedynek z orkową elitą" />
+    <string id="lh_castle_challenge_back" text="Wstecz" />
+    <string id="lh_castle_challenge_disabled_culture" text="Tylko orkowie mogą wyzywać orków." />
+    <string id="lh_castle_challenge_disabled_siege" text="Nie podczas oblężenia." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Ten wojownik wciąż dochodzi do siebie. Czekaj jeszcze {DAYS} dni." />
+    <string id="lh_castle_challenge_no_troop" text="Ta jednostka nie jest załadowana przez TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Ork {TROOP} leży martwy u twoich stóp. +{TEEF} zębów{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Ork {TROOP} okazał się silniejszy. Tracisz stawkę i odchodzisz w hańbie." />
+    <string id="lh_castle_challenge_victory_accept" text="Wyrwij zęby z trupa" />
+    <string id="lh_castle_challenge_defeat_accept" text="Odejść w hańbie" />
+    <string id="lh_castle_challenge_option_verb" text="Wyzwij na pojedynek: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Pojedynek] Jednostka '{TROOP_ID}' nie jest załadowana." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Pojedynek] Brak odpowiedniej sceny w tym zamku (brakuje lordshall)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Pojedynek] Za mało zębów na zakład." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Pojedynek] Za mało złota na zakład." />
+    <string id="lh_castle_challenge_err_generic" text="[Pojedynek] Błąd: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", a jeden taki sam dołącza do twojej drużyny" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: wybór gospodarki" />
+    <string id="lh_settings_economy_desc" text="Ten wybór jest zapisany w grze. Aby go zmienić, rozpocznij nową grę." />
+    <string id="lh_settings_economy_teef_title" text="Orkowa gospodarka zębów (kanon Warhammera)" />
+    <string id="lh_settings_economy_teef_hint" text="Kupuj orkową elitę w zamkach za zęby (orkową walutę) zarabiane w bitwie. Gobliny nadal używają złota. +5 zębów dziennie za każde posiadane orkowe miasto/zamek. Zgodne z lore Warhammer Fantasy — orkowie nie szanują złota." />
+    <string id="lh_settings_economy_classic_title" text="Klasyczna (wszystko za złoto)" />
+    <string id="lh_settings_economy_classic_hint" text="Orkowie i gobliny są werbowani za złoto jak w zwykłym TOR. Bez gospodarki zębów, bez dziennego dochodu z lenna. Proste i znajome." />
+    <string id="lh_settings_economy_confirm" text="Potwierdź" />
+    <string id="lh_castle_no_teef" text="Za mało zębów: potrzebne {LH_TEEF_NEEDED}, masz {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Tylko dla orkowych bohaterów. Orkowie nie szanują obcych." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} zębów z twoich orkowych miast i zamków ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} zębów wybitych z {COUNT} doświadczonych wrogów (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} zębów za zabicie pana {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Potrzeba {FEE} zębów na wyzwanie (ma {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Potrzeba {FEE} złota na wyzwanie (ma {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} zębów za {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Nie ma wystarczająco zębów na {TROOP} (potrzeba {NEED}, ma {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Konflikt modów: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Wykryto zewnętrzny mod BetterTime razem z Lore-Hardcore. Ten mod NIE jest zgodny z The Old Realms.{newline}{newline}Lore-Hardcore JUŻ ZAWIERA funkcję BetterTime:{newline}D3 / Numpad3 — przyspieszenie ×4{newline}D4 / Numpad4 — ekstra przyspieszenie ×8{newline}Puść klawisz — powrót do normalnej prędkości{newline}{newline}ZALECENIE: zamknij grę, wyłącz zewnętrzny BetterTime w Launcherze, uruchom ponownie." />
+    <string id="lh_bt_conflict_ok" text="Zrozumiałem, naprawię" />
+    <string id="lh_teef_unit" text="zębów" />
+    <string id="lh_tournament_cannot_leave" text="Walka się jeszcze nie skończyła. Bez ucieczki." />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Enemy executed. The orc party takes pride. Morale +10, Honor reputation restored." />
+    <string id="lh_enc_title" text="Lore-Hardcore — Przewodnik w grze" />
+    <string id="lh_enc_pick_topic" text="Wybierz temat do przeczytania:" />
+    <string id="lh_enc_read" text="Czytaj" />
+    <string id="lh_enc_back" text="Wróć do tematów" />
+    <string id="lh_enc_close" text="Zamknij" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Gospodarka Zębów" />
+    <string id="lh_enc_topic_teef_economy_body" text="Dla graczy orków i goblinów Gospodarka Zębów jest ZAWSZE aktywna — bez przełączania w trakcie gry, bez dialogu na starcie. Ludzie, krasnoludy, wampiry zachowują złoto jak wcześniej.{newline}{newline}Gdy grasz orkiem:{newline}- W osadach orków płacisz zębami zamiast złota za wszystko.{newline}- Poza osadami orków (Imperium, Bretonia itd.) nadal płacisz złotem.{newline}- Zęby zdobywa się TYLKO w prawdziwej walce: zabicia oddziałów T4+, zabicia lordów, wygrane bijatyki, wyzwania zamkowe, dzienna danina z lenn orków.{newline}- Drużyny orków nie wysysają złota z twojego klanu — kara morale za niewypłacone wynagrodzenie jest stłumiona dla drużyn orków (i tak im nie płacisz).{newline}- Dzienny dochód zębów jest ograniczony, aby AI lordowie orków nie zalewali mapy." />
+
+    <string id="lh_enc_topic_career_path_title" text="Kariera: od Bully'ego do Bossa" />
+    <string id="lh_enc_topic_career_path_body" text="Kariera orka ma dwie ścieżki wybierane przy tworzeniu postaci: Ścieżka Bully'ego (zostaje Bossem) lub Ścieżka Szamana.{newline}{newline}Wymagania zmniejszone względem vanilla TOR dla Lore-Hardcore:{newline}- Poziom 2 (Boss): umiejętności broni 80/80/30, 30 bitew, 5 turniejów, 10 bijatyk, 2000 zębów.{newline}- Poziom 3 (Boss): umiejętności broni 150/120/60, 70 bitew, 15 turniejów, 20 bijatyk, 5 pojedynków lordów, 5 zdobytych miast, 10000 zębów.{newline}- Poziom 2 (Szaman): modlić się w sanktuarium, Czarodziejstwo 50, Wiara 50, 3 zaklęcia, 2000 zębów, 5 splądrowanych sanktuariów.{newline}- Poziom 3 (Szaman): Czarodziejstwo 120, Wiara 100, 8 zaklęć, 10000 zębów, 5 miast, 30 sanktuariów." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Morale orków i WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Morale drużyny orków i skalowanie AI zostały przebalansowane.{newline}{newline}- Lordowie orków mają +40% HP i +30% do umiejętności walki bazowo.{newline}- Mnożnik morale: x1.5 (orki agresywniejsze od ludzi).{newline}- Orki elitarne (Czarny Ork, Boss, Berzerka, Bigun) są BEZ STRACHU — nigdy nie panikują przy niskim morale ani przewadze liczebnej wroga.{newline}- Bonus bliskości WAAAGH! kumuluje się przy masowych atakach orków.{newline}{newline}Balansowanie AI (aby orki nie dominowały mapy):{newline}- Miękki limit wielkości drużyny lorda orka AI: 80 oddziałów.{newline}- Armia marszałka mieści maksymalnie 5 drużyn (lider + 4 wezwane) — orki atakują w mini-armiach 400-500 zamiast 3000.{newline}- Szacowanie siły AI: orki x1.8, gobliny x0.8, trolle/Big'Uny/warbossy x3.0 — imperialne AI teraz prawidłowo ocenia zagrożenie orków.{newline}- Massif Choppas zredukowany z 22 do 14 lordów; Crooked Eye i Red Eye do 17. Prosperity stolic zrebalansowane.{newline}{newline}Drużyna gracza używa normalnych vanilla limitów." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Pojedynek na zamku" />
+    <string id="lh_enc_topic_castle_challenge_body" text="Odwiedzając zamek orków, możesz wyzwać orka elitarnego na pojedynek o stawkę w zębach.{newline}{newline}- Zwycięstwo: elitarny dołącza do twojej drużyny jako jednostka trofeum, plus +15 zębów.{newline}- Porażka: stawka przepada, reputacja na zamku spada tymczasowo.{newline}{newline}Elity dostępne według zamku: Bigun, Boss, Czarny Ork, Brute, Berzerka. Każdy ze swoją ceną i trudnością.{newline}{newline}Stawki skalują się z rangą elity — Bigun ~50 zębów, Czarny Ork ~150 zębów, Boss ~250 zębów.{newline}{newline}Sam pojedynek to prawdziwa walka 1v1 na scenie zamku. Bez sztuczek, bez auto-rozstrzygnięcia." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Oblężenia orków i taran" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Oblężenia orków działają inaczej w Lore-Hardcore.{newline}{newline}- Orki NIE mogą budować trebuszy. Lore: maszyna z przeciwwagą z parabolicznym torem lotu jest zbyt skomplikowana dla orka. Dostępne machiny oblężnicze: balisty, onagery, katapulty (z wariantami ognistymi).{newline}- Taran wzmocniony: uderza 5x mocniej, wytrzymuje 3.5x dłużej. Bramy padają w 5-10 uderzeniach zamiast 30+ vanilla. Lore: kłoda z czaszką gryzącą zęby, okuta żelazem, pchana przez ośmiu muskularnych orków.{newline}- Auto-rozstrzygnięcie otrzymuje ten sam bonus tarana, więc oblężenia orków czują się tak samo na scenie i przy pominięciu." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Kanibalizm jeńców" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Orki NIE rąbią jeńców na miejscu. Mięso przychodzi TYLKO z kanibalizmu głodu w marszu.{newline}{newline}Po bitwie:{newline}- Auto-rąbanie w ekranie łupów: 0 mięsa (niezależnie ilu jeńców).{newline}- Przycisk 'Rąbać' u Kwatermistrza: 0 mięsa.{newline}- Mięso z zabójstw (formuła auto TOR): 0 dla zwycięstw gracza.{newline}{newline}Jedyny sposób na mięso z jeńców — wziąć ich, skończyć zapasy, czekać. Każda godzina gry z pustą spiżarnią:{newline}1. JEŃCY pierwsi. Każdy = 1 mięso.{newline}2. Potem GOBLINY. Każdy = 1 mięso.{newline}3. Lordowie i kompani NIGDY nie są zjadani (lord = okup, kompan = linia questu).{newline}{newline}Lore: orki jedzą jeńców żywcem na drodze, nie u rzeźnickiego pnia.{newline}{newline}Drużyny orków AI zachowują vanilla TOR formułę mięsa-z-bitwy, aby nie umierały z głodu." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Arena bijatyki zielonoskórych" />
+    <string id="lh_enc_topic_brawl_arena_body" text="Bijatyka Zielonoskórych to arena pięściarska unikalna dla osad orków.{newline}{newline}- 18 wrogów na mecz (znacznie więcej niż arena vanilla).{newline}- Nagroda obliczana po twojej osobistej liczbie zabójstw, nie tylko przeżyciu.{newline}- Uciekający wrogowie wpadający w strefy poza-granicami są auto-zabijani raz na sekundę, aby uniknąć zamrożenia meczu.{newline}- Gobliny nie pojawiają się już na dachu areny (stary bug rozmieszczenia TOR).{newline}- Warunek zwycięstwa: być ostatnim stojącym LUB drużyna z najwięcej zabójstwami jeśli przeżyjesz.{newline}- W zdobytych nie-orkowych miastach (bretońskie, imperialne karczmy) shadery atmosfery bijatyki są tłumione, aby uniknąć błędów 'cannot find entry point' na starszych GPU.{newline}{newline}Dobre dla: trening umiejętności Jednoręcznej, zarobek zębów, ukończenie celu bijatyki w queście kariery orka." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Egzekucja wrogów rasowych" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="Gdy gracz ork egzekutuje schwytanego rasowego wrogiego lorda, drużyna orków świętuje — nie lamentuje.{newline}{newline}Bannerlord vanilla karze każdą egzekucję -1000 XP Honoru. Dla orka zabicie Krasnoluda, Wampira, Elfa lub Imperialnego lorda to wyczyn, nie grzech.{newline}{newline}Lore-Hardcore dodaje bonus:{newline}- XP Honoru w pełni skompensowany (+1000), kara vanilla anulowana.{newline}- Cecha Miłosierdzie otrzymuje symboliczne +1 XP (balans statusu).{newline}- Drużyna orków zyskuje natychmiast +10 morale.{newline}- Zielona wiadomość potwierdza zastosowany bonus.{newline}{newline}Stosuje się tylko gdy gracz jest kultury orków (aserai w TOR) a ofiara to wróg rasowy: Krasnolud (sturgia), Hrabiowie Wampirzy (khuzait), Imperium, Bretonia (vlandia), Elfy Leśne (battania), Eonir, Mousillon, Krwawe Smoki, Chaos, Wysokie Elfy, Mroczne Elfy.{newline}{newline}Egzekucja WŁASNEJ rasy (innych orków) zachowuje karę vanilla — to wstyd dla orkowego lorda wojny." />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_settings_button" text="Ustawienia Lore-Hardcore" />
+    <string id="lh_set_title" text="Lore-Hardcore — Ustawienia" />
+    <string id="lh_set_mode_full" text="Menu główne — wszystkie parametry" />
+    <string id="lh_set_mode_live" text="Kampania — tylko na żywo" />
+    <string id="lh_set_races_header" text="RASY" />
+    <string id="lh_set_race_orc" text="Orki" />
+    <string id="lh_set_race_empire" text="Imperium" />
+    <string id="lh_set_race_dwarf" text="Krasnoludy" />
+    <string id="lh_set_race_bretonnia" text="Bretonia" />
+    <string id="lh_set_race_chaos" text="Chaos" />
+    <string id="lh_set_confirm_reset_race_title" text="Resetuj rasę" />
+    <string id="lh_set_confirm_reset_race_body" text="Zresetować wszystkie parametry wybranej rasy do wartości domyślnych?" />
+    <string id="lh_set_confirm_reset_all_title" text="Resetuj WSZYSTKO" />
+    <string id="lh_set_confirm_reset_all_body" text="Zresetować WSZYSTKIE parametry wszystkich ras do wartości domyślnych? Wpłynie to na wszystko." />
+    <string id="lh_set_confirm_yes" text="Resetuj" />
+    <string id="lh_set_confirm_yes_all" text="Resetuj wszystko" />
+    <string id="lh_set_confirm_no" text="Anuluj" />
+    <string id="lh_set_race_phase02" text="Nadchodzi w fazie 0.2" />
+    <string id="lh_set_race_phaseFuture" text="Nadchodzi w przyszłej fazie" />
+    <string id="lh_set_tab_battle" text="Bitwa" />
+    <string id="lh_set_tab_army" text="Armie" />
+    <string id="lh_set_tab_ai" text="Werbunek AI" />
+    <string id="lh_set_tab_economy" text="Ekonomia" />
+    <string id="lh_set_tab_caves" text="Jaskinie" />
+    <string id="lh_set_tab_system" text="Systemy" />
+    <string id="lh_set_btn_reset_race" text="Resetuj rasę" />
+    <string id="lh_set_btn_reset_all" text="Resetuj WSZYSTKO" />
+    <string id="lh_set_btn_save" text="Zapisz" />
+    <string id="lh_set_btn_close" text="Zamknij" />
+    <string id="lh_set_cat_instant" text="działa natychmiast" />
+    <string id="lh_set_cat_nexttick" text="działa w ciągu sekundy" />
+    <string id="lh_set_cat_worldstate" text="działa na nowe spawny" />
+    <string id="lh_set_cat_restart" text="wymaga restartu gry" />
+    <string id="lh_set_toggle_on" text="WŁ" />
+    <string id="lh_set_toggle_off" text="WYŁ" />
+
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="HP orków (z graczem)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Mnożnik HP dla orków w bitwie na żywo gdzie obecny jest PlayerTeam." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="HP orków (AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Mnożnik HP dla orków w bitwach AI vs AI bez gracza." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="HP ogrów (AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="Mnożnik HP dla trolli / Big Uns / Black Orcs w bitwach AI vs AI. Niższy niż dla zwykłych orków, ponieważ silnik nie ma mechaniki okrążenia — bez tego nerfu 3 trolle mogą zabić 50 ludzi." />
+    <string id="lh_set_GoblinHPMult_lbl" text="HP goblinów" />
+    <string id="lh_set_GoblinHPMult_desc" text="Mnożnik HP dla wszystkich goblinów." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Obrażenia zadawane przez sojuszniczych orków" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Mnożnik obrażeń dla orków po stronie gracza." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Obrażenia zadawane przez wrogich orków" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Mnożnik obrażeń dla orków walczących przeciwko graczowi." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Obrażenia otrzymywane przez sojuszniczego orka" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Mnożnik obrażeń gdy ork po twojej stronie jest trafiony (niżej = bardziej wytrzymały)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Obrażenia otrzymywane przez wrogiego orka" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Mnożnik obrażeń gdy wrogi ork jest trafiony (wyżej = łatwiejszy do zabicia)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Topór kontra drewniana tarcza" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Mnożnik obrażeń dla toporów trafiających w drewniane tarcze." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Obrażenia Ogrów wrotom" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Obrażenia Ogrów / Big Unów / Trolli wrotom w bitwie na żywo." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Czas ogłuszenia kopnięciem orka" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Czas trwania ogłuszenia zadanego kopnięciami orków." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Ogłuszenie tarczą orka" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Czas trwania ogłuszenia od uderzeń tarczą orków." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Umiejętności walki orków" />
+    <string id="lh_set_OrcSkillMult_desc" text="Mnożnik dla umiejętności walki orków (broń jednoręczna, dwuręczna, drzewcowa)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Atletyka trolli" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Umiejętność atletyki trolli (niżej = wolniejsze)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Atletyka goblinów" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Umiejętność atletyki goblinów (wyżej = szybsze)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Szybkość goblinów" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Mnożnik szybkości dla goblinów na piechotę." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="Bonus morale WAAAGH!" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Mnożnik wzrostu morale dla strony orków za zabicie." />
+
+    <string id="lh_set_AILordHardCap_lbl" text="Limit drużyny lorda AI" />
+    <string id="lh_set_AILordHardCap_desc" text="Twardy limit drużyny lorda orków AI. Stosuje się do wzrostu natychmiast, istniejące zbyt duże drużyny zmniejszają się stopniowo." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="Drużyny na WAAAGH!" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="Ile drużyn może dołączyć do marszałka. Armia = lider + N. Pułap = (1+N) x limit na lorda." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Siła elity (oszacowanie AI)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="Jak AI ocenia siłę elitarnych orków. Wpływa na decyzje walcz/uciekaj." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Siła orków (oszacowanie AI)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="Oszacowanie AI siły zwykłych orków." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Siła goblinów (oszacowanie AI)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="Oszacowanie AI siły goblinów." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Siła elity (walka)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Rzeczywista siła bojowa elitarnych orków w auto-resolve." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Siła orków (walka)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Rzeczywista siła bojowa zwykłych orków." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Siła goblinów (walka)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Rzeczywista siła bojowa goblinów." />
+
+    <string id="lh_set_OrcCastleHireChance_lbl" text="Szansa werbunku w zamku AI" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Godzinna szansa na to, że lord AI kupi elitarnego orka w zamku." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Szansa wirtualnego werbunku" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Godzinna szansa jak-gdyby-odwiedzono na werbunek, gdy lord nie jest fizycznie w zamku, ale klan posiada jakiś." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="Bufor złota AI (zamek)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Minimum złota, które AI zachowuje po zakupie w zamku." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="Szansa werbunku goblinów AI" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Godzinna szansa na to, że lord AI kupi parę goblinów w wiosce." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Cena pary goblinów" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="Ile AI płaci za parę goblinów w wiosce." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Gobliny na werbunek" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="Ile goblinów AI otrzymuje za zakup w wiosce." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="Bufor złota AI (wioska)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="Minimum złota, które AI zachowuje po zakupie w wiosce." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="Szansa werbunku trolla AI" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Szansa na odwiedzinę, że lord AI weźmie trolla w osadzie orków." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="Limit trolli AI na drużynę" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Maksymalna liczba trolli, jakie lord AI może trzymać." />
+
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Mnożnik kosztu awansu" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Mnożnik stosowany do formuły kosztu awansu z vanilla." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Min koszt awansu orka" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Minimalny koszt złota awansu jednostek orków." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Min koszt awansu goblina" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Minimalny koszt złota awansu goblinów." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="Zniżka elity AI" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI płaci koszt elitarnego orka x N (1.0 = pełna cena)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Mięso ze zwykłego więźnia" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Wydajność mięsa z rozszarpania zwykłego więźnia." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Mięso z dużego więźnia" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Wydajność mięsa z rozszarpania dużego więźnia (troll, minotaur)." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Mnożnik złota brawl" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Nagroda w złocie za wygranie brawla x N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Złoto z łupu sanktuarium" />
+    <string id="lh_set_ShrineLootGold_desc" text="Nagroda w złocie za splądrowanie sanktuarium." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Min tier do Wymuszenia" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Tylko orki tieru >= N generują zęby przez Wymuszenie." />
+
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Cooldown kryjówki (dni)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Dni zanim oczyszczona kryjówka może się reaktywować." />
+    <string id="lh_set_MaxHideouts_lbl" text="Max kryjówek na frakcję" />
+    <string id="lh_set_MaxHideouts_desc" text="Maksymalna liczba jednocześnie aktywnych kryjówek." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Max drużyn najazdu trolli" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Ile drużyn najazdu może być żywych z jednej jaskini jednocześnie." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Dzienna szansa spawnu" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Szansa na dzień, że jaskinia wygeneruje nową drużynę najazdu." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Rozmiar obrońców jaskini" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="Ilu trolli wita gracza przy wejściu do jaskini." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Max trolli na drużynę najazdu" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Limit rozmiaru pojedynczej drużyny najazdu." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Wojsko do bitwy w jaskini" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="Ile wojska możesz wziąć do oczyszczenia jaskini (vanilla 20). 7 trolli może zmiażdżyć 20 ludzi nawet jeden-na-jednego — 40 daje liczbową szansę." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Wabienie trolli dozwolone" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="Jeśli włączone — dodaje opcję 'Zwabić trolle (10 mięsa)' do menu jaskini. Domyślnie wyłączone (balans: troll T6 za 10 mięsa jest wyzyskiwalny)." />
+
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Bonus HP orków" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Kompletnie wyłącza mnożniki HP orków." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Obrażenia team-aware" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="Obrażenia zależą od strony gracza." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Werbuj orki za zęby zamiast złota." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Limity armii orków" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Limity na rozmiary drużyn i armii." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Nerf jaskini trolli" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Niższe tempo spawnu trolli i rozmiary najazdów." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Cooldown kryjówki" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="Oczyszczone kryjówki pozostają zamknięte przez 60 dni." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Nerf nagrody brawl" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Tnie nagrodę w złocie za brawl." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Nerf łupu sanktuarium" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="Tylko złoto z sanktuariów — żadnego mięsa ani zębów." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Nerf questa kariery" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Obniża wymagania questów kariery orków." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orki bez trebuszetów" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Orki nie budują skomplikowanych machin oblężniczych." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="Topór rozbija tarcze" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Topory zadają bonusowe obrażenia drewnianym tarczom." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Szybsze gobliny" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% szybkości dla goblinów." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Długie ogłuszenie kopnięciem" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Kopnięcia orków ogłuszają dłużej." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Werbunek Chaosu" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Wasale Chaosu mogą werbować jednostki Chaosu." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Losowy spawn brawl" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Gracz pojawia się w losowym punkcie areny." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Ikona zębów" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Menu werbunku pokazuje ikonę zębów zamiast złota." />
+
+    <string id="lh_orc_appetite" text="Apetyt zielonoskórych" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Może później, gobo." />
+    <string id="lh_goblin_changer_cooldown" text="Eh wodzu, dałem ci wczoraj juzem! Wróć za {DAYS} dni, muszę pokopać jeszcze." />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Tyle błyskotek nie mam jeszczem." />
+    <string id="lh_goblin_changer_intro" text="Oj WODZU! Mam ząbki za błyskotki, wymieniamy, hę? He-he!" />
+    <string id="lh_goblin_changer_after_no_gold" text="Hehe! Bez błyskotek nie ma ząbków. Obstaw najpierw ludziaków, hę?" />
+    <string id="lh_goblin_changer_hub_trade" text="Wymień: 1000 błyskotek na {AMOUNT} ząbków." />
+    <string id="lh_goblin_changer_after_trade" text="*Goblin odlicza {NOMINAL} zębów, chowa {HIDDEN} monety do bocznej kieszeni po cichu.* Interes to interes, WODZU!" />
+    <string id="lh_goblin_changer_town_ok" text="Odejść" />
+    <string id="lh_goblin_changer_town_title" text="Goblin-wymieniający" />
+    <string id="lh_goblin_changer_town_outcome" text="*Goblin odlicza {NOMINAL} zębów na stole karczmy, szybko chowa {HIDDEN} monety do sakiewki przy pasie i przesuwa resztę do ciebie.* Interes to interes, WODZU!" />
+    <string id="lh_goblin_changer_town_intro" text="*Przebiegły goblin przy narożnym stoliku macha ręką, przebierając stos drobnych monet. Szepcze:* Oj WODZU! Mam ząbki za błyskotki. 1000 błyskotek — odliczę {NOMINAL}. Czy schowam {HIDDEN} do kieszonki bocznej? Może... Wymieniamy?" />
+    <string id="lh_goblin_changer_town_cancel" text="Może później" />
+    <string id="lh_goblin_changer_town_option" text="Porozmawiać z goblinem-wymieniającym w karczmie" />
+    <string id="lh_goblin_changer_town_no_gold" text="*Goblin w kącie obwąchuje twoją sakiewkę i parska.* Hehe! Bez błyskotek nie ma ząbków. Obstaw najpierw ludziaków, hę?" />
+    <string id="lh_goblin_changer_town_trade" text="Wymień" />
+    <string id="lh_goblin_changer_town_cooldown" text="*Goblin w kącie karczmy patrzy na ciebie podejrzliwie i odwraca się.* Eh wodzu, dałem ci kilka dni temu już! Wróć za {DAYS} dni, jasne?" />
+    <string id="lh_goblin_changer_intro_town" text="Witam, WODZU! Bracia patrzą jak tu handluję uczciwie — bez kombinacji. Wymienisz błyskotki na ząbki?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*Goblin odlicza dokładnie {AMOUNT} zębów do twojej dłoni — czysto i uczciwie, bracia patrzą.* Coś jeszcze, WODZU?" />
+    <string id="lh_goblin_changer_village_trade" text="Wymień: 1000 błyskotek na {AMOUNT} ząbków." />
+    <string id="lh_goblin_changer_intro_village" text="Oj WODZU! Mam ząbki za błyskotki, wymieniamy, hę? He-he!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="No to wymieniamy?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Sory wodzu, na dziś już nie mam ząbków. Wracaj jutro, jak więcej z braci wykopię, hę?" />
+  </strings>
+</base>

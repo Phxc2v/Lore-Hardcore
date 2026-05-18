@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Еды нет — отряд съел гоблина ({GOBLIN}). Осталось гоблинов: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Еды нет — орки съели пленника ({PRISONER}). Осталось пленных: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Ты лично сразил в бою: {KILLS} из {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (ещё {EXTRA} добили твои союзники.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Тебе дополнительно дали 1 орка и 1 гоблина за охоту на разные виды." />
+    <string id="lh_brawl_diversity_orc" text="Тебе дополнительно дали 1 орка за охоту на разные виды." />
+    <string id="lh_brawl_diversity_goblin" text="Тебе дополнительно дали 1 гоблина за охоту на разные виды." />
+    <string id="lh_brawl_victory_reward_no_gold" text="Ты заработал {RENOWN_REWARD} славы и {TEEF_REWARD}{CR_ICON} зубов." />
+    <string id="lh_shrine_loot_result_only_gold" text="Ты успешно ограбил святилище и забрал {TOTAL_GOLD} золота." />
+    <string id="lh_orc_castle_recruit" text="Нанять орочью элиту" />
+    <string id="lh_orc_castle_recruit_intro" text="Боссы клана вывели здоровенных орков-громил, что зыркают на тебя свирепо и ждут твоей платы. У тебя {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Орочья элита крепости" />
+    <string id="lh_castle_recruit_leave" text="Назад" />
+    <string id="lh_castle_elite_cap" text="Уже {LH_ELITE_COUNT} громил при {LH_REGULARS_COUNT} орков-пацанов. Лимит — 1 громила на {LH_RATIO} пацанов. Сначала найми ещё пацанов в деревнях и городах." />
+    <string id="lh_castle_no_gold" text="Недостаточно золота" />
+    <string id="lh_castle_party_full" text="Отряд переполнен" />
+    <string id="lh_village_hire_goblins" text="Нанять гоблинов (100{GOLD_ICON} за 2)" />
+    <string id="lh_village_no_gold" text="Нужно минимум 100 золота" />
+    <string id="lh_village_no_orcs" text="Гоблины служат оркам — без орков в отряде они не пойдут" />
+    <string id="lh_village_goblin_cap" text="У тебя {LH_GOBLIN_COUNT} гоблинов на {LH_ORC_COUNT} орков. Лимит — 4 гоблина на одного орка. Найми сначала орков." />
+    <string id="lh_castle_recruit_msg" text="Нанято: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Нанято: {TROOP} (+{COUNT} гоблинов-прислужников)" />
+    <string id="lh_village_goblin_hired" text="Нанято: {COUNT} гоблинов (за {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} гоблинов-прислужников за {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} гоблинов (хотел {DESIRED}, упёрся в лимит 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Орк-стрелок-вождь" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Орк-Здоровяк" />
+    <string id="lh_troop_tor_gs_black_orc" text="Чёрный орк" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Здоровяк-кабанник" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Орк-вождь" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Чёрный орк-брут" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Чёрный орк-вождь" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Чёрный орк-берсерк" />
+    <string id="lh_troop_tor_gs_goblin" text="Гоблин" />
+    <string id="lh_troop_tor_gs_orc" text="Орк" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Орк-пацан" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Орк-Чоппа" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Орк-стрелок" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Орк-кабанник" />
+    <string id="lh_teef_cart_trimmed" text="Жубов не хватит — нанял на {COUNT} орков меньше (потратил {SPENT}, было {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Вызвать орочью элиту на поединок" />
+    <string id="lh_castle_challenge_intro" text="В зале лорда стоят орочьи громилы. Выбирай противника — поединок 1 на 1 до смерти одного из вас." />
+    <string id="lh_castle_challenge_title" text="Поединок с орочьей элитой" />
+    <string id="lh_castle_challenge_back" text="Назад" />
+    <string id="lh_castle_challenge_disabled_culture" text="Только орк может вызвать орка на поединок." />
+    <string id="lh_castle_challenge_disabled_siege" text="Замок в осаде — не до поединков." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Этот противник ещё восстанавливается после прошлого боя. Жди ещё {DAYS} дн." />
+    <string id="lh_castle_challenge_no_troop" text="Этот юнит не найден в TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Победа! {TROOP} повержен. Награда: +{TEEF} жубов{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Поражение. {TROOP} оказался сильнее. Твоя ставка проиграна, ты уходишь в позоре." />
+    <string id="lh_castle_challenge_victory_accept" text="Забрать награду" />
+    <string id="lh_castle_challenge_defeat_accept" text="Уйти в позоре" />
+    <string id="lh_castle_challenge_option_verb" text="Вызвать на поединок: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Поединок] Юнит '{TROOP_ID}' не найден." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Поединок] В этом замке нет подходящей сцены (lordshall не найден)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Поединок] Не хватает зубов на ставку." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Поединок] Не хватает золота на ставку." />
+    <string id="lh_castle_challenge_err_generic" text="[Поединок] Ошибка: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", и один такой же присоединяется к твоему отряду" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: выбор экономики" />
+    <string id="lh_settings_economy_desc" text="Этот выбор фиксируется в save. Чтобы сменить — начни новую игру." />
+    <string id="lh_settings_economy_teef_title" text="Зубная экономика орков (по канону Warhammer)" />
+    <string id="lh_settings_economy_teef_hint" text="Орочью элиту в замках покупаешь за зубы (teef), которые зарабатываешь в боях. Гоблины — за золото. +5 зубов в день за каждый твой орочий город/замок. Лорно по Warhammer Fantasy — орки золото не уважают." />
+    <string id="lh_settings_economy_classic_title" text="Классическая (всё за золото)" />
+    <string id="lh_settings_economy_classic_hint" text="Орки и гоблины нанимаются за золото как в обычном TOR. Без зубной экономики, без дневного дохода с фьефа. Простая и привычная." />
+    <string id="lh_settings_economy_confirm" text="Подтвердить" />
+    <string id="lh_castle_no_teef" text="Не хватает жубов: нужно {LH_TEEF_NEEDED}, есть {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Только орочьему герою. Орки не уважают чужаков." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} жубов от твоих орочьих городов и замков ({COUNT} шт.)" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} жубов выбито с {COUNT} матёрых врагов (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} жубов за убитого лорда {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Чтобы вызвать на бой, нужно {FEE} жубов (есть {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Чтобы вызвать на бой, нужно {FEE} золота (есть {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} жубов за {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Не хватает жубов на {TROOP} (нужно {NEED}, есть {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Конфликт модов: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Обнаружен сторонний мод BetterTime вместе с Lore-Hardcore. Этот мод НЕ совместим с The Old Realms — конфликтует через override UI панели времени.{newline}{newline}Lore-Hardcore УЖЕ ВКЛЮЧАЕТ функционал BetterTime:{newline}D3 / Numpad3 — ускорение времени ×4{newline}D4 / Numpad4 — экстра-ускорение ×8{newline}При отпускании клавиши — возврат к нормальной скорости{newline}{newline}РЕКОМЕНДАЦИЯ: закройте игру, отключите или удалите сторонний BetterTime в Bannerlord Launcher, перезапустите." />
+    <string id="lh_bt_conflict_ok" text="Понял, я разберусь" />
+    <string id="lh_teef_unit" text="жубов" />
+    <string id="lh_tournament_cannot_leave" text="Бой ещё не закончен. Не убегай." />
+
+    <!-- ============ Энциклопедия Lore-Hardcore (встроенный гайд, горячая клавиша H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Враг казнён. Орочий отряд гордится. Боевой дух +10, репутация Чести восстановлена." />
+    <string id="lh_enc_title" text="Lore-Hardcore — Гайд в игре" />
+    <string id="lh_enc_pick_topic" text="Выберите тему для прочтения:" />
+    <string id="lh_enc_read" text="Открыть" />
+    <string id="lh_enc_back" text="К списку тем" />
+    <string id="lh_enc_close" text="Закрыть" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Зубная экономика" />
+    <string id="lh_enc_topic_teef_economy_body" text="Для игрока-орка или гоблина зубная экономика ВСЕГДА активна — никаких диалогов на старте, никакого переключения по ходу игры. Люди, гномы, вампиры по-прежнему за золото.{newline}{newline}Когда играешь за орка:{newline}- В орочьих поселениях платишь зубами вместо золота за всё (найм, апгрейды, торговлю).{newline}- Вне орочьих поселений (Империя, Бретония и пр.) по-прежнему платишь золотом.{newline}- Зубы добываются ТОЛЬКО в реальном бою: убийство T4+ юнитов, убийство лордов, победа в брал-арене, замковые поединки, ежедневная дань с орочьих уделов.{newline}- Орочьи отряды НЕ тянут золото из твоего клана — штраф морали за невыплату жалования отменён (зарплату ты им и не платишь).{newline}- Дневной доход зубов ограничен, чтобы ИИ-вожди орков не сметали карту." />
+
+    <string id="lh_enc_topic_career_path_title" text="Карьера: от Кизота до Босса" />
+    <string id="lh_enc_topic_career_path_body" text="Орочья карьера имеет два пути, выбираемые при создании персонажа: Путь Кизота (становится Боссом) или Путь Шамана.{newline}{newline}Требования открытия уровней снижены по сравнению с ванильным TOR:{newline}- Уровень 2 (Босс): навыки оружия 80/80/30, 30 битв, 5 турниров, 10 драк, 2000 зубов передать.{newline}- Уровень 3 (Босс): навыки 150/120/60, 70 битв, 15 турниров, 20 драк, 5 дуэлей с лордами, 5 захватов городов, 10000 зубов.{newline}- Уровень 2 (Шаман): помолиться у святилища, Магия 50, Вера 50, 3 заклинания, 2000 зубов, 5 разграбленных святилищ.{newline}- Уровень 3 (Шаман): Магия 120, Вера 100, 8 заклинаний, 10000 зубов, 5 захватов городов, 30 святилищ." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Орочья мораль и WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Боевой дух и баланс ИИ-орков переработаны.{newline}{newline}- Орочьи лорды получают +40% HP и +30% к боевым навыкам.{newline}- Множитель морали: x1.5 (орки агрессивнее людей).{newline}- Элитные орки (Чёрные орки, Босс, Берсерк, Бугай) — БЕССТРАШНЫЕ. Не паникуют от низкой морали и численного превосходства.{newline}- WAAAGH! срабатывает в массовой атаке — орки усиливают друг друга через бафф близости.{newline}{newline}Балансировка ИИ (чтобы орки не сметали карту):{newline}- Мягкий потолок размера партии ИИ-орочьего лорда: 80 войск.{newline}- В Армии маршала максимум 5 партий (лидер + 4 призванных) — орки атакуют мини-армиями 400-500 вместо 3000.{newline}- ИИ-оценка силы: орки x1.8, гоблины x0.8, тролли/Big'Uns/варбоссы x3.0 — имперский ИИ теперь правильно оценивает угрозу.{newline}- Massif Choppas снижен с 22 до 14 лордов; Crooked Eye и Red Eye до 17. Процветание столицы выровнено.{newline}{newline}Лимиты ИГРОКА не трогали — отряд игрока считается по ванильным формулам." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Замковый поединок" />
+    <string id="lh_enc_topic_castle_challenge_body" text="При посещении орочьего замка можно вызвать элитного орка на дуэль за ставку зубов.{newline}{newline}- Победа: элита присоединяется к твоему отряду как трофей-юнит, плюс +15 зубов.{newline}- Поражение: ставка сгорает, репутация в замке падает на время.{newline}{newline}Доступная элита зависит от замка: Здоровяк, Босс, Чёрный орк, Бугай, Берсерк. У каждого своя цена и сложность.{newline}{newline}Ставки растут с уровнем элиты — Здоровяк ~50 зубов, Чёрный орк ~150, Босс ~250.{newline}{newline}Сама дуэль — реальный бой 1-на-1 на сцене замка. Без хитростей и авто-резолва." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Орочьи осады и таран" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Орочьи осады в Lore-Hardcore работают иначе.{newline}{newline}- Орки НЕ строят требушеты. Лорно: контрвесовая машина с расчётом параболы для орка слишком сложна. Доступные машины: баллисты, онагеры, катапульты (включая огненные).{newline}- Таран усилен: бьёт в 5 раз сильнее, держится в 3,5 раза дольше. Ворота валятся за 5-10 ударов вместо ванильных 30+. Лорно: бревно с черепом «зуба-маши», обитое железом, толкают восемь крепкотушей.{newline}- Авто-резолв получает тот же бафф тарана — орочьи осады ощущаются правильно и в бою на сцене, и при пропуске." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Каннибализм пленных" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Орки НЕ разделывают пленных на месте. Мясо идёт ТОЛЬКО через каннибализм-голод в походе.{newline}{newline}После боя:{newline}- Авто-разделка в окне трофеев: 0 мяса (сколько бы пленных ни взял).{newline}- Кнопка «Chop» в Quartermaster: 0 мяса.{newline}- Мясо за убитых (TOR-формула): 0 при победе игрока.{newline}{newline}Единственный способ получить мясо с пленных — взять их в плен, остаться без еды, ждать. Каждый игровой час с пустой кладовой:{newline}1. ПЕРВЫЕ — пленные. Каждый = 1 мясо.{newline}2. ПОТОМ — гоблины. Каждый = 1 мясо.{newline}3. Лорды и компаньоны НИКОГДА не едятся (лорд = выкуп, компаньон = квестовая линия).{newline}{newline}Лорно: орки едят пленных живьём в дороге, не на разделочной колоде.{newline}{newline}ИИ-орки сохранили ванильную TOR-формулу мяса с боёв — иначе они бы умирали от голода." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Брал-арена орков" />
+    <string id="lh_enc_topic_brawl_arena_body" text="Брал — кулачный бой, уникальный для орочьих поселений.{newline}{newline}- 18 врагов за матч (вдвое больше ванильной арены).{newline}- Награда считается по личным убийствам, не только по выживанию.{newline}- Упавшие в out-of-bounds зоны враги авто-добиваются раз в секунду — арена не зависает.{newline}- Гоблины больше не спавнятся на крыше арены (старый TOR-баг исправлен).{newline}- Условие победы: быть последним стоящим ИЛИ команда с большим числом убийств если ты выжил.{newline}- В захваченных орками не-орочьих городах (бретонские/имперские таверны) спецэффекты атмосферы подавляются — иначе на старых видеокартах вылетают «cannot find entry point» при загрузке.{newline}{newline}Полезно для: прокачки Одноручного оружия, заработка зубов, выполнения задачи «выиграть драки» в орочьем карьерном квесте." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Казнь расовых врагов" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="Когда орк-игрок казнит пленного лорда из расы-врага, орочий отряд празднует — а не кается.{newline}{newline}Ванильный Bannerlord штрафует любую казнь -1000 XP Чести. Для орка убийство гнома, вампира, эльфа или имперского лорда — это подвиг, а не грех.{newline}{newline}Lore-Hardcore добавляет бафф:{newline}- Честь полностью компенсируется (+1000) — ванильный штраф отменяется.{newline}- Милосердие получает символический +1 XP (для статусного баланса).{newline}- Орочий отряд получает +10 морали мгновенно.{newline}- Зелёное сообщение подтверждает применение баффа.{newline}{newline}Применяется только если игрок орочьей культуры (aserai в TOR) и жертва — расовый враг: гном (sturgia), Вампирские графства (khuzait), Империя, Бретония (vlandia), Лесные эльфы (battania), Эонир, Мусильон, Кровавые Драконы, Хаос, Высшие эльфы, Тёмные эльфы.{newline}{newline}Казнь СВОИХ (других орков) сохраняет ванильный штраф — это позор для орочьего вождя." />
+    <string id="lh_settings_button" text="Настройки Lore-Hardcore" />
+
+    <!-- ========== Settings UI: chrome ========== -->
+    <string id="lh_set_title" text="Lore-Hardcore — Настройки" />
+    <string id="lh_set_mode_full" text="Главное меню — все параметры" />
+    <string id="lh_set_mode_live" text="Кампания — только то что меняется на лету" />
+    <string id="lh_set_races_header" text="РАСЫ" />
+    <string id="lh_set_race_orc" text="Орки" />
+    <string id="lh_set_race_empire" text="Империя" />
+    <string id="lh_set_race_dwarf" text="Гномы" />
+    <string id="lh_set_race_bretonnia" text="Бретония" />
+    <string id="lh_set_race_chaos" text="Хаос" />
+    <string id="lh_set_confirm_reset_race_title" text="Сброс расы" />
+    <string id="lh_set_confirm_reset_race_body" text="Сбросить все параметры выбранной расы к значениям по умолчанию?" />
+    <string id="lh_set_confirm_reset_all_title" text="Сброс ВСЕХ" />
+    <string id="lh_set_confirm_reset_all_body" text="Сбросить ВСЕ параметры всех рас к значениям по умолчанию? Это затронет всё." />
+    <string id="lh_set_confirm_yes" text="Сбросить" />
+    <string id="lh_set_confirm_yes_all" text="Сбросить всё" />
+    <string id="lh_set_confirm_no" text="Отмена" />
+    <string id="lh_set_race_phase02" text="Появится в фазе 0.2" />
+    <string id="lh_set_race_phaseFuture" text="Появится в будущей фазе" />
+    <string id="lh_set_tab_battle" text="Битва" />
+    <string id="lh_set_tab_army" text="Армии" />
+    <string id="lh_set_tab_ai" text="Найм ИИ" />
+    <string id="lh_set_tab_economy" text="Экономика" />
+    <string id="lh_set_tab_caves" text="Пещеры" />
+    <string id="lh_set_tab_system" text="Системы" />
+    <string id="lh_set_btn_reset_race" text="Сброс расы" />
+    <string id="lh_set_btn_reset_all" text="Сброс ВСЕХ" />
+    <string id="lh_set_btn_save" text="Сохранить" />
+    <string id="lh_set_btn_close" text="Закрыть" />
+    <string id="lh_set_cat_instant" text="применяется сразу" />
+    <string id="lh_set_cat_nexttick" text="применяется в течение секунды" />
+    <string id="lh_set_cat_worldstate" text="применяется к новым спавнам" />
+    <string id="lh_set_cat_restart" text="Bannerlord нужно перезапустить" />
+    <string id="lh_set_toggle_on" text="ВКЛ" />
+    <string id="lh_set_toggle_off" text="ВЫКЛ" />
+
+    <!-- ========== Battle ========== -->
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="HP орков (бой с игроком)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Множитель здоровья орков в живой битве где участвует игрок." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="HP орков (бой ИИ vs ИИ)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Множитель здоровья орков в наблюдаемом бою ИИ против ИИ (без игрока)." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="HP огров (бой ИИ vs ИИ)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="Множитель здоровья троллей, Big Un, Чёрных орков в наблюдаемом бою ИИ-vs-ИИ. Ниже обычных орков потому что в движке нет механики окружения — без этого нерфа 3 тролля убивают 50 человек." />
+    <string id="lh_set_GoblinHPMult_lbl" text="HP гоблинов" />
+    <string id="lh_set_GoblinHPMult_desc" text="Множитель здоровья всех гоблинов." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Урон орка-союзника" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Множитель урона орков на стороне игрока." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Урон орка-врага" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Множитель урона орков, которые сражаются против игрока." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Урон ПО орку-союзнику" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Множитель урона по орку на стороне игрока (меньше = живучее)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Урон ПО орку-врагу" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Множитель урона по орку-врагу (больше = легче убить)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Урон топора по дер. щиту" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Во сколько раз топор сильнее обычного оружия против деревянных щитов." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Урон огров по воротам" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Урон огров, Big Un и троллей по воротам в живой битве (топор по дереву)." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Длительность стана от пинка" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Во сколько раз дольше станит жертву пинок орка." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Длительность стана от удара щитом" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Во сколько раз дольше станит удар орочьего щита." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Боевые навыки орков" />
+    <string id="lh_set_OrcSkillMult_desc" text="Множитель боевых навыков орков (одноручное, двуручное, древковое)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Скорость бега троллей" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Навык атлетики у троллей (меньше = медленнее бегают)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Скорость бега гоблинов" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Навык атлетики у гоблинов (больше = шустрее бегают вне строя)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Множитель скорости гоблинов" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Множитель скорости пешего гоблина в формации." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! бонус морали" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Множитель прироста морали орочьей стороне за каждое убийство." />
+
+    <!-- ========== Army ========== -->
+    <string id="lh_set_AILordHardCap_lbl" text="Макс. размер отряда ИИ-лорда" />
+    <string id="lh_set_AILordHardCap_desc" text="Жёсткий лимит на размер отряда орочьего лорда. Срабатывает мгновенно при росте, существующие лишние юниты теряются естественно." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="Отрядов в WAAAGH!" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="Сколько отрядов могут собраться вокруг маршала. Армия = вождь + N. Потолок = (1+N) × лимит на лорда." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Сила элиты (оценка ИИ)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="Как ИИ оценивает силу элитных орков (тролли, Big Un). Влияет на решения «атаковать / убежать»." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Сила орков (оценка ИИ)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="Как ИИ оценивает силу обычных орков." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Сила гоблинов (оценка ИИ)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="Как ИИ оценивает силу гоблинов." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Сила элиты (в бою)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Реальная сила элитных орков в автобою." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Сила орков (в бою)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Реальная сила обычных орков в автобою." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Сила гоблинов (в бою)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Реальная сила гоблинов в автобою." />
+
+    <!-- ========== AI hiring ========== -->
+    <string id="lh_set_OrcCastleHireChance_lbl" text="Шанс ИИ купить элиту в замке" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Часовой шанс, что ИИ-лорд купит элитного орка находясь в замке." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Шанс виртуального найма" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Часовой шанс найма «как-будто-был-в-замке», когда лорд не в замке но клан владеет хотя бы одним." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="Резерв золота ИИ (замок)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Минимум золота, которое ИИ оставит у себя после покупки в замке." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="Шанс ИИ купить гоблинов" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Часовой шанс, что ИИ-лорд купит пару гоблинов в деревне." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Цена пары гоблинов" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="Сколько золота ИИ платит за пару гоблинов в деревне." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Гоблинов за покупку" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="Сколько гоблинов ИИ получает за одну сделку." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="Резерв золота ИИ (деревня)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="Минимум золота, которое ИИ оставит у себя после покупки гоблинов." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="Шанс ИИ взять тролля" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Шанс при визите в орочье поселение, что ИИ-лорд возьмёт тролля в отряд." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="Лимит троллей у ИИ" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Максимум троллей у одного ИИ-лорда." />
+
+    <!-- ========== Economy ========== -->
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Множитель цены повышения" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Применяется к ванильной формуле стоимости повышения юнита." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Мин. цена повышения орка" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Минимальная цена в золоте за повышение орочьего юнита." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Мин. цена повышения гоблина" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Минимальная цена в золоте за повышение гоблина." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="Скидка ИИ на элиту" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="ИИ платит за элитных орков × N (1.0 = полная цена, 0.6 = -40%)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Мясо за обычного пленного" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Сколько мяса даёт разделка обычного пленного человека." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Мясо за крупного пленного" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Мясо от крупных пленных: тролли, минотавры и т.п." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Множитель награды за драку" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Золото за победу в орочьей драке × N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Золото за святилище" />
+    <string id="lh_set_ShrineLootGold_desc" text="Сколько золота даёт грабёж святилища." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Мин. уровень для сбора зубов" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Только орки с уровнем ≥ N могут давать ежедневный доход зубами через «выколачивание»." />
+
+    <!-- ========== Caves ========== -->
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Перезарядка логова (дней)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Сколько дней очищенное логово не возвращается к активности." />
+    <string id="lh_set_MaxHideouts_lbl" text="Макс. логов на фракцию" />
+    <string id="lh_set_MaxHideouts_desc" text="Максимум одновременно активных логов на каждую разбойничью фракцию." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Макс. рейдов из пещеры" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Сколько рейдовых отрядов могут одновременно ходить из одной пещеры троллей." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Дневной шанс появления" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Шанс, что в данный день из пещеры выйдет новый рейдовый отряд." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Размер защитников пещеры" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="Сколько троллей встречают игрока на входе в пещеру." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Макс. троллей в рейде" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Лимит на размер одного рейдового отряда." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Бойцов в зачистку пещеры" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="Сколько бойцов можно взять в зачистку пещеры (ваниль 20). 7 троллей рвут 20 человек по одиночке — 40 даёт массовость." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Разрешить приманку троллей" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="Если включено — в меню пещеры появляется опция «Приманить (10 мяса)». По умолчанию выключено: тролль 6-го уровня за 10 мяса — это эксплойт." />
+
+    <!-- ========== System toggles ========== -->
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Усиление HP орков" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Полностью отключить множители здоровья орков." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Урон орков по сторонам" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="ВКЛ: орк-союзник бьёт +20% урона, орк-враг бьёт -30%. ВЫКЛ: все орки бьют одинаково (ваниль)." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="Экономика зубов" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Найм орков за зубы вместо золота." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Лимиты орочьих армий" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Жёсткие лимиты на размер отрядов и армий." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Нерф пещер троллей" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Снижение частоты появления и размера рейдов." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Перезарядка логов" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="Очищенные логова не возвращаются 60 дней." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Нерф награды за драку" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Срез золота за победу в орочьей драке." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Нерф награды святилищ" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="За грабёж святилища только золото, без мяса и зубов." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Нерф орочьих квестов карьеры" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Снижает требования карьерных квестов босса/шамана орков (тренировки оружием, бои, турниры, заработок зубов). Иначе квесты рассчитаны на ванильную TOR экономику и невыполнимы." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Орки не строят требушеты" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Орки не могут строить сложные осадные машины (требушеты). Остаются только баллисты и тараны — лорно «орки не разбираются в инженерии»." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="Топор ломает щит" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Бонус урона топора по деревянным щитам." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Гоблины быстрее" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% к скорости гоблинов." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Длинный стан пинка" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Пинок орка станит дольше обычного." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Найм Хаоса" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Вассалы Хаоса могут нанимать войска Хаоса." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Случайное место в драке" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Игрок появляется в случайной точке арены, а не в фиксированном месте." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Иконка зубов" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Меню найма показывает иконку зубов вместо золота." />
+    <string id="lh_orc_appetite" text="Орочий аппетит" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Не сёдни, гобла." />
+    <string id="lh_goblin_changer_cooldown" text="Эх, нащальник, я ж тибе вчирась всё отдал! Через {DAYS} денька приходи, нада ищё падкапить." />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Маловата блистяк у миня щас." />
+    <string id="lh_goblin_changer_intro" text="Ы, нащальник! У миня тута зубков атсыпать магу за блистяки. Будишь миняцца, а?" />
+    <string id="lh_goblin_changer_after_no_gold" text="Хур-хур! Нет блистяк — нет зубков. Пащипай-ка людишек спирва, э?" />
+    <string id="lh_goblin_changer_hub_trade" text="Миняй: 1000 блистяк за {AMOUNT} зубков." />
+    <string id="lh_goblin_changer_after_trade" text="*Гоблин отсчитывает {NOMINAL} зубов, парочку незаметно прячет в свой карман сбоку.* Преятна с табой делишки, БОЛЬШОЙ нащальник!" />
+    <string id="lh_goblin_changer_town_ok" text="Уйти" />
+    <string id="lh_goblin_changer_town_title" text="Гоблин-меняла" />
+    <string id="lh_goblin_changer_town_outcome" text="*Гоблин отсчитывает {NOMINAL} зубов на столе таверны, затем быстро прячет {HIDDEN} монеты в карман на поясе и пододвигает остальное к вам.* Преятна с табой делишки, БОЛЬШОЙ нащальник!" />
+    <string id="lh_goblin_changer_town_intro" text="*Хитрый гоблин за угловым столом машет вам рукой, перебирая горку мелких монет. Шепчет:* Ы, нащальник! Зубков отсыпать магу за блистяки. 1000 блистяк — насчитаю {NOMINAL}. Спрячу ли {HIDDEN} себе в карман сбоку? Можит быть... Будишь миняцца или как?" />
+    <string id="lh_goblin_changer_town_cancel" text="Не сейчас" />
+    <string id="lh_goblin_changer_town_option" text="Договориться с гоблином-менялой в таверне" />
+    <string id="lh_goblin_changer_town_no_gold" text="*Гоблин в углу принюхивается к вашему кошельку и фыркает.* Ха-ха! Нет блистяк — нет зубков. Пащипай-ка людишек спирва, э?" />
+    <string id="lh_goblin_changer_town_trade" text="Меняй" />
+    <string id="lh_goblin_changer_town_cooldown" text="*Гоблин в углу таверны подозрительно косится на вас и отворачивается.* Эх, нащальник, я ж тибе пару дней назад уже отсыпал! Через {DAYS} денька загляни, понял?" />
+    <string id="lh_goblin_changer_intro_town" text="Здарова, БОЛЬШОЙ нащальник! Братва тут глядит как я миняю — чесна, бэз падвоха. Будишь блистяки на зубки миняцца?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*Гоблин отсчитывает ровно {AMOUNT} зубов прямо в ладонь — честно, под взглядами братвы.* Ищё чаво-нибудь, БОЛЬШОЙ нащальник?" />
+    <string id="lh_goblin_changer_village_trade" text="Миняй: 1000 блистяк за {AMOUNT} зубков." />
+    <string id="lh_goblin_changer_intro_village" text="Ы, нащальник! У миня тута зубков атсыпать магу за блистяки. Будишь миняцца, а?" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="Ну что, поменяемся?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Звини нащальник, зубков на сёдня усе вышли. Заходь завтра, я с братвы ищё накапаю, э?" />
+  </strings>
+</base>

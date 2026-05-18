@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Niente cibo — la compagnia ha mangiato un goblin ({GOBLIN}). Goblin rimasti: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Niente cibo — gli orchi hanno mangiato un prigioniero ({PRISONER}). Prigionieri rimasti: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Hai personalmente abbattuto nella rissa: {KILLS} su {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (i tuoi alleati ne hanno finiti altri {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Ricevi in più 1 orco e 1 goblin come bonus per aver cacciato tipi diversi." />
+    <string id="lh_brawl_diversity_orc" text="Ricevi in più 1 orco come bonus per aver cacciato tipi diversi." />
+    <string id="lh_brawl_diversity_goblin" text="Ricevi in più 1 goblin come bonus per aver cacciato tipi diversi." />
+    <string id="lh_brawl_victory_reward_no_gold" text="Hai guadagnato {RENOWN_REWARD} fama e {TEEF_REWARD}{CR_ICON} Denti." />
+    <string id="lh_shrine_loot_result_only_gold" text="Hai saccheggiato il santuario con successo ottenendo {TOTAL_GOLD} oro." />
+    <string id="lh_orc_castle_recruit" text="Recluta élite orca" />
+    <string id="lh_orc_castle_recruit_intro" text="I capi del clan hanno fatto uscire orchi giganteschi — ti fissano feroci, aspettando il tuo oro. Hai {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Élite orca della fortezza" />
+    <string id="lh_castle_recruit_leave" text="Indietro" />
+    <string id="lh_castle_elite_cap" text="Già {LH_ELITE_COUNT} bruti per {LH_REGULARS_COUNT} ragazzi orchi. Limite — 1 bruto ogni {LH_RATIO} ragazzi. Recluta prima più ragazzi nei villaggi e nelle città." />
+    <string id="lh_castle_no_gold" text="Oro insufficiente" />
+    <string id="lh_castle_party_full" text="Compagnia piena" />
+    <string id="lh_village_hire_goblins" text="Recluta goblin (100{GOLD_ICON} per 2)" />
+    <string id="lh_village_no_gold" text="Servono almeno 100 monete d'oro" />
+    <string id="lh_village_no_orcs" text="I goblin servono gli orchi — senza orchi nella tua compagnia non ti seguiranno" />
+    <string id="lh_village_goblin_cap" text="Hai {LH_GOBLIN_COUNT} goblin per {LH_ORC_COUNT} orchi. Limite — 4 goblin per orco. Recluta prima più orchi." />
+    <string id="lh_castle_recruit_msg" text="Reclutato: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Reclutato: {TROOP} (+{COUNT} goblin servitori)" />
+    <string id="lh_village_goblin_hired" text="Reclutato: {COUNT} goblin (per {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin servitori per {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblin (voleva {DESIRED}, raggiunto limite 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Capo Arcere" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Grosso Orco" />
+    <string id="lh_troop_tor_gs_black_orc" text="Orco Nero" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Grosso Cavalcacinghiali" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Capo Orco" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Bruto Orco Nero" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Capo Orco Nero" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Berserker Orco Nero" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Orco" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Orco Giovane" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Orco Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Orco Arciere" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Orco Cavaliere di Cinghiale" />
+    <string id="lh_teef_cart_trimmed" text="Non abbastanza denti — {COUNT} orchi in meno reclutati (speso {SPENT}, aveva {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Sfidare un'élite orchesca a duello singolo" />
+    <string id="lh_castle_challenge_intro" text="Nella sala del signore si radunano i bruti orcheschi. Scegli la tua vittima." />
+    <string id="lh_castle_challenge_title" text="Duello con l'élite orchesca" />
+    <string id="lh_castle_challenge_back" text="Indietro" />
+    <string id="lh_castle_challenge_disabled_culture" text="Solo gli orchi possono sfidare gli orchi." />
+    <string id="lh_castle_challenge_disabled_siege" text="Non durante un assedio." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Questo combattente si sta ancora riprendendo. Aspetta altri {DAYS} giorni." />
+    <string id="lh_castle_challenge_no_troop" text="Questa unità non è caricata da TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="L'orco {TROOP} giace morto ai tuoi piedi. +{TEEF} denti{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="L'orco {TROOP} era più forte. Perdi la tua scommessa e te ne vai nella vergogna." />
+    <string id="lh_castle_challenge_victory_accept" text="Strappa i denti dal cadavere" />
+    <string id="lh_castle_challenge_defeat_accept" text="Andarsene nella vergogna" />
+    <string id="lh_castle_challenge_option_verb" text="Sfida a duello: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Duello] Unità '{TROOP_ID}' non caricata." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Duello] Nessuna scena adatta in questo castello (lordshall mancante)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Duello] Non hai abbastanza denti per la posta." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Duello] Non hai abbastanza oro per la posta." />
+    <string id="lh_castle_challenge_err_generic" text="[Duello] Errore: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", e uno dei suoi simili si unisce alla tua banda" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: scelta dell'economia" />
+    <string id="lh_settings_economy_desc" text="Questa scelta è fissata nel salvataggio. Per cambiarla, inizia una nuova partita." />
+    <string id="lh_settings_economy_teef_title" text="Economia dei denti orcheschi (canone Warhammer)" />
+    <string id="lh_settings_economy_teef_hint" text="Acquista l'élite orchesca nei castelli con denti (valuta orchesca) guadagnati in battaglia. I goblin usano ancora oro. +5 denti al giorno per ogni città/castello orchesco posseduto. Fedele al lore di Warhammer Fantasy — gli orchi non rispettano l'oro." />
+    <string id="lh_settings_economy_classic_title" text="Classica (tutto per oro)" />
+    <string id="lh_settings_economy_classic_hint" text="Orchi e goblin sono reclutati con oro come nel TOR vanilla. Niente economia dei denti, niente entrate giornaliere dai feudi. Semplice e familiare." />
+    <string id="lh_settings_economy_confirm" text="Conferma" />
+    <string id="lh_castle_no_teef" text="Denti insufficienti: servono {LH_TEEF_NEEDED}, hai {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Solo per eroi orcheschi. Gli orchi non rispettano gli estranei." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} denti dalle tue città e castelli orcheschi ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} denti strappati a {COUNT} nemici esperti (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} denti per aver ucciso il signore {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Servono {FEE} denti per la sfida (hai {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Servono {FEE} d'oro per la sfida (hai {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} denti per {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Denti insufficienti per {TROOP} (serve {NEED}, ha {HAVE})." />
+    <string id="lh_bt_conflict_title" text="Conflitto mod: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Il mod terzo BetterTime è caricato insieme a Lore-Hardcore. Questo mod NON è compatibile con The Old Realms.{newline}{newline}Lore-Hardcore INCLUDE GIÀ la funzionalità BetterTime:{newline}D3 / Numpad3 — avanti veloce ×4{newline}D4 / Numpad4 — ultra veloce ×8{newline}Rilascia il tasto — torna alla velocità normale{newline}{newline}RACCOMANDAZIONE: chiudi il gioco, disattiva BetterTime terzo nel Launcher, riavvia." />
+    <string id="lh_bt_conflict_ok" text="Capito, sistemerò" />
+    <string id="lh_teef_unit" text="denti" />
+    <string id="lh_tournament_cannot_leave" text="La lotta non è finita. Niente fuga." />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Enemy executed. The orc party takes pride. Morale +10, Honor reputation restored." />
+    <string id="lh_enc_title" text="Lore-Hardcore — Guida in gioco" />
+    <string id="lh_enc_pick_topic" text="Scegli un argomento da leggere:" />
+    <string id="lh_enc_read" text="Leggi" />
+    <string id="lh_enc_back" text="Torna ai temi" />
+    <string id="lh_enc_close" text="Chiudi" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Economia dei Denti" />
+    <string id="lh_enc_topic_teef_economy_body" text="Per i giocatori orco e goblin l'Economia dei Denti è SEMPRE attiva — nessun cambio in partita, nessun dialogo all'inizio. Umani, nani, vampiri continuano con l'oro come prima.{newline}{newline}Quando giochi come orco:{newline}- Negli insediamenti orcheschi paghi denti invece di oro per tutto.{newline}- Fuori dagli insediamenti orcheschi (Impero, Bretonnia, ecc.) paghi ancora in oro.{newline}- I denti si ottengono SOLO in combattimento reale: uccisioni di truppe T4+, uccisioni di lord, vittorie nelle risse, sfide al castello, tributo giornaliero dai feudi orcheschi.{newline}- Le truppe orcheschi non drenano oro dal tuo clan — la penalità di morale per stipendio non pagato è soppressa per le truppe orcheschi (tanto non le paghi).{newline}- Il reddito giornaliero di denti è limitato per evitare che i lord orcheschi IA conquistino la mappa." />
+
+    <string id="lh_enc_topic_career_path_title" text="Carriera: dal Bully al Boss" />
+    <string id="lh_enc_topic_career_path_body" text="La carriera orcheschi ha due percorsi scelti durante la creazione del personaggio: Via del Bully (diventa Boss) o Via dello Sciamano.{newline}{newline}Requisiti ridotti rispetto al TOR vanilla per Lore-Hardcore:{newline}- Livello 2 (Boss): abilità d'arma 80/80/30, 30 battaglie, 5 tornei, 10 risse, 2000 denti.{newline}- Livello 3 (Boss): abilità d'arma 150/120/60, 70 battaglie, 15 tornei, 20 risse, 5 duelli di lord, 5 città catturate, 10000 denti.{newline}- Livello 2 (Sciamano): pregare a un santuario, Stregoneria 50, Fede 50, 3 incantesimi, 2000 denti, 5 santuari saccheggiati.{newline}- Livello 3 (Sciamano): Stregoneria 120, Fede 100, 8 incantesimi, 10000 denti, 5 città, 30 santuari." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Morale degli orchi e WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Morale orcheschi e scaling IA sono stati ribilanciati.{newline}{newline}- I lord orcheschi hanno +40% HP e +30% alle abilità di combattimento di base.{newline}- Moltiplicatore morale: x1.5 (orchi più aggressivi degli umani).{newline}- Orchi élite (Orco Nero, Boss, Berzerka, Bigun) sono SENZA PAURA — non vanno mai nel panico per morale basso o inferiorità numerica.{newline}- Il bonus di prossimità WAAAGH! si accumula in attacchi di massa orcheschi.{newline}{newline}Bilanciamento IA (per evitare lo snowball orcheschi):{newline}- Limite morbido sulla dimensione truppa di un lord orcheschi IA: 80 truppe.{newline}- L'Esercito del maresciallo contiene massimo 5 truppe (capo + 4 chiamate) — gli orchi attaccano in mini-eserciti di 400-500 invece di 3000.{newline}- Stima della forza IA: orchi x1.8, goblin x0.8, troll/Big'Uns/warboss x3.0 — l'IA imperiale ora valuta correttamente la minaccia orcheschi.{newline}- Massif Choppas ridotto da 22 a 14 lord; Crooked Eye e Red Eye a 17. Prosperità della capitale ribilanciata.{newline}{newline}La truppa del giocatore usa i limiti vanilla normali." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Duello al castello" />
+    <string id="lh_enc_topic_castle_challenge_body" text="Visitando un castello orcheschi, puoi sfidare un orco d'élite a duello per una posta in denti.{newline}{newline}- Vittoria: l'élite si unisce alla tua truppa come unità trofeo, più +15 denti.{newline}- Sconfitta: la tua posta è persa, la reputazione al castello cala temporaneamente.{newline}{newline}Élite disponibili per castello: Bigun, Boss, Orco Nero, Brute, Berzerka. Ognuno con prezzo e difficoltà.{newline}{newline}Le poste scalano con il rango élite — Bigun ~50 denti, Orco Nero ~150 denti, Boss ~250 denti.{newline}{newline}Il duello stesso è un vero combattimento 1v1 in una scena di castello. Niente trucchi, niente auto-risolvi." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Assedi orcheschi e l'ariete" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Gli assedi orcheschi funzionano diversamente in Lore-Hardcore.{newline}{newline}- Gli orchi NON possono costruire trabucchi. Lore: una macchina a contrappeso con matematica di traiettoria parabolica è troppo ingegnerizzata per un orco. Macchine d'assedio disponibili: baliste, onagri, catapulte (incluse varianti infuocate).{newline}- Ariete potenziato: colpisce 5x più forte, dura 3.5x più a lungo. Le porte cadono in 5-10 colpi invece dei 30+ vanilla. Lore: un tronco con teschio masticatore di denti, rinforzato di ferro, spinto da otto orchi muscolosi.{newline}- L'auto-risolvi riceve lo stesso bonus ariete così gli assedi orcheschi sembrano giusti sia in scena che in skip." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Cannibalismo dei prigionieri" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Gli orchi NON squartano i prigionieri sul posto. La carne arriva SOLO dal cannibalismo di fame in marcia.{newline}{newline}Dopo una battaglia:{newline}- Auto-squartamento nella schermata bottino: 0 carne (indipendentemente dai prigionieri).{newline}- Pulsante 'Squartare' nel Quartiermastro: 0 carne.{newline}- Carne dalle uccisioni (formula auto TOR): 0 per le vittorie del giocatore.{newline}{newline}Unico modo per avere carne dai prigionieri — prenderli, finire il cibo, aspettare. Ogni ora di gioco con dispensa vuota:{newline}1. PRIGIONIERI per primi. Ognuno = 1 carne.{newline}2. Poi GOBLIN. Ognuno = 1 carne.{newline}3. Lord e compagni NON vengono MAI mangiati (lord = riscatto, compagno = quest line).{newline}{newline}Lore: gli orchi mangiano i prigionieri vivi sulla strada, non al ceppo del macellaio.{newline}{newline}Le truppe orcheschi IA mantengono la formula vanilla TOR carne-da-battaglia per non morire di fame." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Arena di rissa pellverde" />
+    <string id="lh_enc_topic_brawl_arena_body" text="La Rissa Pellverde è un'arena a pugni unica per gli insediamenti orcheschi.{newline}{newline}- 18 nemici per match (molto più grande dell'arena vanilla).{newline}- Ricompensa calcolata sui tuoi kill personali, non solo sopravvivenza.{newline}- Nemici fuggiti che cadono nelle zone fuori-area sono auto-uccisi una volta al secondo per evitare il freeze del match.{newline}- I goblin non spawnano più sul tetto dell'arena (vecchio bug di posizionamento TOR).{newline}- Condizione di vittoria: essere l'ultimo in piedi O la squadra con più kill se sopravvivi.{newline}- Nelle città non-orcheschi conquistate (taverne bretonnesi, imperiali) gli shader di atmosfera della rissa sono soppressi per evitare errori 'cannot find entry point' su GPU vecchie.{newline}{newline}Buono per: allenare l'abilità Una-Mano, guadagnare denti, completare l'obiettivo rissa della quest carriera orcheschi." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Esecuzione dei nemici razziali" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="Quando un giocatore orco esegue un lord nemico razziale catturato, la truppa orcheschi celebra — non si lamenta.{newline}{newline}Bannerlord vanilla penalizza ogni esecuzione con -1000 XP Onore. Per un orco, uccidere un Nano, Vampiro, Elfo o lord Imperiale è un'impresa, non un peccato.{newline}{newline}Lore-Hardcore aggiunge un bonus:{newline}- XP Onore completamente compensato (+1000), la penalità vanilla è annullata.{newline}- Il tratto Misericordia riceve +1 XP simbolico (equilibrio di status).{newline}- La truppa orcheschi guadagna immediatamente +10 morale.{newline}- Un messaggio verde conferma il bonus applicato.{newline}{newline}Si applica solo quando il giocatore è di cultura orca (aserai in TOR) e la vittima è un nemico razziale: Nano (sturgia), Conti Vampiri (khuzait), Impero, Bretonnia (vlandia), Elfi dei Boschi (battania), Eonir, Mousillon, Draghi di Sangue, Chaos, Alti Elfi, Elfi Oscuri.{newline}{newline}Eseguire la PROPRIA razza (altri orchi) mantiene la penalità vanilla — è una vergogna per un signore della guerra orcheschi." />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_settings_button" text="Impostazioni Lore-Hardcore" />
+    <string id="lh_set_title" text="Lore-Hardcore — Impostazioni" />
+    <string id="lh_set_mode_full" text="Menu principale — tutti i parametri" />
+    <string id="lh_set_mode_live" text="Campagna — solo live" />
+    <string id="lh_set_races_header" text="RAZZE" />
+    <string id="lh_set_race_orc" text="Orchi" />
+    <string id="lh_set_race_empire" text="Impero" />
+    <string id="lh_set_race_dwarf" text="Nani" />
+    <string id="lh_set_race_bretonnia" text="Bretonnia" />
+    <string id="lh_set_race_chaos" text="Caos" />
+    <string id="lh_set_confirm_reset_race_title" text="Ripristina razza" />
+    <string id="lh_set_confirm_reset_race_body" text="Ripristinare tutti i parametri della razza selezionata ai valori predefiniti?" />
+    <string id="lh_set_confirm_reset_all_title" text="Ripristina TUTTO" />
+    <string id="lh_set_confirm_reset_all_body" text="Ripristinare TUTTI i parametri di tutte le razze ai valori predefiniti? Questo influisce su tutto." />
+    <string id="lh_set_confirm_yes" text="Ripristina" />
+    <string id="lh_set_confirm_yes_all" text="Ripristina tutto" />
+    <string id="lh_set_confirm_no" text="Annulla" />
+    <string id="lh_set_race_phase02" text="In arrivo nella fase 0.2" />
+    <string id="lh_set_race_phaseFuture" text="In arrivo in una fase futura" />
+    <string id="lh_set_tab_battle" text="Battaglia" />
+    <string id="lh_set_tab_army" text="Armate" />
+    <string id="lh_set_tab_ai" text="Reclutamento AI" />
+    <string id="lh_set_tab_economy" text="Economia" />
+    <string id="lh_set_tab_caves" text="Grotte" />
+    <string id="lh_set_tab_system" text="Sistemi" />
+    <string id="lh_set_btn_reset_race" text="Reimposta razza" />
+    <string id="lh_set_btn_reset_all" text="Reimposta TUTTO" />
+    <string id="lh_set_btn_save" text="Salva" />
+    <string id="lh_set_btn_close" text="Chiudi" />
+    <string id="lh_set_cat_instant" text="si applica immediatamente" />
+    <string id="lh_set_cat_nexttick" text="si applica entro un secondo" />
+    <string id="lh_set_cat_worldstate" text="si applica ai nuovi spawn" />
+    <string id="lh_set_cat_restart" text="richiede il riavvio del gioco" />
+    <string id="lh_set_toggle_on" text="ON" />
+    <string id="lh_set_toggle_off" text="OFF" />
+
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="HP orchi (con giocatore)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Moltiplicatore HP per orchi in battaglia live dove PlayerTeam è presente." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="HP orchi (AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Moltiplicatore HP per orchi in battaglie AI vs AI senza il giocatore." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="HP ogro (AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="Moltiplicatore HP per troll / Big Uns / Black Orcs in battaglie AI vs AI. Più basso rispetto agli orchi normali perché il motore non ha una meccanica di accerchiamento — senza questo nerf, 3 troll possono uccidere 50 umani." />
+    <string id="lh_set_GoblinHPMult_lbl" text="HP goblin" />
+    <string id="lh_set_GoblinHPMult_desc" text="Moltiplicatore HP per tutti i goblin." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Danno inflitto da orchi alleati" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Moltiplicatore di danno per orchi dalla parte del giocatore." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Danno inflitto da orchi nemici" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Moltiplicatore di danno per orchi che combattono contro il giocatore." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Danno ricevuto da orchi alleati" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Moltiplicatore di danno quando un orco dalla tua parte viene colpito (più basso = più resistente)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Danno ricevuto da orchi nemici" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Moltiplicatore di danno quando un orco nemico viene colpito (più alto = più facile da uccidere)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Ascia contro scudo di legno" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Moltiplicatore di danno per asce che colpiscono scudi di legno." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Danno degli Ogre ai cancelli" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Danno di Ogre / Big Un / Troll ai cancelli in battaglia live." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Durata stordimento calcio orco" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Durata dello stordimento applicato dai calci degli orchi." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Stordimento scudata orco" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Durata dello stordimento dalle scudate degli orchi." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Abilità di combattimento orchi" />
+    <string id="lh_set_OrcSkillMult_desc" text="Moltiplicatore per le abilità di combattimento degli orchi (una-mano, due-mani, asta)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Atletica troll" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Abilità di atletica dei troll (più basso = più lenti)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Atletica goblin" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Abilità di atletica dei goblin (più alto = più veloci)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Velocità goblin" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Moltiplicatore di velocità per goblin a piedi." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="Bonus morale WAAAGH!" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Moltiplicatore di guadagno morale per la parte orchi per uccisione." />
+
+    <string id="lh_set_AILordHardCap_lbl" text="Limite compagnia lord AI" />
+    <string id="lh_set_AILordHardCap_desc" text="Limite massimo della compagnia di un lord orco AI. Si applica alla crescita immediatamente, le compagnie esistenti oversize si riducono gradualmente." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="Compagnie per WAAAGH!" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="Quante compagnie possono unirsi a un maresciallo. Armata = leader + N. Tetto = (1+N) x limite per lord." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Potenza élite (stima AI)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="Come l'AI stima la forza degli orchi élite. Influenza le decisioni di combattere/fuggire." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Potenza orchi (stima AI)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="Stima AI della forza degli orchi regolari." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Potenza goblin (stima AI)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="Stima AI della forza dei goblin." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Potenza élite (combattimento)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Potenza reale di combattimento degli orchi élite in auto-resolve." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Potenza orchi (combattimento)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Potenza reale di combattimento degli orchi regolari." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Potenza goblin (combattimento)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Potenza reale di combattimento dei goblin." />
+
+    <string id="lh_set_OrcCastleHireChance_lbl" text="Probabilità reclutamento castello AI" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Probabilità oraria per un lord AI di comprare un orco élite in un castello." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Probabilità reclutamento virtuale" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Probabilità oraria come-se-visitato di reclutamento quando il lord non è fisicamente in un castello ma il clan ne possiede uno." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="Riserva oro AI (castello)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Oro minimo che un AI mantiene dopo un acquisto in castello." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="Probabilità reclutamento goblin AI" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Probabilità oraria per un lord AI di comprare una coppia di goblin in un villaggio." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Prezzo coppia di goblin" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="Quanto un AI paga per una coppia di goblin in un villaggio." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Goblin per reclutamento" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="Quanti goblin l'AI riceve per acquisto in villaggio." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="Riserva oro AI (villaggio)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="Oro minimo che un AI mantiene dopo un acquisto in villaggio." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="Probabilità reclutamento troll AI" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Probabilità per visita che un lord AI prenda un troll in un insediamento orcheschi." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="Limite troll AI per compagnia" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Numero massimo di troll che un lord AI può tenere." />
+
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Moltiplicatore costo di promozione" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Moltiplicatore applicato alla formula vanilla del costo di promozione." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Costo minimo promozione orchi" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Costo minimo in oro per la promozione delle unità orchi." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Costo minimo promozione goblin" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Costo minimo in oro per la promozione dei goblin." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="Sconto élite AI" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="L'AI paga il costo dell'orco élite x N (1.0 = prezzo pieno)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Carne per prigioniero normale" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Resa di carne dal tagliare un prigioniero normale." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Carne per prigioniero grande" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Resa di carne dal tagliare un prigioniero grande (troll, minotauro)." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Moltiplicatore oro brawl" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Ricompensa in oro per vincere un brawl x N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Oro saccheggio santuario" />
+    <string id="lh_set_ShrineLootGold_desc" text="Ricompensa in oro per saccheggiare un santuario." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Tier minimo per Estorsione" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Solo orchi di Tier >= N generano denti tramite Estorsione." />
+
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Cooldown rifugio (giorni)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Giorni prima che un rifugio sgomberato possa riattivarsi." />
+    <string id="lh_set_MaxHideouts_lbl" text="Max rifugi per fazione" />
+    <string id="lh_set_MaxHideouts_desc" text="Massimo numero di rifugi attivi simultaneamente." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Max compagnie razzia troll" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Quante compagnie di razzia possono essere vive da una singola grotta in una volta." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Probabilità spawn giornaliero" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Probabilità al giorno che una grotta generi una nuova compagnia di razzia." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Dimensione difensori grotta" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="Quanti troll accolgono il giocatore all'ingresso della grotta." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Max troll per compagnia razzia" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Limite sulla dimensione di una singola compagnia di razzia." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Truppe nella battaglia in grotta" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="Quante truppe puoi portare nella pulizia della grotta (vanilla 20). 7 troll possono schiacciare 20 umani anche uno-contro-uno — 40 dà una chance numerica." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Adescamento troll permesso" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="Se attivato — aggiunge l'opzione 'Adescare troll (10 carne)' al menu della grotta. Disattivato per default (bilanciamento: troll T6 per 10 carne è sfruttabile)." />
+
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Bonus HP orchi" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Disabilita completamente i moltiplicatori HP degli orchi." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Danno team-aware" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="Il danno dipende dalla parte del giocatore." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Reclutare orchi per denti invece di oro." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Limiti armata orchi" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Limiti sulla dimensione di compagnie e armate." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Nerf grotta dei troll" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Tassi di spawn dei troll e dimensioni delle razzie ridotti." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Cooldown rifugio" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="I rifugi sgomberati restano chiusi per 60 giorni." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Nerf ricompensa brawl" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Riduce la ricompensa in oro per i brawl." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Nerf saccheggio santuario" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="Solo oro dai santuari — niente carne o denti." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Nerf quest carriera" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Riduce i requisiti delle quest carriera orchi." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orchi senza trabucchi" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Gli orchi non costruiscono macchine d'assedio complesse." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="L'ascia rompe gli scudi" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Le asce infliggono danno bonus agli scudi di legno." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Goblin più veloci" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% velocità per i goblin." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Lungo stordimento da calcio" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="I calci degli orchi stordiscono più a lungo." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Reclutamento Chaos" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="I vassalli del Chaos possono reclutare truppe del Chaos." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Spawn brawl casuale" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Il giocatore appare in un punto casuale dell'arena." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Icona denti" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Il menu di reclutamento mostra l'icona dei denti invece dell'oro." />
+
+    <string id="lh_orc_appetite" text="Appetito pelle verde" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Magari dopo, gobo." />
+    <string id="lh_goblin_changer_cooldown" text="Eh capone, t'ho già dato ieri pe'! Torna fra {DAYS} giorni, devo scavà ancora, eh." />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Non c'ho tanti luccichi adesso." />
+    <string id="lh_goblin_changer_intro" text="Oi CAPONE! Ho dentini pe' i tuoi luccichi, scambiamo, eh? Hehe!" />
+    <string id="lh_goblin_changer_after_no_gold" text="Eheh! Niente luccichi, niente dentini. Vai a pizzicà degli umani prima, ehi?" />
+    <string id="lh_goblin_changer_hub_trade" text="Scambia: 1000 luccichi pe' {AMOUNT} dentini." />
+    <string id="lh_goblin_changer_after_trade" text="*Il goblin conta {NOMINAL} denti, infila {HIDDEN} monete nella sua tasca laterale di nascosto.* Affari son affari, CAPONE!" />
+    <string id="lh_goblin_changer_town_ok" text="Andarsene" />
+    <string id="lh_goblin_changer_town_title" text="Goblin cambiavalute" />
+    <string id="lh_goblin_changer_town_outcome" text="*Il goblin conta {NOMINAL} denti sul tavolo della taverna, infila rapidamente {HIDDEN} monete nella sua tasca alla cintura e spinge il resto verso di te.* Affari son affari, CAPONE!" />
+    <string id="lh_goblin_changer_town_intro" text="*Un goblin furbo al tavolo d'angolo ti fa cenno, palpeggiando un mucchio di monetine. Sussurra:* Oi CAPONE! Ho dentini pe' i tuoi luccichi. 1000 luccichi — ne conto {NOMINAL}. Ne infilerò {HIDDEN} nel mio taschino? Forse... Scambiamo o no?" />
+    <string id="lh_goblin_changer_town_cancel" text="Forse dopo" />
+    <string id="lh_goblin_changer_town_option" text="Parla col goblin cambiavalute nella taverna" />
+    <string id="lh_goblin_changer_town_no_gold" text="*Un goblin nell'angolo annusa la tua borsa e sbuffa.* Eheh! Niente luccichi, niente dentini. Vai a pizzicà degli umani prima, ehi?" />
+    <string id="lh_goblin_changer_town_trade" text="Scambia" />
+    <string id="lh_goblin_changer_town_cooldown" text="*Un goblin nell'angolo della taverna ti guarda con sospetto e si gira dall'altra parte.* Eh capone, t'ho già dato qualche giorno fa! Torna fra {DAYS} giorni, intesi?" />
+    <string id="lh_goblin_changer_intro_town" text="Salutoz, CAPONE! I boyz mi guardano trattà onesto qui — niente trucchi. Cambi i tuoi luccichi pe' denti?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*Il goblin conta esattamente {AMOUNT} denti nella tua mano — pulito e onesto, i boyz guardano.* Altro, CAPONE?" />
+    <string id="lh_goblin_changer_village_trade" text="Scambia: 1000 luccichi pe' {AMOUNT} dentini." />
+    <string id="lh_goblin_changer_intro_village" text="Oi CAPONE! Ho dentini pe' i tuoi luccichi, scambiamo, eh? Hehe!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="Allora, scambiamo?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Scusa capone, non ho più denti per oggi. Torna domani quando avrò scavato altri dai boyz, eh?" />
+  </strings>
+</base>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lore-Hardcore shipped defaults.
+
+     Этот файл — defaults для всех настроек мода. Игра читает его при старте.
+     Пользовательские overrides хранятся в:
+       Documents/Mount and Blade II Bannerlord/Configs/LoreHardcore/user_settings.xml
+
+     Если этот файл отсутствует или повреждён — мод использует hardcoded defaults
+     из CSharpMod/LoreHardcoreHarmony/Settings/SettingsDefaults.cs.
+
+     Регенерируется автоматически (TODO: tools/regenerate_settings_defaults.sh).
+     Не редактировать вручную — внести правку в SettingsDefaults.cs и пересобрать.
+-->
+<LoreHardcoreSettings>
+  <Orc>
+    <OrcHPMultWithPlayer>1.26</OrcHPMultWithPlayer>
+    <OrcHPMultAINoPlayer>1.08</OrcHPMultAINoPlayer>
+    <OgreHPMultAINoPlayer>0.70</OgreHPMultAINoPlayer>
+    <GoblinHPMult>0.40</GoblinHPMult>
+    <OrcAttackerOnPlayerSide>1.20</OrcAttackerOnPlayerSide>
+    <OrcAttackerEnemyOfPlayer>0.70</OrcAttackerEnemyOfPlayer>
+    <OrcVictimOnPlayerSide>0.92</OrcVictimOnPlayerSide>
+    <OrcVictimEnemyOfPlayer>1.15</OrcVictimEnemyOfPlayer>
+    <AxeShieldDmgMult>4.00</AxeShieldDmgMult>
+    <OrcAgentStructDmgMult>0.20</OrcAgentStructDmgMult>
+    <OrcKickStunMult>2.50</OrcKickStunMult>
+    <OrcShieldBashStunMult>1.80</OrcShieldBashStunMult>
+    <OrcSkillMult>1.30</OrcSkillMult>
+    <TrollAthleticsMult>0.85</TrollAthleticsMult>
+    <GoblinAthleticsMult>1.60</GoblinAthleticsMult>
+    <GoblinSpeedMult>1.50</GoblinSpeedMult>
+    <OrcMoraleWaaaghMult>1.50</OrcMoraleWaaaghMult>
+
+    <AILordHardCap>140</AILordHardCap>
+    <MaxOrcCalledParties>4</MaxOrcCalledParties>
+    <MaxOrcArmyMembers>4</MaxOrcArmyMembers>
+    <MilPowerEliteEstimate>3.00</MilPowerEliteEstimate>
+    <MilPowerOrcEstimate>2.50</MilPowerOrcEstimate>
+    <MilPowerGoblinEstimate>0.80</MilPowerGoblinEstimate>
+    <MilPowerEliteCombat>2.80</MilPowerEliteCombat>
+    <MilPowerOrcCombat>1.60</MilPowerOrcCombat>
+    <MilPowerGoblinCombat>0.80</MilPowerGoblinCombat>
+
+    <OrcCastleHireChance>0.25</OrcCastleHireChance>
+    <OrcCastleHireVirtualChance>0.05</OrcCastleHireVirtualChance>
+    <OrcCastleHireGoldBuffer>500</OrcCastleHireGoldBuffer>
+    <OrcVillageGoblinHireChance>0.10</OrcVillageGoblinHireChance>
+    <OrcVillageGoblinPairPrice>50</OrcVillageGoblinPairPrice>
+    <OrcVillageGoblinsPerHire>2</OrcVillageGoblinsPerHire>
+    <OrcVillageGoblinGoldBuffer>200</OrcVillageGoblinGoldBuffer>
+    <TrollAIRecruitChance>0.02</TrollAIRecruitChance>
+    <TrollAICapPerParty>1</TrollAICapPerParty>
+
+    <OrcUpgradeMultiplier>1.00</OrcUpgradeMultiplier>
+    <OrcUpgradeMinCost>50</OrcUpgradeMinCost>
+    <GoblinUpgradeMinCost>50</GoblinUpgradeMinCost>
+    <OrcEliteAIDiscount>0.60</OrcEliteAIDiscount>
+    <OrcChopMeatRegular>1</OrcChopMeatRegular>
+    <OrcChopMeatLarge>3</OrcChopMeatLarge>
+    <BrawlGoldMult>0.50</BrawlGoldMult>
+    <ShrineLootGold>400</ShrineLootGold>
+    <ShrineLootVanillaMeatPerTick>10</ShrineLootVanillaMeatPerTick>
+    <OrcExtorsionMinTier>4</OrcExtorsionMinTier>
+
+    <HideoutCooldownDays>60</HideoutCooldownDays>
+    <MaxHideouts>7</MaxHideouts>
+    <TrollCaveMaxRaidParties>2</TrollCaveMaxRaidParties>
+    <TrollCaveDailySpawnChance>0.05</TrollCaveDailySpawnChance>
+    <TrollCaveTargetBattleSize>50</TrollCaveTargetBattleSize>
+    <TrollCaveMaxTrollsPerParty>10</TrollCaveMaxTrollsPerParty>
+    <TrollCaveLureAllowed>false</TrollCaveLureAllowed>
+    <TrollCaveTroopLimit>40</TrollCaveTroopLimit>
+
+    <QuestBossOneHanded>100</QuestBossOneHanded>
+    <QuestBossTwoHanded>100</QuestBossTwoHanded>
+    <QuestBossPolearm>100</QuestBossPolearm>
+    <QuestBossBattles>5</QuestBossBattles>
+    <QuestBossLordDuels>1</QuestBossLordDuels>
+    <QuestBossTeef>200</QuestBossTeef>
+    <QuestShamanShrines>3</QuestShamanShrines>
+    <QuestShamanSpellcraft>50</QuestShamanSpellcraft>
+    <QuestShamanFaith>50</QuestShamanFaith>
+    <QuestShamanEnchants>5</QuestShamanEnchants>
+  </Orc>
+
+  <System>
+    <EnableOrcHPBuff>true</EnableOrcHPBuff>
+    <EnableOrcDamageMods>true</EnableOrcDamageMods>
+    <EnableTeefEconomy>true</EnableTeefEconomy>
+    <EnableOrcArmyCaps>true</EnableOrcArmyCaps>
+    <EnableTrollCaveNerf>true</EnableTrollCaveNerf>
+    <EnableHideoutCooldown>true</EnableHideoutCooldown>
+    <EnableBrawlRewardNerf>true</EnableBrawlRewardNerf>
+    <EnableShrineLootNerf>true</EnableShrineLootNerf>
+    <EnableOrcCareerQuestNerf>true</EnableOrcCareerQuestNerf>
+    <EnableOrcNoTrebuchet>true</EnableOrcNoTrebuchet>
+    <EnableAxeShieldBonus>true</EnableAxeShieldBonus>
+    <EnableGoblinSpeedBuff>true</EnableGoblinSpeedBuff>
+    <EnableOrcKickStunBuff>true</EnableOrcKickStunBuff>
+    <EnableChaosVassalRecruit>true</EnableChaosVassalRecruit>
+    <EnableBrawlRandomSpawn>true</EnableBrawlRandomSpawn>
+    <EnableRecruitIconSwap>true</EnableRecruitIconSwap>
+  </System>
+</LoreHardcoreSettings>

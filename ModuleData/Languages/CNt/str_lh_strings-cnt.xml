@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="繁體中文" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="沒吃的了 — 部隊吃掉了一個哥布林({GOBLIN})。剩餘哥布林:{COUNT}。" />
+    <string id="lh_cannibal_prisoner_eaten" text="沒吃的了 — 綠皮吃掉了一名俘虜({PRISONER})。剩餘俘虜:{COUNT}。" />
+    <string id="lh_brawl_kills_line" text="你在鬥毆中親手擊敗:{KILLS} / {TOTAL}。" />
+    <string id="lh_brawl_kills_allies_extra" text="(你的同伴又解決了 {EXTRA} 個。)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="因擊殺不同種類敵人,你額外獲得 1 個獸人和 1 個哥布林。" />
+    <string id="lh_brawl_diversity_orc" text="因擊殺不同種類敵人,你額外獲得 1 個獸人。" />
+    <string id="lh_brawl_diversity_goblin" text="因擊殺不同種類敵人,你額外獲得 1 個哥布林。" />
+    <string id="lh_brawl_victory_reward_no_gold" text="你獲得了 {RENOWN_REWARD} 聲望和 {TEEF_REWARD}{CR_ICON} 牙齒。" />
+    <string id="lh_shrine_loot_result_only_gold" text="你成功掠奪神龕,獲得 {TOTAL_GOLD} 金幣。" />
+    <string id="lh_orc_castle_recruit" text="招募獸人精銳" />
+    <string id="lh_orc_castle_recruit_intro" text="氏族老大們帶出了魁梧的獸人壯漢 — 他們兇狠地盯著你,等著付錢。你有 {LH_PLAYER_GOLD}{GOLD_ICON}。" />
+    <string id="lh_orc_castle_recruit_title" text="要塞中的獸人精銳" />
+    <string id="lh_castle_recruit_leave" text="返回" />
+    <string id="lh_castle_elite_cap" text="已有 {LH_ELITE_COUNT} 名壯漢對應 {LH_REGULARS_COUNT} 名獸人小子。上限 — 每 {LH_RATIO} 名小子配 1 名壯漢。先在村莊和城鎮招募更多小子。" />
+    <string id="lh_castle_no_gold" text="金錢不足" />
+    <string id="lh_castle_party_full" text="隊伍已滿員" />
+    <string id="lh_village_hire_goblins" text="招募哥布林(100{GOLD_ICON} / 2 個)" />
+    <string id="lh_village_no_gold" text="至少需要 100 金" />
+    <string id="lh_village_no_orcs" text="哥布林只伺候獸人 — 隊伍裡沒有獸人,牠們不會跟隨。" />
+    <string id="lh_village_goblin_cap" text="你有 {LH_GOBLIN_COUNT} 個哥布林對應 {LH_ORC_COUNT} 個獸人。上限 — 每個獸人配 4 個哥布林。先招募更多獸人。" />
+    <string id="lh_castle_recruit_msg" text="已招募:{TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="已招募:{TROOP}(附帶 {COUNT} 個哥布林僕從)" />
+    <string id="lh_village_goblin_hired" text="已招募:{COUNT} 個哥布林(花費 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} 帶來 +{COUNT} 個哥布林僕從" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} 個哥布林(原想 {DESIRED} 個,達到了 4:1 上限)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓箭小子老大" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="大塊頭獸人" />
+    <string id="lh_troop_tor_gs_black_orc" text="黑獸人" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="野豬小子大塊頭" />
+    <string id="lh_troop_tor_gs_orc_boss" text="獸人老大" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="黑獸人蠻獸" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="黑獸人老大" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="黑獸人狂戰士" />
+    <string id="lh_troop_tor_gs_goblin" text="哥布林" />
+    <string id="lh_troop_tor_gs_orc" text="獸人" />
+    <string id="lh_troop_tor_gs_orc_boy" text="獸人小子" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="獸人砍霸" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="獸人弓箭小子" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="獸人野豬小子" />
+    <string id="lh_teef_cart_trimmed" text="牙齒不夠 — 少招募了 {COUNT} 個獸人(花費 {SPENT},擁有 {HAVE})。" />
+    <string id="lh_castle_challenge_button" text="向獸人精銳挑戰決鬥" />
+    <string id="lh_castle_challenge_intro" text="蠻獸們在領主大廳排成一排。選一個 — 一對一,生死決鬥。" />
+    <string id="lh_castle_challenge_title" text="與獸人精銳決鬥" />
+    <string id="lh_castle_challenge_back" text="返回" />
+    <string id="lh_castle_challenge_disabled_culture" text="只有獸人才能挑戰獸人。" />
+    <string id="lh_castle_challenge_disabled_siege" text="要塞被圍攻時不行。" />
+    <string id="lh_castle_challenge_disabled_cooldown" text="這個戰士還在恢復中。再等 {DAYS} 天。" />
+    <string id="lh_castle_challenge_no_troop" text="TOR 未載入此單位。" />
+    <string id="lh_castle_challenge_victory_desc" text="勝利!{TROOP} 已被擊殺。獎勵:+{TEEF} 牙齒{REWARD_TROOP}。" />
+    <string id="lh_castle_challenge_defeat_desc" text="失敗。{TROOP} 更勝一籌。你的賭注沒收,你灰頭土臉地離開。" />
+    <string id="lh_castle_challenge_victory_accept" text="領取獎勵" />
+    <string id="lh_castle_challenge_defeat_accept" text="灰頭土臉地離開" />
+    <string id="lh_castle_challenge_option_verb" text="挑戰決鬥:" />
+    <string id="lh_castle_challenge_err_no_troop" text="[挑戰] 單位 '{TROOP_ID}' 未載入。" />
+    <string id="lh_castle_challenge_err_no_scene" text="[挑戰] 此城堡沒有合適的場景(缺少領主大廳)。" />
+    <string id="lh_castle_challenge_err_no_teef" text="[挑戰] 牙齒不足支付賭注。" />
+    <string id="lh_castle_challenge_err_no_gold" text="[挑戰] 金錢不足支付賭注。" />
+    <string id="lh_castle_challenge_err_generic" text="[挑戰] 錯誤:{ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=",並且他的一個同類加入你的隊伍" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore:經濟模式選擇" />
+    <string id="lh_settings_economy_desc" text="此選擇會鎖定到存檔中。如需更改,請開始新遊戲。" />
+    <string id="lh_settings_economy_teef_title" text="獸人牙齒經濟(戰錘設定)" />
+    <string id="lh_settings_economy_teef_hint" text="在城堡用戰鬥獲得的牙齒(獸人貨幣)購買獸人精銳。哥布林仍用金錢。你擁有的每個獸人城鎮/城堡每日 +5 牙齒。符合戰錘奇幻設定 — 獸人不在乎金錢。" />
+    <string id="lh_settings_economy_classic_title" text="經典模式(一切用金錢)" />
+    <string id="lh_settings_economy_classic_hint" text="獸人和哥布林按照原版 TOR 用金錢招募。無牙齒經濟,無每日封地收入。簡單熟悉。" />
+    <string id="lh_settings_economy_confirm" text="確認" />
+    <string id="lh_castle_no_teef" text="牙齒不足:需要 {LH_TEEF_NEEDED},擁有 {LH_TEEF_HAVE}。" />
+    <string id="lh_castle_not_orc" text="僅限獸人英雄。獸人不接納外人。" />
+    <string id="lh_teef_daily_msg" text="來自你的獸人城鎮和城堡的 +{TEEF} 牙齒(共 {COUNT} 個)" />
+    <string id="lh_teef_battle_msg" text="從 {COUNT} 個精銳敵人(T4+)身上敲下 +{TEEF} 牙齒。" />
+    <string id="lh_teef_lord_kill_msg" text="擊殺領主 {NAME} 獲得 +{TEEF} 牙齒。" />
+    <string id="lh_castle_challenge_no_fee_teef" text="發起挑戰需要 {FEE} 牙齒(擁有 {HAVE})。" />
+    <string id="lh_castle_challenge_no_fee_gold" text="發起挑戰需要 {FEE} 金(擁有 {HAVE})。" />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 花費 -{TEEF} 牙齒。" />
+    <string id="lh_teef_recruit_no_teef" text="招募 {TROOP} 牙齒不足(需要 {NEED},擁有 {HAVE})。" />
+    <string id="lh_bt_conflict_title" text="模組衝突:BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="第三方 BetterTime 模組與 Lore-Hardcore 同時載入。該模組與 The Old Realms 不相容 — 它透過 UI MapBar 覆寫產生衝突。{newline}{newline}Lore-Hardcore 已包含 BetterTime 功能:{newline}D3 / Numpad3 — 快進 ×4{newline}D4 / Numpad4 — 超快 ×8{newline}鬆開按鍵 — 回到正常速度{newline}{newline}建議:關閉遊戲,在 Bannerlord 啟動器中停用或移除第三方 BetterTime,然後重啟。" />
+    <string id="lh_bt_conflict_ok" text="明白,我來修復" />
+    <string id="lh_teef_unit" text="牙齒" />
+    <string id="lh_tournament_cannot_leave" text="戰鬥還沒結束。不准跑。" />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Enemy executed. The orc party takes pride. Morale +10, Honor reputation restored." />
+    <string id="lh_enc_title" text="Lore-Hardcore — 遊戲內指南" />
+    <string id="lh_enc_pick_topic" text="選擇要閱讀的主題:" />
+    <string id="lh_enc_read" text="閱讀" />
+    <string id="lh_enc_back" text="返回主題" />
+    <string id="lh_enc_close" text="關閉" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="牙齒經濟" />
+    <string id="lh_enc_topic_teef_economy_body" text="對獸人和哥布林玩家而言,牙齒經濟始終啟用 — 不會中途切換,開局也沒有對話。人類、矮人、吸血鬼依然使用金錢。{newline}{newline}你扮演獸人時:{newline}- 在獸人聚居地用牙齒支付一切,不用金錢。{newline}- 在非獸人聚居地(帝國、布萊顿等)仍然支付金錢。{newline}- 牙齒僅在真實戰鬥中獲得:擊殺 T4+ 兵種、擊殺領主、鬥毆勝利、城堡挑戰、所擁有獸人領地的每日貢品。{newline}- 獸人隊伍不會消耗你氏族的金錢 — 未付薪水的士氣懲罰已對獸人隊伍抑製(反正也不付他們)。{newline}- 每日牙齒收入設有上限,防止 AI 獸人領主席卷地圖。" />
+
+    <string id="lh_enc_topic_career_path_title" text="晉升:從惡霸到老大" />
+    <string id="lh_enc_topic_career_path_body" text="獸人晉升路線在角色創建時選擇,有兩條道路:惡霸之路(成長為老大)或薩滿之路。{newline}{newline}相比 vanilla TOR,Lore-Hardcore 已降低要求:{newline}- 第 2 階段(老大):武器技能 80/80/30,30 場戰鬥,5 次比武,10 場鬥毆,2000 牙齒。{newline}- 第 3 階段(老大):武器技能 150/120/60,70 場戰鬥,15 次比武,20 場鬥毆,5 次領主決鬥,佔領 5 座城市,10000 牙齒。{newline}- 第 2 階段(薩滿):在圣所祈禱,法術 50,信仰 50,3 次附魔,2000 牙齒,洗劫 5 座圣所。{newline}- 第 3 階段(薩滿):法術 120,信仰 100,8 次附魔,10000 牙齒,5 座城市,30 座圣所。" />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="獸人士氣與 WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="獸人隊伍士氣與 AI 缩放已重新平衡。{newline}{newline}- 獸人領主基礎 +40% HP 和 +30% 戰鬥技能。{newline}- 士氣倍率:×1.5(獸人比人類更具侵略性)。{newline}- 精英獸人(黑獸人、老大、狂戰士、大塊头)無所畏懼 — 永遠不會因士氣低或人數劣勢而恐慌。{newline}- WAAAGH! 鄰近增益在大規模獸人攻勢中疊加。{newline}{newline}AI 平衡(防止獸人雪球):{newline}- AI 獸人領主隊伍規模軟上限:80 單位。{newline}- 元帥軍團最多容納 5 隊(領头 + 4 召集) — 獸人以 400-500 的小軍團進攻,而非 3000。{newline}- AI 力量評估:獸人 ×1.8,哥布林 ×0.8,巨魔/大塊头/戰爭老大 ×3.0 — 帝國 AI 現在能正確評估獸人威脅。{newline}- Massif Choppas 由 22 減至 14 名領主;Crooked Eye 與 Red Eye 減至 17 名。首都繁榮度已重新平衡。{newline}{newline}玩家隊伍仍使用普通 vanilla 上限。" />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="城堡挑戰決鬥" />
+    <string id="lh_enc_topic_castle_challenge_body" text="造訪獸人城堡時,你可以以牙齒賭注向精英獸人發起決鬥。{newline}{newline}- 勝利:精英獸人作為戰利品單位加入你的隊伍,另加 +15 牙齒。{newline}- 失敗:賭注落空,城堡聲望暫時下降。{newline}{newline}視城堡而定的精英對手:大塊头、老大、黑獸人、蠻獸、狂戰士。各有不同價格與難度。{newline}{newline}賭注隨精英等級缩放 — 大塊头約 50 牙齒,黑獸人約 150 牙齒,老大約 250 牙齒。{newline}{newline}決鬥本身是城堡場景中的真實 1v1 戰鬥。無詭計、無自動結算。" />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="獸人圍城與攻城錘" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Lore-Hardcore 中獸人圍城運作不同。{newline}{newline}- 獸人不能建造投石機。設定:帶配重與拋物軌跡數學的機器對獸人來說過於精密。可用攻城武器:弩炮、投石器、拋石機(含火焰變種)。{newline}- 攻城錘強化:5 倍傷害,3.5 倍耐久。城門 5-10 擊即破,而非 vanilla 的 30+。設定:一根帶磨牙顱骨、鐵製覆面、由 8 個肌肉獸人推動的巨木。{newline}- 自動結算獲得相同攻城錘增益,使獸人圍城在場景與跳過兩種模式下感覺一致。" />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="俘虜食人" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="獸人不會就地處決俘虜。肉只來源於行軍中的飢餓食人。{newline}{newline}戰鬥後:{newline}- 戰利品界面自動屠宰:0 肉(無論俘虜多少)。{newline}- 軍需官的「屠宰」按鈕:0 肉。{newline}- 擊殺產肉(TOR 自動公式):玩家勝利時為 0。{newline}{newline}從俘虜獲取肉的唯一方式 — 帶著他們,粮草耗盡,等待。儲藏空空時每個遊戲小時:{newline}1. 優先吃俘虜。每人 = 1 肉。{newline}2. 然後吃哥布林。每個 = 1 肉。{newline}3. 領主與同伴絕不被吃(領主 = 贖金,同伴 = 任務線)。{newline}{newline}設定:獸人在路上活吃俘虜,而非屠夫的砧板上。{newline}{newline}AI 獸人隊伍保留 vanilla TOR 的戰鬥產肉公式,以免餓死。" />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="綠皮鬥毆競技場" />
+    <string id="lh_enc_topic_brawl_arena_body" text="綠皮鬥毆是獸人聚居地特有的拳鬥競技場。{newline}{newline}- 每場 18 名敵人(遠比 vanilla 競技場大)。{newline}- 獎勵基於你的個人擊殺數,而非僅僅生存。{newline}- 逃出場地墜入越界區的敵人每秒自動擊殺一次,以免比賽卡死。{newline}- 哥布林不再生成在競技場屋頂上(舊 TOR 放置錯誤)。{newline}- 勝利條件:成為最後站立者,或如你存活時擁有最多擊殺的隊伍。{newline}- 在徵服的非獸人城市(布萊顿、帝國酒館)鬥毆氛圍著色器被抑製,以避免老舊 GPU 上的「cannot find entry point」錯誤。{newline}{newline}用途:訓練單手技能、賺取牙齒、完成獸人晉升任務的鬥毆目標。" />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="處決種族敵人" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="當獸人玩家處決被俘的種族敵人領主時,獸人隊伍會慶祝 — 而非哀悼。{newline}{newline}vanilla Bannerlord 對每次處決懲罰 -1000 榮誉經驗。對獸人來說,殺死矮人、吸血鬼、精靈或帝國領主是壯舉,而非罪孽。{newline}{newline}Lore-Hardcore 添加增益:{newline}- 榮誉經驗完全補償(+1000),vanilla 懲罰被取消。{newline}- 仁慈特質獲得象徵性 +1 經驗(狀態平衡)。{newline}- 獸人隊伍立即 +10 士氣。{newline}- 一條綠色消息確認增益已應用。{newline}{newline}僅當玩家是獸人文化(TOR 中的 aserai)且受害者為種族敵人時生效:矮人(sturgia)、吸血鬼伯爵(khuzait)、帝國、布萊顿(vlandia)、木精靈(battania)、Eonir、Mousillon、血龍、混沌、高等精靈、黑暗精靈。{newline}{newline}處決自己族類(其他獸人)保留 vanilla 懲罰 — 這對獸人戰爭領主是恥辱。" />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_set_title" text="Lore-Hardcore — 設定" />
+    <string id="lh_set_mode_full" text="主選單 — 所有參數" />
+    <string id="lh_set_mode_live" text="戰役 — 僅即時項目" />
+    <string id="lh_set_races_header" text="種族" />
+    <string id="lh_set_race_orc" text="獸人" />
+    <string id="lh_set_race_empire" text="帝國" />
+    <string id="lh_set_race_dwarf" text="矮人" />
+    <string id="lh_set_race_bretonnia" text="布列塔尼亞" />
+    <string id="lh_set_race_chaos" text="混沌" />
+    <string id="lh_set_confirm_reset_race_title" text="重置種族" />
+    <string id="lh_set_confirm_reset_race_body" text="將所選種族的所有參數重置為預設值？" />
+    <string id="lh_set_confirm_reset_all_title" text="重置全部" />
+    <string id="lh_set_confirm_reset_all_body" text="將所有種族的全部參數重置為預設值？這將影響一切。" />
+    <string id="lh_set_confirm_yes" text="重置" />
+    <string id="lh_set_confirm_yes_all" text="全部重置" />
+    <string id="lh_set_confirm_no" text="取消" />
+    <string id="lh_set_race_phase02" text="將在 0.2 階段加入" />
+    <string id="lh_set_race_phaseFuture" text="將在未來階段加入" />
+    <string id="lh_set_tab_battle" text="戰鬥" />
+    <string id="lh_set_tab_army" text="軍隊" />
+    <string id="lh_set_tab_ai" text="AI 招募" />
+    <string id="lh_set_tab_economy" text="經濟" />
+    <string id="lh_set_tab_caves" text="洞穴" />
+    <string id="lh_set_tab_system" text="系統" />
+    <string id="lh_set_btn_reset_race" text="重置種族" />
+    <string id="lh_set_btn_reset_all" text="重置全部" />
+    <string id="lh_set_btn_save" text="儲存" />
+    <string id="lh_set_btn_close" text="關閉" />
+    <string id="lh_set_cat_instant" text="立即生效" />
+    <string id="lh_set_cat_nexttick" text="一秒內生效" />
+    <string id="lh_set_cat_worldstate" text="對新生成生效" />
+    <string id="lh_set_cat_restart" text="需要重啟遊戲" />
+    <string id="lh_set_toggle_on" text="開" />
+    <string id="lh_set_toggle_off" text="關" />
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="獸人 HP(有玩家)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="存在 PlayerTeam 的即時戰鬥中獸人 HP 的乘數。" />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="獸人 HP(AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="無玩家的 AI vs AI 戰鬥中獸人 HP 的乘數。" />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="食人魔 HP(AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="AI vs AI 戰鬥中巨魔 / Big Uns / Black Orcs 的 HP 乘數。比普通獸人低，因為引擎沒有圍攻機制 — 沒有這個削弱，3 個巨魔可以殺死 50 個人類。" />
+    <string id="lh_set_GoblinHPMult_lbl" text="哥布林 HP" />
+    <string id="lh_set_GoblinHPMult_desc" text="所有哥布林的 HP 乘數。" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="友軍獸人造成傷害" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="玩家一方獸人的傷害乘數。" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="敵方獸人造成傷害" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="與玩家對抗的獸人的傷害乘數。" />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="友軍獸人承受傷害" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="你方獸人被擊中時的傷害乘數(越低越耐打)。" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="敵方獸人承受傷害" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="敵方獸人被擊中時的傷害乘數(越高越易殺)。" />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="斧 vs 木盾" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="斧頭擊中木盾的傷害乘數。" />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="食人魔對城門傷害" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="即時戰鬥中食人魔 / Big Un / 巨魔對城門的傷害。" />
+    <string id="lh_set_OrcKickStunMult_lbl" text="獸人踢擊暈眩時長" />
+    <string id="lh_set_OrcKickStunMult_desc" text="獸人踢擊施加的暈眩時長。" />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="獸人盾擊暈眩" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="獸人盾擊的暈眩時長。" />
+    <string id="lh_set_OrcSkillMult_lbl" text="獸人戰鬥技能" />
+    <string id="lh_set_OrcSkillMult_desc" text="獸人戰鬥技能的乘數(單手、雙手、長杆)。" />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="巨魔奔跑" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="巨魔的奔跑技能(越低越慢)。" />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="哥布林奔跑" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="哥布林的奔跑技能(越高越快)。" />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="哥布林速度" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="哥布林步行速度的乘數。" />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! 士氣加成" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="獸人一方每次擊殺的士氣獲取乘數。" />
+    <string id="lh_set_AILordHardCap_lbl" text="AI 領主部隊規模上限" />
+    <string id="lh_set_AILordHardCap_desc" text="AI 獸人領主部隊規模的硬上限。對增長立即生效,超額的現有部隊會逐漸縮減。" />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="每個 WAAAGH! 的部隊數" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="可加入元帥的部隊數。軍隊 = 領袖 + N。上限 = (1+N) x 單領主上限。" />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="精英戰力(AI 估值)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="AI 估算精英獸人戰力的方式。影響戰/逃決策。" />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="獸人戰力(AI 估值)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="AI 對普通獸人戰力的估值。" />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="哥布林戰力(AI 估值)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="AI 對哥布林戰力的估值。" />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="精英戰力(戰鬥)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="自動解算中精英獸人的實際戰力。" />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="獸人戰力(戰鬥)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="普通獸人的實際戰力。" />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="哥布林戰力(戰鬥)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="哥布林的實際戰力。" />
+    <string id="lh_set_OrcCastleHireChance_lbl" text="AI 城堡招募機率" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="AI 領主在城堡每小時購買精英獸人的機率。" />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="虛擬招募機率" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="領主不在城堡內但其家族擁有城堡時的「如同訪問過」每小時招募機率。" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI 金幣儲備(城堡)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="AI 在城堡購買後保留的最低金幣。" />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI 哥布林招募機率" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="AI 領主在村莊每小時購買一對哥布林的機率。" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="哥布林對價格" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="AI 在村莊購買一對哥布林支付的金幣。" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="每次招募哥布林數" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="AI 每次村莊購買獲得的哥布林數。" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI 金幣儲備(村莊)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="AI 在村莊購買後保留的最低金幣。" />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="AI 巨魔招募機率" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="AI 領主每次訪問在獸人聚居地招到巨魔的機率。" />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="AI 單部隊巨魔上限" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="AI 領主可持有的最多巨魔數。" />
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="升級花費乘數" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="應用於 vanilla 升級花費公式的乘數。" />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="獸人升級最低花費" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="獸人單位升級的最低金幣花費。" />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="哥布林升級最低花費" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="哥布林升級的最低金幣花費。" />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI 精英折扣" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI 支付精英獸人花費 x N(1.0 = 全價)。" />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="普通俘虜每個肉量" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="宰殺一名普通俘虜獲得的肉量。" />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="大型俘虜每個肉量" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="宰殺一名大型俘虜(巨魔、米諾陶)獲得的肉量。" />
+    <string id="lh_set_BrawlGoldMult_lbl" text="鬥毆金幣乘數" />
+    <string id="lh_set_BrawlGoldMult_desc" text="贏得鬥毆的金幣獎勵 x N。" />
+    <string id="lh_set_ShrineLootGold_lbl" text="神龕掠奪金幣" />
+    <string id="lh_set_ShrineLootGold_desc" text="掠奪神龕的金幣獎勵。" />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="勒索最低階級" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="僅 Tier >= N 的獸人通過勒索產出牙齒。" />
+    <string id="lh_set_HideoutCooldownDays_lbl" text="巢穴冷卻(天)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="被清剿的巢穴重新激活前需要的天數。" />
+    <string id="lh_set_MaxHideouts_lbl" text="每個派系巢穴上限" />
+    <string id="lh_set_MaxHideouts_desc" text="同時激活的巢穴最大數。" />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="巨魔劫掠部隊上限" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="單個洞穴同時存活的劫掠部隊數。" />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="每日生成機率" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="洞穴每日生成新劫掠部隊的機率。" />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="洞穴防守規模" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="進入洞穴時迎接玩家的巨魔數量。" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="單劫掠部隊巨魔上限" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="單個劫掠部隊規模的上限。" />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="洞穴戰鬥帶兵數" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="進入洞穴清剿可帶的兵力(vanilla 20)。7 名巨魔即使 1 對 1 也能碾壓 20 名人類 — 40 給出數值上的機會。" />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="允許引誘巨魔" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="啟用 — 在洞穴選單添加「引誘巨魔(10 肉)」選項。預設關閉(平衡:10 肉換 T6 巨魔可被濫用)。" />
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="獸人 HP 增益" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="完全禁用獸人 HP 乘數。" />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="陣營感知傷害" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="傷害依玩家所屬一方變化。" />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="牙齒經濟" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="以牙齒而非金幣招募獸人。" />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="獸人軍隊上限" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="部隊和軍隊規模上限。" />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="巨魔洞穴削弱" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="降低巨魔生成率和劫掠規模。" />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="巢穴冷卻" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="被清剿的巢穴 60 天內保持關閉。" />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="鬥毆獎勵削弱" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="削減鬥毆的金幣獎勵。" />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="神龕掠奪削弱" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="神龕只產金幣 — 無肉無牙齒。" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="晉升任務削弱" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="降低獸人晉升任務的要求。" />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="獸人不造投石機" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="獸人不建造複雜的攻城器械。" />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="斧頭破盾" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="斧頭對木盾造成額外傷害。" />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="哥布林加速" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="哥布林 +50% 速度。" />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="長效踢擊暈眩" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="獸人踢擊的暈眩時間更長。" />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="混沌招募" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="混沌封臣可招募混沌單位。" />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="鬥毆隨機出生" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="玩家在競技場隨機位置出生。" />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="牙齒圖示" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="招募選單顯示牙齒圖示而非金幣。" />
+    <string id="lh_orc_appetite" text="綠皮的食慾" />
+    <string id="lh_goblin_changer_hub_leave_p" text="下次吧，哥布。" />
+    <string id="lh_goblin_changer_cooldown" text="嘿老大，昨天才給您呢！{DAYS}天後再來嘛，俺得多挖挖。" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="現在沒那麼多閃閃。" />
+    <string id="lh_goblin_changer_intro" text="誒老~大！俺有牙換您的閃閃，要換不？嘿嘿！" />
+    <string id="lh_goblin_changer_after_no_gold" text="嘿嘿！沒閃閃就沒牙。先去掐幾個人類崽子吧，啊？" />
+    <string id="lh_goblin_changer_hub_trade" text="換啊: 1000閃閃換{AMOUNT}顆牙。" />
+    <string id="lh_goblin_changer_after_trade" text="*哥布林數出{NOMINAL}顆牙，偷偷把{HIDDEN}枚硬幣塞進側兜。*生意就是生意，大老大！" />
+    <string id="lh_goblin_changer_town_ok" text="走開" />
+    <string id="lh_goblin_changer_town_title" text="哥布林換錢的" />
+    <string id="lh_goblin_changer_town_outcome" text="*哥布林在酒館桌上數出{NOMINAL}顆牙，迅速把{HIDDEN}枚硬幣塞進腰帶袋子裡，再把剩下的推到你面前。*生意就是生意，大老大！" />
+    <string id="lh_goblin_changer_town_intro" text="*角落桌邊一個狡猾的哥布林朝你招手，擺弄著一堆小硬幣，低聲說：*誒大老大！俺有牙換您的閃閃。1000閃閃——俺數出{NOMINAL}顆。會不會偷偷塞{HIDDEN}枚進側兜呢？也許吧……換不？" />
+    <string id="lh_goblin_changer_town_cancel" text="下次吧" />
+    <string id="lh_goblin_changer_town_option" text="到酒館找哥布林換零錢" />
+    <string id="lh_goblin_changer_town_no_gold" text="*角落的哥布林嗅嗅你的錢包，哼了一聲。*嘿嘿！沒閃閃就沒牙。先去掐幾個人類崽子吧，啊？" />
+    <string id="lh_goblin_changer_town_trade" text="換" />
+    <string id="lh_goblin_changer_town_cooldown" text="*酒館角落的哥布林警惕地瞥你一眼，轉過身去。*嘿老大，幾天前才給您呢！{DAYS}天後再來吧。" />
+    <string id="lh_goblin_changer_intro_town" text="嘿大老大！俺這兒公平交易嘿嘿，兄弟們看著呢——絕無貓膩！換牙不？" />
+    <string id="lh_goblin_changer_after_town_trade" text="*哥布林把整整{AMOUNT}顆牙數到你手心裡——乾淨又公平，兄弟們盯著看呢。*還要別的嗎，大老大？" />
+    <string id="lh_goblin_changer_village_trade" text="換啊: 1000閃閃換{AMOUNT}顆牙。" />
+    <string id="lh_goblin_changer_intro_village" text="誒老~大！俺有牙換您的閃閃，要換不？嘿嘿！" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="那麼，要換嗎？" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="抱歉老大，今天的牙都沒了。明天再來吧，俺再從兄弟那挖點出來，嗯？" />
+  </strings>
+</base>

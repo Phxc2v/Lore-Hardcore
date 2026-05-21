@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Out of food — the party ate a goblin ({GOBLIN}). Goblins left: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Out of food — the orcs ate a prisoner ({PRISONER}). Prisoners left: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="You personally defeated in the brawl: {KILLS} of {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (your allies finished off another {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="You also got 1 orc and 1 goblin as a bonus for hunting different kinds." />
+    <string id="lh_brawl_diversity_orc" text="You also got 1 orc as a bonus for hunting different kinds." />
+    <string id="lh_brawl_diversity_goblin" text="You also got 1 goblin as a bonus for hunting different kinds." />
+    <string id="lh_brawl_victory_reward_no_gold" text="You earned {RENOWN_REWARD} renown and {TEEF_REWARD}{CR_ICON} Teef." />
+    <string id="lh_shrine_loot_result_only_gold" text="You successfully looted {TOTAL_GOLD} gold." />
+    <string id="lh_orc_castle_recruit" text="Recruit orcish elite" />
+    <string id="lh_orc_castle_recruit_intro" text="Da clan bosses brought out massive orc bruisers — they glare at you fierce, waitin' fer payment. You got {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Orcish elite of the fortress" />
+    <string id="lh_castle_recruit_leave" text="Back" />
+    <string id="lh_castle_elite_cap" text="Already {LH_ELITE_COUNT} bruisers for {LH_REGULARS_COUNT} orc boyz. Limit — 1 bruiser per {LH_RATIO} boyz. Recruit more boyz first in villages and towns." />
+    <string id="lh_castle_no_gold" text="Not enough gold" />
+    <string id="lh_castle_party_full" text="Party is full" />
+    <string id="lh_village_hire_goblins" text="Recruit goblins (100{GOLD_ICON} for 2)" />
+    <string id="lh_village_no_gold" text="Need at least 100 gold" />
+    <string id="lh_village_no_orcs" text="Goblins serve orcs — without orcs in your party they won't follow" />
+    <string id="lh_village_goblin_cap" text="You have {LH_GOBLIN_COUNT} goblins for {LH_ORC_COUNT} orcs. Limit — 4 goblins per orc. Recruit more orcs first." />
+    <string id="lh_castle_recruit_msg" text="Recruited: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Recruited: {TROOP} (+{COUNT} goblin servants)" />
+    <string id="lh_village_goblin_hired" text="Recruited: {COUNT} goblins (for {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin servants for {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblins (wanted {DESIRED}, hit 4:1 limit)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Arrer Boy Boss" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Big'Un Orc" />
+    <string id="lh_troop_tor_gs_black_orc" text="Black Orc" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Boar Boy Big'Un" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Orc Boss" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Black Orc Brute" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Black Orc Boss" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Black Orc Berzerka" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Orc" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Orc Boy" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Orc Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Orc Arrer Boy" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Orc Boar Boy" />
+    <string id="lh_teef_cart_trimmed" text="Not enough teef — recruited {COUNT} fewer orcs (spent {SPENT}, had {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Challenge an orc elite to a duel" />
+    <string id="lh_castle_challenge_intro" text="Brutes line up in da lord's hall. Pick one — duel to da death, 1 on 1." />
+    <string id="lh_castle_challenge_title" text="Duel with orcish elite" />
+    <string id="lh_castle_challenge_back" text="Back" />
+    <string id="lh_castle_challenge_disabled_culture" text="Only an orc can challenge an orc." />
+    <string id="lh_castle_challenge_disabled_siege" text="Not while da fort is besieged." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Dis fighter is still recovering. Wait {DAYS} more days." />
+    <string id="lh_castle_challenge_no_troop" text="This unit isn't loaded by TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="Victory! {TROOP} is slain. Reward: +{TEEF} teef{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Defeat. {TROOP} proved tougher. Your wager is forfeit and you walk away in shame." />
+    <string id="lh_castle_challenge_victory_accept" text="Take your reward" />
+    <string id="lh_castle_challenge_defeat_accept" text="Walk away in shame" />
+    <string id="lh_castle_challenge_option_verb" text="Challenge to a duel: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Challenge] Unit '{TROOP_ID}' is not loaded." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Challenge] No suitable scene in this castle (lordshall missing)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Challenge] Not enough teef for the wager." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Challenge] Not enough gold for the wager." />
+    <string id="lh_castle_challenge_err_generic" text="[Challenge] Error: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", and one of his kind joins your party" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: economy choice" />
+    <string id="lh_settings_economy_desc" text="This choice is locked into your save. To change it, start a new game." />
+    <string id="lh_settings_economy_teef_title" text="Orcish Teef Economy (Warhammer canon)" />
+    <string id="lh_settings_economy_teef_hint" text="Buy orcish elite in castles for teef (orc currency) earned in battle. Goblins still use gold. +5 teef per day for each orc town/castle you own. Lore-accurate to Warhammer Fantasy — orcs don't respect gold." />
+    <string id="lh_settings_economy_classic_title" text="Classic (everything for gold)" />
+    <string id="lh_settings_economy_classic_hint" text="Orcs and goblins are hired for gold as in vanilla TOR. No teef economy, no daily fief income. Simple and familiar." />
+    <string id="lh_settings_economy_confirm" text="Confirm" />
+    <string id="lh_castle_no_teef" text="Not enough teef: need {LH_TEEF_NEEDED}, have {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Only for orc heroes. Orcs don't respect outsiders." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} teef from your orc towns and castles ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} teef knocked out of {COUNT} seasoned enemies (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} teef for killing lord {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Need {FEE} teef to issue the challenge (have {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Need {FEE} gold to issue the challenge (have {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} teef for {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Not enough teef for {TROOP} (need {NEED}, have {HAVE})." />
+    <string id="lh_teef_unit" text="teef" />
+    <string id="lh_bt_conflict_title" text="Mod conflict: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="The third-party BetterTime mod is loaded together with Lore-Hardcore. This mod is NOT compatible with The Old Realms — it conflicts via UI MapBar override.{newline}{newline}Lore-Hardcore ALREADY INCLUDES BetterTime functionality:{newline}D3 / Numpad3 — fast forward ×4{newline}D4 / Numpad4 — ultra fast ×8{newline}Release the key — back to normal speed{newline}{newline}RECOMMENDATION: close the game, disable or remove third-party BetterTime in Bannerlord Launcher, restart." />
+    <string id="lh_bt_conflict_ok" text="Understood, I'll fix it" />
+    <string id="lh_tournament_cannot_leave" text="Da fight ain't over. No runnin'." />
+
+    <!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Enemy executed. The orc party takes pride. Morale +10, Honor reputation restored." />
+    <string id="lh_enc_title" text="Lore-Hardcore — In-Game Guide" />
+    <string id="lh_enc_pick_topic" text="Pick a topic to read:" />
+    <string id="lh_enc_read" text="Open" />
+    <string id="lh_enc_back" text="Back to topics" />
+    <string id="lh_enc_close" text="Close" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Tooth Economy" />
+    <string id="lh_enc_topic_teef_economy_body" text="For orc and goblin players the Tooth Economy is ALWAYS active — no mid-game switch, no dialog at start. Humans, dwarves, vampires keep gold as before.{newline}{newline}When you play an orc:{newline}- In orc settlements you pay teef instead of gold for everything.{newline}- Outside orc settlements (Empire, Bretonnia, etc.) you still pay gold.{newline}- Teef are earned ONLY in real combat: kills of T4+ troops, lord kills, brawl wins, castle challenges, daily tribute from orc fiefs you own.{newline}- Orc parties drain no gold from your clan — wage morale penalty is suppressed (you don't pay them anyway).{newline}- Daily teef income is capped to keep AI orc lords from snowballing the map." />
+
+    <string id="lh_enc_topic_career_path_title" text="Career: from Bully to Boss" />
+    <string id="lh_enc_topic_career_path_body" text="Orc career has two paths chosen during character creation: Path of the Bully (becomes Boss) or Path of the Shaman.{newline}{newline}Unlock requirements cut from vanilla TOR for Lore-Hardcore:{newline}- Tier 2 (Boss): weapon skills 80/80/30, 30 battles, 5 tournaments, 10 brawls, 2000 teef.{newline}- Tier 3 (Boss): weapon skills 150/120/60, 70 battles, 15 tournaments, 20 brawls, 5 lord duels, 5 cities captured, 10000 teef.{newline}- Tier 2 (Shaman): pray at a shrine, Spellcraft 50, Faith 50, 3 enchantments, 2000 teef, 5 shrines looted.{newline}- Tier 3 (Shaman): Spellcraft 120, Faith 100, 8 enchantments, 10000 teef, 5 cities, 30 shrines." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Orc Morale and WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Orc party morale and AI scaling have been rebalanced.{newline}{newline}- Orc lords have +40% HP and +30% to combat skills baseline.{newline}- Morale multiplier: x1.5 (orcs more aggressive than humans).{newline}- Elite orcs (Black Orc, Boss, Berzerka, Bigun) are FEARLESS — never panic from low morale or being outnumbered.{newline}- WAAAGH! proximity buff stacks when massed orcs attack.{newline}{newline}AI balancing (so orcs don't snowball the map):{newline}- Soft cap on AI orc lord party size: 80 troops.{newline}- Marshal's Army can hold maximum 5 parties (leader + 4 called) — orcs attack in mini-armies of 400-500 instead of 3000.{newline}- AI strength estimation: orcs counted at x1.8, goblins x0.8, trolls/Big'Uns/warbosses x3.0 — imperial AI now correctly assesses orc threat.{newline}- Massif Choppas reduced from 22 to 14 lords; Crooked Eye and Red Eye to 17. Capital prosperity rebalanced.{newline}{newline}Player party uses normal vanilla limits." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Castle Duel Challenge" />
+    <string id="lh_enc_topic_castle_challenge_body" text="When you visit an orc castle, you can challenge an elite orc to a duel for a teef stake.{newline}{newline}- Win: the elite joins your party as a trophy unit, plus you get +15 teef.{newline}- Lose: your stake is gone, your reputation in the castle drops temporarily.{newline}{newline}Elites available depend on the castle: Bigun, Boss, Black Orc, Brute, Berzerka. Each has its own price and difficulty.{newline}{newline}Stakes scale with elite tier — Bigun ~50 teef, Black Orc ~150 teef, Boss ~250 teef.{newline}{newline}The duel itself is a real 1v1 fight on a castle scene. No tricks, no auto-resolve." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Orc Sieges and the Ram" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Orc sieges work differently in Lore-Hardcore.{newline}{newline}- Orcs CANNOT build trebuchets. Lore-wise: a counterweight machine with parabolic trajectory math is too engineered for an orc. Available siege engines: ballistas, onagers, catapults (including fire variants).{newline}- Battering ram is buffed: hits 5x harder, holds out 3.5x longer. Gates fall in 5-10 hits instead of vanilla 30+. Lore-wise: a log with a tooth-grinder skull, iron-clad, shoved by eight burly orcs.{newline}- Auto-resolve gets the same ram buff so orc sieges feel right whether you fight on the scene or skip." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Prisoner Cannibalism" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Orcs do NOT chop prisoners on the spot. Meat comes ONLY from on-the-march hunger cannibalism.{newline}{newline}After a battle:{newline}- Auto-chop in loot screen: 0 meat (regardless of how many prisoners taken).{newline}- 'Chop' button in Quartermaster: 0 meat.{newline}- Meat from kills (TOR auto-formula): 0 for player victories.{newline}{newline}Only way to get meat from prisoners — take them, run out of food, wait. Each in-game hour with empty larder:{newline}1. PRISONERS first. Each = 1 meat.{newline}2. Then GOBLINS. Each = 1 meat.{newline}3. Lords and companions NEVER eaten (lord = ransom, companion = quest line).{newline}{newline}Lore: orcs eat captives alive on the road, not at the butcher's block.{newline}{newline}AI orc parties keep TOR vanilla meat-from-battle so they don't starve." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Greenskin Brawl Arena" />
+    <string id="lh_enc_topic_brawl_arena_body" text="Greenskin Brawl is a fistfight arena unique to orc settlements.{newline}{newline}- 18 enemies per match (much larger than the vanilla arena).{newline}- Reward calculated by your personal kill count, not just survival.{newline}- Runaway enemies who fall into out-of-bounds zones are auto-killed once per second to prevent the match from freezing.{newline}- Goblins no longer spawn on the arena roof (an old TOR placement bug).{newline}- Win condition: be the last one standing OR the team with most kills if you survive.{newline}- In conquered non-orc cities (Bretonnian, Imperial taverns) brawl atmosphere shaders are suppressed to avoid 'cannot find entry point' errors on older GPUs.{newline}{newline}Good for: training One-Handed skill, earning teef, completing the orc career quest brawl objective." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Executing Racial Enemies" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="When an orc player executes a captured racial enemy lord, the orc party celebrates — not laments.{newline}{newline}Vanilla Bannerlord penalises any execution with -1000 Honor XP. For an orc, killing a Dwarf, Vampire, Elf or Imperial lord is a feat, not a sin.{newline}{newline}Lore-Hardcore adds a buff:{newline}- Honor XP fully compensated (+1000) so the vanilla penalty is cancelled.{newline}- Mercy trait gets a token +1 XP (status balance).{newline}- Orc party gains +10 morale immediately.{newline}- A green message confirms the buff was applied.{newline}{newline}Applies only when the player is orc-culture (aserai in TOR) and the victim is a racial enemy: Dwarf (sturgia), Vampire Counts (khuzait), Empire, Bretonnia (vlandia), Wood Elves (battania), Eonir, Mousillon, Blood Dragons, Chaos, High Elves, Dark Elves.{newline}{newline}Executing your OWN race (other orcs) keeps the vanilla penalty — that's a shame for an orc warlord." />
+    <string id="lh_settings_button" text="Lore-Hardcore Settings" />
+
+    <!-- ========== Settings UI: chrome ========== -->
+    <string id="lh_set_title" text="Lore-Hardcore — Settings" />
+    <string id="lh_set_mode_full" text="Main menu — all parameters" />
+    <string id="lh_set_mode_live" text="Campaign — live only" />
+    <string id="lh_set_races_header" text="RACES" />
+    <string id="lh_set_race_orc" text="Orcs" />
+    <string id="lh_set_race_empire" text="Empire" />
+    <string id="lh_set_race_dwarf" text="Dwarves" />
+    <string id="lh_set_race_bretonnia" text="Bretonnia" />
+    <string id="lh_set_race_chaos" text="Chaos" />
+    <string id="lh_set_confirm_reset_race_title" text="Reset race" />
+    <string id="lh_set_confirm_reset_race_body" text="Reset all parameters of the selected race to defaults?" />
+    <string id="lh_set_confirm_reset_all_title" text="Reset ALL" />
+    <string id="lh_set_confirm_reset_all_body" text="Reset ALL parameters across all races to defaults? This affects everything." />
+    <string id="lh_set_confirm_yes" text="Reset" />
+    <string id="lh_set_confirm_yes_all" text="Reset all" />
+    <string id="lh_set_confirm_no" text="Cancel" />
+    <string id="lh_set_race_phase02" text="Coming in phase 0.2" />
+    <string id="lh_set_race_phaseFuture" text="Coming in a future phase" />
+    <string id="lh_set_tab_battle" text="Battle" />
+    <string id="lh_set_tab_army" text="Armies" />
+    <string id="lh_set_tab_ai" text="AI hiring" />
+    <string id="lh_set_tab_economy" text="Economy" />
+    <string id="lh_set_tab_caves" text="Caves" />
+    <string id="lh_set_tab_system" text="Systems" />
+    <string id="lh_set_btn_reset_race" text="Reset race" />
+    <string id="lh_set_btn_reset_all" text="Reset ALL" />
+    <string id="lh_set_btn_save" text="Save" />
+    <string id="lh_set_btn_close" text="Close" />
+    <string id="lh_set_cat_instant" text="applies immediately" />
+    <string id="lh_set_cat_nexttick" text="applies within a second" />
+    <string id="lh_set_cat_worldstate" text="applies to new spawns" />
+    <string id="lh_set_cat_restart" text="Bannerlord needs restart" />
+    <string id="lh_set_toggle_on" text="ON" />
+    <string id="lh_set_toggle_off" text="OFF" />
+
+    <!-- ========== Battle tab parameters ========== -->
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="Orc HP (with player)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="HP multiplier for orcs in live battle where PlayerTeam is present." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="Orc HP (AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="HP multiplier for orcs in AI vs AI battles without the player." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="Ogre HP (AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="HP multiplier for trolls / Big Uns / Black Orcs in AI vs AI battles. Lower than regular orcs because the engine has no surround mechanic — without this nerf, 3 trolls can kill 50 humans." />
+    <string id="lh_set_GoblinHPMult_lbl" text="Goblin HP" />
+    <string id="lh_set_GoblinHPMult_desc" text="HP multiplier for all goblins." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Ally orc damage dealt" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Damage multiplier for orcs on the player's side." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Enemy orc damage dealt" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Damage multiplier for orcs fighting against the player." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Damage taken by ally orc" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Damage multiplier when an orc on your side is hit (lower = more durable)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Damage taken by enemy orc" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Damage multiplier when an enemy orc is hit (higher = easier to kill)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Axe vs wooden shield" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Damage multiplier for axes hitting wooden shields." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Ogre damage to gates" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Damage of Ogres / Big Uns / Trolls to gates in live battle." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Orc kick stun duration" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Duration of stun applied by orc kicks." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Orc shield bash stun" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Duration of stun from orc shield bashes." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Orc combat skills" />
+    <string id="lh_set_OrcSkillMult_desc" text="Multiplier for orc combat skills (one-handed, two-handed, polearm)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Troll athletics" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Athletics skill of trolls (lower = slower)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Goblin athletics" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Athletics skill of goblins (higher = faster)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Goblin speed" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Speed multiplier for goblins on foot." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! morale bonus" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Morale gain multiplier for orc side per kill." />
+
+    <!-- ========== Army tab parameters ========== -->
+    <string id="lh_set_AILordHardCap_lbl" text="AI lord party size cap" />
+    <string id="lh_set_AILordHardCap_desc" text="Hard cap on AI orc lord party size. Applies to growth instantly, existing oversized parties shrink gradually." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="Parties per WAAAGH!" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="How many parties can join a marshal. Army = leader + N. Ceiling = (1+N) x per-lord cap." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Elite power (AI estimate)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="How the AI estimates strength of elite orcs. Affects fight/flee decisions." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Orc power (AI estimate)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="AI estimate of regular orc strength." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Goblin power (AI estimate)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="AI estimate of goblin strength." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Elite power (combat)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Real combat power of elite orcs in auto-resolve." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Orc power (combat)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Real combat power of regular orcs." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Goblin power (combat)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Real combat power of goblins." />
+
+    <!-- ========== AI hiring tab parameters ========== -->
+    <string id="lh_set_OrcCastleHireChance_lbl" text="AI castle hire chance" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Hourly chance for an AI lord to buy an elite orc in a castle." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Virtual hire chance" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Hourly as-if-visited hire chance when the lord isn't physically in a castle but the clan owns one." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI gold buffer (castle)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Minimum gold an AI keeps after a castle purchase." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI goblin hire chance" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Hourly chance for an AI lord to buy a pair of goblins in a village." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Goblin pair price" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="How much an AI pays for a pair of goblins in a village." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Goblins per hire" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="How many goblins the AI receives per village purchase." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI gold buffer (village)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="Minimum gold an AI keeps after a village purchase." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="AI troll recruit chance" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Chance per visit that an AI lord picks up a troll in an orc settlement." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="AI troll cap per party" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Maximum trolls an AI lord can hold." />
+
+    <!-- ========== Economy tab parameters ========== -->
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Upgrade cost multiplier" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Multiplier applied to the vanilla upgrade cost formula." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Orc upgrade min cost" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Minimum gold cost for orc unit upgrades." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Goblin upgrade min cost" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Minimum gold cost for goblin upgrades." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI elite discount" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI pays elite orc cost x N (1.0 = full price)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Meat per regular prisoner" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Meat yield from chopping a regular prisoner." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Meat per large prisoner" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Meat yield from chopping a large prisoner (troll, minotaur)." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Brawl gold multiplier" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Gold reward for winning a brawl x N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Shrine loot gold" />
+    <string id="lh_set_ShrineLootGold_desc" text="Gold reward for looting a shrine." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Min tier for Extorsion" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Only orcs of Tier >= N generate teef via Extorsion." />
+
+    <!-- ========== Caves tab parameters ========== -->
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Hideout cooldown (days)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Days before a cleared hideout can reactivate." />
+    <string id="lh_set_MaxHideouts_lbl" text="Max hideouts per faction" />
+    <string id="lh_set_MaxHideouts_desc" text="Maximum simultaneously active hideouts." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Max troll raid parties" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="How many raid parties can be alive from a single cave at once." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Daily spawn chance" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Chance per day for a cave to spawn a new raid party." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Cave defender size" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="How many trolls greet the player on cave entry." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Max trolls per raid party" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Cap on the size of a single raid party." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Troops into cave battle" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="How many troops you can take into the cave clear-out (vanilla 20). 7 trolls can crush 20 humans even one-on-one — 40 gives a numeric chance." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Troll luring allowed" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="If enabled — adds the 'Lure trolls (10 meat)' option to the cave menu. Off by default (balance: tier-6 troll for 10 meat is exploitable)." />
+
+    <!-- ========== System toggles (Restart) ========== -->
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Orc HP buff" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Completely disable orc HP multipliers." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Team-aware damage" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="Damage depends on player's side." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Recruit orcs for teef instead of gold." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Orc army caps" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Limits on party and army sizes." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Troll cave nerf" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Lower troll spawn rates and raid sizes." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Hideout cooldown" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="Cleared hideouts stay closed for 60 days." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Brawl reward nerf" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Cut the gold reward for brawls." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Shrine loot nerf" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="Only gold from shrines — no meat or teef." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Career quest nerf" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Lower the requirements of orc career quests." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orcs without trebuchets" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Orcs don't build complex siege engines." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="Axe breaks shields" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Axes deal bonus damage to wooden shields." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Faster goblins" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% speed for goblins." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Long kick stun" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Orc kicks stun longer." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Chaos recruiting" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Chaos vassals can recruit chaos troops." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Random brawl spawn" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Player spawns at a random arena point." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Teef icon" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Hire menu shows teef icon instead of gold." />
+    <string id="lh_orc_appetite" text="Greenskin appetite" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Maybe later, gobbo." />
+    <string id="lh_goblin_changer_cooldown" text="Eh boss, I already gived ya teefz yesterdai! Come back in {DAYS} dayz, I needz ta dig more, see?" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Ain't got dat much shinies yet." />
+    <string id="lh_goblin_changer_intro" text="Oi BIG boss! Gotz teef fer ya shinies, wanna trade, eh? Hurr hurr!" />
+    <string id="lh_goblin_changer_after_no_gold" text="Hurr hurr! No shinies, no teefz. Go pinch some humies first, ya hear?" />
+    <string id="lh_goblin_changer_hub_trade" text="Trade 1000 shinies fer {AMOUNT} teefz." />
+    <string id="lh_goblin_changer_after_trade" text="*The goblin counts out {NOMINAL} teef, slips {HIDDEN} coins into his sneaky pouch on the side.* Pleazure doin' bizniss wif ya, BIG boss!" />
+    <string id="lh_goblin_changer_town_ok" text="Walk away" />
+    <string id="lh_goblin_changer_town_title" text="Goblin Changer" />
+    <string id="lh_goblin_changer_town_outcome" text="*The goblin counts out {NOMINAL} teef on the tavern table, then quickly slips {HIDDEN} coins into a pouch on his belt before pushing the rest over to you.* Pleazure doin' bizniss wif ya, BIG boss!" />
+    <string id="lh_goblin_changer_town_intro" text="*A cunning goblin at the corner table waves you over, fingering a heap of small coins. He whispers:* Oi BIG boss! Gotz teef fer ya shinies. 1000 shinies — and I count out {NOMINAL}. Will I slip {HIDDEN} into me own pouch on da side? Maybe... Wanna trade or wot?" />
+    <string id="lh_goblin_changer_town_cancel" text="Maybe later" />
+    <string id="lh_goblin_changer_town_option" text="Talk to da goblin changer in da tavern" />
+    <string id="lh_goblin_changer_town_no_gold" text="*A goblin in the corner sniffs at your purse and snorts.* Hurr hurr! No shinies, no teefz. Go pinch some humies first, ya hear?" />
+    <string id="lh_goblin_changer_town_trade" text="Trade" />
+    <string id="lh_goblin_changer_town_cooldown" text="*A goblin in the corner of the tavern eyes you suspiciously and turns away.* Eh boss, I already gived ya teefz couple days back! Come in {DAYS} more days, see?" />
+    <string id="lh_goblin_changer_intro_town" text="Greetinz, BIG boss! Da boyz watch me deal here — straight 'n fair, no funny bizniss. Wanna change ya shinies fer teef?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*Goblin counts out exactly {AMOUNT} teef into ya palm — straight 'n honest, da brutes are watchin'.* Anyfing else, BIG boss?" />
+    <string id="lh_goblin_changer_village_trade" text="Trade 1000 shinies fer {AMOUNT} teef." />
+    <string id="lh_goblin_changer_intro_village" text="Oi BIG boss! Gotz teef fer ya shinies, wanna trade, eh? Hurr hurr!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="So, how about a trade?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Sorry boss, I dun got no more teef left fer today. Come back tomorrow when I dig up more from da boyz, eh?" />
+  </strings>
+</base>

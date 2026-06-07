@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="食料が尽きた — 部隊はゴブリン1匹({GOBLIN})を食べた。残りのゴブリン: {COUNT}。" />
+    <string id="lh_cannibal_prisoner_eaten" text="食料が尽きた — オークたちは捕虜({PRISONER})を食べた。残りの捕虜: {COUNT}。" />
+    <string id="lh_brawl_kills_line" text="あなたが乱闘で直接撃破した数: {KILLS} / {TOTAL}。" />
+    <string id="lh_brawl_kills_allies_extra" text="(味方がさらに {EXTRA} 体を仕留めた。)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="異なる種類の敵を狩った報酬として、オーク1体とゴブリン1体を追加で受け取った。" />
+    <string id="lh_brawl_diversity_orc" text="異なる種類の敵を狩った報酬として、オーク1体を追加で受け取った。" />
+    <string id="lh_brawl_diversity_goblin" text="異なる種類の敵を狩った報酬として、ゴブリン1体を追加で受け取った。" />
+    <string id="lh_brawl_victory_reward_no_gold" text="{RENOWN_REWARD} の名声と {TEEF_REWARD}{CR_ICON} の歯を獲得した。" />
+    <string id="lh_shrine_loot_result_only_gold" text="祠を首尾よく略奪し、{TOTAL_GOLD} ゴールドを得た。" />
+    <string id="lh_orc_castle_recruit" text="オーク精鋭の募集" />
+    <string id="lh_orc_castle_recruit_intro" text="氏族のボスたちが屈強なオーク戦士を連れてきた — 彼らは荒々しく睨みつけ、報酬を待っている。所持金: {LH_PLAYER_GOLD}{GOLD_ICON}。" />
+    <string id="lh_orc_castle_recruit_title" text="要塞のオーク精鋭" />
+    <string id="lh_castle_recruit_leave" text="戻る" />
+    <string id="lh_castle_elite_cap" text="既にオーク・ボーイ {LH_REGULARS_COUNT}名に対し精鋭 {LH_ELITE_COUNT}名がいる。上限 — ボーイ {LH_RATIO}名につき精鋭1名。先に村と町でボーイをもっと募集せよ。" />
+    <string id="lh_castle_no_gold" text="資金不足" />
+    <string id="lh_castle_party_full" text="部隊が満員" />
+    <string id="lh_village_hire_goblins" text="ゴブリンを募集(100{GOLD_ICON} / 2体)" />
+    <string id="lh_village_no_gold" text="最低100ゴールド必要" />
+    <string id="lh_village_no_orcs" text="ゴブリンはオークにのみ仕える — 部隊にオークがいなければ付いて来ない。" />
+    <string id="lh_village_goblin_cap" text="現在オーク {LH_ORC_COUNT}名に対しゴブリン {LH_GOBLIN_COUNT}体がいる。上限 — オーク1名につきゴブリン4体。先にオークをもっと募集せよ。" />
+    <string id="lh_castle_recruit_msg" text="募集完了: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="募集完了: {TROOP}(ゴブリン従者 {COUNT}体を伴う)" />
+    <string id="lh_village_goblin_hired" text="募集完了: ゴブリン {COUNT}体(費用 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} がゴブリン従者 +{COUNT}体を連れてきた" />
+    <string id="lh_goblin_companions_capped" text="ゴブリン +{COUNT}体(本来 {DESIRED} 体を望んだが、4:1 上限に到達)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓ボーイ・ボス" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="ビッグン・オーク" />
+    <string id="lh_troop_tor_gs_black_orc" text="ブラック・オーク" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="ボア・ボーイ・ビッグン" />
+    <string id="lh_troop_tor_gs_orc_boss" text="オーク・ボス" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="ブラック・オーク・ブルート" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="ブラック・オーク・ボス" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="ブラック・オーク・バーサーカー" />
+    <string id="lh_troop_tor_gs_goblin" text="ゴブリン" />
+    <string id="lh_troop_tor_gs_orc" text="オーク" />
+    <string id="lh_troop_tor_gs_orc_boy" text="オーク・ボーイ" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="オーク・チョッパ" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="オーク・弓ボーイ" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="オーク・ボア・ボーイ" />
+    <string id="lh_teef_cart_trimmed" text="牙が足りない — オークを {COUNT}名少なく募集した(使用 {SPENT}、所持 {HAVE})。" />
+    <string id="lh_castle_challenge_button" text="オーク精鋭に決闘を申し込む" />
+    <string id="lh_castle_challenge_intro" text="領主の広間に屈強な戦士たちが並ぶ。一人を選べ — 1対1、死闘だ。" />
+    <string id="lh_castle_challenge_title" text="オーク精鋭との決闘" />
+    <string id="lh_castle_challenge_back" text="戻る" />
+    <string id="lh_castle_challenge_disabled_culture" text="オークだけがオークに挑むことができる。" />
+    <string id="lh_castle_challenge_disabled_siege" text="要塞が包囲中はできない。" />
+    <string id="lh_castle_challenge_disabled_cooldown" text="この戦士はまだ回復中だ。あと {DAYS} 日待て。" />
+    <string id="lh_castle_challenge_no_troop" text="TOR がこの兵士をロードしていない。" />
+    <string id="lh_castle_challenge_victory_desc" text="勝利!{TROOP} は倒された。報酬: 牙 +{TEEF}{REWARD_TROOP}。" />
+    <string id="lh_castle_challenge_defeat_desc" text="敗北。{TROOP} の方が強かった。賭け金は没収され、お前は恥を抱えて立ち去る。" />
+    <string id="lh_castle_challenge_victory_accept" text="報酬を受け取る" />
+    <string id="lh_castle_challenge_defeat_accept" text="恥を抱えて立ち去る" />
+    <string id="lh_castle_challenge_option_verb" text="決闘を申し込む: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[決闘] 兵士 '{TROOP_ID}' がロードされていない。" />
+    <string id="lh_castle_challenge_err_no_scene" text="[決闘] この城には適切な場面がない(領主の広間が欠落)。" />
+    <string id="lh_castle_challenge_err_no_teef" text="[決闘] 賭けに使う牙が足りない。" />
+    <string id="lh_castle_challenge_err_no_gold" text="[決闘] 賭けに使う資金が足りない。" />
+    <string id="lh_castle_challenge_err_generic" text="[決闘] エラー: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text="、そして同種の一人が部隊に加わる" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: 経済モード選択" />
+    <string id="lh_settings_economy_desc" text="この選択はセーブにロックされる。変更するには新しいゲームを開始する必要がある。" />
+    <string id="lh_settings_economy_teef_title" text="オークの牙経済(ウォーハンマー設定)" />
+    <string id="lh_settings_economy_teef_hint" text="城で戦闘で得た牙(オークの通貨)で精鋭を購入する。ゴブリンは引き続き資金。所有するオークの町や城ごとに毎日 牙 +5。ウォーハンマー・ファンタジー設定に忠実 — オークは資金を尊重しない。" />
+    <string id="lh_settings_economy_classic_title" text="クラシック(すべて資金で)" />
+    <string id="lh_settings_economy_classic_hint" text="オークとゴブリンを原版 TOR と同じく資金で募集する。牙経済なし、領地からの毎日収入なし。シンプルで馴染みやすい。" />
+    <string id="lh_settings_economy_confirm" text="確認" />
+    <string id="lh_castle_no_teef" text="牙が不足: 必要 {LH_TEEF_NEEDED}、所持 {LH_TEEF_HAVE}。" />
+    <string id="lh_castle_not_orc" text="オーク英雄専用。オークは外の者を受け入れない。" />
+    <string id="lh_teef_daily_msg" text="あなたのオークの町と城から牙 +{TEEF}({COUNT}件)" />
+    <string id="lh_teef_battle_msg" text="熟練した敵 {COUNT}人(T4+)から牙 +{TEEF} を叩き出した。" />
+    <string id="lh_teef_lord_kill_msg" text="領主 {NAME} を撃破して牙 +{TEEF} 獲得。" />
+    <string id="lh_castle_challenge_no_fee_teef" text="決闘を申し込むには牙 {FEE} が必要(所持 {HAVE})。" />
+    <string id="lh_castle_challenge_no_fee_gold" text="決闘を申し込むには資金 {FEE} が必要(所持 {HAVE})。" />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 費用 -{TEEF} 牙。" />
+    <string id="lh_teef_recruit_no_teef" text="{TROOP} の募集に牙不足(必要 {NEED}、所持 {HAVE})。" />
+    <string id="lh_teef_unit" text="牙" />
+    <string id="lh_bt_conflict_title" text="MOD 競合: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="サードパーティの BetterTime MOD が Lore-Hardcore と一緒にロードされている。この MOD は The Old Realms と互換性がない — UI MapBar のオーバーライドで衝突する。{newline}{newline}Lore-Hardcore は既に BetterTime 機能を含んでいる:{newline}D3 / Numpad3 — 早送り ×4{newline}D4 / Numpad4 — 超高速 ×8{newline}キーを離す — 通常速度に戻る{newline}{newline}推奨: ゲームを終了し、Bannerlord ランチャーでサードパーティの BetterTime を無効化または削除して、再起動せよ。" />
+    <string id="lh_bt_conflict_ok" text="了解、修正する" />
+    <string id="lh_tournament_cannot_leave" text="まだ戦いは終わってない。逃げるな。" />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="敵を処刑した。オークの部隊は誇りに思っている。士気 +10、名誉の評判が回復した。" />
+    <string id="lh_chaos_uprising_announce" text="!!! 混沌の軍勢が立ち上がった —— 混沌の蜂起がマップに出現した !!!" />
+    <string id="lh_enc_title" text="Lore-Hardcore — ゲーム内ガイド" />
+    <string id="lh_enc_pick_topic" text="読むトピックを選んでください:" />
+    <string id="lh_enc_read" text="読む" />
+    <string id="lh_enc_back" text="トピック一覧に戻る" />
+    <string id="lh_enc_close" text="閉じる" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="歯の経済" />
+    <string id="lh_enc_topic_teef_economy_body" text="オークとゴブリンのプレイヤーには、歯の経済が常に有効です — ゲーム途中で切り替わらず、開始時にダイアログもありません。人間、ドワーフ、ヴァンパイアは従来通りゴールドを使います。{newline}{newline}オークとしてプレイする場合:{newline}- オークの集落では、すべてゴールドではなく歯で支払います。{newline}- オーク以外の集落(帝国、ブレトニアなど)では引き続きゴールドで支払います。{newline}- 歯は実戦でのみ得られます:T4+ 兵士の撃破、領主の撃破、乱闘の勝利、城のチャレンジ、所有するオーク領地からの日次貢納。{newline}- オーク部隊はクランからゴールドを吸い上げません — 給料未払いの士気ペナルティはオーク部隊では抑制されます(どのみち払っていません)。{newline}- 日次の歯収入には上限があり、AI オーク領主が地図を支配するのを防ぎます。" />
+
+    <string id="lh_enc_topic_career_path_title" text="出世:ブリーからボスへ" />
+    <string id="lh_enc_topic_career_path_body" text="オークの出世はキャラクター作成時に2つの道から選びます:ブリーの道(ボスに成長)またはシャーマンの道。{newline}{newline}vanilla TOR から Lore-Hardcore 用に要件が緩和されています:{newline}- 段階 2(ボス):武器スキル 80/80/30、戦闘 30 回、トーナメント 5 回、乱闘 10 回、歯 2000。{newline}- 段階 3(ボス):武器スキル 150/120/60、戦闘 70 回、トーナメント 15 回、乱闘 20 回、領主決闘 5 回、5 都市占領、歯 10000。{newline}- 段階 2(シャーマン):聖堂で祈り、魔術 50、信仰 50、エンチャント 3 回、歯 2000、聖堂略奪 5 件。{newline}- 段階 3(シャーマン):魔術 120、信仰 100、エンチャント 8 回、歯 10000、5 都市、30 聖堂。" />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="オークの士気と WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="オーク部隊の士気と AI スケーリングが再調整されました。{newline}{newline}- オーク領主は基本で +40% HP と +30% 戦闘スキル。{newline}- 士気倍率:×1.5(オークは人間より攻撃的)。{newline}- エリートオーク(ブラックオーク、ボス、バーザーカ、ビッグアン)は無敵 — 士気低下や数的劣勢で決してパニックになりません。{newline}- WAAAGH! 近接ボーナスは大規模オーク攻勢で累積します。{newline}{newline}AI バランス(オークが地図を支配しないよう):{newline}- AI オーク領主の部隊規模ソフトキャップ:80 兵士。{newline}- 元帥軍は最大 5 部隊(指揮官 + 召集 4) — オークは 3000 ではなく 400-500 のミニ軍で攻撃します。{newline}- AI 戦力評価:オーク ×1.8、ゴブリン ×0.8、トロル/ビッグアン/ワーボス ×3.0 — 帝国 AI が正しくオーク脅威を評価します。{newline}- Massif Choppas は 22 から 14 領主に削減。Crooked Eye と Red Eye は 17 に。首都の繁栄度を再調整。{newline}{newline}プレイヤー部隊は通常の vanilla 上限を使用します。" />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="城の決闘チャレンジ" />
+    <string id="lh_enc_topic_castle_challenge_body" text="オークの城を訪れると、エリートオークに歯の賭けで決闘を挑むことができます。{newline}{newline}- 勝利:エリートがトロフィー兵としてあなたの部隊に加わり、さらに +15 歯。{newline}- 敗北:賭け金は失われ、城での評判が一時的に下がります。{newline}{newline}城ごとに利用可能なエリート:ビッグアン、ボス、ブラックオーク、ブルート、バーザーカ。それぞれ価格と難易度が異なります。{newline}{newline}賭け金はエリートランクで増減 — ビッグアン約 50 歯、ブラックオーク約 150 歯、ボス約 250 歯。{newline}{newline}決闘自体は城のシーンでの本物の 1v1 戦闘です。トリックなし、自動解決なし。" />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="オークの攻城戦と破城槌" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Lore-Hardcore のオーク攻城戦は通常と異なります。{newline}{newline}- オークはトレビュシェットを建造できません。設定:カウンターウェイトと放物線軌道の数学を備えた機械はオークには複雑すぎます。利用可能な攻城兵器:バリスタ、オナガー、カタパルト(火炎バリエーション含む)。{newline}- 破城槌が強化:5 倍のダメージ、3.5 倍の耐久。城門は vanilla の 30+ ではなく 5-10 撃で破壊されます。設定:歯を砕く頭蓋骨、鉄装甲、8 人の筋骨隆々のオークが押す丸太。{newline}- 自動解決にも同じ破城槌ボーナスが適用されるため、シーンでもスキップでもオーク攻城戦は同じ感触になります。" />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="捕虜の人食い" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="オークは捕虜をその場で解体しません。肉は行軍中の飢餓食人からのみ得られます。{newline}{newline}戦闘後:{newline}- 戦利品画面の自動解体:0 肉(捕虜の数に関わらず)。{newline}- クォーターマスターの「解体」ボタン:0 肉。{newline}- キル産肉(TOR 自動式):プレイヤー勝利時 0。{newline}{newline}捕虜から肉を得る唯一の方法 — 連れて行き、食料が尽き、待つこと。空っぽの食料庫でゲーム時間 1 時間ごとに:{newline}1. まず捕虜。一人 = 1 肉。{newline}2. 次にゴブリン。一匹 = 1 肉。{newline}3. 領主と仲間は決して食べられません(領主 = 身代金、仲間 = クエストライン)。{newline}{newline}設定:オークは捕虜を屠殺台ではなく、道で生きたまま食べます。{newline}{newline}AI オーク部隊は飢死しないよう vanilla TOR の戦闘産肉式を保持します。" />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="グリーンスキンの乱闘場" />
+    <string id="lh_enc_topic_brawl_arena_body" text="グリーンスキン乱闘はオーク集落特有の素手バトル闘技場です。{newline}{newline}- マッチごとに 18 人の敵(vanilla 闘技場よりずっと大きい)。{newline}- 報酬は生存だけでなく、個人キル数で計算されます。{newline}- 場外ゾーンに落ちた逃亡敵は、マッチのフリーズを防ぐため毎秒自動キルされます。{newline}- ゴブリンは闘技場の屋根に出現しなくなりました(古い TOR 配置バグ)。{newline}- 勝利条件:最後まで立っている、または生存時にキル数最多のチーム。{newline}- 征服した非オーク都市(ブレトニア、帝国の酒場)では、古い GPU での「cannot find entry point」エラーを避けるため乱闘の雰囲気シェーダーを抑制します。{newline}{newline}用途:片手スキルの訓練、歯の獲得、オーク出世クエストの乱闘目標達成。" />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="種族敵の処刑" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="オークプレイヤーが捕虜の種族敵領主を処刑すると、オーク部隊は祝います — 嘆くのではなく。{newline}{newline}vanilla Bannerlord はあらゆる処刑に -1000 名誉経験値のペナルティを科します。オークにとってドワーフ、ヴァンパイア、エルフ、帝国領主を殺すことは偉業であり、罪ではありません。{newline}{newline}Lore-Hardcore はボーナスを追加:{newline}- 名誉経験値が完全に補償(+1000)、vanilla ペナルティを相殺。{newline}- 慈悲特性に象徴的な +1 経験値(ステータスバランス)。{newline}- オーク部隊が即座に +10 士気を獲得。{newline}- 緑のメッセージで適用ボーナスを確認。{newline}{newline}プレイヤーがオーク文化(TOR では aserai)で、犠牲者が種族敵の場合のみ適用:ドワーフ(sturgia)、ヴァンパイア・カウント(khuzait)、帝国、ブレトニア(vlandia)、ウッドエルフ(battania)、Eonir、Mousillon、ブラッドドラゴン、カオス、ハイエルフ、ダークエルフ。{newline}{newline}自分の種族(他のオーク)を処刑すると vanilla ペナルティが残ります — オークの戦争領主にとって恥です。" />
+  
+    <string id="lh_set_tab_main" text="メイン" />
+    <string id="lh_set_tab_vassalage" text="臣従" />
+    <string id="lh_set_tab_conversion" text="混沌の賜物" />
+    <string id="lh_set_tab_tempting" text="誘惑" />
+    <string id="lh_set_tab_troops" text="部隊" />
+    <string id="lh_set_tab_recruit" text="募集" />
+    <string id="lh_set_EnableOrcRace_lbl" text="オーク族の全面改修を有効化" />
+    <string id="lh_set_EnableOrcRace_desc" text="オーク族に関するすべての変更を制御するマスタースイッチです。OFF にするとすべてのオークパッチと動作が無効になり、グリーンスキンは純粋なバニラの TOR メカニクスを使用します。ゲームの再起動が必要です。" />
+    <string id="lh_set_EnableChaosRace_lbl" text="混沌族の全面改修を有効化" />
+    <string id="lh_set_EnableChaosRace_desc" text="混沌族に関するすべての変更を制御するマスタースイッチです。OFF にするとすべての混沌パッチと動作が無効になります。ゲームの再起動が必要です。対象：酒場や村での混沌ユニットの雇い入れ、暗黒勢力との和平、友好的なカルト信徒の隠れ家、混沌の賜物（転向）など。" />
+    <string id="lh_set_ChaosVassalageTributeRequired_lbl" text="臣従のための貢ぎ物（ゴールド）" />
+    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="混沌の領主がプレイヤーを臣下として受け入れるために、神々への贈り物として要求するゴールド額です。" />
+    <string id="lh_set_ChaosVassalageMinClanTier_lbl" text="臣従に必要な最小クランティア" />
+    <string id="lh_set_ChaosVassalageMinClanTier_desc" text="混沌の領主から臣従を請求するために必要なプレイヤーの最小クランティアです。" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="混沌の賜物に必要な最小クランティア" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="混沌文化への転向儀式を受けるために必要なプレイヤーの最小クランティアです。" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="転向時のスキル経験値ボーナス" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="混沌の賜物を受け入れた際、プレイヤーの各戦闘スキルが獲得する経験値量です。" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="1 日あたりの誘惑進行度" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="捕虜状態の 1 日あたりに追加される誘惑進行度のポイント数です。デフォルト 1.5、賜物まで約 67 日。" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="混沌プレイヤーへのボーナス" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="プレイヤーがすでに混沌文化（賜物後）である場合の進行度倍率です。デフォルト 0.5 = +50%。" />
+    <string id="lh_set_ChaosTemptingThreshold_lbl" text="転向閾値" />
+    <string id="lh_set_ChaosTemptingThreshold_desc" text="捕虜が混沌の賜物を受け入れる準備ができる進行度です。デフォルト 100。" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_lbl" text="過去の転向ごとのペナルティ" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="すでに転向した領主ごとに率が N 低下します（時間経過で困難になります）。デフォルト 0.10 = -10%。" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_lbl" text="自由時の 1 日あたりの進行度減少" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_desc" text="捕虜が解放されるか脱走した場合、進行度は 1 日あたり N 減少します。デフォルト 5。" />
+    <string id="lh_set_ChaosNorscanHPMult_lbl" text="ノースカン HP バフ" />
+    <string id="lh_set_ChaosNorscanHPMult_desc" text="すべてのノースカンユニット（部族民からチャンピオンまで）の HP 倍率です。デフォルト 0.30 = +30%。" />
+    <string id="lh_set_ChaosGorHPMult_lbl" text="獣人ゴア HP バフ" />
+    <string id="lh_set_ChaosGorHPMult_desc" text="ゴア（gor / foerender / manripper）の HP 倍率です。デフォルト 0.25 = +25%。" />
+    <string id="lh_set_ChaosMinotaurHPMult_lbl" text="ミノタウルス HP バフ" />
+    <string id="lh_set_ChaosMinotaurHPMult_desc" text="ミノタウルスの HP 倍率です（設定：巨大な獣）。デフォルト 0.50 = +50%。" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_lbl" text="+1 部隊上限あたりのユニット数" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="部隊制限に +1 するために必要なカルト信徒またはウンゴルの数です（消耗兵メカニクス）。デフォルト 2。" />
+    <string id="lh_set_ChaosMinotaurInjectChance_lbl" text="ミノタウルス徴募確率（城塞）" />
+    <string id="lh_set_ChaosMinotaurInjectChance_desc" text="訪問時にミノタウルスが城塞町のスロット 5 に注入される確率です。デフォルト 0.20 = 20%。" />
+    <string id="lh_set_ChaosUprisingCooldownDays_lbl" text="混沌蜂起間のクールダウン（日）" />
+    <string id="lh_set_ChaosUprisingCooldownDays_desc" text="混沌蜂起の間隔として経過する必要がある日数です。バニラの TOR は 126 日（約 4 ヶ月）です。私たちのデフォルトは 30（約 1 ヶ月）です。新しいキャンペーンに適用：最初の蜂起はこの日数後に発生します。" />
+    <string id="lh_settings_button" text="Lore-Hardcore 設定" />
+    <string id="lh_set_title" text="Lore-Hardcore — 設定" />
+    <string id="lh_set_mode_full" text="メインメニュー — 全パラメータ" />
+    <string id="lh_set_mode_live" text="キャンペーン — 即時反映のみ" />
+    <string id="lh_set_races_header" text="種族" />
+    <string id="lh_set_race_orc" text="オーク" />
+    <string id="lh_set_race_empire" text="帝国" />
+    <string id="lh_set_race_dwarf" text="ドワーフ" />
+    <string id="lh_set_race_bretonnia" text="ブレトニア" />
+    <string id="lh_set_race_chaos" text="混沌" />
+    <string id="lh_set_race_common" text="全般" />
+    <string id="lh_set_confirm_reset_race_title" text="種族をリセット" />
+    <string id="lh_set_confirm_reset_race_body" text="選択した種族の全パラメータを初期値に戻しますか?" />
+    <string id="lh_set_confirm_reset_all_title" text="すべてリセット" />
+    <string id="lh_set_confirm_reset_all_body" text="全種族のすべてのパラメータを初期値に戻しますか? これはすべてに影響します。" />
+    <string id="lh_set_confirm_yes" text="リセット" />
+    <string id="lh_set_confirm_yes_all" text="すべてリセット" />
+    <string id="lh_set_confirm_no" text="キャンセル" />
+    <string id="lh_set_race_phase02" text="フェーズ 0.2 で登場予定" />
+    <string id="lh_set_race_phaseFuture" text="将来のフェーズで登場予定" />
+    <string id="lh_set_tab_battle" text="戦闘" />
+    <string id="lh_set_tab_army" text="軍団" />
+    <string id="lh_set_tab_ai" text="AI の募集" />
+    <string id="lh_set_tab_economy" text="経済" />
+    <string id="lh_set_tab_caves" text="洞窟" />
+    <string id="lh_set_tab_system" text="システム" />
+    <string id="lh_set_tab_general" text="全般" />
+    <string id="lh_set_btn_reset_race" text="種族をリセット" />
+    <string id="lh_set_btn_reset_all" text="すべてリセット" />
+    <string id="lh_set_btn_save" text="保存" />
+    <string id="lh_set_btn_close" text="閉じる" />
+    <string id="lh_set_cat_instant" text="即時反映" />
+    <string id="lh_set_cat_nexttick" text="1秒以内に反映" />
+    <string id="lh_set_cat_worldstate" text="新規スポーンに反映" />
+    <string id="lh_set_cat_restart" text="Bannerlord の再起動が必要" />
+    <string id="lh_set_toggle_on" text="オン" />
+    <string id="lh_set_toggle_off" text="オフ" />
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="オーク HP(プレイヤー参加時)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="あなたが参加する実時間戦闘でのオークの HP を倍率で増減します。1.0 = 原版。戦場の味方・敵オークの双方に影響します。例: 1.26 は HP 100 のオークを 126 にし、オークが数発多く耐えられるようになります。" />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="オーク HP(AI 対 AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="あなたが不在で AI 同士が解決する戦闘(自動解決、マップ外戦闘)でのオークの HP 倍率。AI のオーク軍が無敵にならないよう、プレイヤー参加時の値より低めに設定されています。例: 1.08 = HP +8%。" />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="オーガ HP(AI 対 AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="AI 対 AI の戦闘における巨大ユニット(トロル、ブラックオーク、ビッグアン)向けの、別個の低めの HP 倍率。画面外ではエンジンが包囲できないため、この弱体化なしではトロル3体が人間50人を全滅させかねません。例: 0.70 = HP -30%。" />
+    <string id="lh_set_GoblinHPMult_lbl" text="ゴブリン HP" />
+    <string id="lh_set_GoblinHPMult_desc" text="すべてのゴブリンの HP 倍率。脆い捨て駒のままにする狙いです。例: 0.40 = 原版 HP の 40%。安く大量に募集できる分、ゴブリンはすぐ死にます。" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="味方オークの与ダメージ" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="あなたの側で戦うオークのダメージ倍率。高いほど味方オークの攻撃が強くなります。例: 1.20 = 味方オークの与ダメージ +20%。" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="敵オークの与ダメージ" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="あなたに敵対して戦うオークのダメージ倍率。低いほど敵オークの攻撃が弱まり、戦いが勝てるものになります。例: 0.70 = 敵オークの与ダメージ 70%。" />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="味方オークの被ダメージ" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="あなたの側のオークが受けるダメージ。低いほど味方オークが頑丈になります。例: 0.92 = 味方オークの被ダメージ 8% 減。" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="敵オークの被ダメージ" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="敵オークが受けるダメージ。高いほど敵オークを倒しやすくなります。例: 1.15 = 敵オークが味方の攻撃から 15% 多くダメージを受けます。" />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="斧 対 木製盾" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="斧が木製盾に与える追加ダメージ。斧持ちオークが盾を素早く砕けるようにします。例: 4.0 = 木製盾へのダメージ4倍、数発で割れます。" />
+    <string id="lh_set_MaceShieldDmgMult_lbl" text="メイス/ハンマー 対 金属盾" />
+    <string id="lh_set_MaceShieldDmgMult_desc" text="打撃武器（メイス、ハンマー、両手ハンマー）が金属盾に与える追加ダメージ。剣や斧では金属はほとんど傷つかないが、叩き潰す一撃はそれを凹ませる。例: 4.0 = ダメージ4倍、金属盾は数発で割れます。1.0 = 原版（オフ）。" />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="オーガの門への与ダメージ" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="オーガ級ユニット(オーガ、ビッグアン、トロル)が実時間戦闘で門や破壊可能物に与えるダメージ。低くすると攻城が一瞬で終わるのを防ぎます。例: 0.20 = 基礎の構造物ダメージの 20%。" />
+    <string id="lh_set_OrcKickStunMult_lbl" text="オークの蹴りスタン時間" />
+    <string id="lh_set_OrcKickStunMult_desc" text="オークの蹴りが対象をスタンさせる時間。高いほどよろめきが長引き、オークが追撃できます。例: 2.5 = スタンが原版の 2.5 倍。" />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="オークの盾殴りスタン" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="オークの盾殴りのスタン時間。高いほど敵が長くよろめきます。例: 1.8 = 原版スタンの 1.8 倍。" />
+    <string id="lh_set_OrcSkillMult_lbl" text="オークの戦闘スキル" />
+    <string id="lh_set_OrcSkillMult_desc" text="オークの武器スキル(片手、両手、長柄)の倍率。命中・ダメージ・振りの速さを左右します。例: 1.30 = スキル +30%。オークがより強く確実に当てます。" />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="トロルの走力" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="トロルの移動速度(運動能力)。低いほどトロルが遅くなり、引き撃ちしやすくなります。例: 0.85 = トロルが 85% の速度で移動。" />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="ゴブリンの走力" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="ゴブリンの運動能力。高いほど素早く敏捷になり、群れて追ってきます。例: 1.60 = 運動能力 +60%。" />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="ゴブリンの速度" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="ゴブリンの徒歩移動速度の倍率。高いほどゴブリンが速くなります。例: 1.50 = 速度 +50%。" />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! 士気ボーナス" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="撃破ごとにオーク側が得る士気(WAAAGH! 効果)。高いほどオークは敗走しにくく、優勢な戦いで雪だるま式に有利になります。例: 1.50 = 撃破時の士気獲得 +50%。" />
+    <string id="lh_set_AILordHardCap_lbl" text="AI 領主の部隊上限" />
+    <string id="lh_set_AILordHardCap_desc" text="AI のオーク領主の最大部隊規模。増加は即座に上限で抑えられ、超過した部隊は時間をかけて縮小します。例: 140 で AI オーク領主は無限に増えず 140 兵で頭打ちになります。" />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="WAAAGH! あたりの部隊数" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="1つのオーク WAAAGH!(軍団)に加われる部隊数。軍団上限 = (1 + この値) × 領主あたりの上限。例: 4 = 元帥 + 領主4人。" />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="精鋭の戦力(AI 評価)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="攻撃か退却かを決める際、AI が精鋭オークをどれだけ強いと「思う」か。精鋭の実戦闘値と一致させないとオークが戦いを誤判断します。高いほど攻撃的。例: 2.80。" />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="オークの戦力(AI 評価)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="攻撃か退却かの判断における、通常オークの強さの AI 評価。オークの実戦闘値と等しく保ってください。例: 1.60。" />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="ゴブリンの戦力(AI 評価)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="攻撃か退却かの判断における、ゴブリンの強さの AI 評価。ゴブリンの実戦闘値と等しく保ってください。例: 0.80。" />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="精鋭の戦力(戦闘)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="自動解決における精鋭オークの実際の戦闘力。シミュレート戦闘での実際の勝敗を左右します。例: 2.80 は精鋭1体が平均兵 約2.8人ぶんに相当することを意味します。" />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="オークの戦力(戦闘)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="自動解決における通常オークの実際の戦闘力。例: 1.60 = オーク1体が平均兵 約1.6人ぶんに相当。" />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="ゴブリンの戦力(戦闘)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="自動解決におけるゴブリンの実際の戦闘力。例: 0.80 = ゴブリン1体が平均兵 約0.8人ぶんに相当。" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_lbl" text="あなたに対する敵オーク戦力(自動解決)" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_desc" text="自動解決で「あなた」と戦うオークの戦闘力。戦闘強化は自動解決にも適用されますが、敵オーク向けの実時間戦闘の弱体化は適用「されない」ため、小規模なオーク軍が自動解決であなたの大軍を破ることがありました。デフォルト 1.4 = オークは原版より少し手強いが、それでも数が勝ります(190 オーク x1.4 = 266 &lt; あなたの 540)。1.0 = 純粋な原版。自動解決で敵オークをより手強くするには上げてください。AI 対 AI の戦闘には影響しません。" />
+    <string id="lh_set_OrcCastleHireChance_lbl" text="AI の要塞での雇用確率" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="要塞に滞在する AI オーク領主が精鋭オーク1体を雇う1時間あたりの確率。高いほど AI が精鋭を早く揃えます。例: 0.25 = 要塞内で毎時 25%。" />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="仮想雇用確率" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="領主が物理的に要塞にいないが氏族が要塞を所有している場合の、「訪問したかのような」毎時雇用確率。領主が放浪中でも AI の精鋭供給を保ちます。例: 0.05 = 毎時 5%。" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI のゴールド予備(要塞)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="要塞で精鋭を雇った後に AI が保持する最低ゴールド。破産しないようにします。例: 500 = ゴールドが 500 を上回る場合のみ AI が購入。" />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI のゴブリン雇用確率" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="村にいる AI オーク領主がゴブリン2体を買う1時間あたりの確率。例: 0.10 = 毎時 10%。" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="ゴブリン2体の価格" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="村で AI がゴブリン2体ごとに支払うゴールド。低いほど AI が多くのゴブリンを揃えます。例: 2体につき 50 ゴールド。" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="1回あたりのゴブリン数" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="村での1回の購入で AI が得るゴブリン数。例: 購入ごとに2体。" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI のゴールド予備(村)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="村でゴブリンを買った後に AI が保持する最低ゴールド。例: 200 = ゴールドが 200 を上回る場合のみ購入。" />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="AI のトロル獲得確率" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="AI オーク領主がオークの集落でトロルを1体引き入れる訪問あたりの確率。トロルは希少で強力なため、意図的に低めです。例: 0.02 = 訪問ごとに 2%。" />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="AI のトロル上限(部隊あたり)" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="1人の AI オーク領主が抱えられるトロルの最大数。例: 1 = AI 部隊あたり最大トロル1体。軍団がトロルだらけにならないようにします。" />
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="昇格コスト倍率" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="オーク兵の昇格コスト(原版の計算式)の倍率。高いほどオークの昇格により多くのゴールドがかかります。例: 1.0 = 原版コスト。" />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="オーク昇格の最低コスト" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="オークの昇格にかかる最低ゴールド。安いティアがほぼ無料にならないようにします。例: 50 = どのオーク昇格も 50 ゴールド未満にはなりません。" />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="ゴブリン昇格の最低コスト" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="ゴブリンの昇格にかかる最低ゴールド。例: ゴブリン昇格1回につき下限 50 ゴールド。" />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI の精鋭割引" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI が支払う精鋭オーク価格の割合(1.0 = 全額)。低いほど AI はあなたより安く精鋭を揃えます。例: 0.60 = AI は精鋭コストの 60% を支払う。" />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="通常捕虜あたりの肉" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="通常の捕虜を解体して得る肉(食人経済)。例: 通常捕虜1人につき肉1。" />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="大型捕虜あたりの肉" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="トロルやミノタウロスなどの大型捕虜を解体して得る肉。例: 大型捕虜1体につき肉3。" />
+    <string id="lh_set_BrawlGoldMult_lbl" text="乱闘ゴールド倍率" />
+    <string id="lh_set_BrawlGoldMult_desc" text="酒場の乱闘に勝った際のゴールド報酬の倍率。低くすると安易なゴールド稼ぎを抑えます。例: 0.50 = 原版の乱闘報酬の半分。" />
+    <string id="lh_set_ShrineLootGold_lbl" text="聖堂略奪のゴールド" />
+    <string id="lh_set_ShrineLootGold_desc" text="聖堂を略奪した際のゴールド報酬。例: 聖堂1つにつき 400 ゴールド。" />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="歯の徴収の最低ティア" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="このティア以上のオークのみが徴収(Extorsion)で歯を生み出します。高いほど歯を稼ぐ低ティアオークが減ります。例: 4 = ティア4以上のオークのみが徴収。" />
+    <string id="lh_set_HideoutCooldownDays_lbl" text="隠れ家の再出現遅延(日)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="掃討した盗賊の隠れ家が再出現できるようになるまで消えている日数。高いほど掃討した隠れ家が長く消えたままになります。例: 60 日(約2か月)。" />
+    <string id="lh_set_MaxHideouts_lbl" text="盗賊の隠れ家の最大数(勢力あたり)" />
+    <string id="lh_set_MaxHideouts_desc" text="1つの盗賊勢力(海賊、森林盗賊、略奪者など)が同時にマップ上で維持できる隠れ家の数。原版は 9。低いほどマップが隠れ家で散らからなくなります。例: 7。" />
+    <string id="lh_set_ExtraCompanionSlots_lbl" text="追加のコンパニオン枠" />
+    <string id="lh_set_ExtraCompanionSlots_desc" text="原版の上限に加えて「あなたの」氏族に付与される追加のコンパニオン(放浪者)枠。0 = 原版。例: 10 で氏族ティアが通常許す数より 10 人多くコンパニオンを抱えられます。プレイヤー氏族のみに適用されます。" />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="トロルの最大襲撃部隊" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="1つのトロルの洞窟から同時に存在できる襲撃部隊の数。例: 洞窟あたり襲撃部隊2つ。" />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="1日あたりの出現確率" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="トロルの洞窟が新たな襲撃部隊を出す1日あたりの確率。例: 0.05 = 1日 5%。" />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="洞窟の防衛規模" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="トロルの洞窟に入ったとき出迎えるトロルの数。高いほど防衛戦力が大きくなります。例: 50。" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="襲撃部隊あたりの最大トロル数" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="1つのトロル襲撃部隊の規模の上限。例: 襲撃部隊あたり最大トロル10体。" />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="洞窟戦に連れ込める兵数" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="洞窟掃討戦に連れ込めるあなたの兵の数(原版20)。トロル7体は一対一でも20人を粉砕しうるため、多いほど数的勝機が生まれます。例: 40。" />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="トロルの誘き出しを許可" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="オンにすると洞窟メニューに「トロルを誘き出す(肉10)」の選択肢を追加します。ティア6のトロルを肉10で得るのは悪用可能なため、デフォルトはオフです。" />
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="オーク HP 強化" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="構造的トグル: オーク HP 強化システム全体のオン/オフ。オフ = HP スライダーに関係なくオークは原版 HP を使用します。" />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="陣営別ダメージ" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="すべてのオークのダメージ補正(味方/敵の攻撃側・被害側の倍率)の構造的トグル。オフ = 原版のオークダメージ。" />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="歯の経済" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="オークの歯通貨経済(歯の獲得と消費)の構造的トグル。オフ = オークは原版のように通常のゴールドを使用します。" />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="オーク軍団の上限" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="オークの部隊規模・軍団上限の構造的トグル。オフ = AI オーク部隊が我々の制限なしに膨張します。" />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="トロルの洞窟の弱体化" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="トロルの洞窟の再調整(戦闘規模、襲撃制限)の構造的トグル。オフ = 原版のトロルの洞窟の挙動。" />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="隠れ家のクールダウン" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="隠れ家のクールダウン/制限システムの構造的トグル。オフ = 原版の隠れ家再出現ルール。" />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="乱闘報酬の弱体化" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="乱闘ゴールド報酬の引き下げの構造的トグル。オフ = 原版の乱闘報酬。" />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="聖堂略奪の弱体化" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="聖堂略奪の再調整(ゴールドのみ、肉/歯なし)の構造的トグル。オフ = 原版の聖堂略奪。" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="キャリアクエストの弱体化" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="オークのキャリアクエストの要件を引き下げます(武器スキル訓練の加算、戦闘、決闘、獲得した歯)。オフ = 原版のクエスト要件。" />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="トレビュシェットを建てないオーク" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="オークは複雑な攻城兵器を建てず、バリスタと破城槌のみを使用します。オフ = オークは原版のようにトレビュシェットを建てられます。" />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="斧が盾を割る" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="斧 対 木製盾の追加ダメージの構造的トグル。オフ = 斧は原版の盾ダメージを与えます。" />
+    <string id="lh_set_EnableMaceShieldBonus_lbl" text="打撃武器が盾を割る" />
+    <string id="lh_set_EnableMaceShieldBonus_desc" text="打撃武器（メイス、ハンマー）対 金属盾の追加ダメージのトグル。オフ = 打撃武器は原版の盾ダメージを与えます。" />
+    <string id="lh_health_title" text="Lore-Hardcore：互換性チェック" />
+    <string id="lh_ck_duel_abort" text="ここでは決闘を始められません。開けた野で王に挑んでください。" />
+    <string id="lh_health_intro" text="一部の Lore-Hardcore 機能が他のMODによって阻害されています：" />
+    <string id="lh_health_ui" text="マップの時間パネル（追加の速度ボタンとカオス進捗バー）を追加できませんでした。" />
+    <string id="lh_health_suspect" text="考えられる原因：{LIST}" />
+    <string id="lh_health_footer" text="Lore-Hardcore は TOR の後に読み込んでください。UIExtenderEx、MCM、ButterLib などのライブラリは必須で問題ありません——無効化しないでください。機能が直らない場合は UI/戦闘オーバーホール系MODを無効化してみてください。" />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="俊足のゴブリン" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="ゴブリンの速度/運動能力強化の構造的トグル。オフ = ゴブリンは原版の速度で移動します。" />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="長い蹴りスタン" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="オークの蹴りと盾殴りのスタン延長の構造的トグル。オフ = 原版のスタン時間。" />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="混沌の募集" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="旧式トグル。現在は「メイン」タブの混沌マスタースイッチが担います。セーブ互換性のため残されています。" />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="乱闘のランダム開始位置" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="オンにすると、固定位置ではなく乱闘アリーナのランダムな地点に出現します。見た目の変化のみ。" />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="歯アイコン" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="オンにすると、オーク募集の雇用メニューでゴールド硬貨の代わりに歯アイコンを表示します。見た目のみ。" />
+    <string id="lh_orc_appetite" text="グリーンスキンの食欲" />
+    <string id="lh_chaos_exec_reward" text="暗黒神がこの生贄を味わう。+{DE} 暗黒エネルギー。" />
+    <string id="lh_chaos_tempt_popup_title" text="誘惑は成った" />
+    <string id="lh_chaos_tempt_popup_body" text="{HERO} は囚われの中で心折れ、混沌の贈り物を受け入れる用意ができている。改宗させて自軍に加えるか?" />
+    <string id="lh_chaos_tempt_popup_yes" text="改宗させる" />
+    <string id="lh_chaos_tempt_popup_no" text="まだ" />
+    <string id="lh_chaos_upgrade_de" text="{COUNT}× {NAME} のために -{DE} 暗黒エネルギー。" />
+    <string id="lh_ungor_pierce_arrows" text="アンゴアの有刺矢" />
+    <string id="str_tor_chaos_norscan_reaver" text="ノルスカの狩人" />
+    <string id="str_tor_chaos_norscan_champion" text="ノルスカのバーサーカー" />
+    <string id="lh_norscan_savage" text="ノルスカの野人" />
+    <string id="lh_norscan_warrior" text="ノルスカの戦士" />
+    <string id="lh_norscan_thrower" text="ノルスカの投擲手" />
+    <string id="lh_norscan_champion_thrower" text="ノルスカの精鋭投擲手" />
+    <string id="lh_norscan_rider" text="ノルスカの騎手" />
+    <string id="lh_chaos_battle_thanks" text="混沌の同盟者は、戦いでのあなたの助力に満足している。" />
+    <string id="lh_chaos_tempt_offer" text="神々がお前の名を囁いている。混沌の贈り物を受け入れよ、さすれば兄弟として解放してやろう。" />
+    <string id="lh_chaos_tempt_accept_line" text="……ああ。聞こえる。もう抗えぬ。我が誓いを受け取れ — 私はお前のものだ。" />
+    <string id="lh_chaos_tempt_success" text="その領主は混沌の贈り物を受け入れ、あなたの側についた。" />
+    <string id="lh_chaos_darkpact_request" text="私を貴方がたの一員にしてくれ。" />
+    <string id="lh_chaos_darkpact_response_lord" text="この儀式は不可逆だ。お前の人間としての本性は死ぬ。覚悟はあるか?" />
+    <string id="lh_chaos_darkpact_accept_p" text="覚悟はできている。" />
+    <string id="lh_chaos_darkpact_decline_p" text="少し考えさせてくれ。" />
+    <string id="lh_chaos_darkpact_chaos_flesh_lord" text="成った。お前は真なる道の一部だ。" />
+    <string id="lh_chaos_darkpact_message" text="儀式は成った。お前とお前の氏族は今や混沌のもの:\n- 自領で混沌の兵を徴募できる;\n- 領地は異文化ゆえの忠誠低下を被らなくなる;\n- 混沌の僕はもうお前を余所者と見ない;\n- 神々は荒々しい武を授ける(武器と運動の技能が跳ね上がる)。\n死すべき者の目には体は変わらぬ——混沌の刻印はお前の魂にある。" />
+    <string id="lh_chaos_darkpact_title" text="混沌の贈り物を受け入れた" />
+    <string id="lh_continue" text="続ける" />
+    <string id="lh_chaos_encounter_talk" text="話す(我らは共に神々の視線の下にある)" />
+    <string id="lh_chaos_lord_peaceful_intro" text="何用で我らの地に来た、人の子よ? 手短に話せ — 神々は無駄口を好まぬ。" />
+    <string id="lh_chaos_lord_vassal_offer" text="暗黒神に仕えたい。" />
+    <string id="lh_chaos_lord_nolands" text="我らはまだ領土を持たぬ、人の子よ — お前を迎える場所がない。神々が我らに砦を授けたら戻れ。" />
+    <string id="lh_chaos_hire_merc" text="傭兵として我が玉座に仕えよ。" />
+    <string id="lh_chaos_hire_merc_accept" text="神々はお前の黄金を嘉する。我らの刃はお前のものだ、我が君。" />
+    <string id="lh_chaos_lord_ask_leader" text="お前の主君は今どこにいる?" />
+    <string id="lh_chaos_lord_subordinate_response" text="我が主君は {LEADER_LOC}。私はその手にすぎぬ。" />
+    <string id="lh_chaos_lord_leave" text="通りすがっただけだ。" />
+    <string id="lh_chaos_hideout_pass_peace" text="平穏に通り抜ける(暗黒神がお前の血を聞いている)" />
+    <string id="lh_chaos_hideout_recruit" text="巣窟から混沌の僕を召喚する" />
+    <string id="lh_chaos_portal_peace" text="門の前にひざまずき、平穏に通り抜ける" />
+    <string id="lh_chaos_portal_recruit" text="門から混沌の選ばれし者を召喚する" />
+    <string id="lh_chaos_recruit_cd" text="この場所はまだ力を蓄えていない。後で戻れ。" />
+    <string id="lh_chaos_recruit_nogold" text="捧げ物に必要なゴールドが足りない。" />
+    <string id="lh_chaos_portal_got" text="{NAME} が門から現れる。" />
+    <string id="lh_chaos_vassal_offer" text="暗黒神に仕えたい。" />
+    <string id="lh_chaos_vassal_response_lord" text="はっ！{VASSAL_GOLD} の金貨を持って来い。さらば、お前の誓いを受け入れよう。" />
+    <string id="lh_chaos_vassal_pay_p" text="これが黄金だ。" />
+    <string id="lh_chaos_vassal_no_gold_p" text="そんなには持っていない。" />
+    <string id="lh_chaos_vassal_decline_p" text="考えておこう。" />
+    <string id="lh_chaos_vassal_accepted_lord" text="見事! 神々はお前の誓いを受け入れる。" />
+    <string id="lh_chaos_vassal_rejected_lord" text="覚悟ができたら戻れ。" />
+    <string id="lh_chaos_vassal_join_flavor" text="混沌の領主たちが新たな僕に略奪者の装備を授ける——北方の斧、盾、毛皮が所持品に入っている。装備せよ(Iキーを押す)。暗黒神の祝福された戦装束は血で勝ち取るものであり、未熟な者に与えられはしない。" />
+    <string id="lh_darkenergy_desc" text="暗黒エネルギーは禁断の信仰の神秘の力。ネクロマンサーはそれで死者を起こし、不死者を保つ。暗黒神の僕はそこから力を引き出し、武器を付呪し、選ばれし戦士を鍛える。源: 流された血、汚された力の地、暗黒の儀式。" />
+    <string id="lh_chaos_wand_intro" text="何が望みだ、人の子よ?" />
+    <string id="lh_chaos_wand_tellme" text="お前のことを話してくれ、旅人よ。" />
+    <string id="lh_chaos_wand_skip" text="本題に入ろう。お前に仕事がある。" />
+    <string id="lh_chaos_wand_hire" text="お前の腕が必要だ。私と来るか?" />
+    <string id="lh_chaos_fodder_partysize" text="混沌の捨て駒" />
+    <string id="lh_enc_menu_button" text="Lore-Hardcore ガイド" />
+    <string id="lh_enc_race_orc" text="オーク" />
+    <string id="lh_enc_race_chaos" text="混沌" />
+    <string id="lh_enc_orc_overview_t" text="オーク改修 — 概要" />
+    <string id="lh_enc_orc_overview_b" text="Lore-Hardcore はグリーンスキンを、捨て駒の群れから真のウォーハンマー勢力へと作り変えます。\n\n核となる考え:\n- オークは頑丈で打撃も重いが、戦線に出すのが「高価」で成長も遅いため、マップが無料のオークで溢れることは決してありません。\n- オークは黄金を重んじません。オークの地では「歯」で支払います — これは戦って得る通貨です(「歯の経済」の節を参照)。\n- 精鋭オーク(ブラックオーク、ボス、ビッグアン)は恐れを知らず凶暴ですが、AI が雪だるま式に強くならないよう数に上限があります。\n- 多くの小さな風味付けシステム: 行軍中の食人、乱闘アリーナ、要塞の決闘、作り直した攻城破城槌、そしてオークのキャリア。\n\n左の各トピックが1つのシステムを説明します: 何をするか、なぜ存在するか、どう使うか。グリーンスキンを初めて遊ぶなら、まず「歯の経済」と「キャリア」を読んでください。" />
+    <string id="lh_enc_orc_teef_t" text="歯の経済(歯)" />
+    <string id="lh_enc_orc_teef_b" text="オークとゴブリンの英雄にとって、歯の経済は「常に」オンです。設定ダイアログも途中切り替えもありません。人間、ドワーフ、ヴァンパイアは通常どおり黄金を使い続けます。\n\nオークを遊ぶとき:\n- オークの集落では、ほぼすべてを黄金ではなく「歯」で支払います(精鋭オークの募集、決闘、乱闘)。\n- オークの地の外では、通常のサービスには今も黄金を払います。\n- ゴブリンは今も黄金で雇います(安い烏合の衆)。\n\n歯の「稼ぎ方」:\n- 戦闘で手強い敵を倒す(ティア4以上)。\n- 敵の領主を討つ。\n- 乱闘と要塞の決闘に勝つ。\n- 所有する各オークの町や要塞からの毎日の貢ぎ物。\n\nなぜ存在するか: ウォーハンマーではオークは文字どおり歯を金として使い — 黄金を重んじません。この経済は AI も抑えます: オーク領主はあなたの氏族から黄金を吸い取りません(実際には支払わないため給与士気のペナルティが抑制されます)し、毎日の歯収入には上限があるため、AI のウォーボスが無限の精鋭軍を買えません。" />
+    <string id="lh_enc_orc_career_t" text="キャリア: ボスとシャーマン" />
+    <string id="lh_enc_orc_career_b" text="オークの英雄はキャラクター作成時に2つのキャリアの道から1つを選びます。\n\nボスの道(ボスになる): 戦って成長する近接の荒くれ者 — 武器スキル、戦闘、トーナメント、乱闘、そして稼いだ歯。\n\nシャーマンの道: 信仰と魔法で成長する術者 — 呪文術、信仰、付呪、歯、そして略奪した聖堂。\n\nLore-Hardcore は TOR 原版のキャリア要件を「引き下げ」、通常のプレイでオークのキャリアが実際に到達可能になるようにします。おおよそ:\n- ボス ティア2: 武器スキル ~80/80/30、戦闘30、トーナメント5、乱闘10、歯2000。\n- ボス ティア3: ~150/120/60、戦闘70、トーナメント15、乱闘20、領主との決闘5、攻略した都市5、歯10000。\n- シャーマン ティア2: 聖堂で祈る、呪文術50、信仰50、付呪3、歯2000、略奪した聖堂5。\n- シャーマン ティア3: 呪文術120、信仰100、付呪8、歯10000、都市5、聖堂30。\n\n乱闘アリーナと要塞の決闘は、こうした目標を片付ける助けとして部分的に存在します。" />
+    <string id="lh_enc_orc_morale_t" text="士気と WAAAGH!" />
+    <string id="lh_enc_orc_morale_b" text="オークの戦闘と AI の挙動は、グリーンスキンが危険に感じられつつもマップ全体を征服しないよう再調整されています。\n\n戦場では:\n- オーク領主は基礎でおよそ +40% HP と +30% の戦闘スキルを得ます。\n- 精鋭オーク(ブラックオーク、ボス、バーザーカ、ビッグアン)は「恐れを知らず」、決して恐慌しません。\n- 大量のオークが戦いに雪崩れ込むほど WAAAGH! 士気ボーナスが積み上がります。\n\nAI が雪だるま式にならないよう:\n- AI オーク領主の部隊規模にソフトな上限(デフォルトおよそ80。設定で変更可)。\n- 元帥の軍団はわずかな部隊しか抱えないため、オークは3000ではなく400〜500の戦団で攻めます。\n- AI の戦力評価はオーク・ゴブリン・大型の怪物を真の重みで数えるため、帝国の領主はオークの脅威を正しく見積もり、無駄死にしません。\n\nあなた自身の部隊は通常の原版の規模上限を使います — これらの上限は AI 向けです。" />
+    <string id="lh_enc_orc_challenge_t" text="要塞の決闘" />
+    <string id="lh_enc_orc_challenge_b" text="オークの要塞を訪れると、その精鋭オークの1体に歯を賭けて一騎打ちを挑めます。\n\n- 勝利: 倒した精鋭が戦利品ユニットとして部隊に加わり、歯を得ます。\n- 敗北: 賭けた分を失い、要塞での評判がしばらく下がります。\n\nこの戦いは要塞のシーンでの本物の1対1です — 全力を出しましょう。どの精鋭が出されるかは要塞次第(ビッグアン、ボス、ブラックオーク、ブルート、バーザーカ)で、手強い相手ほど賭けが高くなります。精鋭ユニットを得つつオークのキャリアの決闘目標を達成する手早い方法です。" />
+    <string id="lh_enc_orc_sieges_t" text="攻城と破城槌" />
+    <string id="lh_enc_orc_sieges_b" text="オークは文明勢力とは違うやり方で包囲します。\n\n- オークはトレビュシェットを「作りません」 — 繊細な工学に費やす忍耐がないのです。バリスタ、オナガー、カタパルト(火炎型を含む)を使います。\n- 彼らの破城槌は大幅に強化されています: はるかに強く打ち、はるかに長く持ちこたえるため、門は数十発ではなくほんの数発で落ちます。\n- 自動解決も同じ破城槌強化を受けるので、観戦するか否かにかかわらずオークの攻城は素早く決着します。\n\nねらいは、遅い砲撃の応酬ではなく、凶暴で素早い「門をぶち破る」オークの強襲です。" />
+    <string id="lh_enc_orc_cannibalism_t" text="捕虜の食人" />
+    <string id="lh_enc_orc_cannibalism_b" text="オークは戦利品画面で捕虜を解体「しません」。肉は行軍中の飢えからのみ得られます。\n\n戦闘後、捕虜の解体や自動戦利品からは肉はゼロです — この経路はプレイヤーには意図的に閉じられています。\n\n捕虜から肉を得る唯一の方法: 捕虜を取り、食料を切らし、行軍を続けること。食料庫が空の1時間ごとに、部隊は口を1つ食べます:\n1. まず捕虜(各1の肉)。\n2. 次にゴブリン(各1の肉)。\n3. 領主とコンパニオンは「決して」食べません — 領主は身代金の価値があり、コンパニオンはあなたの物語の一部です。\n\n設定背景: オークは道中で捕虜を生きたまま貪り食うのであって、肉屋の台の上できれいに、ではありません。AI オーク部隊は原版の戦闘での肉を保ち、キャンペーンを通して餓死しないようにしています。" />
+    <string id="lh_enc_orc_brawl_t" text="グリーンスキンの乱闘アリーナ" />
+    <string id="lh_enc_orc_brawl_b" text="乱闘は、オークの集落にある拳闘アリーナです。\n\n- 1試合あたり約18人の敵。\n- 報酬は自分でいくつ叩き伏せたかに応じて増えます。\n- 場外に出た敵は自動でとどめを刺され、試合が止まらないようにします。\n\n片手武器を鍛え、歯を稼ぎ、オークのキャリアの乱闘目標を片付けるのに格好の場です。占領した非オークの都市では、古い機器でのグラフィック不具合を避けるためアリーナの雰囲気演出が抑制されます。" />
+    <string id="lh_enc_chaos_overview_t" text="混沌とは" />
+    <string id="lh_enc_chaos_overview_b" text="混沌は暗黒勢力の勢力改修です: 北方の四柱の暗黒神に仕える戦士、獣、信徒たち。ノルスカの部族民、ビーストマン(ゴア、アンゴア、ミノタウロス)、混沌の戦士、そして文明の地で密かに崇拝する隠れた信仰を一つにまとめています。\n\n混沌は BETA 機能で、デフォルトはオフです。設定の「混沌改修を有効化」マスタースイッチでオンにします(ゲームの再起動が必要)。オフのときは、グリーンスキンも他の全員も通常どおりふるまい、以下のシステムはいずれも適用されません。\n\n混沌との関わり方は二通り:\n1. 戦う — 混沌は世界全体と戦争状態にあります。侵攻と信仰の蜂起に立ち向かいましょう。\n2. 加わる — 暗黒神の僕となる: 混沌の贈り物を受け、混沌の領主に仕え、暗黒の兵を募り、捕らえた領主を自分の側に転向させる。\n\nこのガイドは、混沌のプレイヤーになる方法と、それに伴うすべてのシステムを順を追って説明します。「始め方/加入」から始めて、リストを下へ読み進めてください。" />
+    <string id="lh_enc_chaos_joining_t" text="始め方/加入" />
+    <string id="lh_enc_chaos_joining_b" text="あなたは混沌として始まるのではありません — 堕ちることを選ぶのです。\n\n仲間入りの道は二つ:\n\n1)混沌の領主の臣下になる。\n- あなたが「独立した」氏族である間(自分の王国を持たず、誰にも誓いを立てていない間)は、混沌との永続的な戦争を強いられないため、実際に混沌の領主に近づいて話せます。\n- 文化が混沌の領主を見つけ、対話を開き、「暗黒神に仕えたい」を選びます。\n- 彼は神々への捧げ物として黄金の貢ぎ物を求めます。それを払えば、臣下として彼の王国に加わります。額と最低氏族ティアは設定で決めます。\n\n2)混沌の贈り物を直接受ける(次の節を参照)ことで、自分の英雄と氏族を混沌の文化に転向させます。\n\n重要: ひとたび混沌の王国に属すると、世界全体があなたと戦争状態になります — これは意図的です(「戦争と外交」を参照)。誓いを立てる前に、その戦いに備えができているか確かめてください。" />
+    <string id="lh_enc_chaos_gift_t" text="混沌の贈り物" />
+    <string id="lh_enc_chaos_gift_b" text="混沌の贈り物は、あなたの英雄 — そして氏族全体 — を混沌の文化に転向させる儀式です。暗黒神への深い帰依です。\n\nその作用:\n- 英雄の文化を混沌に変え、そして肝心なことに、あなたの「氏族」の文化も変えます。これは重要です: 英雄だけが変わると、保有する領地は忠誠の不一致に苦しみます。両方が転向するので、混沌の集落はあなたに忠実なままになります。\n- ゲームが対応する範囲で、外見を混沌に触れられた姿へと変えようとします。\n- 戦闘経験の高まりを授けます — 神々が新たな信徒に注ぐ生の力の表れです。\n\n入手方法: 対話で混沌の領主に「自分を彼らの一員にしてくれ」と頼みます(最低氏族ティアが適用され、設定で決めます)。転向は永続的です。\n\n贈り物の後は、混沌の地で暗黒の兵を自由に募り、信徒の巣窟を平穏に通り抜け、暗黒エネルギーを生み出し始めます。" />
+    <string id="lh_enc_chaos_darkenergy_t" text="暗黒エネルギー" />
+    <string id="lh_enc_chaos_darkenergy_b" text="暗黒エネルギーは混沌プレイヤーの資源 — 形となった暗黒神の恩寵です。オークの歯やヴァンパイアの風のように働きます: あなたの勢力だけが使う特別な通貨です。\n\n「稼ぎ方」:\n- 処刑によって捕虜を生贄に捧げる(神々が捧げ物を味わう)。\n- 勢力が育つにつれての、その他の暗黒の行い。\n\n「使い道」:\n- 精鋭の混沌兵を昇格させること。ユニットを真の混沌の精鋭に昇格させるには、通常の昇格に加えて暗黒エネルギーがかかります。賄えなければ、足りるまで昇格は UI 上でブロックされ — 借金には陥りません。\n\n暗黒エネルギーは決してゼロを下回らず、混沌と結びついて初めて目に見えます。神々が最良の勇者のために課す代価と考えてください: 育つには、彼らに餌を与え続けねばなりません。" />
+    <string id="lh_enc_chaos_troops_t" text="混沌の兵" />
+    <string id="lh_enc_chaos_troops_b" text="混沌の軍は安価な捨て駒と恐ろしい精鋭を混ぜ合わせます。\n\n編成は、おおむね弱い順から強い順に:\n- 信徒と侍祭 — 人間の狂信者、純然たる捨て駒。\n- アンゴア — より小柄なビーストマン、これも捨て駒。\n- ノルスカの部族民とその精鋭 — 北方の人間の戦士。設定が求めるとおり、ノルスカ人が並の人間より頑丈になるよう HP 強化が与えられています。\n- ゴアとその精鋭 — より大柄なビーストマンで、ノルスカ人を上回る HP 強化。\n- 混沌の戦士 — 暗黒神の装甲の勇者。\n- ミノタウロス — すべての中で最大の HP 強化を持つ巨大な怪物。\n\n捨て駒の仕組み: 信徒とアンゴアは部隊で占める枠が「少ない」です。こうした捨て駒ユニットを2体携えるごとに部隊上限が1上がります — ヴァンパイア勢力の小型アンデッドとまったく同じです。これにより、貴重な部隊枠を浪費せず、安い烏合の衆を実用に保てます。\n\n別の調整が欲しければ、すべての HP 強化は設定で調整できます。" />
+    <string id="lh_enc_chaos_recruiting_t" text="混沌の兵の募集" />
+    <string id="lh_enc_chaos_recruiting_b" text="混沌と結びつくと(臣下/王、または混沌の文化)、暗黒の軍を起こす手段がいくつか得られます。よそ者ではこれらは何一つできません — 信仰は信徒にのみ開かれます。\n\n募集の手段:\n- 集落: 混沌寄りの町・要塞・村の有力者は、通常の新兵ではなく暗黒の志願兵を提供します。要塞域は精鋭の戦士寄り、町は捨て駒を混ぜます。\n- 信徒とビーストマンの「巣窟」(森と草原の信仰の盗賊式の隠れ家): 戦う代わりに平穏に通り抜けられ、さらに黄金でその僕を召喚できます。クールダウンがあるため、一つの巣窟を永遠に荒稼ぎはできません。\n- 混沌の「門」: ひざまずいて通れる、あるいは代価を払って混沌の選ばれし者 — 精鋭中の精鋭 — を召喚できる特別な場所。\n- 混沌の要塞を訪れると、ミノタウロスが希少な募集枠として現れます。\n\nある場所がどの捨て駒を提供するかは、その文化によります(草原の巣窟はアンゴア、森の信仰は信徒)。" />
+    <string id="lh_enc_chaos_tempting_t" text="捕虜の誘惑" />
+    <string id="lh_enc_chaos_tempting_b" text="混沌のプレイヤーとして、捕らえた領主を堕落させ、敵の貴族を単に身代金にする代わりに暗黒神の僕へと変えられます。\n\n仕組み:\n- 敵の領主を捕虜にしておきます。地下牢で過ごす一日ごとに、神々が囁くにつれ「誘惑」の進行が加わります。\n- 進行が閾値を越えると、捕虜は混沌の贈り物を受け入れる用意が整います。改宗させる選択肢が現れ — 彼は心折れてあなたの側につきます。\n- 捕虜が解放されたり脱走したりすると、その進行は減衰します。\n- すでに改宗させた領主が一人増えるごとに次がわずかに難しくなるため、世界全体を際限なく大量改宗させることはできません。\n\nすべての数値 — 一日あたりの進行、閾値、改宗ごとのペナルティ、減衰率、そしてすでに混沌の文化ならボーナス — は設定で調整できます。デフォルトでは、領主を転向させるのに数か月の囚われが必要です。" />
+    <string id="lh_enc_chaos_vassalage_t" text="臣従と報酬" />
+    <string id="lh_enc_chaos_vassalage_b" text="混沌の王国に身を捧げるとき、あなたは手ぶらで帰されはしません — 暗黒神は新たな勇者を武装させます。\n\n混沌の王国に加わると、英雄は混沌装備の初期セットを授かります: 四柱の神(コーン、ナーグル、ティーンチ、スラーネッシュ)をテーマにした鎧・兜・武器に加え、汎用の混沌の戦士の品と乗騎。好きなセットを装備しましょう。\n\n混沌に仕えることは関係も変えます — 暗黒の領主たちは身内として歓迎し、文明世界はあなたに敵対します。\n\nこの報酬は、氏族が混沌文化の王国に初めて加わるとき一度だけ与えられます。万一、品が現れない場合は、問題が見えるよう Mod が起動時に警告を記録します(ゲーム読み込み時に各装備 id を確認します)。" />
+    <string id="lh_enc_chaos_uprisings_t" text="混沌の蜂起" />
+    <string id="lh_enc_chaos_uprisings_b" text="混沌はじっとしていません。周期的に混沌の蜂起が勃発します — 文明の国々を脅かすため、暗黒の勢力の波がマップに噴き出します。\n\n原版 TOR では最初の蜂起ははるか先(およそ126日)です。Lore-Hardcore は間隔を短くし(デフォルトおよそ30日、設定で決定)、混沌がはるかに早く生きた脅威となり、世界が本物の重圧の下にあると感じられるようにします。\n\nクールダウンは新しいキャンペーンの開始から適用されます: 最初の蜂起はあなたが選んだ日数の後に起こり、そのタイマーで繰り返されます。混沌に憑かれた狂乱の世界には下げ、ゆるやかな高まりには上げてください。" />
+    <string id="lh_enc_chaos_war_t" text="戦争と外交" />
+    <string id="lh_enc_chaos_war_b" text="加わる前に理解すべき最も重要なこと: 「世界全体」が混沌と戦争状態にあり、ひとたび混沌の王国に属せば、それは世界全体が「あなた」と戦争状態にあることを意味します。\n\nこれは意図的です。混沌はあらゆる文明勢力の大いなる敵であり — 暗黒神の誓った僕として、永続する平和は得られません。四方八方からの攻撃を覚悟してください。\n\n唯一の例外は加わる「前」です: まだ王国を持たぬ独立した氏族である間は、Mod は混沌との戦争を強いません。その猶予こそが、そもそも混沌の領主のもとへ馬を進めて加入を交渉できる理由です。誓いを立てた瞬間、手加減は終わり、世界はあなたに対して団結します。\n\nそれに応じて備えましょう: この一歩を踏み出す前に、強く自立した暗黒の軍を築いてください(数のための捨て駒、打撃のための精鋭と怪物)。なぜなら、あなたは全員と戦うことになるからです。" />
+    <string id="lh_goblin_changer_hub_leave_p" text="また今度な、ゴブ公。" />
+    <string id="lh_goblin_changer_cooldown" text="へへ、ボス、きのうもう歯ぜんぶ渡したぜ! {DAYS}日たったらまた来な、もっと掘らなきゃならんのよ、な?" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="そんなにキラキラ持ってねえなあ。" />
+    <string id="lh_goblin_changer_intro" text="おい、デカいボス! お前のキラキラと歯っこ交換してやんよ、どうだ、へへっ!" />
+    <string id="lh_goblin_changer_after_no_gold" text="へへっ! キラキラ無きゃ歯っこ無しだ。先に人間どもからくすねてこい、わかったか?" />
+    <string id="lh_goblin_changer_hub_trade" text="キラキラ1000を歯っこ {AMOUNT} と交換。" />
+    <string id="lh_goblin_changer_after_trade" text="*ゴブリンは歯を {NOMINAL} 数え、こっそり {HIDDEN} 枚を横の隠しポケットへ滑り込ませる。* 取引うれしいねえ、デカいボス!" />
+    <string id="lh_goblin_changer_town_ok" text="立ち去る" />
+    <string id="lh_goblin_changer_town_title" text="ゴブリンの両替屋" />
+    <string id="lh_goblin_changer_town_outcome" text="*ゴブリンは酒場の机で歯を {NOMINAL} 数え、すかさず {HIDDEN} 枚をベルトの袋へ滑り込ませてから、残りをお前のほうへ押しやる。* 取引うれしいねえ、デカいボス!" />
+    <string id="lh_goblin_changer_town_intro" text="*隅の机にいる狡そうなゴブリンが、小銭の山をいじりながらお前を手招きする。そしてささやく:* おい、デカいボス! キラキラと歯っこ交換すんぜ。キラキラ1000で — {NOMINAL} 数えてやる。横の自分の袋に {HIDDEN} 枚くすねるかって? さあな…… 交換するか、どうだ?" />
+    <string id="lh_goblin_changer_town_cancel" text="また今度" />
+    <string id="lh_goblin_changer_town_option" text="酒場のゴブリンの両替屋と話をつける" />
+    <string id="lh_goblin_changer_town_no_gold" text="*隅のゴブリンがお前の財布を嗅いで鼻を鳴らす。* へへっ! キラキラ無きゃ歯っこ無しだ。先に人間どもからくすねてこい、な?" />
+    <string id="lh_goblin_changer_town_trade" text="交換する" />
+    <string id="lh_goblin_changer_town_cooldown" text="*酒場の隅のゴブリンが疑わしげにお前を見て、そっぽを向く。* へへ、ボス、二、三日前にもう歯っこ渡したろ! あと {DAYS}日したら来な、な?" />
+    <string id="lh_goblin_changer_intro_town" text="よう、デカいボス! 兄弟どもがおいらの取引を見てる — まっすぐ公正、いかさま無しだ。キラキラを歯っこに替えるか?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*ゴブリンはきっかり {AMOUNT} の歯をお前の手のひらに数える — まっすぐ正直に、荒くれどもが見てるからな。* 他に何か、デカいボス?" />
+    <string id="lh_goblin_changer_village_trade" text="キラキラ1000を歯っこ {AMOUNT} と交換。" />
+    <string id="lh_goblin_changer_intro_village" text="おい、デカいボス! お前のキラキラと歯っこ交換してやんよ、どうだ、へへっ!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="で、交換はどうだ?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="すまんなボス、今日はもう歯っこ残ってねえ。明日また来な、兄弟どもからもっと掘り出すからよ、な?" />
+    <string id="lh_ck_challenge" text="混沌の玉座は最強の者のものだ。お前に決闘を申し込む！" />
+    <string id="lh_ck_resp_lord" text="無礼な定命の者よ！よかろう——神々は血を渇望している。城壁の外、開けた地で相見えよう。覚悟ができたら来るがいい——どちらか一人は夕日を見ることはない。" />
+    <string id="lh_ck_accept_p" text="この玉座は我がものとなる。" />
+    <string id="lh_ck_decline_p" text="まだその時ではない。" />
+    <string id="lh_ck_disgraced_p" text="再びお前に挑む！" />
+    <string id="lh_ck_taunt_lord" text="お前はすでに運命を試し、打ち倒された、哀れな虫けらめ！闇の神々はお前の欺瞞を見ている——これがその報いだ。" />
+    <string id="lh_ck_load_penalty" text="闇の神々は臆病者から顔を背けた。お前の混沌の栄光は色あせていく。" />
+    <string id="lh_ck_wound" text="神々はお前の傲慢を罰した。傷を癒し、玉座にふさわしいと示してみせよ。" />
+    <string id="lh_ck_defeat" text="混沌の王がお前を打ち倒す。{DAYS}日後に再び挑め。" />
+    <string id="lh_ck_victory" text="お前は混沌の王の死した手から玉座をもぎ取った！闇の神々は新たな主を認めた。王国はお前のものだ。" />
+    <string id="lh_ck_victory_title" text="簒奪者、玉座に就く" />
+    <string id="lh_ck_eligible" text="闇の神々がお前を見つめている！混沌の王——混沌の王国の支配者——を探し、話しかけ、玉座を懸けて挑め。" />
+    <string id="lh_ck_bar_legend" text="混沌の栄光" />
+    <string id="lh_ck_bar_ready" text="挑戦可能" />
+    <string id="lh_ck_bar_disgrace" text="失寵" />
+    <string id="lh_cw_bs_a" text="闇の神々の名のもと、長い道を歩んできた。" />
+    <string id="lh_cw_bs_b" text="血と栄光——今やそれだけが重要だ。" />
+    <string id="lh_cw_bs_c" text="弱き者は仕え、強き者は統べる。お前はどちらだ？" />
+    <string id="lh_cw_bs_d" text="話は十分だ。お前のために戦おう——相応の対価でな。" />
+    <string id="lh_cw_resp1" text="力は敬う。もっと聞かせろ。" />
+    <string id="lh_cw_resp2" text="昔話は結構。本題に入ろう。" />
+    <string id="lh_cw_leave" text="では、またの機会に。" />
+    <string id="lh_cw_pay" text="我が刃はお前のものだ——{GOLD_AMOUNT} でな。" />
+    <string id="lh_cw_accept" text="取引成立だ。{GOLD_AMOUNT} はお前のものだ。" />
+    <string id="lh_cw_decline" text="今はそれだけ払えぬ。" />
+    <string id="lh_enc_chaos_market_t" text="呪われた市場" />
+    <string id="lh_enc_chaos_market_b" text="混沌の武器と防具は堅気の者に忌避され、混沌が支配する都市の市場でのみ売られる。略奪者の装備、信徒のローブ、混沌の武器、盾、そして混沌の軍馬はいずれの混沌都市でも手に入る。だが闇の神々（コーン、ナーグル、ティーンチ、スラーネッシュ）の祝福された戦装束と神に選ばれし者の兜は、首都——最も繁栄した混沌都市——でのみ、しかも莫大な金額で売られる。\n混沌都市では誰でも購入できるが、呪われた品は混沌の都市と村以外のどこでも売ることはできない——他の商人は決して手を触れない。" />
+    <string id="lh_enc_chaos_throne_t" text="王を打倒する" />
+    <string id="lh_enc_chaos_throne_b" text="力こそ正義。自らの手で十分な数の敵を討て。さすれば闇の神々はお前を現王たる混沌の王の好敵手として印づける。\n個人の討伐数が混沌の栄光を築く（地図の時計の上のバーに表示される）。混沌に少なくとも30日仕え、混沌の栄光を王のそれより高めよ。神々が気づいたとき、王に死闘を挑め——お前一人で王とその混沌の戦士二名を相手取る。\n勝てば玉座も領地も臣下もお前のものとなり、王の祝福された戦装束を戦利品として得る。敗れれば混沌の栄光は三分の一が砕ける。" />
+    <string id="lh_chaos_wand_full_p" text="お前を入れる空きがない——供の者はもう満杯だ。" />
+    <string id="lh_chaos_wand_full_lord" text="ならば席を空けてから戻れ、定命の者よ。闇の神々は待つのを好まぬ。" />
+    <string id="lh_ck_where_p" text="お前の主君たる王はどこにいる？" />
+    <string id="lh_ck_loc_court" text="我が主は {SETTLEMENT} にて宮廷を構えておられる。" />
+    <string id="lh_ck_loc_march" text="我が主は遠征中、{SETTLEMENT} の近くにおられる。" />
+    <string id="lh_ck_loc_prison" text="我が主は {SETTLEMENT} の地下牢に囚われておられる。" />
+    <string id="lh_ck_loc_unknown" text="我が主は荒野をさまよっておられる——私とて在処は知らぬ。" />
+    <string id="lh_ck_bar_days" text="奉公まで残り{DAYS}日" />
+    <string id="lh_ck_ready_title" text="玉座が待っている" />
+    <string id="lh_ck_ready_msg" text="お前は血と奉公で己を証明した。混沌の王を探せ——どの混沌の領主にでも、王がどこで宮廷を構えているか尋ね——その玉座を懸けて挑め。" />
+    <string id="lh_ck_cd_p" text="再びお前と相見えたい、混沌の王よ。" />
+    <string id="lh_ck_cd_lord" text="お前はすでに敗北を味わった、定命の者よ。傷を癒し、相応しくなったら戻れ——{DAYS}日後にな。失せろ！" />
+    <string id="lh_ck_cd_leave" text="去る……恥を抱いて。" />
+    <string id="lh_ck_bar_cooldown" text="挑戦まで{DAYS}日" />
+    <string id="lh_kd_begin" text="武器を抜け——決闘を始める。" />
+    <string id="lh_kd_escort_title" text="戦友を選ぶ" />
+    <string id="lh_kd_escort_desc" text="共に戦う仲間を選べ（最大 {MAX} 名）。混沌の王も同数の親衛を連れてくる。誰も選ばなければ単身で挑む。" />
+    <string id="lh_kd_escort_ok" text="戦いへ！" />
+    <string id="lh_kd_escort_back" text="戻る" />
+    <string id="lh_kd_prep_text" text="混沌の信徒たちが野に頭蓋と黒鉄の闘技の輪を築いた。混沌の王{KING}がそこに踏み入り、お前と対峙する——輪から生きて出られるのは一人だけだ。" />
+    <string id="lh_kd_won_text" text="混沌の王はお前の足元で事切れている。闇の神々は称賛の咆哮を上げる——お前自身の玉座への道が開かれた。" />
+    <string id="lh_kd_claim" text="混沌の玉座を手にする。" />
+    <string id="lh_kd_lost_text" text="お前は打ち負かされ、倒された。傷を癒し、{DAYS}日後に再び挑め。" />
+    <string id="lh_ck_found_title" text="己の混沌の王国を建てる" />
+    <string id="lh_ck_found_text" text="玉座は血によってお前のものだ。新たな混沌の王国に名を与えよ。" />
+    <string id="lh_ck_found_default" text="混沌の軍勢" />
+    <string id="lh_ck_founded" text="お前の混沌の王国が建った。闇の神々は新たな勇者を見守る。" />
+    <string id="lh_kd_chicken" text="今日はやめておく——退く。（立ち去る）" />
+    <string id="lh_extorsion_tier_too_low" text="ランクが低すぎる——金歯を持つのはT4以上のオークだけだ。" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_lbl" text="隠れ家ごとの盗賊パトロール数" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="アクティブな隠れ家ごとの周囲に出現する放浪盗賊団の数。TORの既定値は6——マップを徘徊する集団を減らすには下げる。例：3。" />
+    <string id="lh_set_MaxLooterParties_lbl" text="略奪者・脱走兵集団の上限" />
+    <string id="lh_set_MaxLooterParties_desc" text="マップ上の略奪者・脱走兵集団の上限値。TORは最大200まで許容——本設定は下げるのみ（TORのキャンペーン段階が許す値を超えて上げることはない）。例：60。" />
+    <string id="lh_god_khorne" text="コーン、血の神" />
+    <string id="lh_god_nurgle" text="ナーグル、疫病の王" />
+    <string id="lh_god_tzeentch" text="ティーンチ、変転の神" />
+    <string id="lh_god_slaanesh" text="スラーネッシュ、闇の公子" />
+    <string id="lh_god_none" text="神なし" />
+    <string id="lh_god_khorne_flv" text="髑髏の玉座に髑髏を。コーンは公然たる殺戮で首級を挙げる容赦なき屠殺者を好む。" />
+    <string id="lh_god_nurgle_flv" text="疫病の祖父は耐え忍ぶ者を抱く。その選ばれし者は腐れども、倒れることを拒む。" />
+    <string id="lh_god_tzeentch_flv" text="運命の設計者は、魔法の風を意のままに操る狡猾な術師に報いる。" />
+    <string id="lh_god_slaanesh_flv" text="快楽の公子は迅速かつ完璧なる者——殺しを芸術と化す決闘者を尊ぶ。" />
+    <string id="lh_god_choose_title" text="闇の神に誓いを立てる" />
+    <string id="lh_god_choose_desc" text="あなたは混沌の祭壇の前にひざまずく。その刻印を負う神を選べ——この選択は最終である。{SET} キルであなたの神は完全な戦の武具を授け、{DUEL} キルで至高の支配者その人に王座を懸けて挑むことができる。" />
+    <string id="lh_god_choose_ok" text="誓いを立てる" />
+    <string id="lh_god_chosen_msg" text="あなたは今や {GOD} に誓いを立てた。{FLAVOR}" />
+    <string id="lh_god_set_granted" text="闇の神々はあなたの殺戮に報いる——{GOD} の完全な戦の武具が今あなたの所持品にある。所持品から装備せよ（I キー）。" />
+    <string id="lh_god_set_title" text="神の寵愛" />
+    <string id="lh_set_tab_gods" text="闇の神々" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="神の戦装束に必要なキル数" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="混沌に誓うとき、四柱の闇の神（コーン、ナーグル、ティーンチ、スラーネッシュ）から一柱を選ぶ。個人キル数がこの数に達すると、神は最上位の防具と武器の完全な一式を授ける。低いほど精鋭装備を早く得られる。例：1000 は自らの手で約 1000 体の敵を倒すこと。範囲 500-2000。" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="至高の支配者に挑むための追加キル数" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="戦装束の閾値に加えて、混沌の至高の支配者（モートキン）に王座を懸けて決闘を挑むまでに必要な追加の個人キル数。決闘に必要な総キル数＝戦装束の閾値＋この値。低いほど王座への挑戦が早く解放される。例：両方 1000 なら 2000 キルで彼に挑む。範囲 500-2000。" />
+    <string id="lh_chaos_minotaur_weight_relief" text="ミノタウロスの重量（緩和）" />
+    <string id="lh_chaos_recruited_list" text="召喚：{LIST}。" />
+  </strings>
+</base>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lore-Hardcore: новые норсканские юниты для дерева по схеме клиента (Picc/photo_32).
+     5 узлов, которых нет в TOR: Дикарь→Воин (ветка мечи/пики), Метатель→Чемпион-Метатель
+     (ветка метательное от Китобоя/Охотника), Наездник (ветка кавалерии).
+     Экипировка/скиллы — ПЕРЕИСПОЛЬЗУЕМ реальные норсканские шаблоны TOR (без выдуманных id):
+       reaver_template (T3 пехота), champion_template (T4 пехота), horsemaster_template (T4 кав).
+     Дерево апгрейдов: новых детей задаём здесь; родителей (raider/reaver/horsemaster)
+     перенаправляем через tor_troopdefinitions.xslt. См. docs/Chaos_TroopTree_Design.md. -->
+<NPCCharacters>
+
+  <!-- Дикарь (T3) — ветка raider→Дикарь→Воин (мечи/пики). Клон reaver. -->
+  <NPCCharacter id="tor_lh_norscan_savage" default_group="infantry" level="16"
+                name="{=lh_norscan_savage}Norscan Savage" occupation="Soldier"
+                culture="Culture.chaos_culture" skill_template="SkillSet.tor_skills_level16" race="marauder">
+    <face>
+      <face_key_template value="BodyProperty.fighter_chaos_marauder" />
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_lh_norscan_warrior" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_chaos_norscan_reaver_template" />
+      <EquipmentSet id="tor_chaos_norscan_reaver_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Воин (T4) — вершина ветки мечи/пики. Клон champion. -->
+  <NPCCharacter id="tor_lh_norscan_warrior" default_group="infantry" level="26"
+                name="{=lh_norscan_warrior}Norscan Warrior" occupation="Soldier"
+                culture="Culture.chaos_culture" skill_template="SkillSet.tor_skills_level26" race="marauder">
+    <face>
+      <face_key_template value="BodyProperty.fighter_chaos_marauder" />
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_chaos_norscan_champion_template" />
+      <EquipmentSet id="tor_chaos_norscan_champion_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Метатель (T4) — ветка Китобой→Охотник→Метатель. Клон reaver (метательная пехота). -->
+  <NPCCharacter id="tor_lh_norscan_thrower" default_group="infantry" level="26"
+                name="{=lh_norscan_thrower}Norscan Thrower" occupation="Soldier"
+                culture="Culture.chaos_culture" skill_template="SkillSet.tor_skills_level26" race="marauder">
+    <face>
+      <face_key_template value="BodyProperty.fighter_chaos_marauder" />
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_lh_norscan_champion_thrower" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_lh_norscan_thrower_template" />
+      <EquipmentSet id="tor_lh_norscan_thrower_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Чемпион-Метатель (T5) — вершина ветки метательного. Клон champion. -->
+  <NPCCharacter id="tor_lh_norscan_champion_thrower" default_group="infantry" level="31"
+                name="{=lh_norscan_champion_thrower}Norscan Champion Thrower" occupation="Soldier"
+                culture="Culture.chaos_culture" skill_template="SkillSet.tor_skills_level31" race="marauder">
+    <face>
+      <face_key_template value="BodyProperty.fighter_chaos_marauder" />
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_lh_norscan_thrower_template" />
+      <EquipmentSet id="tor_lh_norscan_thrower_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Наездник (T4) — вершина ветки кавалерии (Всадник→Конюший→Наездник). Клон horsemaster. -->
+  <NPCCharacter id="tor_lh_norscan_rider" default_group="cavalry" level="26"
+                name="{=lh_norscan_rider}Norscan Rider" occupation="Soldier"
+                culture="Culture.chaos_culture" skill_template="SkillSet.tor_skills_level26" race="marauder">
+    <face>
+      <face_key_template value="BodyProperty.fighter_chaos_marauder" />
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_chaos_norscan_horsemaster_template" />
+      <EquipmentSet id="tor_chaos_norscan_horsemaster_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

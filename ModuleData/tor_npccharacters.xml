@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Stub для tor_npccharacters.xslt. Bannerlord XSLT convention требует
+    одноимённый XML файл рядом со stylesheet. Содержимое не используется —
+    оно перезаписывается XSLT-результатом применённым к TOR-овскому
+    tor_npccharacters/*.xml.
+-->
+<NPCCharacters />

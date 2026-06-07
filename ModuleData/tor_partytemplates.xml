@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Пустой стаб: необходим чтобы XSLT-файл tor_partytemplates.xslt рядом сработал.
+    Bannerlord XSLT convention требует чтобы у нас существовал XML с тем же именем
+    что и у target-XML — engine применяет XSLT к XML из ранее загруженных модулей
+    (TOR), потом грузит наши. Содержимое нашего XML пустое — мы ничего не добавляем
+    через entry-merge, всё делается через XSLT.
+-->
+<partyTemplates/>

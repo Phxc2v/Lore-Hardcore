@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lore-Hardcore: выделенный набор экипировки для норсканских МЕТАТЕЛЕЙ (Picc/photo_32).
+     Клиент: «для Метателя нужны именно метательные дроты». champion-шаблон дротов не имел.
+     Собрано на РЕАЛЬНЫХ item-id из норсканских шаблонов TOR (без выдуманных):
+       western_javelin_2_t3 (дроты, ×3 стака — основное), northern_battle_axe_t3 (мили-бэкап),
+       норсканская броня мародёра (head_002/body_001/shoulder_fur_001/bracers_001/boots_001).
+     Используется юнитами tor_lh_norscan_thrower и tor_lh_norscan_champion_thrower. -->
+<EquipmentRosters>
+  <EquipmentRoster id="tor_lh_norscan_thrower_template" culture="Culture.chaos_culture">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item1" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item2" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item3" id="Item.northern_battle_axe_t3" />
+      <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_002" />
+      <Equipment slot="Body" id="Item.tor_chaos_body_armor_marauder_001" />
+      <Equipment slot="Cape" id="Item.tor_chaos_shoulder_fur_marauder_001" />
+      <Equipment slot="Gloves" id="Item.tor_chaos_arm_bracers_marauder_001" />
+      <Equipment slot="Leg" id="Item.tor_chaos_leg_boots_marauder_001" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item1" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item2" id="Item.western_javelin_2_t3" />
+      <Equipment slot="Item3" id="Item.northern_battle_axe_t3" />
+      <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_002" />
+      <Equipment slot="Body" id="Item.tor_chaos_body_armor_marauder_001" />
+      <Equipment slot="Cape" id="Item.tor_chaos_shoulder_fur_marauder_001" />
+      <Equipment slot="Gloves" id="Item.tor_chaos_arm_bracers_marauder_001" />
+      <Equipment slot="Leg" id="Item.tor_chaos_leg_boots_marauder_001" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

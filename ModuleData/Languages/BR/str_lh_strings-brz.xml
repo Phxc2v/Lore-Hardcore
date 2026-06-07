@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Sem comida — o grupo comeu um goblin ({GOBLIN}). Goblins restantes: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Sem comida — os orcs comeram um prisioneiro ({PRISONER}). Prisioneiros restantes: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Você derrotou pessoalmente na briga: {KILLS} de {TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (seus aliados acabaram com mais {EXTRA}.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Você ainda recebeu 1 orc e 1 goblin como bônus por caçar tipos diferentes." />
+    <string id="lh_brawl_diversity_orc" text="Você ainda recebeu 1 orc como bônus por caçar tipos diferentes." />
+    <string id="lh_brawl_diversity_goblin" text="Você ainda recebeu 1 goblin como bônus por caçar tipos diferentes." />
+    <string id="lh_brawl_victory_reward_no_gold" text="Você ganhou {RENOWN_REWARD} de renome e {TEEF_REWARD}{CR_ICON} Dentes." />
+    <string id="lh_shrine_loot_result_only_gold" text="Você saqueou o santuário com sucesso e obteve {TOTAL_GOLD} ouro." />
+    <string id="lh_orc_castle_recruit" text="Recrutar elite orca" />
+    <string id="lh_orc_castle_recruit_intro" text="Os chefes do clã trouxeram brutamontes orcs enormes — eles te encaram ferozmente, esperando teu ouro. Você tem {LH_PLAYER_GOLD}{GOLD_ICON}." />
+    <string id="lh_orc_castle_recruit_title" text="Elite orca da fortaleza" />
+    <string id="lh_castle_recruit_leave" text="Voltar" />
+    <string id="lh_castle_elite_cap" text="Já tem {LH_ELITE_COUNT} brutamontes para {LH_REGULARS_COUNT} guris orcs. Limite — 1 brutamontes por {LH_RATIO} guris. Recrute mais guris primeiro em vilarejos e cidades." />
+    <string id="lh_castle_no_gold" text="Ouro insuficiente" />
+    <string id="lh_castle_party_full" text="Tropa cheia" />
+    <string id="lh_village_hire_goblins" text="Recrutar goblins (100{GOLD_ICON} por 2)" />
+    <string id="lh_village_no_gold" text="Precisa de pelo menos 100 ouro" />
+    <string id="lh_village_no_orcs" text="Os goblins servem aos orcs — sem orcs na tropa eles não vão te seguir" />
+    <string id="lh_village_goblin_cap" text="Você tem {LH_GOBLIN_COUNT} goblins para {LH_ORC_COUNT} orcs. Limite — 4 goblins por orc. Recrute mais orcs primeiro." />
+    <string id="lh_castle_recruit_msg" text="Recrutado: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Recrutado: {TROOP} (+{COUNT} goblins-serviçais)" />
+    <string id="lh_village_goblin_hired" text="Recrutado: {COUNT} goblins (por {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblins-serviçais para {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblins (queria {DESIRED}, atingiu o limite 4:1)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Chefe Arqueiro" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Orc Grandão" />
+    <string id="lh_troop_tor_gs_black_orc" text="Orc Negro" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Cavaleiro de Javali Grandão" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Chefe Orc" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Bruto Orc Negro" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Chefe Orc Negro" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Berserker Orc Negro" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Orc" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Orc Jovem" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Orc Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Orc Arqueiro" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Orc Cavaleiro de Javali" />
+    <string id="lh_teef_cart_trimmed" text="Sem dentes suficientes — {COUNT} orcs a menos recrutados (gastos {SPENT}, tinha {HAVE})." />
+    <string id="lh_castle_challenge_button" text="Desafiar uma elite orc para combate singular" />
+    <string id="lh_castle_challenge_intro" text="No salão do senhor se reúnem os brutos orcs. Escolha sua vítima." />
+    <string id="lh_castle_challenge_title" text="Duelo com a elite orc" />
+    <string id="lh_castle_challenge_back" text="Voltar" />
+    <string id="lh_castle_challenge_disabled_culture" text="Só orcs podem desafiar orcs." />
+    <string id="lh_castle_challenge_disabled_siege" text="Não durante um cerco." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Este lutador ainda se recupera. Espere mais {DAYS} dias." />
+    <string id="lh_castle_challenge_no_troop" text="Esta unidade não está carregada pelo TOR." />
+    <string id="lh_castle_challenge_victory_desc" text="O orc {TROOP} jaz morto a seus pés. +{TEEF} dentes{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="O orc {TROOP} provou ser mais forte. Tua aposta é perdida e tu vais embora em vergonha." />
+    <string id="lh_castle_challenge_victory_accept" text="Arranque os dentes do cadáver" />
+    <string id="lh_castle_challenge_defeat_accept" text="Ir embora em vergonha" />
+    <string id="lh_castle_challenge_option_verb" text="Desafiar para duelo: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Duelo] Unidade '{TROOP_ID}' não carregada." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Duelo] Nenhuma cena adequada neste castelo (lordshall ausente)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Duelo] Sem dentes suficientes para a aposta." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Duelo] Sem ouro suficiente para a aposta." />
+    <string id="lh_castle_challenge_err_generic" text="[Duelo] Erro: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", e um dos seus se junta ao teu grupo" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: escolha de economia" />
+    <string id="lh_settings_economy_desc" text="Esta escolha fica fixa no save. Para mudar, comece um novo jogo." />
+    <string id="lh_settings_economy_teef_title" text="Economia de dentes orcs (cânone Warhammer)" />
+    <string id="lh_settings_economy_teef_hint" text="Compre a elite orc nos castelos com dentes (moeda orc) ganhos em batalha. Goblins ainda usam ouro. +5 dentes por dia para cada cidade/castelo orc que você possui. Fiel ao lore Warhammer Fantasy — orcs não respeitam ouro." />
+    <string id="lh_settings_economy_classic_title" text="Clássica (tudo por ouro)" />
+    <string id="lh_settings_economy_classic_hint" text="Orcs e goblins são recrutados por ouro como no TOR vanilla. Sem economia de dentes, sem renda diária de feudo. Simples e familiar." />
+    <string id="lh_settings_economy_confirm" text="Confirmar" />
+    <string id="lh_castle_no_teef" text="Dentes insuficientes: precisa de {LH_TEEF_NEEDED}, tem {LH_TEEF_HAVE}." />
+    <string id="lh_castle_not_orc" text="Só para heróis orcs. Orcs não respeitam estranhos." />
+    <string id="lh_teef_daily_msg" text="+{TEEF} dentes das tuas cidades e castelos orcs ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="+{TEEF} dentes arrancados de {COUNT} inimigos experientes (T4+)." />
+    <string id="lh_teef_lord_kill_msg" text="+{TEEF} dentes por matar o senhor {NAME}." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Precisa de {FEE} dentes para o desafio (tem {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Precisa de {FEE} de ouro para o desafio (tem {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="-{TEEF} dentes por {TROOP} ×{COUNT}." />
+    <string id="lh_teef_recruit_no_teef" text="Dentes insuficientes para {TROOP} (precisa {NEED}, tem {HAVE})." />
+    <string id="lh_teef_unit" text="dentes" />
+    <string id="lh_bt_conflict_title" text="Conflito de mods: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="O mod externo BetterTime está carregado junto com Lore-Hardcore. Este mod NÃO é compatível com The Old Realms.{newline}{newline}Lore-Hardcore JÁ INCLUI a funcionalidade BetterTime:{newline}D3 / Numpad3 — avanço rápido ×4{newline}D4 / Numpad4 — ultra rápido ×8{newline}Solte a tecla — volta à velocidade normal{newline}{newline}RECOMENDAÇÃO: feche o jogo, desative o BetterTime externo no Launcher, reinicie." />
+    <string id="lh_bt_conflict_ok" text="Entendi, vou resolver" />
+    <string id="lh_tournament_cannot_leave" text="A briga não acabou. Sem fuga." />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Inimigo executado. O bando de orcs se enche de orgulho. Moral +10, reputação de Honra restaurada." />
+    <string id="lh_chaos_uprising_announce" text="!!! AS FORÇAS DO CAOS SE ERGUERAM — uma revolta do Caos surgiu no mapa !!!" />
+    <string id="lh_enc_title" text="Lore-Hardcore — Guia no jogo" />
+    <string id="lh_enc_pick_topic" text="Escolha um tópico para ler:" />
+    <string id="lh_enc_read" text="Ler" />
+    <string id="lh_enc_back" text="Voltar aos tópicos" />
+    <string id="lh_enc_close" text="Fechar" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Economia dos Dentes" />
+    <string id="lh_enc_topic_teef_economy_body" text="Para jogadores orc e goblin, a Economia dos Dentes está SEMPRE ativa — sem troca no meio do jogo, sem diálogo no início. Humanos, anões, vampiros mantêm o ouro como antes.{newline}{newline}Quando você joga como orc:{newline}- Em assentamentos orc você paga com dentes em vez de ouro por tudo.{newline}- Fora dos assentamentos orc (Império, Bretônia, etc.) você ainda paga em ouro.{newline}- Os dentes são ganhos APENAS em combate real: mortes de tropas T4+, mortes de lordes, vitórias em brigas, desafios de castelo, tributo diário dos feudos orc.{newline}- Tropas orc não drenam ouro do seu clã — a penalidade de moral por salário não pago é suprimida para tropas orc (você não paga elas mesmo).{newline}- A renda diária de dentes é limitada para evitar que lordes orc IA dominem o mapa." />
+
+    <string id="lh_enc_topic_career_path_title" text="Carreira: do Bully ao Boss" />
+    <string id="lh_enc_topic_career_path_body" text="A carreira orc tem dois caminhos escolhidos na criação do personagem: Caminho do Bully (vira Boss) ou Caminho do Xamã.{newline}{newline}Requisitos reduzidos em relação ao TOR vanilla para Lore-Hardcore:{newline}- Nível 2 (Boss): habilidades de arma 80/80/30, 30 batalhas, 5 torneios, 10 brigas, 2000 dentes.{newline}- Nível 3 (Boss): habilidades de arma 150/120/60, 70 batalhas, 15 torneios, 20 brigas, 5 duelos de lordes, 5 cidades capturadas, 10000 dentes.{newline}- Nível 2 (Xamã): orar em um santuário, Feitiçaria 50, Fé 50, 3 encantamentos, 2000 dentes, 5 santuários saqueados.{newline}- Nível 3 (Xamã): Feitiçaria 120, Fé 100, 8 encantamentos, 10000 dentes, 5 cidades, 30 santuários." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Moral orc e WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Moral de partida orc e escalonamento de IA foram rebalanceados.{newline}{newline}- Lordes orc têm +40% HP e +30% em habilidades de combate base.{newline}- Multiplicador de moral: x1.5 (orcs mais agressivos que humanos).{newline}- Orcs élite (Orc Negro, Boss, Berzerka, Bigun) são SEM MEDO — nunca entram em pânico por moral baixa ou inferioridade numérica.{newline}- O bônus de proximidade WAAAGH! acumula em ataques massivos orc.{newline}{newline}Balanceamento de IA (para orcs não dominarem o mapa):{newline}- Limite suave no tamanho de partida de lorde orc IA: 80 tropas.{newline}- O Exército do marechal comporta máximo 5 partidas (líder + 4 chamadas) — orcs atacam em mini-exércitos de 400-500 em vez de 3000.{newline}- Estimativa de força IA: orcs x1.8, goblins x0.8, trolls/Big'Uns/warbosses x3.0 — IA imperial agora avalia corretamente a ameaça orc.{newline}- Massif Choppas reduzido de 22 para 14 lordes; Crooked Eye e Red Eye para 17. Prosperidade capital rebalanceada.{newline}{newline}A partida do jogador usa limites vanilla normais." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Duelo do castelo" />
+    <string id="lh_enc_topic_castle_challenge_body" text="Ao visitar um castelo orc, você pode desafiar um orc élite para duelo por uma aposta em dentes.{newline}{newline}- Vitória: o élite se junta à sua partida como unidade troféu, mais +15 dentes.{newline}- Derrota: sua aposta é perdida, sua reputação no castelo cai temporariamente.{newline}{newline}Élites disponíveis por castelo: Bigun, Boss, Orc Negro, Brute, Berzerka. Cada um com seu preço e dificuldade.{newline}{newline}As apostas escalam com o ranque élite — Bigun ~50 dentes, Orc Negro ~150 dentes, Boss ~250 dentes.{newline}{newline}O duelo em si é um combate real 1v1 em uma cena de castelo. Sem truques, sem auto-resolução." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Cercos orcs e o aríete" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Os cercos orc funcionam diferente em Lore-Hardcore.{newline}{newline}- Orcs NÃO podem construir trabucos. Lore: uma máquina de contrapeso com matemática de trajetória parabólica é engenhada demais para um orc. Máquinas de cerco disponíveis: balistas, onagros, catapultas (incluindo variantes de fogo).{newline}- Aríete reforçado: bate 5x mais forte, aguenta 3.5x mais tempo. Portões caem em 5-10 golpes em vez de 30+ vanilla. Lore: um tronco com crânio triturador de dentes, com ferro, empurrado por oito orcs musculosos.{newline}- A auto-resolução recebe o mesmo bônus de aríete para que os cercos orc pareçam certos em cena ou pulando." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Canibalismo de prisioneiros" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Orcs NÃO esquartejam prisioneiros no local. A carne vem APENAS do canibalismo de fome em marcha.{newline}{newline}Depois de uma batalha:{newline}- Auto-esquartejamento na tela de saque: 0 carne (não importa quantos prisioneiros).{newline}- Botão 'Esquartejar' no Quartel-Mestre: 0 carne.{newline}- Carne de mortes (fórmula auto TOR): 0 para vitórias do jogador.{newline}{newline}Única forma de obter carne de prisioneiros — pegá-los, ficar sem comida, esperar. Cada hora de jogo com despensa vazia:{newline}1. PRISIONEIROS primeiro. Cada = 1 carne.{newline}2. Depois GOBLINS. Cada = 1 carne.{newline}3. Lordes e companheiros NUNCA são comidos (lorde = resgate, companheiro = linha de missão).{newline}{newline}Lore: orcs comem cativos vivos na estrada, não no cepo do açougueiro.{newline}{newline}Partidas orc IA mantêm a fórmula vanilla TOR de carne-de-batalha para não morrerem de fome." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Arena de briga pelverde" />
+    <string id="lh_enc_topic_brawl_arena_body" text="A Briga Pelverde é uma arena de luta de socos única para assentamentos orc.{newline}{newline}- 18 inimigos por partida (muito maior que a arena vanilla).{newline}- Recompensa calculada pela sua contagem pessoal de mortes, não só sobrevivência.{newline}- Inimigos fugidos que caem em zonas fora dos limites são auto-mortos uma vez por segundo para evitar travamento da partida.{newline}- Goblins não aparecem mais no telhado da arena (antigo bug de posicionamento TOR).{newline}- Condição de vitória: ser o último em pé OU o time com mais mortes se você sobreviver.{newline}- Em cidades não-orc conquistadas (tavernas bretãs, imperiais) os shaders de atmosfera de briga são suprimidos para evitar erros 'cannot find entry point' em GPUs antigas.{newline}{newline}Bom para: treinar a habilidade Uma-Mão, ganhar dentes, completar o objetivo de briga da missão de carreira orc." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Executar inimigos raciais" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="Quando um jogador orc executa um lorde inimigo racial capturado, a partida orc celebra — não lamenta.{newline}{newline}Bannerlord vanilla penaliza qualquer execução com -1000 XP de Honra. Para um orc, matar um Anão, Vampiro, Elfo ou lorde Imperial é um feito, não um pecado.{newline}{newline}Lore-Hardcore adiciona um bônus:{newline}- XP de Honra totalmente compensado (+1000), a penalidade vanilla é cancelada.{newline}- O traço Misericórdia recebe +1 XP simbólico (equilíbrio de status).{newline}- A partida orc ganha imediatamente +10 de moral.{newline}- Uma mensagem verde confirma o bônus aplicado.{newline}{newline}Aplica apenas quando o jogador é de cultura orc (aserai no TOR) e a vítima é um inimigo racial: Anão (sturgia), Condes Vampiros (khuzait), Império, Bretônia (vlandia), Elfos da Floresta (battania), Eonir, Mousillon, Dragões de Sangue, Chaos, Altos Elfos, Elfos Negros.{newline}{newline}Executar sua PRÓPRIA raça (outros orcs) mantém a penalidade vanilla — é uma vergonha para um senhor da guerra orc." />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_set_title" text="Lore-Hardcore — Configurações" />
+    <string id="lh_set_mode_full" text="Menu principal — todos os parâmetros" />
+    <string id="lh_set_mode_live" text="Campanha — apenas ao vivo" />
+    <string id="lh_set_races_header" text="RAÇAS" />
+    <string id="lh_set_race_orc" text="Orcs" />
+    <string id="lh_set_race_empire" text="Império" />
+    <string id="lh_set_race_dwarf" text="Anões" />
+    <string id="lh_set_race_bretonnia" text="Bretônia" />
+    <string id="lh_set_race_chaos" text="Caos" />
+    <string id="lh_set_confirm_reset_race_title" text="Resetar raça" />
+    <string id="lh_set_confirm_reset_race_body" text="Resetar todos os parâmetros da raça selecionada para os valores padrão?" />
+    <string id="lh_set_confirm_reset_all_title" text="Resetar TUDO" />
+    <string id="lh_set_confirm_reset_all_body" text="Resetar TODOS os parâmetros de todas as raças para os valores padrão? Isso afeta tudo." />
+    <string id="lh_set_confirm_yes" text="Resetar" />
+    <string id="lh_set_confirm_yes_all" text="Resetar tudo" />
+    <string id="lh_set_confirm_no" text="Cancelar" />
+    <string id="lh_set_race_phase02" text="Chegando na fase 0.2" />
+    <string id="lh_set_race_phaseFuture" text="Chegando em uma fase futura" />
+    <string id="lh_set_tab_battle" text="Batalha" />
+    <string id="lh_set_tab_army" text="Exércitos" />
+    <string id="lh_set_tab_ai" text="Recrutamento IA" />
+    <string id="lh_set_tab_economy" text="Economia" />
+    <string id="lh_set_tab_caves" text="Cavernas" />
+    <string id="lh_set_tab_system" text="Sistemas" />
+    <string id="lh_set_tab_main" text="Principal" />
+    <string id="lh_set_tab_vassalage" text="Vassalagem" />
+    <string id="lh_set_tab_conversion" text="Presente do Caos" />
+    <string id="lh_set_tab_tempting" text="Tentação" />
+    <string id="lh_set_tab_troops" text="Tropas" />
+    <string id="lh_set_tab_recruit" text="Recrutamento" />
+    <string id="lh_set_btn_reset_race" text="Redefinir raça" />
+    <string id="lh_set_btn_reset_all" text="Redefinir TUDO" />
+    <string id="lh_set_btn_save" text="Salvar" />
+    <string id="lh_set_btn_close" text="Fechar" />
+    <string id="lh_set_cat_instant" text="aplica imediatamente" />
+    <string id="lh_set_cat_nexttick" text="aplica em até um segundo" />
+    <string id="lh_set_cat_worldstate" text="aplica a novos spawns" />
+    <string id="lh_set_cat_restart" text="requer reiniciar o jogo" />
+    <string id="lh_set_toggle_on" text="LIGADO" />
+    <string id="lh_set_toggle_off" text="DESLIGADO" />
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="HP orc (com jogador)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="Multiplicador de HP para orcs em batalha ao vivo onde PlayerTeam está presente." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="HP orc (IA vs IA)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Multiplicador de HP para orcs em batalhas IA vs IA sem o jogador." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="HP ogro (IA vs IA)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="Multiplicador de HP para trolls / Big Uns / Black Orcs em batalhas IA vs IA. Menor que o dos orcs normais porque o motor não tem mecânica de cerco — sem este nerf, 3 trolls podem matar 50 humanos." />
+    <string id="lh_set_GoblinHPMult_lbl" text="HP goblin" />
+    <string id="lh_set_GoblinHPMult_desc" text="Multiplicador de HP para todos os goblins." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Dano causado por orc aliado" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Multiplicador de dano para orcs do lado do jogador." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Dano causado por orc inimigo" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Multiplicador de dano para orcs lutando contra o jogador." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Dano sofrido por orc aliado" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Multiplicador de dano quando um orc do seu lado é atingido (menor = mais resistente)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Dano sofrido por orc inimigo" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Multiplicador de dano quando um orc inimigo é atingido (maior = mais fácil de matar)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Machado vs escudo de madeira" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Multiplicador de dano para machados atingindo escudos de madeira." />
+    <string id="lh_set_MaceShieldDmgMult_lbl" text="Maça/martelo vs escudo de metal" />
+    <string id="lh_set_MaceShieldDmgMult_desc" text="Multiplicador de dano para armas de concussão (maças, martelos, martelos de duas mãos) contra escudos de METAL. Espadas e machados mal arranham o metal, mas um golpe esmagador o amassa. Exemplo: 4.0 = 4x de dano, escudos de metal quebram em poucos golpes. 1.0 = vanilla (desligado)." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Dano de Ogre em portões" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Dano de Ogres / Big Uns / Trolls em portões em batalha ao vivo." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Duração do atordoamento por chute orc" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Duração do atordoamento aplicado por chutes orcs." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Atordoamento por escudada orc" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Duração do atordoamento por escudadas orcs." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Habilidades de combate orc" />
+    <string id="lh_set_OrcSkillMult_desc" text="Multiplicador para habilidades de combate orc (uma-mão, duas-mãos, armas de haste)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Atletismo de Troll" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Habilidade de atletismo dos trolls (menor = mais lento)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Atletismo de Goblin" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Habilidade de atletismo dos goblins (maior = mais rápido)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Velocidade goblin" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Multiplicador de velocidade para goblins a pé." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="Bônus de moral WAAAGH!" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Multiplicador de ganho de moral para o lado orc por morte." />
+    <string id="lh_set_AILordHardCap_lbl" text="Limite do tamanho do grupo do lorde IA" />
+    <string id="lh_set_AILordHardCap_desc" text="Limite rígido do tamanho do grupo de lorde orc IA. Aplica ao crescimento instantaneamente; grupos existentes acima do limite encolhem gradualmente." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="Grupos por WAAAGH!" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="Quantos grupos podem juntar-se a um marechal. Exército = líder + N. Teto = (1+N) x limite por lorde." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Poder de elite (estimativa IA)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="Como a IA estima a força de orcs de elite. Afeta decisões de lutar/fugir." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Poder orc (estimativa IA)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="Estimativa da IA da força de orcs comuns." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Poder goblin (estimativa IA)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="Estimativa da IA da força de goblins." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Poder de elite (combate)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Poder de combate real de orcs de elite em auto-resolução." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Poder orc (combate)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Poder de combate real de orcs comuns." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Poder goblin (combate)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Poder de combate real de goblins." />
+    <string id="lh_set_OrcCastleHireChance_lbl" text="Chance de recrutamento IA no castelo" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="Chance por hora de um lorde IA comprar um orc de elite em um castelo." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Chance de recrutamento virtual" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Chance horária como-se-visitado de recrutamento quando o lorde não está fisicamente em um castelo mas o clã possui um." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="Reserva de ouro IA (castelo)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="Ouro mínimo que uma IA mantém após uma compra no castelo." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="Chance de recrutamento goblin IA" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="Chance por hora de um lorde IA comprar um par de goblins em uma aldeia." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Preço do par de goblins" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="Quanto uma IA paga por um par de goblins em uma aldeia." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Goblins por recrutamento" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="Quantos goblins a IA recebe por compra na aldeia." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="Reserva de ouro IA (aldeia)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="Ouro mínimo que uma IA mantém após uma compra na aldeia." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="Chance de recrutamento de troll IA" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Chance por visita de um lorde IA recrutar um troll em um assentamento orc." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="Limite de trolls IA por grupo" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="Número máximo de trolls que um lorde IA pode manter." />
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Multiplicador de custo de evolução" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Multiplicador aplicado à fórmula vanilla de custo de evolução." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Custo mínimo de evolução orc" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Custo mínimo em ouro para evoluções de unidades orc." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Custo mínimo de evolução goblin" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Custo mínimo em ouro para evoluções goblin." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="Desconto IA elite" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="IA paga o custo do orc de elite x N (1.0 = preço cheio)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Carne por prisioneiro comum" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Rendimento de carne ao retalhar um prisioneiro comum." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Carne por prisioneiro grande" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Rendimento de carne ao retalhar um prisioneiro grande (troll, minotauro)." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Multiplicador de ouro da briga" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Recompensa em ouro por vencer uma briga x N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Ouro de saque de altar" />
+    <string id="lh_set_ShrineLootGold_desc" text="Recompensa em ouro por saquear um altar." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Tier mínimo para Extorsão" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Apenas orcs de Tier >= N geram dentes via Extorsão." />
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Cooldown de esconderijo (dias)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Dias antes que um esconderijo limpo possa reativar." />
+    <string id="lh_set_MaxHideouts_lbl" text="Máx. esconderijos por facção" />
+    <string id="lh_set_MaxHideouts_desc" text="Esconderijos ativos simultaneamente no máximo." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Máx. grupos de incursão de troll" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Quantos grupos de incursão podem estar vivos de uma única caverna ao mesmo tempo." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Chance de spawn diária" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Chance por dia de uma caverna gerar um novo grupo de incursão." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Tamanho dos defensores da caverna" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="Quantos trolls recebem o jogador ao entrar na caverna." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Máx. trolls por grupo de incursão" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Limite no tamanho de um único grupo de incursão." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Tropas na batalha da caverna" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="Quantas tropas você pode levar à limpeza da caverna (vanilla 20). 7 trolls podem esmagar 20 humanos mesmo 1 a 1 — 40 dá uma chance numérica." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Atrair trolls permitido" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="Se ativado — adiciona a opção 'Atrair trolls (10 carne)' ao menu da caverna. Desligado por padrão (equilíbrio: troll tier-6 por 10 de carne é explorável)." />
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Bônus de HP orc" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Desativa completamente os multiplicadores de HP orc." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Dano ciente do time" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="O dano depende do lado do jogador." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Recrutar orcs por dentes em vez de ouro." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Limites de exército orc" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Limites de tamanho de grupo e exército." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Nerf de caverna de troll" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Reduzir taxas de spawn e tamanho das incursões de trolls." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Cooldown de esconderijo" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="Esconderijos limpos permanecem fechados por 60 dias." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Nerf de recompensa da briga" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Corta a recompensa em ouro das brigas." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Nerf de saque de altar" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="Apenas ouro dos altares — sem carne ou dentes." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Nerf de missão de carreira" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Reduzir requisitos das missões de carreira orc." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Orcs sem trabucos" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Orcs não constroem máquinas de cerco complexas." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="Machado quebra escudos" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Machados causam dano bônus a escudos de madeira." />
+    <string id="lh_set_EnableMaceShieldBonus_lbl" text="Maça quebra escudos" />
+    <string id="lh_set_EnableMaceShieldBonus_desc" text="Armas de concussão (maças, martelos) causam dano bônus a escudos de metal." />
+    <string id="lh_health_title" text="Lore-Hardcore: verificação de compatibilidade" />
+    <string id="lh_ck_duel_abort" text="Não dá para começar o duelo aqui. Desafie o Rei em campo aberto." />
+    <string id="lh_health_intro" text="Algumas funções do Lore-Hardcore estão sendo bloqueadas por outro mod:" />
+    <string id="lh_health_ui" text="O painel de tempo do mapa (botão de velocidade extra e barra de progresso do Caos) não pôde ser adicionado." />
+    <string id="lh_health_suspect" text="Causa possível: {LIST}" />
+    <string id="lh_health_footer" text="Carregue o Lore-Hardcore DEPOIS do TOR. Bibliotecas como UIExtenderEx, MCM e ButterLib são necessárias e não atrapalham - não as desative. Se uma função continuar quebrada, tente desativar mods de overhaul de UI/combate." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Goblins mais rápidos" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="+50% de velocidade para goblins." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Atordoamento de chute longo" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Chutes orcs atordoam por mais tempo." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Recrutamento do Chaos" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Vassalos do Chaos podem recrutar tropas do Chaos." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Spawn aleatório na briga" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Jogador aparece em um ponto aleatório da arena." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Ícone dos dentes" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Menu de recrutamento mostra ícone de dentes em vez de ouro." />
+    <string id="lh_set_EnableOrcRace_lbl" text="Habilitar overhaul de orcs" />
+    <string id="lh_set_EnableOrcRace_desc" text="Interruptor mestre para TODAS as nossas mudanças da raça orc. DESLIGADO desativa cada patch e comportamento de orcs, então as Peles-Verdes usam mecânicas puras do vanilla TOR. Requer reinício do jogo." />
+    <string id="lh_set_EnableChaosRace_lbl" text="Habilitar overhaul do Caos" />
+    <string id="lh_set_EnableChaosRace_desc" text="Interruptor mestre para TODAS as nossas mudanças da raça Caos. DESLIGADO desativa cada patch e comportamento do Caos. Requer reinício do jogo. Cobre: contratação de unidades do Caos em tavernas e vilas, paz com as facções sombrias, esconderijos amigáveis de Cultists, o Presente do Caos (conversão), e mais." />
+    <string id="lh_set_ChaosVassalageTributeRequired_lbl" text="Tributo para vassalagem (ouro)" />
+    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="Quanto ouro um Lorde do Caos exige como presente aos Deuses para aceitar o jogador como vassalo." />
+    <string id="lh_set_ChaosVassalageMinClanTier_lbl" text="Nível mínimo de clã para vassalagem" />
+    <string id="lh_set_ChaosVassalageMinClanTier_desc" text="Nível mínimo de clã do jogador necessário para solicitar vassalagem a um Lorde do Caos." />
+    <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="Nível mínimo de clã para o Presente do Caos" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="Nível mínimo de clã do jogador necessário para passar pelo ritual de conversão na cultura do Caos." />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="Bônus de XP de habilidade na conversão" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="Quanto XP cada uma das habilidades de combate do jogador ganha ao aceitar o Presente do Caos." />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="Progresso da Tentação por dia" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="Quantos pontos de progresso da Tentação são adicionados por dia no cativeiro. Default 1.5, cerca de 67 dias até o Presente." />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="Bônus para jogador do Caos" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="Multiplicador de progresso se o jogador já for da cultura do Caos (após o Presente). Default 0.5 = +50%." />
+    <string id="lh_set_ChaosTemptingThreshold_lbl" text="Limiar de conversão" />
+    <string id="lh_set_ChaosTemptingThreshold_desc" text="Em que progresso um cativo está pronto para aceitar o Presente do Caos. Default 100." />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_lbl" text="Penalidade por conversão anterior" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="Cada lorde já convertido reduz a taxa em N (mais difícil com o tempo). Default 0.10 = -10%." />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_lbl" text="Decaimento de progresso por dia quando livre" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_desc" text="Se um cativo for libertado ou escapar, o progresso cai em N por dia. Default 5." />
+    <string id="lh_set_ChaosNorscanHPMult_lbl" text="Bônus de HP dos Norscan" />
+    <string id="lh_set_ChaosNorscanHPMult_desc" text="Multiplicador de HP para todas as unidades Norscan (de tribal a campeão). Default 0.30 = +30%." />
+    <string id="lh_set_ChaosGorHPMult_lbl" text="Bônus de HP dos Gor" />
+    <string id="lh_set_ChaosGorHPMult_desc" text="Multiplicador de HP para Gor (gor / foerender / manripper). Default 0.25 = +25%." />
+    <string id="lh_set_ChaosMinotaurHPMult_lbl" text="Bônus de HP do Minotaur" />
+    <string id="lh_set_ChaosMinotaurHPMult_desc" text="Multiplicador de HP para Minotaurs (lore: uma besta massiva). Default 0.50 = +50%." />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_lbl" text="Unidades por +1 limite do grupo" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="Quantos Cultists ou Ungors são necessários para +1 no limite do grupo (mecânica de unidade sacrificial). Default 2." />
+    <string id="lh_set_ChaosMinotaurInjectChance_lbl" text="Chance de recrutamento de Minotaur (castelo)" />
+    <string id="lh_set_ChaosMinotaurInjectChance_desc" text="Chance de um Minotaur ser injetado no slot 5 de uma cidade do castelo na visita. Default 0.20 = 20%." />
+    <string id="lh_set_ChaosUprisingCooldownDays_lbl" text="Tempo de recarga entre Levantes do Caos (dias)" />
+    <string id="lh_set_ChaosUprisingCooldownDays_desc" text="Quantos dias devem passar entre os Levantes do Caos. Vanilla TOR é 126 dias (cerca de 4 meses). Nosso padrão é 30 (cerca de 1 mês). Aplicado em uma nova campanha: o primeiro levante acontece após quantos dias." />
+    <string id="lh_orc_appetite" text="Apetite peles-verdes" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Talvez depois, gobo." />
+    <string id="lh_goblin_changer_cooldown" text="Eh chefão, já te dei ontem oras! Volta em {DAYS} dias, tenho que cavar mais ainda, hein?" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Num tenho tantas brilhentes inda." />
+    <string id="lh_goblin_changer_intro" text="Ei CHEFÃO! Tenho dentinhos pra tuas brilhentes, troca, hein? Hihi!" />
+    <string id="lh_goblin_changer_after_no_gold" text="Hehe! Sem brilhentes, sem dentinhos. Vai beliscar uns humanozinhos primeiro, hein?" />
+    <string id="lh_goblin_changer_hub_trade" text="Troca: 1000 brilhentes por {AMOUNT} dentinhos." />
+    <string id="lh_goblin_changer_after_trade" text="*O goblin conta {NOMINAL} dentes, esconde {HIDDEN} moedas no bolsinho lateral.* Negócio é negócio, CHEFÃO!" />
+    <string id="lh_goblin_changer_town_ok" text="Sair" />
+    <string id="lh_goblin_changer_town_title" text="Goblin trocador" />
+    <string id="lh_goblin_changer_town_outcome" text="*O goblin conta {NOMINAL} dentes na mesa da taverna, rapidamente esconde {HIDDEN} moedas no bolsinho do cinto e empurra o resto pra você.* Negócio é negócio, CHEFÃO!" />
+    <string id="lh_goblin_changer_town_intro" text="*Um goblin astuto na mesa do canto acena pra você, dedilhando um monte de moedinhas. Sussurra:* Ei CHEFÃO! Tenho dentinhos pra tuas brilhentes. 1000 brilhentes — conto {NOMINAL}. Vou esconder {HIDDEN} no bolsinho lateral? Talvez... Trocamos?" />
+    <string id="lh_goblin_changer_town_cancel" text="Talvez depois" />
+    <string id="lh_goblin_changer_town_option" text="Falar com o goblin trocador na taverna" />
+    <string id="lh_goblin_changer_town_no_gold" text="*Um goblin no canto cheira tua bolsa e bufa.* Hehe! Sem brilhentes, sem dentinhos. Vai beliscar uns humanozinhos primeiro, hein?" />
+    <string id="lh_goblin_changer_town_trade" text="Trocar" />
+    <string id="lh_goblin_changer_town_cooldown" text="*Um goblin no canto da taverna te olha com desconfiança e dá as costas.* Eh chefão, já te dei uns dias atrás! Volta em {DAYS} dias, hein?" />
+    <string id="lh_goblin_changer_intro_town" text="Saudaçõez, CHEFÃO! A rapaziada olha que aqui eu negocio justo — sem trapaças. Troca tuas brilhentes por dentes?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*O goblin conta exatamente {AMOUNT} dentes na tua mão — limpo e honesto, a rapaziada tá olhando.* Mais alguma coisa, CHEFÃO?" />
+    <string id="lh_goblin_changer_village_trade" text="Troca: 1000 brilhentes por {AMOUNT} dentinhos." />
+    <string id="lh_goblin_changer_intro_village" text="Ei CHEFÃO! Tenho dentinhos pra tuas brilhentes, troca, hein? Hihi!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="E então, troca?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Foi mal chefão, hoje não tenho mais dentes. Volta amanhã quando eu desencavar mais da rapaziada, hein?" />
+    <string id="lh_settings_button" text="Configurações do Lore-Hardcore" />
+    <string id="lh_set_race_common" text="Geral" />
+    <string id="lh_set_tab_general" text="Geral" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_lbl" text="Poder dos orcos inimigos contra você (resolução automática)" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_desc" text="Poder de combate dos orcos que lutam contra VOCÊ na resolução automática. O bônus de combate também se aplica na resolução automática, mas o enfraquecimento dos orcos inimigos na batalha ao vivo NÃO — por isso um pequeno exército de orcos podia vencer o seu grande exército no automático. Padrão 1,4 = orcos um pouco mais temíveis que o original, mas os números ainda vencem (190 orcos x1,4 = 266 &lt; seus 540). 1,0 = original puro. Aumente para tornar os orcos inimigos mais perigosos na resolução automática. Não afeta os combates IA contra IA." />
+    <string id="lh_set_ExtraCompanionSlots_lbl" text="Espaços de companheiro extras" />
+    <string id="lh_set_ExtraCompanionSlots_desc" text="Espaços de companheiro (andarilho) extras para o SEU clã, além do limite original. 0 = original. Exemplo: 10 permite manter 10 companheiros a mais do que o nível do seu clã normalmente permite. Aplica-se apenas ao clã do jogador." />
+    <string id="lh_chaos_exec_reward" text="Os Deuses Sombrios saboreiam o sacrifício. +{DE} de Energia Sombria." />
+    <string id="lh_chaos_tempt_popup_title" text="A tentação está consumada" />
+    <string id="lh_chaos_tempt_popup_body" text="{HERO} está quebrado no cativeiro e pronto para aceitar o Dom do Caos. Convertê-lo e acolhê-lo em suas fileiras?" />
+    <string id="lh_chaos_tempt_popup_yes" text="Converter" />
+    <string id="lh_chaos_tempt_popup_no" text="Ainda não" />
+    <string id="lh_chaos_upgrade_de" text="-{DE} de Energia Sombria por {COUNT}× {NAME}." />
+    <string id="lh_ungor_pierce_arrows" text="Flechas farpadas ungor" />
+    <string id="str_tor_chaos_norscan_reaver" text="Caçador norscano" />
+    <string id="str_tor_chaos_norscan_champion" text="Berserker norscano" />
+    <string id="lh_norscan_savage" text="Selvagem norscano" />
+    <string id="lh_norscan_warrior" text="Guerreiro norscano" />
+    <string id="lh_norscan_thrower" text="Arremessador norscano" />
+    <string id="lh_norscan_champion_thrower" text="Arremessador campeão norscano" />
+    <string id="lh_norscan_rider" text="Cavaleiro norscano" />
+    <string id="lh_chaos_battle_thanks" text="Os aliados do Caos estão satisfeitos com sua ajuda na batalha." />
+    <string id="lh_chaos_tempt_offer" text="Os Deuses sussurram o seu nome. Aceite o Dom do Caos, e eu o libertarei como um irmão." />
+    <string id="lh_chaos_tempt_accept_line" text="...Sim. Eu os ouço. Não consigo mais resistir. Tome o meu juramento — sou seu." />
+    <string id="lh_chaos_tempt_success" text="O senhor aceita o Dom do Caos e se une ao seu lado." />
+    <string id="lh_chaos_darkpact_request" text="Faça de mim um dos seus." />
+    <string id="lh_chaos_darkpact_response_lord" text="O ritual é irreversível. Sua natureza mortal morrerá. Você está pronto?" />
+    <string id="lh_chaos_darkpact_accept_p" text="Estou pronto." />
+    <string id="lh_chaos_darkpact_decline_p" text="Preciso pensar a respeito." />
+    <string id="lh_chaos_darkpact_chaos_flesh_lord" text="Está feito. Você é parte do Verdadeiro Caminho." />
+    <string id="lh_chaos_darkpact_message" text="O ritual está completo. Você e seu clã agora pertencem ao Caos:\n- pode recrutar tropas do Caos em seus feudos;\n- seus feudos não perdem mais lealdade por cultura estrangeira;\n- os servos do Caos não o tratam mais como estranho;\n- os Deuses concedem poder marcial bruto (suas habilidades de arma e atletismo disparam).\nAos olhos mortais seu corpo não mudou - a marca do Caos está em sua alma." />
+    <string id="lh_chaos_darkpact_title" text="O Dom do Caos aceito" />
+    <string id="lh_continue" text="Continuar" />
+    <string id="lh_chaos_encounter_talk" text="Conversar (estamos ambos sob o olhar dos Deuses)" />
+    <string id="lh_chaos_lord_peaceful_intro" text="O que o traz às nossas terras, mortal? Fale depressa — os Deuses detestam palavras vãs." />
+    <string id="lh_chaos_lord_vassal_offer" text="Desejo servir aos Deuses Sombrios." />
+    <string id="lh_chaos_lord_nolands" text="Ainda não possuímos terras, mortal — não há onde acolhê-lo. Volte quando os Deuses nos concederem uma fortaleza." />
+    <string id="lh_chaos_hire_merc" text="Sirva ao meu trono como mercenário." />
+    <string id="lh_chaos_hire_merc_accept" text="Os Deuses favorecem o seu ouro. Nossas lâminas são suas, meu senhor." />
+    <string id="lh_chaos_lord_ask_leader" text="Onde está o seu suserano agora?" />
+    <string id="lh_chaos_lord_subordinate_response" text="Meu suserano está {LEADER_LOC}. Eu sou apenas a mão dele." />
+    <string id="lh_chaos_lord_leave" text="Estou apenas de passagem." />
+    <string id="lh_chaos_hideout_pass_peace" text="Passar em paz (os Deuses Sombrios ouvem o seu sangue)" />
+    <string id="lh_chaos_hideout_recruit" text="Invocar os servos do Caos do covil" />
+    <string id="lh_chaos_portal_peace" text="Curve-se diante do portal e passe em paz" />
+    <string id="lh_chaos_portal_recruit" text="Invocar os Eleitos do Caos do portal" />
+    <string id="lh_chaos_recruit_cd" text="Este lugar ainda não reuniu sua força. Volte mais tarde." />
+    <string id="lh_chaos_recruit_nogold" text="Ouro insuficiente para a oferenda." />
+    <string id="lh_chaos_portal_got" text="{NAME} emerge do portal." />
+    <string id="lh_chaos_vassal_offer" text="Desejo servir aos Deuses Sombrios." />
+    <string id="lh_chaos_vassal_response_lord" text="Hah! Traga-me {VASSAL_GOLD} de ouro, e aceitarei o seu juramento." />
+    <string id="lh_chaos_vassal_pay_p" text="Aqui está o ouro." />
+    <string id="lh_chaos_vassal_no_gold_p" text="Não tenho tudo isso." />
+    <string id="lh_chaos_vassal_decline_p" text="Vou pensar a respeito." />
+    <string id="lh_chaos_vassal_accepted_lord" text="Excelente! Os Deuses aceitam o seu juramento." />
+    <string id="lh_chaos_vassal_rejected_lord" text="Volte quando estiver pronto." />
+    <string id="lh_chaos_vassal_join_flavor" text="Os senhores do Caos armam seu novo servo com um equipamento de saqueador — um machado do norte, escudo e peles agora estão no seu inventário. Equipe-os (pressione I). O armamento abençoado dos Deuses Sombrios se conquista com sangue, não se entrega aos não testados." />
+    <string id="lh_darkenergy_desc" text="A Energia Sombria é o poder místico dos cultos proibidos. Os necromantes a usam para erguer os mortos e sustentar os mortos-vivos. Os servos dos Deuses Sombrios bebem dela para encantar armas e treinar guerreiros escolhidos. Fontes: sangue derramado, lugares de poder profanados, rituais sombrios." />
+    <string id="lh_chaos_wand_intro" text="O que você quer, mortal?" />
+    <string id="lh_chaos_wand_tellme" text="Fale-me sobre você, viajante." />
+    <string id="lh_chaos_wand_skip" text="Vamos aos negócios. Tenho trabalho para você." />
+    <string id="lh_chaos_wand_hire" text="Preciso das suas habilidades. Você virá comigo?" />
+    <string id="lh_chaos_fodder_partysize" text="Bucha de canhão do Caos" />
+    <string id="lh_enc_menu_button" text="Guia do Lore-Hardcore" />
+    <string id="lh_enc_race_orc" text="Orcos" />
+    <string id="lh_enc_race_chaos" text="Caos" />
+    <string id="lh_enc_orc_overview_t" text="Reformulação dos orcos — Visão geral" />
+    <string id="lh_enc_orc_overview_b" text="O Lore-Hardcore transforma os Peles-Verdes, de uma horda de bucha de canhão, em uma verdadeira facção de Warhammer.\n\nAs ideias centrais:\n- Os orcos são resistentes e batem forte, mas são CAROS de manter em campo e crescem devagar, de modo que o mapa nunca se afoga em orcos gratuitos.\n- Os orcos não respeitam ouro. Em terras orcas você paga em «dentes», uma moeda que ganha lutando (veja a seção Economia dos dentes).\n- Os orcos de elite (Orcos Negros, Chefes, Grandes Orcos) são destemidos e brutais, mas seu número é limitado para impedir que a IA domine tudo.\n- Muitos pequenos sistemas de ambientação: o canibalismo em marcha, a arena de brigas, os duelos de castelo, um aríete de cerco reformulado e uma carreira orca.\n\nCada tópico à esquerda explica um sistema: o que faz, por que existe e como usá-lo. Se você nunca jogou com os Peles-Verdes, leia primeiro «Economia dos dentes» e «Carreira»." />
+    <string id="lh_enc_orc_teef_t" text="Economia dos dentes (Dentes)" />
+    <string id="lh_enc_orc_teef_b" text="Para os heróis orcos e goblins, a Economia dos dentes está SEMPRE ativa. Não há diálogo de configuração nem troca no meio do jogo. Humanos, anões e vampiros continuam usando ouro normalmente.\n\nQuando você joga como orco:\n- Nos assentamentos orcos você paga em DENTES em vez de ouro por quase tudo (recrutar orcos de elite, os duelos, a briga).\n- Fora das terras orcas você ainda paga ouro pelos serviços comuns.\n- Os goblins ainda são contratados por ouro (são ralé barata).\n\nComo GANHAR dentes:\n- Nocautear inimigos resistentes em batalha (nível 4 e acima).\n- Matar senhores inimigos.\n- Vencer brigas e duelos de castelo.\n- Um tributo diário de cada cidade ou castelo orco que você possuir.\n\nPor que existe: em Warhammer os orcos usam literalmente dentes como dinheiro — o ouro lhes é indiferente. A economia também mantém a IA sob controle: os senhores orcos não drenam ouro do seu clã (a penalidade de moral pelo soldo é suprimida, pois você nunca os paga de fato), e a renda diária de dentes é limitada para que os senhores da guerra da IA não comprem um exército de elite sem fim." />
+    <string id="lh_enc_orc_career_t" text="Carreira: Brigão e Xamã" />
+    <string id="lh_enc_orc_career_b" text="Um herói orco escolhe um de dois caminhos de carreira na criação do personagem.\n\nCaminho do Brigão (torna-se um Chefe): um lutador corpo a corpo que cresce lutando — perícias de armas, batalhas, torneios, brigas e dentes ganhos.\n\nCaminho do Xamã: um conjurador que cresce pela fé e pela magia — Feitiçaria, Fé, encantamentos, dentes e santuários saqueados.\n\nO Lore-Hardcore REDUZ os requisitos de carreira originais do TOR para que a carreira orca seja de fato alcançável em uma campanha normal. Aproximadamente:\n- Chefe nível 2: perícias de armas ~80/80/30, 30 batalhas, 5 torneios, 10 brigas, 2000 dentes.\n- Chefe nível 3: ~150/120/60, 70 batalhas, 15 torneios, 20 brigas, 5 duelos com senhores, 5 cidades tomadas, 10000 dentes.\n- Xamã nível 2: rezar em um santuário, Feitiçaria 50, Fé 50, 3 encantamentos, 2000 dentes, 5 santuários saqueados.\n- Xamã nível 3: Feitiçaria 120, Fé 100, 8 encantamentos, 10000 dentes, 5 cidades, 30 santuários.\n\nA arena de brigas e os duelos de castelo existem em parte para ajudá-lo a marcar esses objetivos." />
+    <string id="lh_enc_orc_morale_t" text="Moral e WAAAGH!" />
+    <string id="lh_enc_orc_morale_b" text="O combate orco e o comportamento da IA foram reequilibrados para que os Peles-Verdes pareçam perigosos sem conquistar o mapa inteiro.\n\nNo campo de batalha:\n- Os senhores orcos recebem, de base, cerca de +40% de PV e +30% nas perícias de combate.\n- Os orcos de elite (Orco Negro, Chefe, Berzerka, Grande Orco) são DESTEMIDOS e nunca entram em pânico.\n- Um bônus de moral WAAAGH! se acumula conforme massas de orcos avançam para um combate.\n\nPara que a IA não domine tudo:\n- Um teto flexível para o tamanho do grupo dos senhores orcos da IA (cerca de 80 efetivos por padrão; ajustável nas configurações).\n- O exército de um marechal sustenta apenas um punhado de grupos, então os orcos atacam em bandos de guerra de 400-500 em vez de 3000.\n- A estimativa de força da IA conta orcos, goblins e grandes monstros pelo seu peso real, de modo que os senhores imperiais julgam corretamente uma ameaça orca e não se lançam ao matadouro.\n\nSeu próprio grupo usa os limites de tamanho normais do original — esses tetos são para a IA." />
+    <string id="lh_enc_orc_challenge_t" text="Duelo de castelo" />
+    <string id="lh_enc_orc_challenge_b" text="Visite um castelo orco e você poderá desafiar um de seus orcos de elite para um duelo um contra um por uma aposta em dentes.\n\n- Vitória: o elite derrotado se une ao seu grupo como unidade-troféu, e você ganha dentes.\n- Derrota: sua aposta é perdida e sua reputação no castelo cai por um tempo.\n\nO combate é um 1 contra 1 real em uma cena de castelo — dê o seu melhor. Quais elites estão disponíveis depende do castelo (Grande Orco, Chefe, Orco Negro, Bruto, Berzerka), e inimigos mais duros custam uma aposta maior. É uma forma rápida de ganhar uma unidade de elite e de completar o objetivo de duelo da carreira orca." />
+    <string id="lh_enc_orc_sieges_t" text="Cercos e o aríete" />
+    <string id="lh_enc_orc_sieges_b" text="Os orcos cercam de forma diferente das facções civilizadas.\n\n- Os orcos NÃO constroem trabucos — não têm paciência para engenharia delicada. Usam balistas, onagros e catapultas (incluindo as variantes de fogo).\n- O aríete deles é massivamente reforçado: bate muito mais forte e resiste muito mais, de modo que os portões caem em um punhado de golpes em vez de dezenas.\n- A resolução automática recebe o mesmo reforço de aríete, então um cerco orco se resolve rápido, quer você assista ou não.\n\nA ideia é um assalto orco brutal e veloz de «derruba o portão» em vez de um lento duelo de artilharia." />
+    <string id="lh_enc_orc_cannibalism_t" text="Canibalismo de prisioneiros" />
+    <string id="lh_enc_orc_cannibalism_b" text="Os orcos NÃO retalham prisioneiros na tela de pilhagem. A carne vem APENAS da fome em marcha.\n\nApós uma batalha você obtém zero carne por retalhar prisioneiros ou pela pilhagem automática — esse caminho está deliberadamente fechado para o jogador.\n\nA única forma de obter carne dos cativos: fazer prisioneiros, ficar sem mantimentos e continuar marchando. A cada hora com a despensa vazia, seu grupo come uma boca:\n1. Primeiro os prisioneiros (cada um dá 1 de carne).\n2. Depois os goblins (cada um dá 1 de carne).\n3. Senhores e companheiros NUNCA são comidos — um senhor vale um resgate, um companheiro é parte da sua história.\n\nLore: os orcos devoram os cativos vivos na estrada, não com capricho sobre um cepo de açougueiro. Os grupos orcos da IA mantêm a carne-de-batalha original para não morrerem de fome ao longo da campanha." />
+    <string id="lh_enc_orc_brawl_t" text="Arena de brigas pele-verde" />
+    <string id="lh_enc_orc_brawl_b" text="A briga é uma arena de luta de socos presente nos assentamentos orcos.\n\n- Cerca de 18 inimigos por partida.\n- Sua recompensa cresce conforme quantos você nocauteia pessoalmente.\n- Os inimigos que saem dos limites são finalizados automaticamente para que uma partida não trave.\n\nÉ um ótimo lugar para treinar Uma mão, ganhar dentes e marcar o objetivo de briga da carreira orca. Nas cidades não orcas conquistadas, os efeitos de ambiente da arena são suprimidos para evitar erros gráficos em máquinas mais antigas." />
+    <string id="lh_enc_chaos_overview_t" text="O que é o Caos" />
+    <string id="lh_enc_chaos_overview_b" text="O Caos é a reformulação da facção dos poderes sombrios: os guerreiros, bestas e cultistas que servem aos quatro Deuses Sombrios do norte. Ele reúne as tribos norscanas, os homens-fera (Gor, Ungor, Minotauros), os Guerreiros do Caos e os cultos ocultos que rezam em segredo pelas terras civilizadas.\n\nO Caos é um recurso BETA e está DESATIVADO por padrão. Ative-o com o interruptor principal «Ativar a reformulação do Caos» nas configurações (requer reiniciar o jogo). Com ele desativado, os Peles-Verdes e todos os outros se comportam normalmente, e nenhum dos sistemas abaixo se aplica.\n\nDuas formas de lidar com o Caos:\n1. Combatê-lo — o Caos está em guerra com o mundo inteiro. Enfrente as invasões e os levantes dos cultos.\n2. Juntar-se a ele — torne-se um servo dos Deuses Sombrios: receba o Dom do Caos, sirva a um senhor do Caos, recrute tropas sombrias e converta para o seu lado os senhores capturados.\n\nEste guia explica, passo a passo, como se tornar um jogador do Caos e cada sistema que vem com isso. Comece por «Como começar / Juntar-se» e desça pela lista." />
+    <string id="lh_enc_chaos_joining_t" text="Como começar / Juntar-se" />
+    <string id="lh_enc_chaos_joining_b" text="Você não começa como Caos — você escolhe cair.\n\nHá dois caminhos para o rebanho:\n\n1) Tornar-se vassalo de um senhor do Caos.\n- Enquanto você for um clã INDEPENDENTE (sem reino próprio e sem juramento a ninguém), não é forçado a uma guerra permanente com o Caos, então você pode de fato se aproximar e conversar com um senhor do Caos.\n- Encontre um senhor de cultura Caos, abra o diálogo e escolha «Desejo servir aos Deuses Sombrios».\n- Ele exige um tributo em ouro como oferenda aos Deuses. Pague-o e você se une ao reino dele como vassalo. O valor e o nível mínimo de clã são definidos nas configurações.\n\n2) Receba o Dom do Caos diretamente (veja a próxima seção) para converter o seu próprio herói e o seu clã à cultura do caos.\n\nImportante: assim que você pertence a um reino do Caos, o mundo inteiro está em guerra com você — isso é intencional (veja «Guerra e diplomacia»). Certifique-se de estar pronto para essa luta antes de prestar o juramento." />
+    <string id="lh_enc_chaos_gift_t" text="O Dom do Caos" />
+    <string id="lh_enc_chaos_gift_b" text="O Dom do Caos é um ritual que transforma o seu herói — e todo o seu clã — à cultura do caos. É o compromisso profundo com os Deuses Sombrios.\n\nO que faz:\n- Muda a cultura do seu herói para caos e, crucialmente, também a cultura do seu CLÃ. Isso importa: se só o herói mudasse, seus feudos sofreriam um descompasso de lealdade. Ambos são convertidos para que os assentamentos do caos permaneçam leais a você.\n- Tenta mudar a sua aparência rumo a um visual tocado pelo caos, onde o jogo permite.\n- Concede uma explosão de experiência de combate, refletindo o poder bruto que os Deuses derramam nos recém-fiéis.\n\nComo obtê-lo: peça a um senhor do Caos para «fazer de você um deles» no diálogo (aplica-se um nível mínimo de clã, definido nas configurações). A conversão é permanente.\n\nApós o Dom você pode recrutar livremente tropas sombrias nas terras do caos, passar em paz pelos covis de cultistas e começa a gerar Energia Sombria." />
+    <string id="lh_enc_chaos_darkenergy_t" text="Energia Sombria" />
+    <string id="lh_enc_chaos_darkenergy_b" text="A Energia Sombria é o recurso do jogador do Caos — o favor dos Deuses Sombrios tornado manifesto. Funciona como os dentes dos orcos ou os ventos dos vampiros: uma moeda especial que só a sua facção usa.\n\nComo GANHÁ-LA:\n- Sacrificar prisioneiros por execução (os Deuses saboreiam a oferenda).\n- Outros feitos sombrios conforme a facção cresce.\n\nEm que GASTÁ-LA:\n- Em melhorar tropas de elite do Caos. Promover uma unidade a verdadeira elite do Caos custa Energia Sombria além da melhoria normal. Se você não puder pagar, a melhoria fica bloqueada na interface até ter o suficiente — assim você não fica endividado.\n\nA Energia Sombria nunca cai abaixo de zero, e você só a vê depois de alinhado ao Caos. Pense nela como o preço que os Deuses cobram por seus melhores campeões: para crescer, você precisa continuar alimentando-os." />
+    <string id="lh_enc_chaos_troops_t" text="Tropas do Caos" />
+    <string id="lh_enc_chaos_troops_b" text="Os exércitos do Caos misturam bucha de canhão barata com uma elite apavorante.\n\nO efetivo, em linhas gerais do mais fraco ao mais forte:\n- Cultistas e Acólitos — fanáticos humanos, pura bucha de canhão.\n- Ungor — os homens-fera menores, também bucha de canhão.\n- Tribos norscanas e seus campeões — os guerreiros humanos do norte. Receberam um bônus de PV para que um Norscano seja mais resistente que um homem comum, como o lore exige.\n- Os Gor e sua elite — os homens-fera maiores, com um bônus de PV superior ao dos Norscanos.\n- Os Guerreiros do Caos — campeões blindados dos Deuses Sombrios.\n- Os Minotauros — monstros enormes com o maior bônus de PV de todos.\n\nA mecânica da bucha de canhão: Cultistas e Ungor ocupam MENOS espaço no seu grupo. Para cada par de unidades de bucha de canhão que você carrega, seu limite de grupo sobe em um — exatamente como os pequenos mortos-vivos da facção vampira. Isso mantém a ralé barata jogável em vez de desperdiçar preciosos espaços de grupo.\n\nTodos os bônus de PV são ajustáveis nas configurações se você quiser outro equilíbrio." />
+    <string id="lh_enc_chaos_recruiting_t" text="Recrutar tropas do Caos" />
+    <string id="lh_enc_chaos_recruiting_b" text="Uma vez alinhado ao Caos (vassalo/rei, ou de cultura caos) você ganha várias formas de levantar exércitos sombrios. Você não pode fazer nada disso como um forasteiro — os cultos só se abrem aos fiéis.\n\nFormas de recrutar:\n- Assentamentos: os notáveis nas cidades, castelos e aldeias alinhados ao caos oferecem voluntários sombrios em vez de recrutas normais. As áreas de castelo tendem a guerreiros de elite; as cidades misturam bucha de canhão.\n- COVIS de cultistas e homens-fera (os esconderijos no estilo bandido dos cultos da floresta e da estepe): em vez de combatê-los, você pode passar em paz e até invocar seus servos por ouro. Há um tempo de recarga, então você não pode explorar um covil para sempre.\n- PORTAIS do Caos: locais especiais onde você pode se curvar e passar, ou invocar os Eleitos do Caos — a elite da elite — por um preço.\n- Os Minotauros aparecem como um raro espaço de recrutamento quando você visita um castelo do caos.\n\nQual bucha de canhão um lugar oferece depende da cultura dele (os covis da estepe dão Ungor, os cultos da floresta dão Cultistas)." />
+    <string id="lh_enc_chaos_tempting_t" text="Tentar os cativos" />
+    <string id="lh_enc_chaos_tempting_b" text="Como jogador do Caos você pode corromper os senhores que captura, transformando os nobres inimigos em servos dos Deuses Sombrios em vez de apenas pedir resgate por eles.\n\nComo funciona:\n- Mantenha um senhor inimigo prisioneiro. Cada dia na sua masmorra adiciona progresso de «tentação» enquanto os Deuses sussurram a ele.\n- Quando o progresso cruza o limiar, o cativo está pronto para aceitar o Dom do Caos. Você recebe a opção de convertê-lo — ele se quebra e se une ao seu lado.\n- Se o cativo for libertado ou escapar, o progresso dele decai.\n- Cada senhor já convertido torna o próximo um pouco mais difícil, então você não pode converter em massa o mundo inteiro sem fim.\n\nTodos os números — progresso por dia, o limiar, a penalidade por conversão, a taxa de decaimento e um bônus se você já for de cultura caos — são ajustáveis nas configurações. Por padrão, leva alguns meses de cativeiro para virar um senhor." />
+    <string id="lh_enc_chaos_vassalage_t" text="Vassalagem e recompensas" />
+    <string id="lh_enc_chaos_vassalage_b" text="Quando você se entrega a um reino do Caos, não é mandado embora de mãos vazias — os Deuses Sombrios armam o seu novo campeão.\n\nAo se unir a um reino do Caos, o seu herói recebe um conjunto inicial de equipamento do Caos: armadura, elmos e armas com a temática dos quatro deuses (Khorne, Nurgle, Tzeentch, Slaanesh) mais peças universais de Guerreiro do Caos e uma montaria. Equipe o conjunto que preferir.\n\nServir ao Caos também desloca as suas relações — os senhores sombrios o acolhem como parente, enquanto o mundo civilizado se volta contra você.\n\nEsta recompensa é concedida uma única vez, na primeira vez que o seu clã se une a um reino de cultura caos. Se os itens não aparecerem, o mod registra um aviso na inicialização para que o problema fique visível (ele verifica cada id de equipamento ao carregar o jogo)." />
+    <string id="lh_enc_chaos_uprisings_t" text="Levantes do Caos" />
+    <string id="lh_enc_chaos_uprisings_b" text="O Caos não fica parado. Periodicamente irrompe um Levante do Caos — uma onda de forças sombrias que explode no mapa para ameaçar os reinos civilizados.\n\nNo TOR original o primeiro levante fica distante (cerca de 126 dias). O Lore-Hardcore encurta o intervalo (por padrão cerca de 30 dias, definido nas configurações) para que o Caos se torne uma ameaça viva muito mais cedo e o mundo pareça sob pressão real.\n\nO tempo de recarga se aplica desde o início de uma nova campanha: o primeiro levante acontece após o número de dias que você escolher, e eles se repetem nesse temporizador. Reduza-o para um mundo frenético assombrado pelo Caos; aumente-o para uma combustão mais lenta." />
+    <string id="lh_enc_chaos_war_t" text="Guerra e diplomacia" />
+    <string id="lh_enc_chaos_war_b" text="O mais importante a entender antes de se juntar: o mundo INTEIRO está em guerra com o Caos, e assim que você pertence a um reino do Caos, isso significa que o mundo inteiro está em guerra com VOCÊ.\n\nIsso é intencional. O Caos é o grande inimigo de toda facção civilizada — não há paz duradoura possível como servo juramentado dos Deuses Sombrios. Espere ser atacado por todos os lados.\n\nA única exceção é ANTES de se juntar: enquanto você ainda for um clã independente sem reino, o mod não o força à guerra com o Caos. É essa janela que justamente permite cavalgar até um senhor do Caos e negociar a sua adesão. No instante em que você presta o juramento, as luvas caem e o mundo se une contra você.\n\nPlaneje de acordo: construa um exército sombrio forte e autossuficiente (bucha de canhão para o número, elite e monstros para o impacto) antes de dar o salto, porque você lutará contra todos." />
+    <string id="lh_ck_challenge" text="O trono do Caos pertence ao mais forte. Eu te desafio para o combate!" />
+    <string id="lh_ck_resp_lord" text="Mortal insolente! Que assim seja — os Deuses anseiam por sangue. Encontra-me fora das muralhas, em campo aberto. Vem quando estiveres pronto — um de nós não verá o pôr do sol." />
+    <string id="lh_ck_accept_p" text="Este trono será meu." />
+    <string id="lh_ck_decline_p" text="Ainda não." />
+    <string id="lh_ck_disgraced_p" text="Eu te desafio de novo!" />
+    <string id="lh_ck_taunt_lord" text="Você já tentou o seu destino e foi derrubado, verme miserável! Os Deuses Sombrios veem o seu engano — eis o seu castigo." />
+    <string id="lh_ck_load_penalty" text="Os Deuses Sombrios se afastaram do covarde: a sua Glória do Caos se apaga." />
+    <string id="lh_ck_wound" text="Os Deuses puniram a sua insolência. Cure as suas feridas e prove que é digno do trono." />
+    <string id="lh_ck_defeat" text="O Rei do Caos o derruba. Volte em {DAYS} dias para desafiá-lo de novo." />
+    <string id="lh_ck_victory" text="Você arrancou o trono das mãos mortas do Rei do Caos! Os Deuses Sombrios reconhecem um novo senhor. O reino é seu." />
+    <string id="lh_ck_victory_title" text="O usurpador sobe ao trono" />
+    <string id="lh_ck_eligible" text="Os Deuses Sombrios pousam os olhos em você! Encontre o Rei do Caos — o soberano de um reino do Caos —, fale com ele e o desafie pelo trono." />
+    <string id="lh_ck_bar_legend" text="Glória do Caos" />
+    <string id="lh_ck_bar_ready" text="Desafio pronto" />
+    <string id="lh_ck_bar_disgrace" text="Em desgraça" />
+    <string id="lh_cw_bs_a" text="Percorri uma longa estrada em nome dos Deuses Sombrios." />
+    <string id="lh_cw_bs_b" text="Sangue e glória — é tudo o que importa agora." />
+    <string id="lh_cw_bs_c" text="Os fracos servem, os fortes governam. Qual você é?" />
+    <string id="lh_cw_bs_d" text="Chega de conversa. Lutarei por você — pelo preço certo." />
+    <string id="lh_cw_resp1" text="Respeito a força. Conte-me mais." />
+    <string id="lh_cw_resp2" text="Poupe-me das histórias. Aos negócios." />
+    <string id="lh_cw_leave" text="Noutra ocasião, então." />
+    <string id="lh_cw_pay" text="Minha lâmina é sua — por {GOLD_AMOUNT}." />
+    <string id="lh_cw_accept" text="Combinado. {GOLD_AMOUNT} são seus." />
+    <string id="lh_cw_decline" text="Não posso pagar isso agora." />
+    <string id="lh_enc_chaos_market_t" text="Mercados amaldiçoados" />
+    <string id="lh_enc_chaos_market_b" text="As armas e armaduras do Caos são evitadas pela gente honesta e só são vendidas NOS mercados das cidades do Caos. Equipamento de saqueador, túnicas de cultista, armas do caos, escudos e um corcel do caos existem em qualquer cidade do Caos; as armaduras de guerra abençoadas dos Deuses Sombrios (Khorne, Nurgle, Tzeentch, Slaanesh) e os elmos dos Eleitos somente na capital — a cidade do Caos mais próspera — e por uma fortuna.\nQualquer um pode comprar numa cidade do Caos, mas bens amaldiçoados não podem ser VENDIDOS em lugar nenhum exceto em cidades e vilarejos do Caos — nenhum outro mercador os tocará." />
+    <string id="lh_enc_chaos_throne_t" text="Derrubar o Rei" />
+    <string id="lh_enc_chaos_throne_b" text="A força faz o direito. Abata inimigos suficientes com a própria mão e os Deuses Sombrios o marcarão como rival do Rei do Caos reinante.\nSuas mortes pessoais constroem uma Glória do Caos (barra acima do relógio do mapa). Sirva ao Caos por pelo menos 30 dias e eleve a sua Glória do Caos acima da do Rei. Quando os Deuses perceberem, desafie o Rei para um combate mortal: você contra o Rei e dois de seus Guerreiros do Caos.\nSe vencer, o trono, os feudos e os vassalos são seus, e você toma o equipamento de guerra abençoado dele como troféu. Se perder, a sua Glória do Caos é quebrada em um terço." />
+    <string id="lh_chaos_wand_full_p" text="Não tenho lugar para você — minha comitiva já está cheia." />
+    <string id="lh_chaos_wand_full_lord" text="Então volte quando tiver aberto espaço, mortal. Os Deuses Sombrios não gostam de esperar." />
+    <string id="lh_ck_where_p" text="Onde posso encontrar o seu senhor, o Rei?" />
+    <string id="lh_ck_loc_court" text="Nosso senhor mantém a corte em {SETTLEMENT}." />
+    <string id="lh_ck_loc_march" text="Nosso senhor está em marcha, perto de {SETTLEMENT}." />
+    <string id="lh_ck_loc_prison" text="Nosso senhor jaz cativo nas masmorras de {SETTLEMENT}." />
+    <string id="lh_ck_loc_unknown" text="Nosso senhor vagueia pelas terras selvagens — nem eu sei onde." />
+    <string id="lh_ck_bar_days" text="serviço: faltam {DAYS} dias" />
+    <string id="lh_ck_ready_title" text="O trono aguarda" />
+    <string id="lh_ck_ready_msg" text="Você provou seu valor em sangue e serviço. Procure o Rei do Caos — pergunte a qualquer senhor do Caos onde ele mantém a corte — e o desafie pelo trono." />
+    <string id="lh_ck_cd_p" text="Quero enfrentá-lo de novo, Rei do Caos." />
+    <string id="lh_ck_cd_lord" text="Você já provou a derrota, mortal. Lamba suas feridas e volte quando for digno — em {DAYS} dias. Suma!" />
+    <string id="lh_ck_cd_leave" text="Eu vou... em vergonha." />
+    <string id="lh_ck_bar_cooldown" text="desafio em {DAYS}d" />
+    <string id="lh_kd_begin" text="Saque sua arma — comece o duelo." />
+    <string id="lh_kd_escort_title" text="Escolha seus campeões" />
+    <string id="lh_kd_escort_desc" text="Escolha quem lutará ao seu lado (até {MAX}). O Rei do Caos trará a mesma quantidade de guardas. Não escolha ninguém para enfrentá-lo sozinho." />
+    <string id="lh_kd_escort_ok" text="À batalha!" />
+    <string id="lh_kd_escort_back" text="Voltar" />
+    <string id="lh_kd_prep_text" text="Os cultistas do Caos ergueram no campo um ringue de crânios e ferro negro. O Rei do Caos {KING} entra para enfrentá-lo — só um sairá vivo do ringue." />
+    <string id="lh_kd_won_text" text="O Rei do Caos jaz morto a seus pés. Os Deuses Sombrios rugem sua aprovação — o caminho para o seu próprio trono está aberto." />
+    <string id="lh_kd_claim" text="Reivindique o trono do Caos." />
+    <string id="lh_kd_lost_text" text="Você está derrotado e abatido. Lamba suas feridas e volte em {DAYS} dias para tentar de novo." />
+    <string id="lh_ck_found_title" text="Funde seu reino do Caos" />
+    <string id="lh_ck_found_text" text="O trono é seu por sangue. Dê um nome ao seu novo reino do Caos." />
+    <string id="lh_ck_found_default" text="Horda do Caos" />
+    <string id="lh_ck_founded" text="Seu reino do Caos está fundado. Os Deuses Sombrios velam por seu novo campeão." />
+    <string id="lh_kd_chicken" text="Hoje não — eu me retiro. (sair)" />
+    <string id="lh_extorsion_tier_too_low" text="Patente baixa demais — só orcs T4+ têm dentes de ouro que valem a pena." />
+    <string id="lh_set_MaxBanditPartiesPerHideout_lbl" text="Patrulhas de bandidos por esconderijo" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="Quantos grupos de bandidos errantes podem surgir ao redor de CADA esconderijo ativo. O padrão do TOR é 6 — reduza para diminuir os grupos vagando pelo mapa. Exemplo: 3." />
+    <string id="lh_set_MaxLooterParties_lbl" text="Máx. grupos de saqueadores/desertores" />
+    <string id="lh_set_MaxLooterParties_desc" text="Limite rígido de grupos de saqueadores e desertores no mapa. O TOR permite até 200 — isto apenas reduz (nunca acima do que a fase de campanha do TOR permite). Exemplo: 60." />
+    <string id="lh_god_khorne" text="Khorne, o Deus do Sangue" />
+    <string id="lh_god_nurgle" text="Nurgle, o Senhor da Peste" />
+    <string id="lh_god_tzeentch" text="Tzeentch, o Mutável dos Caminhos" />
+    <string id="lh_god_slaanesh" text="Slaanesh, o Príncipe Sombrio" />
+    <string id="lh_god_none" text="Nenhum deus" />
+    <string id="lh_god_khorne_flv" text="Crânios para o trono de crânios. Khorne favorece o açougueiro implacável que toma cabeças no massacre aberto." />
+    <string id="lh_god_nurgle_flv" text="O Avô das pestes acolhe os perseverantes. Seus escolhidos apodrecem, mas se recusam a cair." />
+    <string id="lh_god_tzeentch_flv" text="O Arquiteto do Destino recompensa o feiticeiro astuto que dobra os ventos da magia à sua vontade." />
+    <string id="lh_god_slaanesh_flv" text="O Príncipe dos Prazeres preza os velozes e perfeitos - o duelista que faz do matar uma arte." />
+    <string id="lh_god_choose_title" text="Jure a um Deus Sombrio" />
+    <string id="lh_god_choose_desc" text="Você se ajoelha diante do altar do Caos. Escolha o deus cuja marca você portará — esta escolha é definitiva. Com {SET} mortes seu deus concede sua panóplia de guerra completa; com {DUEL} mortes você poderá desafiar o próprio Overlord pelo trono dele." />
+    <string id="lh_god_choose_ok" text="Fazer o juramento" />
+    <string id="lh_god_chosen_msg" text="Agora você é consagrado a {GOD}. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Os Deuses Sombrios recompensam sua matança - a panóplia de guerra completa de {GOD} está agora no seu inventário. Equipe-a pelo inventário (tecla I)." />
+    <string id="lh_god_set_title" text="O Favor de um Deus" />
+    <string id="lh_set_tab_gods" text="Deuses Sombrios" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Mortes pela panóplia do seu Deus" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Ao se consagrar ao Caos você escolhe um dos quatro Deuses Sombrios (Khorne, Nurgle, Tzeentch, Slaanesh). Quando sua contagem pessoal de mortes atinge este número, seu deus o recompensa com o conjunto completo de armadura e arma de alto nível. Menor = você ganha o equipamento de elite mais cedo. Exemplo: 1000 são cerca de 1000 inimigos mortos por sua própria mão. Faixa 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Mortes extras para desafiar o Overlord" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Mortes pessoais adicionais, ALÉM do limite da panóplia, antes de poder desafiar o Overlord do Caos (Mortkin) para um duelo pelo trono. Mortes totais para o duelo = limite da panóplia + este valor. Menor = o desafio ao trono libera mais cedo. Exemplo: ambos em 1000, você o desafia com 2000 mortes. Faixa 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Peso do Minotauro (reduzido)" />
+    <string id="lh_chaos_recruited_list" text="Invocados: {LIST}." />
+  </strings>
+</base>

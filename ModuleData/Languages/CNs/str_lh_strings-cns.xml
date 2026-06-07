@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="没吃的了 — 部队吃掉了一个哥布林({GOBLIN})。剩余哥布林:{COUNT}。" />
+    <string id="lh_cannibal_prisoner_eaten" text="没吃的了 — 绿皮吃掉了一名俘虏({PRISONER})。剩余俘虏:{COUNT}。" />
+    <string id="lh_brawl_kills_line" text="你在斗殴中亲手击败:{KILLS} / {TOTAL}。" />
+    <string id="lh_brawl_kills_allies_extra" text="(你的同伴又解决了 {EXTRA} 个。)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="因击杀不同种类敌人,你额外获得 1 个兽人和 1 个哥布林。" />
+    <string id="lh_brawl_diversity_orc" text="因击杀不同种类敌人,你额外获得 1 个兽人。" />
+    <string id="lh_brawl_diversity_goblin" text="因击杀不同种类敌人,你额外获得 1 个哥布林。" />
+    <string id="lh_brawl_victory_reward_no_gold" text="你获得了 {RENOWN_REWARD} 声望和 {TEEF_REWARD}{CR_ICON} 牙齿。" />
+    <string id="lh_shrine_loot_result_only_gold" text="你成功掠夺神龛,获得 {TOTAL_GOLD} 金币。" />
+    <string id="lh_orc_castle_recruit" text="招募兽人精锐" />
+    <string id="lh_orc_castle_recruit_intro" text="氏族老大们带出了魁梧的兽人壮汉 — 他们凶狠地盯着你,等着付钱。你有 {LH_PLAYER_GOLD}{GOLD_ICON}。" />
+    <string id="lh_orc_castle_recruit_title" text="要塞中的兽人精锐" />
+    <string id="lh_castle_recruit_leave" text="返回" />
+    <string id="lh_castle_elite_cap" text="已有 {LH_ELITE_COUNT} 名壮汉对应 {LH_REGULARS_COUNT} 名兽人小子。上限 — 每 {LH_RATIO} 名小子配 1 名壮汉。先在村庄和城镇招募更多小子。" />
+    <string id="lh_castle_no_gold" text="金钱不足" />
+    <string id="lh_castle_party_full" text="队伍已满员" />
+    <string id="lh_village_hire_goblins" text="招募哥布林(100{GOLD_ICON} / 2 个)" />
+    <string id="lh_village_no_gold" text="至少需要 100 金" />
+    <string id="lh_village_no_orcs" text="哥布林只伺候兽人 — 队伍里没有兽人,它们不会跟随。" />
+    <string id="lh_village_goblin_cap" text="你有 {LH_GOBLIN_COUNT} 个哥布林对应 {LH_ORC_COUNT} 个兽人。上限 — 每个兽人配 4 个哥布林。先招募更多兽人。" />
+    <string id="lh_castle_recruit_msg" text="已招募:{TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="已招募:{TROOP}(附带 {COUNT} 个哥布林仆从)" />
+    <string id="lh_village_goblin_hired" text="已招募:{COUNT} 个哥布林(花费 {PRICE}{GOLD_ICON})" />
+    <string id="lh_goblin_companions_added" text="{TROOP} 带来 +{COUNT} 个哥布林仆从" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} 个哥布林(原想 {DESIRED} 个,达到了 4:1 上限)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="弓箭小子老大" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="大块头兽人" />
+    <string id="lh_troop_tor_gs_black_orc" text="黑兽人" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="野猪小子大块头" />
+    <string id="lh_troop_tor_gs_orc_boss" text="兽人老大" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="黑兽人蛮兽" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="黑兽人老大" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="黑兽人狂战士" />
+    <string id="lh_troop_tor_gs_goblin" text="哥布林" />
+    <string id="lh_troop_tor_gs_orc" text="兽人" />
+    <string id="lh_troop_tor_gs_orc_boy" text="兽人小子" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="兽人砍霸" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="兽人弓箭小子" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="兽人野猪小子" />
+    <string id="lh_teef_cart_trimmed" text="牙齿不够 — 少招募了 {COUNT} 个兽人(花费 {SPENT},拥有 {HAVE})。" />
+    <string id="lh_castle_challenge_button" text="向兽人精锐挑战决斗" />
+    <string id="lh_castle_challenge_intro" text="蛮兽们在领主大厅排成一排。选一个 — 一对一,生死决斗。" />
+    <string id="lh_castle_challenge_title" text="与兽人精锐决斗" />
+    <string id="lh_castle_challenge_back" text="返回" />
+    <string id="lh_castle_challenge_disabled_culture" text="只有兽人才能挑战兽人。" />
+    <string id="lh_castle_challenge_disabled_siege" text="要塞被围攻时不行。" />
+    <string id="lh_castle_challenge_disabled_cooldown" text="这个战士还在恢复中。再等 {DAYS} 天。" />
+    <string id="lh_castle_challenge_no_troop" text="TOR 未加载此单位。" />
+    <string id="lh_castle_challenge_victory_desc" text="胜利!{TROOP} 已被击杀。奖励:+{TEEF} 牙齿{REWARD_TROOP}。" />
+    <string id="lh_castle_challenge_defeat_desc" text="失败。{TROOP} 更胜一筹。你的赌注没收,你灰头土脸地离开。" />
+    <string id="lh_castle_challenge_victory_accept" text="领取奖励" />
+    <string id="lh_castle_challenge_defeat_accept" text="灰头土脸地离开" />
+    <string id="lh_castle_challenge_option_verb" text="挑战决斗:" />
+    <string id="lh_castle_challenge_err_no_troop" text="[挑战] 单位 '{TROOP_ID}' 未加载。" />
+    <string id="lh_castle_challenge_err_no_scene" text="[挑战] 此城堡没有合适的场景(缺少领主大厅)。" />
+    <string id="lh_castle_challenge_err_no_teef" text="[挑战] 牙齿不足支付赌注。" />
+    <string id="lh_castle_challenge_err_no_gold" text="[挑战] 金钱不足支付赌注。" />
+    <string id="lh_castle_challenge_err_generic" text="[挑战] 错误:{ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=",并且他的一个同类加入你的队伍" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore:经济模式选择" />
+    <string id="lh_settings_economy_desc" text="此选择会锁定到存档中。如需更改,请开始新游戏。" />
+    <string id="lh_settings_economy_teef_title" text="兽人牙齿经济(战锤设定)" />
+    <string id="lh_settings_economy_teef_hint" text="在城堡用战斗获得的牙齿(兽人货币)购买兽人精锐。哥布林仍用金钱。你拥有的每个兽人城镇/城堡每日 +5 牙齿。符合战锤奇幻设定 — 兽人不在乎金钱。" />
+    <string id="lh_settings_economy_classic_title" text="经典模式(一切用金钱)" />
+    <string id="lh_settings_economy_classic_hint" text="兽人和哥布林按照原版 TOR 用金钱招募。无牙齿经济,无每日封地收入。简单熟悉。" />
+    <string id="lh_settings_economy_confirm" text="确认" />
+    <string id="lh_castle_no_teef" text="牙齿不足:需要 {LH_TEEF_NEEDED},拥有 {LH_TEEF_HAVE}。" />
+    <string id="lh_castle_not_orc" text="仅限兽人英雄。兽人不接纳外人。" />
+    <string id="lh_teef_daily_msg" text="来自你的兽人城镇和城堡的 +{TEEF} 牙齿(共 {COUNT} 个)" />
+    <string id="lh_teef_battle_msg" text="从 {COUNT} 个精锐敌人(T4+)身上敲下 +{TEEF} 牙齿。" />
+    <string id="lh_teef_lord_kill_msg" text="击杀领主 {NAME} 获得 +{TEEF} 牙齿。" />
+    <string id="lh_castle_challenge_no_fee_teef" text="发起挑战需要 {FEE} 牙齿(拥有 {HAVE})。" />
+    <string id="lh_castle_challenge_no_fee_gold" text="发起挑战需要 {FEE} 金(拥有 {HAVE})。" />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} 花费 -{TEEF} 牙齿。" />
+    <string id="lh_teef_recruit_no_teef" text="招募 {TROOP} 牙齿不足(需要 {NEED},拥有 {HAVE})。" />
+    <string id="lh_bt_conflict_title" text="模组冲突:BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="第三方 BetterTime 模组与 Lore-Hardcore 同时加载。该模组与 The Old Realms 不兼容 — 它通过 UI MapBar 覆写产生冲突。{newline}{newline}Lore-Hardcore 已包含 BetterTime 功能:{newline}D3 / Numpad3 — 快进 ×4{newline}D4 / Numpad4 — 超快 ×8{newline}松开按键 — 回到正常速度{newline}{newline}建议:关闭游戏,在 Bannerlord 启动器中禁用或移除第三方 BetterTime,然后重启。" />
+    <string id="lh_bt_conflict_ok" text="明白,我来修复" />
+    <string id="lh_teef_unit" text="牙齿" />
+    <string id="lh_tournament_cannot_leave" text="战斗还没结束。不准跑。" />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="敌人已被处决。兽人队伍倍感自豪。士气 +10，荣誉声望已恢复。" />
+    <string id="lh_chaos_uprising_announce" text="!!! 混沌之力已经崛起 —— 混沌叛乱出现在地图上 !!!" />
+    <string id="lh_enc_title" text="Lore-Hardcore — 游戏内指南" />
+    <string id="lh_enc_pick_topic" text="选择要阅读的主题:" />
+    <string id="lh_enc_read" text="阅读" />
+    <string id="lh_enc_back" text="返回主题" />
+    <string id="lh_enc_close" text="关闭" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="牙齿经济" />
+    <string id="lh_enc_topic_teef_economy_body" text="对兽人和哥布林玩家而言,牙齿经济始终启用 — 不会中途切换,开局也没有对话。人类、矮人、吸血鬼依然使用金钱。{newline}{newline}你扮演兽人时:{newline}- 在兽人聚居地用牙齿支付一切,不用金钱。{newline}- 在非兽人聚居地(帝国、布莱顿等)仍然支付金钱。{newline}- 牙齿仅在真实战斗中获得:击杀 T4+ 兵种、击杀领主、斗殴胜利、城堡挑战、所拥有兽人领地的每日贡品。{newline}- 兽人队伍不会消耗你氏族的金钱 — 未付薪水的士气惩罚已对兽人队伍抑制(反正也不付他们)。{newline}- 每日牙齿收入设有上限,防止 AI 兽人领主席卷地图。" />
+
+    <string id="lh_enc_topic_career_path_title" text="晋升:从恶霸到老大" />
+    <string id="lh_enc_topic_career_path_body" text="兽人晋升路线在角色创建时选择,有两条道路:恶霸之路(成长为老大)或萨满之路。{newline}{newline}相比 vanilla TOR,Lore-Hardcore 已降低要求:{newline}- 第 2 阶段(老大):武器技能 80/80/30,30 场战斗,5 次比武,10 场斗殴,2000 牙齿。{newline}- 第 3 阶段(老大):武器技能 150/120/60,70 场战斗,15 次比武,20 场斗殴,5 次领主决斗,占领 5 座城市,10000 牙齿。{newline}- 第 2 阶段(萨满):在圣所祈祷,法术 50,信仰 50,3 次附魔,2000 牙齿,洗劫 5 座圣所。{newline}- 第 3 阶段(萨满):法术 120,信仰 100,8 次附魔,10000 牙齿,5 座城市,30 座圣所。" />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="兽人士气与 WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="兽人队伍士气与 AI 缩放已重新平衡。{newline}{newline}- 兽人领主基础 +40% HP 和 +30% 战斗技能。{newline}- 士气倍率:×1.5(兽人比人类更具侵略性)。{newline}- 精英兽人(黑兽人、老大、狂战士、大块头)无所畏惧 — 永远不会因士气低或人数劣势而恐慌。{newline}- WAAAGH! 邻近增益在大规模兽人攻势中叠加。{newline}{newline}AI 平衡(防止兽人雪球):{newline}- AI 兽人领主队伍规模软上限:80 单位。{newline}- 元帅军团最多容纳 5 队(领头 + 4 召集) — 兽人以 400-500 的小军团进攻,而非 3000。{newline}- AI 力量评估:兽人 ×1.8,哥布林 ×0.8,巨魔/大块头/战争老大 ×3.0 — 帝国 AI 现在能正确评估兽人威胁。{newline}- Massif Choppas 由 22 减至 14 名领主;Crooked Eye 与 Red Eye 减至 17 名。首都繁荣度已重新平衡。{newline}{newline}玩家队伍仍使用普通 vanilla 上限。" />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="城堡挑战决斗" />
+    <string id="lh_enc_topic_castle_challenge_body" text="造访兽人城堡时,你可以以牙齿赌注向精英兽人发起决斗。{newline}{newline}- 胜利:精英兽人作为战利品单位加入你的队伍,另加 +15 牙齿。{newline}- 失败:赌注落空,城堡声望暂时下降。{newline}{newline}视城堡而定的精英对手:大块头、老大、黑兽人、蛮兽、狂战士。各有不同价格与难度。{newline}{newline}赌注随精英等级缩放 — 大块头约 50 牙齿,黑兽人约 150 牙齿,老大约 250 牙齿。{newline}{newline}决斗本身是城堡场景中的真实 1v1 战斗。无诡计、无自动结算。" />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="兽人围城与攻城锤" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Lore-Hardcore 中兽人围城运作不同。{newline}{newline}- 兽人不能建造投石机。设定:带配重与抛物轨迹数学的机器对兽人来说过于精密。可用攻城武器:弩炮、投石器、抛石机(含火焰变种)。{newline}- 攻城锤强化:5 倍伤害,3.5 倍耐久。城门 5-10 击即破,而非 vanilla 的 30+。设定:一根带磨牙颅骨、铁制覆面、由 8 个肌肉兽人推动的巨木。{newline}- 自动结算获得相同攻城锤增益,使兽人围城在场景与跳过两种模式下感觉一致。" />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="俘虏食人" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="兽人不会就地处决俘虏。肉只来源于行军中的饥饿食人。{newline}{newline}战斗后:{newline}- 战利品界面自动屠宰:0 肉(无论俘虏多少)。{newline}- 军需官的「屠宰」按钮:0 肉。{newline}- 击杀产肉(TOR 自动公式):玩家胜利时为 0。{newline}{newline}从俘虏获取肉的唯一方式 — 带着他们,粮草耗尽,等待。储藏空空时每个游戏小时:{newline}1. 优先吃俘虏。每人 = 1 肉。{newline}2. 然后吃哥布林。每个 = 1 肉。{newline}3. 领主与同伴绝不被吃(领主 = 赎金,同伴 = 任务线)。{newline}{newline}设定:兽人在路上活吃俘虏,而非屠夫的砧板上。{newline}{newline}AI 兽人队伍保留 vanilla TOR 的战斗产肉公式,以免饿死。" />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="绿皮斗殴竞技场" />
+    <string id="lh_enc_topic_brawl_arena_body" text="绿皮斗殴是兽人聚居地特有的拳斗竞技场。{newline}{newline}- 每场 18 名敌人(远比 vanilla 竞技场大)。{newline}- 奖励基于你的个人击杀数,而非仅仅生存。{newline}- 逃出场地坠入越界区的敌人每秒自动击杀一次,以免比赛卡死。{newline}- 哥布林不再生成在竞技场屋顶上(旧 TOR 放置错误)。{newline}- 胜利条件:成为最后站立者,或如你存活时拥有最多击杀的队伍。{newline}- 在征服的非兽人城市(布莱顿、帝国酒馆)斗殴氛围着色器被抑制,以避免老旧 GPU 上的「cannot find entry point」错误。{newline}{newline}用途:训练单手技能、赚取牙齿、完成兽人晋升任务的斗殴目标。" />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="处决种族敌人" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="当兽人玩家处决被俘的种族敌人领主时,兽人队伍会庆祝 — 而非哀悼。{newline}{newline}vanilla Bannerlord 对每次处决惩罚 -1000 荣誉经验。对兽人来说,杀死矮人、吸血鬼、精灵或帝国领主是壮举,而非罪孽。{newline}{newline}Lore-Hardcore 添加增益:{newline}- 荣誉经验完全补偿(+1000),vanilla 惩罚被取消。{newline}- 仁慈特质获得象征性 +1 经验(状态平衡)。{newline}- 兽人队伍立即 +10 士气。{newline}- 一条绿色消息确认增益已应用。{newline}{newline}仅当玩家是兽人文化(TOR 中的 aserai)且受害者为种族敌人时生效:矮人(sturgia)、吸血鬼伯爵(khuzait)、帝国、布莱顿(vlandia)、木精灵(battania)、Eonir、Mousillon、血龙、混沌、高等精灵、黑暗精灵。{newline}{newline}处决自己族类(其他兽人)保留 vanilla 惩罚 — 这对兽人战争领主是耻辱。" />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_set_title" text="Lore-Hardcore — 设置" />
+    <string id="lh_set_mode_full" text="主菜单 — 所有参数" />
+    <string id="lh_set_mode_live" text="战役 — 仅实时项" />
+    <string id="lh_set_races_header" text="种族" />
+    <string id="lh_set_race_orc" text="兽人" />
+    <string id="lh_set_race_empire" text="帝国" />
+    <string id="lh_set_race_dwarf" text="矮人" />
+    <string id="lh_set_race_bretonnia" text="布列塔尼亚" />
+    <string id="lh_set_race_chaos" text="混沌" />
+    <string id="lh_set_confirm_reset_race_title" text="重置种族" />
+    <string id="lh_set_confirm_reset_race_body" text="将所选种族的所有参数重置为默认值？" />
+    <string id="lh_set_confirm_reset_all_title" text="重置全部" />
+    <string id="lh_set_confirm_reset_all_body" text="将所有种族的全部参数重置为默认值？这将影响一切。" />
+    <string id="lh_set_confirm_yes" text="重置" />
+    <string id="lh_set_confirm_yes_all" text="全部重置" />
+    <string id="lh_set_confirm_no" text="取消" />
+    <string id="lh_set_race_phase02" text="将在 0.2 阶段加入" />
+    <string id="lh_set_race_phaseFuture" text="将在未来阶段加入" />
+    <string id="lh_set_tab_battle" text="战斗" />
+    <string id="lh_set_tab_army" text="军队" />
+    <string id="lh_set_tab_ai" text="AI 招募" />
+    <string id="lh_set_tab_economy" text="经济" />
+    <string id="lh_set_tab_caves" text="洞穴" />
+    <string id="lh_set_tab_system" text="系统" />
+    <string id="lh_set_tab_main" text="主" />
+    <string id="lh_set_tab_vassalage" text="附庸关系" />
+    <string id="lh_set_tab_conversion" text="混沌恩赐" />
+    <string id="lh_set_tab_tempting" text="诱惑" />
+    <string id="lh_set_tab_troops" text="部队" />
+    <string id="lh_set_tab_recruit" text="招募" />
+    <string id="lh_set_btn_reset_race" text="重置种族" />
+    <string id="lh_set_btn_reset_all" text="重置全部" />
+    <string id="lh_set_btn_save" text="保存" />
+    <string id="lh_set_btn_close" text="关闭" />
+    <string id="lh_set_cat_instant" text="立即生效" />
+    <string id="lh_set_cat_nexttick" text="一秒内生效" />
+    <string id="lh_set_cat_worldstate" text="对新生成生效" />
+    <string id="lh_set_cat_restart" text="需要重启游戏" />
+    <string id="lh_set_toggle_on" text="开" />
+    <string id="lh_set_toggle_off" text="关" />
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="兽人 HP(有玩家)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="存在 PlayerTeam 的实时战斗中兽人 HP 的乘数。" />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="兽人 HP(AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="无玩家的 AI vs AI 战斗中兽人 HP 的乘数。" />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="食人魔 HP(AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="AI vs AI 战斗中巨魔 / Big Uns / Black Orcs 的 HP 乘数。比普通兽人低，因为引擎没有围攻机制 — 没有这个削弱，3 个巨魔可以杀死 50 个人类。" />
+    <string id="lh_set_GoblinHPMult_lbl" text="哥布林 HP" />
+    <string id="lh_set_GoblinHPMult_desc" text="所有哥布林的 HP 乘数。" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="友军兽人造成伤害" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="玩家一方兽人的伤害乘数。" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="敌方兽人造成伤害" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="与玩家对抗的兽人的伤害乘数。" />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="友军兽人承受伤害" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="你方兽人被击中时的伤害乘数(越低越耐打)。" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="敌方兽人承受伤害" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="敌方兽人被击中时的伤害乘数(越高越易杀)。" />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="斧 vs 木盾" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="斧头击中木盾的伤害乘数。" />
+    <string id="lh_set_MaceShieldDmgMult_lbl" text="钝器/锤 vs 金属盾" />
+    <string id="lh_set_MaceShieldDmgMult_desc" text="钝器（钉头锤、战锤、双手战锤）击中金属盾的伤害乘数。剑和斧几乎无法划伤金属，但重击能将其砸凹。例如：4.0 = 4倍伤害，金属盾几下就被打破。1.0 = 原版（关闭）。" />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="食人魔对城门伤害" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="实时战斗中食人魔 / Big Un / 巨魔对城门的伤害。" />
+    <string id="lh_set_OrcKickStunMult_lbl" text="兽人踢击眩晕时长" />
+    <string id="lh_set_OrcKickStunMult_desc" text="兽人踢击施加的眩晕时长。" />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="兽人盾击眩晕" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="兽人盾击的眩晕时长。" />
+    <string id="lh_set_OrcSkillMult_lbl" text="兽人战斗技能" />
+    <string id="lh_set_OrcSkillMult_desc" text="兽人战斗技能的乘数(单手、双手、长杆)。" />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="巨魔奔跑" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="巨魔的奔跑技能(越低越慢)。" />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="哥布林奔跑" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="哥布林的奔跑技能(越高越快)。" />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="哥布林速度" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="哥布林步行速度的乘数。" />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! 士气加成" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="兽人一方每次击杀的士气获取乘数。" />
+    <string id="lh_set_AILordHardCap_lbl" text="AI 领主部队规模上限" />
+    <string id="lh_set_AILordHardCap_desc" text="AI 兽人领主部队规模的硬上限。对增长立即生效,超额的现有部队会逐渐缩减。" />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="每个 WAAAGH! 的部队数" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="可加入元帅的部队数。军队 = 领袖 + N。上限 = (1+N) x 单领主上限。" />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="精英战力(AI 估值)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="AI 估算精英兽人战力的方式。影响战/逃决策。" />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="兽人战力(AI 估值)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="AI 对普通兽人战力的估值。" />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="哥布林战力(AI 估值)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="AI 对哥布林战力的估值。" />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="精英战力(战斗)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="自动解算中精英兽人的实际战力。" />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="兽人战力(战斗)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="普通兽人的实际战力。" />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="哥布林战力(战斗)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="哥布林的实际战力。" />
+    <string id="lh_set_OrcCastleHireChance_lbl" text="AI 城堡招募几率" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="AI 领主在城堡每小时购买精英兽人的几率。" />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="虚拟招募几率" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="领主不在城堡内但其家族拥有城堡时的「如同访问过」每小时招募几率。" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI 金币储备(城堡)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="AI 在城堡购买后保留的最低金币。" />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI 哥布林招募几率" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="AI 领主在村庄每小时购买一对哥布林的几率。" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="哥布林对价格" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="AI 在村庄购买一对哥布林支付的金币。" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="每次招募哥布林数" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="AI 每次村庄购买获得的哥布林数。" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI 金币储备(村庄)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="AI 在村庄购买后保留的最低金币。" />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="AI 巨魔招募几率" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="AI 领主每次访问在兽人聚居地招到巨魔的几率。" />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="AI 单部队巨魔上限" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="AI 领主可持有的最多巨魔数。" />
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="升级花费乘数" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="应用于 vanilla 升级花费公式的乘数。" />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="兽人升级最低花费" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="兽人单位升级的最低金币花费。" />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="哥布林升级最低花费" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="哥布林升级的最低金币花费。" />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI 精英折扣" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI 支付精英兽人花费 x N(1.0 = 全价)。" />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="普通俘虏每个肉量" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="宰杀一名普通俘虏获得的肉量。" />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="大型俘虏每个肉量" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="宰杀一名大型俘虏(巨魔、米诺陶)获得的肉量。" />
+    <string id="lh_set_BrawlGoldMult_lbl" text="斗殴金币乘数" />
+    <string id="lh_set_BrawlGoldMult_desc" text="赢得斗殴的金币奖励 x N。" />
+    <string id="lh_set_ShrineLootGold_lbl" text="神龛掠夺金币" />
+    <string id="lh_set_ShrineLootGold_desc" text="掠夺神龛的金币奖励。" />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="勒索最低阶级" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="仅 Tier >= N 的兽人通过勒索产出牙齿。" />
+    <string id="lh_set_HideoutCooldownDays_lbl" text="巢穴冷却(天)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="被清剿的巢穴重新激活前需要的天数。" />
+    <string id="lh_set_MaxHideouts_lbl" text="每个派系巢穴上限" />
+    <string id="lh_set_MaxHideouts_desc" text="同时激活的巢穴最大数。" />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="巨魔劫掠部队上限" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="单个洞穴同时存活的劫掠部队数。" />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="每日生成几率" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="洞穴每日生成新劫掠部队的几率。" />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="洞穴防守规模" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="进入洞穴时迎接玩家的巨魔数量。" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="单劫掠部队巨魔上限" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="单个劫掠部队规模的上限。" />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="洞穴战斗带兵数" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="进入洞穴清剿可带的兵力(vanilla 20)。7 名巨魔即使 1 对 1 也能碾压 20 名人类 — 40 给出数值上的机会。" />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="允许引诱巨魔" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="启用 — 在洞穴菜单添加「引诱巨魔(10 肉)」选项。默认关闭(平衡:10 肉换 T6 巨魔可被滥用)。" />
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="兽人 HP 增益" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="完全禁用兽人 HP 乘数。" />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="阵营感知伤害" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="伤害依玩家所属一方变化。" />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="牙齿经济" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="以牙齿而非金币招募兽人。" />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="兽人军队上限" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="部队和军队规模上限。" />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="巨魔洞穴削弱" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="降低巨魔生成率和劫掠规模。" />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="巢穴冷却" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="被清剿的巢穴 60 天内保持关闭。" />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="斗殴奖励削弱" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="削减斗殴的金币奖励。" />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="神龛掠夺削弱" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="神龛只产金币 — 无肉无牙齿。" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="晋升任务削弱" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="降低兽人晋升任务的要求。" />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="兽人不造投石机" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="兽人不建造复杂的攻城器械。" />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="斧头破盾" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="斧头对木盾造成额外伤害。" />
+    <string id="lh_set_EnableMaceShieldBonus_lbl" text="钝器破盾" />
+    <string id="lh_set_EnableMaceShieldBonus_desc" text="钝器（钉头锤、战锤）对金属盾造成额外伤害。" />
+    <string id="lh_health_title" text="Lore-Hardcore：兼容性检查" />
+    <string id="lh_ck_duel_abort" text="无法在此开始决斗。到开阔地带挑战国王。" />
+    <string id="lh_health_intro" text="部分 Lore-Hardcore 功能被其他模组阻止：" />
+    <string id="lh_health_ui" text="地图时间面板（额外加速按钮和混沌进度条）无法添加。" />
+    <string id="lh_health_suspect" text="可能原因：{LIST}" />
+    <string id="lh_health_footer" text="请在 TOR 之后加载 Lore-Hardcore。UIExtenderEx、MCM、ButterLib 等库是必需的且无害——请勿禁用。若功能仍异常，可尝试禁用 UI/战斗大型模组。" />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="哥布林加速" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="哥布林 +50% 速度。" />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="长效踢击眩晕" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="兽人踢击的眩晕时间更长。" />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="混沌招募" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="混沌封臣可招募混沌单位。" />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="斗殴随机出生" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="玩家在竞技场随机位置出生。" />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="牙齿图标" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="招募菜单显示牙齿图标而非金币。" />
+    <string id="lh_set_EnableOrcRace_lbl" text="启用兽人全面重构" />
+    <string id="lh_set_EnableOrcRace_desc" text="我们所有兽人种族更改的总开关。关闭将停用所有兽人补丁和行为，使兽人使用纯原版 TOR 机制。需要重启游戏。" />
+    <string id="lh_set_EnableChaosRace_lbl" text="启用混沌全面重构" />
+    <string id="lh_set_EnableChaosRace_desc" text="我们所有混沌种族更改的总开关。关闭将停用所有混沌补丁和行为。需要重启游戏。涵盖：在酒馆和村庄雇佣混沌单位、与黑暗派系和平、友好的邪教徒藏身处、混沌恩赐（转化）等。" />
+    <string id="lh_set_ChaosVassalageTributeRequired_lbl" text="附庸贡金（金币）" />
+    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="混沌领主为接受玩家作为附庸而向诸神要求的礼物金币数量。" />
+    <string id="lh_set_ChaosVassalageMinClanTier_lbl" text="附庸所需最低氏族等级" />
+    <string id="lh_set_ChaosVassalageMinClanTier_desc" text="向混沌领主请求附庸所需的最低玩家氏族等级。" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="混沌恩赐所需最低氏族等级" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="接受转化为混沌文化仪式所需的最低玩家氏族等级。" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="转化时的技能经验值加成" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="接受混沌恩赐时，玩家的每项战斗技能获得的经验值数量。" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="每日诱惑进度" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="被囚禁期间每天增加的诱惑进度点数。默认值 1.5，约 67 天获得恩赐。" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="混沌玩家加成" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="如果玩家已经是混沌文化（接受恩赐后），进度乘数。默认值 0.5 = +50%。" />
+    <string id="lh_set_ChaosTemptingThreshold_lbl" text="转化阈值" />
+    <string id="lh_set_ChaosTemptingThreshold_desc" text="俘虏准备好接受混沌恩赐的进度点。默认值 100。" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_lbl" text="每次先前转化的惩罚" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="每位已转化的领主会降低速率 N（随时间变难）。默认值 0.10 = -10%。" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_lbl" text="自由时每日进度衰减" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_desc" text="如果俘虏被释放或逃脱，每天进度减少 N。默认值 5。" />
+    <string id="lh_set_ChaosNorscanHPMult_lbl" text="诺斯卡生命值加成" />
+    <string id="lh_set_ChaosNorscanHPMult_desc" text="所有诺斯卡单位（从部落民到冠军）的生命值乘数。默认值 0.30 = +30%。" />
+    <string id="lh_set_ChaosGorHPMult_lbl" text="野兽人戈尔生命值加成" />
+    <string id="lh_set_ChaosGorHPMult_desc" text="戈尔（戈尔 / 先锋 / 撕肉者）的生命值乘数。默认值 0.25 = +25%。" />
+    <string id="lh_set_ChaosMinotaurHPMult_lbl" text="牛头怪生命值加成" />
+    <string id="lh_set_ChaosMinotaurHPMult_desc" text="牛头怪（背景：巨大的野兽）的生命值乘数。默认值 0.50 = +50%。" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_lbl" text="每 +1 队伍上限所需单位数" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="需要多少邪教徒或乌戈才能增加 +1 的队伍上限（炮灰机制）。默认值 2。" />
+    <string id="lh_set_ChaosMinotaurInjectChance_lbl" text="牛头怪招募几率（城堡）" />
+    <string id="lh_set_ChaosMinotaurInjectChance_desc" text="访问时牛头怪被注入到城堡城镇第 5 槽位的几率。默认值 0.20 = 20%。" />
+    <string id="lh_set_ChaosUprisingCooldownDays_lbl" text="混沌叛乱之间的冷却时间（天）" />
+    <string id="lh_set_ChaosUprisingCooldownDays_desc" text="混沌叛乱之间必须经过的天数。原版 TOR 为 126 天（约 4 个月）。我们的默认值为 30（约 1 个月）。应用于新战役：第一次叛乱将在这么多天后发生。" />
+    <string id="lh_orc_appetite" text="绿皮的食欲" />
+    <string id="lh_goblin_changer_hub_leave_p" text="下次吧，哥布。" />
+    <string id="lh_goblin_changer_cooldown" text="嘿老大，昨天才给您呢！{DAYS}天后再来嘛，俺得多挖挖。" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="现在没那么多闪闪。" />
+    <string id="lh_goblin_changer_intro" text="诶老~大！俺有牙换您的闪闪，要换不？嘿嘿！" />
+    <string id="lh_goblin_changer_after_no_gold" text="嘿嘿！没闪闪就没牙。先去掐几个人类崽子吧，啊？" />
+    <string id="lh_goblin_changer_hub_trade" text="换啊: 1000闪闪换{AMOUNT}颗牙。" />
+    <string id="lh_goblin_changer_after_trade" text="*哥布林数出{NOMINAL}颗牙，偷偷把{HIDDEN}枚硬币塞进侧兜。*生意就是生意，大老大！" />
+    <string id="lh_goblin_changer_town_ok" text="走开" />
+    <string id="lh_goblin_changer_town_title" text="哥布林换钱的" />
+    <string id="lh_goblin_changer_town_outcome" text="*哥布林在酒馆桌上数出{NOMINAL}颗牙，迅速把{HIDDEN}枚硬币塞进腰带袋子里，再把剩下的推到你面前。*生意就是生意，大老大！" />
+    <string id="lh_goblin_changer_town_intro" text="*角落桌边一个狡猾的哥布林朝你招手，摆弄着一堆小硬币，低声说：*诶大老大！俺有牙换您的闪闪。1000闪闪——俺数出{NOMINAL}颗。会不会偷偷塞{HIDDEN}枚进侧兜呢？也许吧……换不？" />
+    <string id="lh_goblin_changer_town_cancel" text="下次吧" />
+    <string id="lh_goblin_changer_town_option" text="到酒馆找哥布林换零钱" />
+    <string id="lh_goblin_changer_town_no_gold" text="*角落的哥布林嗅嗅你的钱包，哼了一声。*嘿嘿！没闪闪就没牙。先去掐几个人类崽子吧，啊？" />
+    <string id="lh_goblin_changer_town_trade" text="换" />
+    <string id="lh_goblin_changer_town_cooldown" text="*酒馆角落的哥布林警惕地瞥你一眼，转过身去。*嘿老大，几天前才给您呢！{DAYS}天后再来吧。" />
+    <string id="lh_goblin_changer_intro_town" text="嘿大老大！俺这儿公平交易嘿嘿，兄弟们看着呢——绝无猫腻！换牙不？" />
+    <string id="lh_goblin_changer_after_town_trade" text="*哥布林把整整{AMOUNT}颗牙数到你手心里——干净又公平，兄弟们盯着看呢。*还要别的吗，大老大？" />
+    <string id="lh_goblin_changer_village_trade" text="换啊: 1000闪闪换{AMOUNT}颗牙。" />
+    <string id="lh_goblin_changer_intro_village" text="诶老~大！俺有牙换您的闪闪，要换不？嘿嘿！" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="那么，要换吗？" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="抱歉老大，今天的牙都没了。明天再来吧，俺再从兄弟那挖点出来，嗯？" />
+    <string id="lh_settings_button" text="Lore-Hardcore 设置" />
+    <string id="lh_set_race_common" text="通用" />
+    <string id="lh_set_tab_general" text="通用" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_lbl" text="针对你的敌方兽人战力(自动结算)" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_desc" text="自动结算中与你为敌的兽人的战斗力。战斗增益在自动结算中同样生效,但针对敌方兽人的实时战斗削弱却不生效——因此一支小规模兽人军队在自动结算中可能击败你的大军。默认 1.4 = 兽人比原版略可怕,但数量仍占上风(190 兽人 x1.4 = 266 &lt; 你的 540)。1.0 = 纯原版。提高此值可让敌方兽人在自动结算中更危险。不影响 AI 对 AI 的战斗。" />
+    <string id="lh_set_ExtraCompanionSlots_lbl" text="额外随从名额" />
+    <string id="lh_set_ExtraCompanionSlots_desc" text="在原版上限之外,为你的氏族提供的额外随从(流浪者)名额。0 = 原版。例如:10 让你比氏族等级通常允许的多保留 10 名随从。仅适用于玩家氏族。" />
+    <string id="lh_chaos_exec_reward" text="黑暗诸神享用了这份祭品。+{DE} 黑暗能量。" />
+    <string id="lh_chaos_tempt_popup_title" text="诱惑已成" />
+    <string id="lh_chaos_tempt_popup_body" text="{HERO} 在囚禁中崩溃,已准备好接受混沌之赐。是否将其转化并纳入麾下?" />
+    <string id="lh_chaos_tempt_popup_yes" text="转化" />
+    <string id="lh_chaos_tempt_popup_no" text="暂时不要" />
+    <string id="lh_chaos_upgrade_de" text="-{DE} 黑暗能量,用于 {COUNT}× {NAME}。" />
+    <string id="lh_ungor_pierce_arrows" text="昂戈尔倒钩箭" />
+    <string id="str_tor_chaos_norscan_reaver" text="诺斯卡猎手" />
+    <string id="str_tor_chaos_norscan_champion" text="诺斯卡狂战士" />
+    <string id="lh_norscan_savage" text="诺斯卡野人" />
+    <string id="lh_norscan_warrior" text="诺斯卡战士" />
+    <string id="lh_norscan_thrower" text="诺斯卡投掷手" />
+    <string id="lh_norscan_champion_thrower" text="诺斯卡冠军投掷手" />
+    <string id="lh_norscan_rider" text="诺斯卡骑手" />
+    <string id="lh_chaos_battle_thanks" text="混沌盟友对你在战斗中的相助感到满意。" />
+    <string id="lh_chaos_tempt_offer" text="诸神低语着你的名字。接受混沌之赐,我便以兄弟之名释放你。" />
+    <string id="lh_chaos_tempt_accept_line" text="……是的。我听见了他们。我再也无法抗拒。接受我的誓言——我归你了。" />
+    <string id="lh_chaos_tempt_success" text="该领主接受了混沌之赐,加入你的阵营。" />
+    <string id="lh_chaos_darkpact_request" text="让我成为你们的一员。" />
+    <string id="lh_chaos_darkpact_response_lord" text="仪式不可逆转。你的凡人之身将会消亡。你准备好了吗?" />
+    <string id="lh_chaos_darkpact_accept_p" text="我准备好了。" />
+    <string id="lh_chaos_darkpact_decline_p" text="我需要考虑一下。" />
+    <string id="lh_chaos_darkpact_chaos_flesh_lord" text="已经完成。你已是真途的一部分。" />
+    <string id="lh_chaos_darkpact_message" text="仪式已成。你与你的家族如今属于混沌：\n- 可在你的封地招募混沌军队；\n- 你的领地不再因异族文化而流失忠诚；\n- 混沌的仆从不再视你为外人；\n- 诸神赐予原始的武力（你的武器与运动技能激增）。\n在凡人眼中你的身躯未变——混沌的印记在你的灵魂之上。" />
+    <string id="lh_chaos_darkpact_title" text="已接受混沌之赐" />
+    <string id="lh_continue" text="继续" />
+    <string id="lh_chaos_encounter_talk" text="交谈(我们都在诸神的注视之下)" />
+    <string id="lh_chaos_lord_peaceful_intro" text="凡人,什么风把你吹到我们的领土?快说——诸神厌恶空话。" />
+    <string id="lh_chaos_lord_vassal_offer" text="我愿侍奉黑暗诸神。" />
+    <string id="lh_chaos_lord_nolands" text="凡人,我们尚无寸土——无处收留你。待诸神赐予我们一座要塞,再回来吧。" />
+    <string id="lh_chaos_hire_merc" text="以雇佣兵的身份效力于我的王座。" />
+    <string id="lh_chaos_hire_merc_accept" text="诸神垂青你的黄金。我们的刀刃归你,我的领主。" />
+    <string id="lh_chaos_lord_ask_leader" text="你的宗主此刻身在何处?" />
+    <string id="lh_chaos_lord_subordinate_response" text="我的宗主在 {LEADER_LOC}。我不过是他的一只手。" />
+    <string id="lh_chaos_lord_leave" text="只是路过而已。" />
+    <string id="lh_chaos_hideout_pass_peace" text="和平通过(黑暗诸神听见了你的血)" />
+    <string id="lh_chaos_hideout_recruit" text="从巢穴召唤混沌的仆从" />
+    <string id="lh_chaos_portal_peace" text="在传送门前俯首,和平通过" />
+    <string id="lh_chaos_portal_recruit" text="从传送门召唤混沌钦选者" />
+    <string id="lh_chaos_recruit_cd" text="此地尚未聚足力量。稍后再来。" />
+    <string id="lh_chaos_recruit_nogold" text="黄金不足,无法献祭。" />
+    <string id="lh_chaos_portal_got" text="{NAME} 自传送门中现身。" />
+    <string id="lh_chaos_vassal_offer" text="我愿侍奉黑暗诸神。" />
+    <string id="lh_chaos_vassal_response_lord" text="哈！给我带来 {VASSAL_GOLD} 金币，我便接受你的誓言。" />
+    <string id="lh_chaos_vassal_pay_p" text="黄金在此。" />
+    <string id="lh_chaos_vassal_no_gold_p" text="我没有那么多。" />
+    <string id="lh_chaos_vassal_decline_p" text="我再考虑考虑。" />
+    <string id="lh_chaos_vassal_accepted_lord" text="很好!诸神接受了你的誓言。" />
+    <string id="lh_chaos_vassal_rejected_lord" text="等你准备好了再回来。" />
+    <string id="lh_chaos_vassal_join_flavor" text="混沌领主们为新仆从配备了一套劫掠者装备——一把北方斧、一面盾牌和皮裘现已放入你的物品栏。装备它们(按 I 键)。黑暗诸神的圣佑战甲需以鲜血赢取,绝不会赐予未经考验之人。" />
+    <string id="lh_darkenergy_desc" text="黑暗能量是禁忌邪教的神秘力量。死灵法师用它驱使亡者、维系不死之躯。黑暗诸神的仆从汲取它来附魔武器、训练钦选战士。来源:泼洒的鲜血、被亵渎的力量之地、黑暗仪式。" />
+    <string id="lh_chaos_wand_intro" text="凡人,你想要什么?" />
+    <string id="lh_chaos_wand_tellme" text="旅人,说说你自己吧。" />
+    <string id="lh_chaos_wand_skip" text="言归正传。我有活儿给你。" />
+    <string id="lh_chaos_wand_hire" text="我需要你的本领。愿意随我同行吗?" />
+    <string id="lh_chaos_fodder_partysize" text="混沌炮灰" />
+    <string id="lh_enc_menu_button" text="Lore-Hardcore 指南" />
+    <string id="lh_enc_race_orc" text="兽人" />
+    <string id="lh_enc_race_chaos" text="混沌" />
+    <string id="lh_enc_orc_overview_t" text="兽人改造 — 总览" />
+    <string id="lh_enc_orc_overview_b" text="Lore-Hardcore 将绿皮从一群炮灰改造成一个真正的战锤阵营。\n\n核心理念:\n- 兽人坚韧、出手凶猛,但部署成本高、成长缓慢,因此地图绝不会被免费的兽人淹没。\n- 兽人不认黄金。在兽人领地,你用「牙齿」付账——这是一种靠战斗赚取的货币(见「牙齿经济」一节)。\n- 精锐兽人(黑兽人、老大、大块头)无所畏惧且残暴,但其数量受到限制,以防 AI 滚雪球。\n- 许多增添风味的小系统:行军中的食人、斗殴竞技场、要塞决斗、重做的攻城撞锤,以及一条兽人职业道路。\n\n左侧每个主题讲解一个系统:它做什么、为何存在、如何使用。若你从未玩过绿皮,请先读「牙齿经济」和「职业」。" />
+    <string id="lh_enc_orc_teef_t" text="牙齿经济(牙齿)" />
+    <string id="lh_enc_orc_teef_b" text="对兽人和哥布林英雄而言,牙齿经济始终开启。没有设置对话框,也没有中途切换。人类、矮人和吸血鬼照常使用黄金。\n\n当你扮演兽人时:\n- 在兽人聚落,几乎一切都用牙齿而非黄金付账(招募精锐兽人、决斗、斗殴)。\n- 在兽人领地之外,普通服务仍用黄金支付。\n- 哥布林仍以黄金雇佣(廉价的乌合之众)。\n\n如何赚取牙齿:\n- 在战斗中击倒强韧的敌人(4 级及以上)。\n- 击杀敌方领主。\n- 赢得斗殴和要塞决斗。\n- 你所拥有的每座兽人城镇或要塞每日上缴的贡赋。\n\n它为何存在:在战锤中,兽人确实把牙齿当钱用——他们不看重黄金。这套经济也能制衡 AI:兽人领主不会从你的氏族抽取黄金(他们的军饷士气惩罚被抑制,因为你其实从不给他们发饷),且每日牙齿收入受限,使得 AI 战争头目无法购买无尽的精锐军队。" />
+    <string id="lh_enc_orc_career_t" text="职业:恶霸与萨满" />
+    <string id="lh_enc_orc_career_b" text="兽人英雄在创建角色时从两条职业道路中择一。\n\n恶霸之路(成为老大):一名靠战斗成长的近战猛士——武器技能、战役、比武、斗殴以及赚得的牙齿。\n\n萨满之路:一名靠信仰与魔法成长的施法者——法术、信仰、附魔、牙齿以及劫掠的神龛。\n\nLore-Hardcore 降低了 TOR 原版的职业要求,使兽人职业在正常游玩中确实可以达成。大致为:\n- 老大 2 级:武器技能 ~80/80/30、30 场战役、5 次比武、10 场斗殴、2000 牙齿。\n- 老大 3 级:~150/120/60、70 场战役、15 次比武、20 场斗殴、5 次领主决斗、攻下 5 座城市、10000 牙齿。\n- 萨满 2 级:在神龛祈祷、法术 50、信仰 50、3 次附魔、2000 牙齿、劫掠 5 座神龛。\n- 萨满 3 级:法术 120、信仰 100、8 次附魔、10000 牙齿、5 座城市、30 座神龛。\n\n斗殴竞技场与要塞决斗的存在,部分正是为了帮你勾销这些目标。" />
+    <string id="lh_enc_orc_morale_t" text="士气与 WAAAGH!" />
+    <string id="lh_enc_orc_morale_b" text="兽人的战斗与 AI 行为经过重新平衡,使绿皮显得危险,却不会征服整张地图。\n\n在战场上:\n- 兽人领主基础约获得 +40% 生命值和 +30% 战斗技能。\n- 精锐兽人(黑兽人、老大、狂战士、大块头)无所畏惧,绝不溃逃。\n- 当大批兽人涌入战斗时,WAAAGH! 士气加成会逐渐累积。\n\n为防止 AI 滚雪球:\n- 对 AI 兽人领主的部队规模设有软上限(默认约 80;可在设置中更改)。\n- 一位元帅的军队只容纳寥寥几支部队,因此兽人以 400-500 的战团出击,而非 3000。\n- AI 的战力评估按真实权重计算兽人、哥布林和大型怪物,因此帝国领主能正确判断兽人威胁,不会白白送死。\n\n你自己的部队使用正常的原版规模上限——这些上限是给 AI 的。" />
+    <string id="lh_enc_orc_challenge_t" text="要塞决斗" />
+    <string id="lh_enc_orc_challenge_b" text="拜访一座兽人要塞,你便可向其中一名精锐兽人发起一对一决斗,以牙齿为赌注。\n\n- 胜:被击败的精锐作为战利品单位加入你的部队,且你赢得牙齿。\n- 负:你的赌注尽失,且你在要塞中的声望会暂时下降。\n\n这是要塞场景中真正的 1v1——拿出你的真本事。可供挑战的精锐取决于要塞(大块头、老大、黑兽人、蛮兽、狂战士),越强韧的对手赌注越高。这是迅速获得一名精锐单位、并完成兽人职业决斗目标的途径。" />
+    <string id="lh_enc_orc_sieges_t" text="攻城与撞锤" />
+    <string id="lh_enc_orc_sieges_b" text="兽人的攻城方式与文明阵营不同。\n\n- 兽人不建造投石机(trebuchet)——他们没有耐心搞精细工程。他们使用弩炮、石弩和投石车(包括火焰型号)。\n- 他们的攻城撞锤被大幅强化:打击更猛、存活更久,因此城门只需寥寥几击便倒,而非数十击。\n- 自动结算也获得相同的撞锤强化,因此无论你是否观战,兽人攻城都会迅速分出胜负。\n\n其理念是一场残暴、迅捷的「砸开城门」式兽人强攻,而非缓慢的炮兵对决。" />
+    <string id="lh_enc_orc_cannibalism_t" text="俘虏食人" />
+    <string id="lh_enc_orc_cannibalism_b" text="兽人不会在战利品界面屠宰俘虏。肉只来自行军中的饥饿。\n\n战斗之后,屠宰俘虏或自动拾取都得不到肉——这条途径对玩家是刻意关闭的。\n\n从俘虏处获得肉的唯一办法:抓俘虏、断粮,并继续行军。粮仓空空的每个小时,你的部队会吃掉一张嘴:\n1. 先是俘虏(每个提供 1 肉)。\n2. 然后是哥布林(每个提供 1 肉)。\n3. 领主和随从绝不会被吃——领主值一笔赎金,随从是你故事的一部分。\n\n背景设定:兽人在路上活生生地吞噬俘虏,而非在屠夫的砧板上整整齐齐。AI 兽人部队保留原版的战斗获肉,以免在整场战役中饿死。" />
+    <string id="lh_enc_orc_brawl_t" text="绿皮斗殴竞技场" />
+    <string id="lh_enc_orc_brawl_b" text="斗殴是兽人聚落中的一处拳斗竞技场。\n\n- 每场约 18 名敌人。\n- 你的奖励随你亲手击倒的人数而增加。\n- 跑出边界的敌人会被自动了结,以免一场比试卡住。\n\n这是训练单手武器、赚取牙齿、勾销兽人职业斗殴目标的绝佳去处。在被占领的非兽人城市中,竞技场的氛围特效会被抑制,以避免老旧机器上的图形错误。" />
+    <string id="lh_enc_chaos_overview_t" text="何谓混沌" />
+    <string id="lh_enc_chaos_overview_b" text="混沌是黑暗势力阵营的改造:侍奉北方四位黑暗诸神的战士、野兽与邪教徒。它将诺斯卡部落民、野兽人(戈尔、昂戈尔、牛头怪)、混沌战士,以及在文明土地上暗中崇拜的隐秘邪教汇于一处。\n\n混沌为测试版(BETA)功能,默认关闭。在设置中用「启用混沌改造」主开关将其开启(需要重启游戏)。关闭时,绿皮与其他所有人照常行事,以下系统皆不生效。\n\n与混沌打交道有两种方式:\n1. 与之为敌——混沌与整个世界为敌。挺身对抗入侵与邪教暴动。\n2. 加入它——成为黑暗诸神的仆从:接受混沌之赐,侍奉混沌领主,招募黑暗部队,并将俘获的领主转化到你这边。\n\n本指南一步步讲解如何成为混沌玩家,以及随之而来的每个系统。请从「入门 / 加入」开始,顺着列表往下读。" />
+    <string id="lh_enc_chaos_joining_t" text="入门 / 加入" />
+    <string id="lh_enc_chaos_joining_b" text="你并非一开始就是混沌——是你选择了堕落。\n\n进入这一阵营有两条路:\n\n1)成为混沌领主的封臣。\n- 当你还是独立氏族时(没有自己的王国,也未对任何人宣誓效忠),你不会被强制与混沌陷入永久战争,因此你确实能上前与混沌领主交谈。\n- 找到一位文化为混沌的领主,开启对话,选择「我愿侍奉黑暗诸神」。\n- 他会索要一份黄金贡赋作为献给诸神的祭品。付清后,你便以封臣身份加入他的王国。数额与最低氏族等级在设置中设定。\n\n2)直接接受混沌之赐(见下一节),将你自己的英雄与氏族转化为混沌文化。\n\n重要:一旦你归属某个混沌王国,整个世界都与你为敌——这是有意为之(见「战争与外交」)。在宣誓之前,务必确保你已为这场战斗做好准备。" />
+    <string id="lh_enc_chaos_gift_t" text="混沌之赐" />
+    <string id="lh_enc_chaos_gift_b" text="混沌之赐是一场仪式,将你的英雄——以及你整个氏族——转化为混沌文化。这是对黑暗诸神的深度投身。\n\n它的作用:\n- 将你英雄的文化改为混沌,且关键在于,同样改变你氏族的文化。这很重要:若只有英雄改变,你持有的封地会因忠诚不匹配而受损。两者皆被转化,好让混沌聚落对你保持忠诚。\n- 在游戏支持之处,尝试把你的外貌改向被混沌沾染的样貌。\n- 赐予一阵战斗经验的爆发,反映诸神注入新信徒体内的原始力量。\n\n如何获得:在对话中请求一位混沌领主「让你成为他们的一员」(适用最低氏族等级,在设置中设定)。转化是永久的。\n\n获赐之后,你便可在混沌领地自由招募黑暗部队、和平通过邪教徒巢穴,并开始产生黑暗能量。" />
+    <string id="lh_enc_chaos_darkenergy_t" text="黑暗能量" />
+    <string id="lh_enc_chaos_darkenergy_b" text="黑暗能量是混沌玩家的资源——黑暗诸神恩宠的具象显现。它的运作如同兽人的牙齿或吸血鬼的风:一种只有你的阵营使用的特殊货币。\n\n如何赚取:\n- 以处决献祭俘虏(诸神品味这份祭品)。\n- 随着阵营壮大而进行的其他黑暗行径。\n\n用于何处:\n- 升级精锐混沌部队。将一个单位晋升为真正的混沌精锐,需要在普通升级之外额外支付黑暗能量。若你支付不起,该升级会在界面中被锁定,直到你攒够为止——因此你不会负债。\n\n黑暗能量永不会低于零,且只有当你与混沌结盟后才会显现。可把它视为诸神为其最优秀的勇士所索取的代价:要成长,就必须不断喂养他们。" />
+    <string id="lh_enc_chaos_troops_t" text="混沌部队" />
+    <string id="lh_enc_chaos_troops_b" text="混沌的军队把廉价炮灰与骇人的精锐混编在一起。\n\n阵容大致由弱到强:\n- 邪教徒与侍僧——人类狂信徒,纯粹的炮灰。\n- 昂戈尔——体型较小的野兽人,同样是炮灰。\n- 诺斯卡部落民及其冠军——北方的人类战士。他们获得了生命值加成,使诺斯卡人比普通人更坚韧,正如背景设定所要求。\n- 戈尔及其精锐——体型较大的野兽人,生命值加成高于诺斯卡人。\n- 混沌战士——黑暗诸神身披重甲的勇士。\n- 牛头怪——拥有最高生命值加成的庞大怪物。\n\n炮灰机制:邪教徒与昂戈尔在你的部队中占据更少空间。你每携带一对这类单位,你的部队上限便提高一名——与吸血鬼阵营的小型不死生物如出一辙。这让廉价的乌合之众保持可用,而不至于浪费宝贵的部队名额。\n\n若你想要不同的平衡,所有生命值加成都可在设置中调整。" />
+    <string id="lh_enc_chaos_recruiting_t" text="招募混沌部队" />
+    <string id="lh_enc_chaos_recruiting_b" text="一旦你与混沌结盟(封臣/国王,或属于混沌文化),你便获得若干招募黑暗军队的途径。作为外人你无法做这一切——邪教只向信徒敞开。\n\n招募途径:\n- 聚落:与混沌结盟的城镇、要塞和村庄中的显贵,会提供黑暗志愿者而非普通新兵。要塞区域偏向精锐战士;城镇则掺入炮灰。\n- 邪教徒与野兽人巢穴(森林与草原邪教的盗匪式藏身处):与其同其交战,你可以和平通过,甚至付黄金召唤它们的仆从。设有冷却时间,因此你无法永远刷同一个巢穴。\n- 混沌传送门:特殊地点,你可在此俯首通过,或付出代价召唤混沌钦选者——精锐中的精锐。\n- 当你拜访一座混沌要塞时,牛头怪会作为稀有的招募名额出现。\n\n一处地点提供何种炮灰取决于其文化(草原巢穴给昂戈尔,森林邪教给邪教徒)。" />
+    <string id="lh_enc_chaos_tempting_t" text="诱惑俘虏" />
+    <string id="lh_enc_chaos_tempting_b" text="作为混沌玩家,你可以腐化你俘获的领主,把敌方贵族变成黑暗诸神的仆从,而不只是拿他们换赎金。\n\n运作方式:\n- 关押一名敌方领主。在你地牢中的每一天,随着诸神向其低语,都会累积「诱惑」进度。\n- 当进度越过阈值,俘虏便准备好接受混沌之赐。你将获得转化他的选项——他崩溃并加入你的阵营。\n- 若俘虏被释放或逃脱,其进度会衰减。\n- 每个你已转化的领主都会让下一个略微更难,因此你无法无止境地批量转化全世界。\n\n所有数值——每日进度、阈值、每次转化的惩罚、衰减速率,以及若你已属混沌文化的加成——都可在设置中调整。默认情况下,转化一名领主需约数月的囚禁。" />
+    <string id="lh_enc_chaos_vassalage_t" text="封臣身份与奖励" />
+    <string id="lh_enc_chaos_vassalage_b" text="当你向一个混沌王国效忠时,你不会空手而归——黑暗诸神会武装他们的新勇士。\n\n加入混沌王国时,你的英雄会获赠一套初始混沌装备:以四位神祇(恐虐、纳垢、奸奇、色孽)为主题的护甲、头盔和武器,外加通用的混沌战士部件和一匹坐骑。随你喜好穿戴任意一套。\n\n侍奉混沌也会改变你的关系——黑暗领主们视你为亲族而欢迎你,而文明世界则与你为敌。\n\n此奖励只在你的氏族首次加入混沌文化王国时发放一次。若物品始终未能出现,本模组会在启动时记录一条警告以便问题可见(它会在游戏加载时检查每个装备 id)。" />
+    <string id="lh_enc_chaos_uprisings_t" text="混沌暴动" />
+    <string id="lh_enc_chaos_uprisings_b" text="混沌不会安分。混沌暴动会周期性爆发——一波黑暗势力涌上地图,威胁文明的国度。\n\n在原版 TOR 中,首次暴动相当遥远(约 126 天)。Lore-Hardcore 缩短了间隔(默认约 30 天,在设置中设定),使混沌更早成为活生生的威胁,让世界感受到真实的压力。\n\n冷却从新战役开始计起:首次暴动在你所选的天数之后发生,并按该计时器反复出现。调低它,可得到一个被混沌缠绕的狂乱世界;调高它,则是更缓慢的酝酿。" />
+    <string id="lh_enc_chaos_war_t" text="战争与外交" />
+    <string id="lh_enc_chaos_war_b" text="加入之前最该明白的一点:整个世界都与混沌为敌,而一旦你归属某个混沌王国,这便意味着整个世界都与你为敌。\n\n这是有意为之。混沌是每个文明阵营的大敌——作为黑暗诸神的宣誓仆从,不可能获得持久的和平。做好被四面八方进攻的准备。\n\n唯一的例外在加入之前:当你还是没有王国的独立氏族时,本模组不会强制你与混沌开战。正是这扇窗口,才让你能策马去找混沌领主、谈妥加入之事。在你宣誓的那一刻,撕破脸皮,世界便联合起来与你为敌。\n\n据此谋划:在迈出这一步之前,建立一支强大、自给自足的黑暗军队(用炮灰凑数量,用精锐和怪物作打击),因为你将与所有人为敌。" />
+    <string id="lh_ck_challenge" text="混沌的王座属于最强者。我向你挑战，决一死战！" />
+    <string id="lh_ck_resp_lord" text="无礼的凡人！那就如你所愿——诸神渴求鲜血。到城墙外的旷野上来见我。准备好了就来吧——我们之中有一人将看不到日落。" />
+    <string id="lh_ck_accept_p" text="这王座将归我所有。" />
+    <string id="lh_ck_decline_p" text="时机未到。" />
+    <string id="lh_ck_disgraced_p" text="我再次向你挑战！" />
+    <string id="lh_ck_taunt_lord" text="你早已试过自己的命运，被打倒在地，可悲的虫子！黑暗诸神看穿了你的欺骗——这就是你的报应。" />
+    <string id="lh_ck_load_penalty" text="黑暗诸神已弃懦夫而去：你的混沌荣耀正在黯淡。" />
+    <string id="lh_ck_wound" text="诸神惩罚了你的傲慢。疗好伤口，证明你配得上这王座。" />
+    <string id="lh_ck_defeat" text="混沌之王将你击倒。{DAYS} 天后再来向他挑战。" />
+    <string id="lh_ck_victory" text="你从混沌之王僵死的双手中夺下了王座！黑暗诸神承认了新的主宰。这王国属于你了。" />
+    <string id="lh_ck_victory_title" text="篡位者登上王座" />
+    <string id="lh_ck_eligible" text="黑暗诸神的目光落在你身上！找到混沌之王——某个混沌王国的统治者——与他交谈，为王座向他发起挑战。" />
+    <string id="lh_ck_bar_legend" text="混沌荣耀" />
+    <string id="lh_ck_bar_ready" text="挑战就绪" />
+    <string id="lh_ck_bar_disgrace" text="失宠" />
+    <string id="lh_cw_bs_a" text="我以黑暗诸神之名走过了漫长的路。" />
+    <string id="lh_cw_bs_b" text="鲜血与荣耀——如今唯有此事要紧。" />
+    <string id="lh_cw_bs_c" text="弱者侍奉，强者统御。你是哪一种？" />
+    <string id="lh_cw_bs_d" text="废话够了。我会为你而战——只要价钱合适。" />
+    <string id="lh_cw_resp1" text="我敬重强者。再多说些。" />
+    <string id="lh_cw_resp2" text="省省那些故事吧。说正事。" />
+    <string id="lh_cw_leave" text="那就改日再说。" />
+    <string id="lh_cw_pay" text="我的刀刃归你——只要 {GOLD_AMOUNT}。" />
+    <string id="lh_cw_accept" text="成交。{GOLD_AMOUNT} 归你了。" />
+    <string id="lh_cw_decline" text="眼下我付不起这个数。" />
+    <string id="lh_enc_chaos_market_t" text="受诅咒的集市" />
+    <string id="lh_enc_chaos_market_b" text="混沌的武器与护甲为正直之人所避，只在混沌占据的城镇集市中出售。劫掠者装备、邪教徒长袍、混沌武器、盾牌以及一匹混沌战马在任何混沌城镇都有售；黑暗诸神（恐虐、纳垢、奸奇、色孽）受祝福的战甲与神选者的头盔则只在都城——最繁荣的混沌城镇——出售，且要价不菲。\n任何人都可在混沌城镇购买，但受诅咒的货物除混沌城镇与村庄外无处可卖——别的商人绝不会碰它们。" />
+    <string id="lh_enc_chaos_throne_t" text="推翻国王" />
+    <string id="lh_enc_chaos_throne_b" text="强权即公理。亲手斩杀足够多的敌人，黑暗诸神便会将你标记为现任混沌之王的对手。\n你的亲手击杀积累出一份混沌荣耀（显示在地图时钟上方的条上）。侍奉混沌至少 30 天，并使你的混沌荣耀超过国王。诸神留意到时，便可向国王发起生死决斗：你对阵国王及其两名混沌战士。\n获胜，则王座、封地与封臣尽归于你，你还可取走他受祝福的战具作为战利品。落败，则你的混沌荣耀折损三分之一。" />
+    <string id="lh_chaos_wand_full_p" text="我没有位置给你——我的随从已经满了。" />
+    <string id="lh_chaos_wand_full_lord" text="那等你腾出位置再来吧，凡人。黑暗诸神可不喜欢等待。" />
+    <string id="lh_ck_where_p" text="我在哪能找到你的主君，国王？" />
+    <string id="lh_ck_loc_court" text="我主在 {SETTLEMENT} 设廷理政。" />
+    <string id="lh_ck_loc_march" text="我主正在行军，靠近 {SETTLEMENT}。" />
+    <string id="lh_ck_loc_prison" text="我主被囚于 {SETTLEMENT} 的地牢中。" />
+    <string id="lh_ck_loc_unknown" text="我主游荡于荒野——连我也不知其踪。" />
+    <string id="lh_ck_bar_days" text="服役还剩 {DAYS} 天" />
+    <string id="lh_ck_ready_title" text="王座在等待" />
+    <string id="lh_ck_ready_msg" text="你已用鲜血与效命证明了自己。去寻找混沌之王——向任何混沌领主打听他在何处设廷——并为他的王座向他发起挑战。" />
+    <string id="lh_ck_cd_p" text="我想再次与你一战，混沌之王。" />
+    <string id="lh_ck_cd_lord" text="你已尝过败北，凡人。舔舐你的伤口，等你配得上时再来——{DAYS} 天后。滚吧！" />
+    <string id="lh_ck_cd_leave" text="我走……带着耻辱。" />
+    <string id="lh_ck_bar_cooldown" text="{DAYS} 天后可挑战" />
+    <string id="lh_kd_begin" text="拔出武器——开始决斗。" />
+    <string id="lh_kd_escort_title" text="选择你的勇士" />
+    <string id="lh_kd_escort_desc" text="选择与你并肩作战的同伴（最多 {MAX} 名）。混沌之王将带来同等数量的卫兵。不选任何人则独自面对他。" />
+    <string id="lh_kd_escort_ok" text="投入战斗！" />
+    <string id="lh_kd_escort_back" text="返回" />
+    <string id="lh_kd_prep_text" text="混沌信徒在原野上立起了一座由颅骨与黑铁筑成的斗环。混沌之王{KING}步入其中与你对峙——只有一人能活着走出斗环。" />
+    <string id="lh_kd_won_text" text="混沌之王横尸在你脚下。黑暗诸神咆哮赞许——通往你自己王座的路已敞开。" />
+    <string id="lh_kd_claim" text="夺取混沌的王座。" />
+    <string id="lh_kd_lost_text" text="你被击败、被打倒。舔舐伤口，{DAYS} 天后再来一试。" />
+    <string id="lh_ck_found_title" text="建立你自己的混沌王国" />
+    <string id="lh_ck_found_text" text="这王座以血属于你。为你的新混沌王国命名吧。" />
+    <string id="lh_ck_found_default" text="混沌之众" />
+    <string id="lh_ck_founded" text="你的混沌王国已建立。黑暗诸神注视着他们的新勇士。" />
+    <string id="lh_kd_chicken" text="今日不战——我退下。（离开）" />
+    <string id="lh_extorsion_tier_too_low" text="等级太低——只有T4+兽人才有值得拔取的金牙。" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_lbl" text="每个藏身处的盗匪巡逻队数量" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="每个活跃藏身处周围可生成多少游荡的盗匪队伍。TOR默认值为6——调低以减少在地图上游荡的队伍。例如：3。" />
+    <string id="lh_set_MaxLooterParties_lbl" text="劫掠者/逃兵队伍上限" />
+    <string id="lh_set_MaxLooterParties_desc" text="地图上劫掠者和逃兵队伍的硬性上限。TOR最多允许200——此项只会降低它（绝不会高于TOR战役阶段所允许的数量）。例如：60。" />
+    <string id="lh_god_khorne" text="库恩，血神" />
+    <string id="lh_god_nurgle" text="纳垢，瘟疫之主" />
+    <string id="lh_god_tzeentch" text="奇巧，诡途变易者" />
+    <string id="lh_god_slaanesh" text="色孽，黑暗王子" />
+    <string id="lh_god_none" text="无神" />
+    <string id="lh_god_khorne_flv" text="颅骨献予颅骨王座。库恩青睐在公开杀戮中不断斩取头颅的无情屠夫。" />
+    <string id="lh_god_nurgle_flv" text="瘟疫祖父接纳坚忍者。祂的选民腐烂，却拒绝倒下。" />
+    <string id="lh_god_tzeentch_flv" text="命运缔造者奖赏将魔法之风屈从于己意的狡黠术士。" />
+    <string id="lh_god_slaanesh_flv" text="愉悦王子珍视迅捷而完美者——将杀戮化为艺术的决斗者。" />
+    <string id="lh_god_choose_title" text="向黑暗之神立誓" />
+    <string id="lh_god_choose_desc" text="你跪于混沌祭坛前。选择你将承其印记的神祇——此选择不可更改。击杀达 {SET} 时，你的神授予你完整的顶级战争装备；击杀达 {DUEL} 时，你可挑战至高领主本人，夺取其王座。" />
+    <string id="lh_god_choose_ok" text="立下誓言" />
+    <string id="lh_god_chosen_msg" text="你如今效忠于 {GOD}。{FLAVOR}" />
+    <string id="lh_god_set_granted" text="黑暗诸神奖赏你的杀戮——{GOD} 的完整战争装备现已置于你的物品栏。从物品栏装备（按 I）。" />
+    <string id="lh_god_set_title" text="神之恩宠" />
+    <string id="lh_set_tab_gods" text="黑暗诸神" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="换取你神祇战争套装的击杀数" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="向混沌立誓时，你选择四位黑暗之神之一（库恩、纳垢、奇巧、色孽）。当你的个人击杀数达到此数值，你的神便以整套顶级护甲与武器奖赏你。越低＝越早获得精英装备。例如：1000 约为你亲手击杀 1000 名敌人。范围 500-2000。" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="挑战至高领主所需的额外击杀" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="在战争套装阈值之外的额外个人击杀数，达到后方可挑战混沌至高领主（莫特金）以争夺其王座。决斗所需总击杀＝战争套装阈值＋此数值。越低＝越早解锁王座挑战。例如：两者皆为 1000，则在 2000 击杀时挑战他。范围 500-2000。" />
+    <string id="lh_chaos_minotaur_weight_relief" text="米诺陶重量（已减轻）" />
+    <string id="lh_chaos_recruited_list" text="已召唤：{LIST}。" />
+  </strings>
+</base>

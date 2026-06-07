@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Stub для tor_settlements.xslt. Bannerlord XSLT convention требует
+    одноимённый XML файл рядом со stylesheet.
+-->
+<Settlements />

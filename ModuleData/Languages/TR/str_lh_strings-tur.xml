@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="lh_cannibal_eaten" text="Yiyecek bitti — birlik bir gobliny yedi ({GOBLIN}). Kalan goblin: {COUNT}." />
+    <string id="lh_cannibal_prisoner_eaten" text="Yiyecek bitti — orklar bir esiri yediler ({PRISONER}). Kalan esir: {COUNT}." />
+    <string id="lh_brawl_kills_line" text="Arena dövüşünde bizzat öldürdüğün: {KILLS}/{TOTAL}." />
+    <string id="lh_brawl_kills_allies_extra" text=" (müttefiklerin {EXTRA} tane daha bitirdi.)" />
+    <string id="lh_brawl_diversity_orc_goblin" text="Farklı türleri avladığın için bonus olarak 1 ork ve 1 goblin de kazandın." />
+    <string id="lh_brawl_diversity_orc" text="Farklı türleri avladığın için bonus olarak 1 ork da kazandın." />
+    <string id="lh_brawl_diversity_goblin" text="Farklı türleri avladığın için bonus olarak 1 goblin de kazandın." />
+    <string id="lh_brawl_victory_reward_no_gold" text="{RENOWN_REWARD} ün ve {TEEF_REWARD}{CR_ICON} Diş kazandın." />
+    <string id="lh_shrine_loot_result_only_gold" text="Tapınağı başarıyla yağmaladın ve {TOTAL_GOLD} altın kazandın." />
+    <string id="lh_orc_castle_recruit" text="Ork seçkinlerini topla" />
+    <string id="lh_orc_castle_recruit_intro" text="Klan başları kocaman ork kabadayılarını dışarı çıkardı — sana vahşice bakıyorlar, altınını bekliyorlar. {LH_PLAYER_GOLD}{GOLD_ICON} altının var." />
+    <string id="lh_orc_castle_recruit_title" text="Kalenin ork seçkinleri" />
+    <string id="lh_castle_recruit_leave" text="Geri" />
+    <string id="lh_castle_elite_cap" text="Zaten {LH_ELITE_COUNT} kabadayı var, {LH_REGULARS_COUNT} ork çocuğuyla. Sınır — her {LH_RATIO} çocuk için 1 kabadayı. Önce köylerde ve şehirlerde daha çok ork çocuğu topla." />
+    <string id="lh_castle_no_gold" text="Yeterli altın yok" />
+    <string id="lh_castle_party_full" text="Birlik dolu" />
+    <string id="lh_village_hire_goblins" text="Goblin topla (100{GOLD_ICON} 2 için)" />
+    <string id="lh_village_no_gold" text="En az 100 altın gerekiyor" />
+    <string id="lh_village_no_orcs" text="Goblinler orklara hizmet eder — birlikte ork yoksa peşinden gitmezler" />
+    <string id="lh_village_goblin_cap" text="{LH_GOBLIN_COUNT} goblin var, {LH_ORC_COUNT} orka. Sınır — her ork için 4 goblin. Önce daha çok ork topla." />
+    <string id="lh_castle_recruit_msg" text="Toplandı: {TROOP}" />
+    <string id="lh_castle_recruit_msg_with_goblins" text="Toplandı: {TROOP} (+{COUNT} goblin hizmetkâr)" />
+    <string id="lh_village_goblin_hired" text="Toplandı: {COUNT} goblin ({PRICE}{GOLD_ICON} karşılığında)" />
+    <string id="lh_goblin_companions_added" text="+{COUNT} goblin hizmetkâr — {TROOP}" />
+    <string id="lh_goblin_companions_capped" text="+{COUNT} goblin ({DESIRED} istedi, 4:1 sınıra ulaştı)" />
+    <string id="lh_castle_buy_option" text="{LH_TROOP_NAME} — {LH_TROOP_PRICE}{GOLD_ICON}" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy_boss" text="Okçu Reisi" />
+    <string id="lh_troop_tor_gs_orc_bigun" text="Koca Ork" />
+    <string id="lh_troop_tor_gs_black_orc" text="Kara Ork" />
+    <string id="lh_troop_tor_gs_orc_boar_boy_bigun" text="Koca Yaban Domuzu Süvarisi" />
+    <string id="lh_troop_tor_gs_orc_boss" text="Ork Reisi" />
+    <string id="lh_troop_tor_gs_black_orc_brute" text="Kara Ork Vahşisi" />
+    <string id="lh_troop_tor_gs_black_orc_boss" text="Kara Ork Reisi" />
+    <string id="lh_troop_tor_gs_black_orc_berzerka" text="Kara Ork Berserkeri" />
+    <string id="lh_troop_tor_gs_goblin" text="Goblin" />
+    <string id="lh_troop_tor_gs_orc" text="Ork" />
+    <string id="lh_troop_tor_gs_orc_boy" text="Ork Çocuk" />
+    <string id="lh_troop_tor_gs_orc_choppa" text="Ork Choppa" />
+    <string id="lh_troop_tor_gs_orc_arrer_boy" text="Ork Okçu" />
+    <string id="lh_troop_tor_gs_orc_boar_boy" text="Ork Yaban Domuzu Süvarisi" />
+    <string id="lh_teef_cart_trimmed" text="Yeterince diş yok — {COUNT} ork daha az asker alındı ({SPENT} harcandı, {HAVE} vardı)." />
+    <string id="lh_castle_challenge_button" text="Bir ork seçkinini teke tek dövüşe çağır" />
+    <string id="lh_castle_challenge_intro" text="Lordun salonunda ork vahşileri toplandı. Kurbanını seç." />
+    <string id="lh_castle_challenge_title" text="Ork seçkiniyle düello" />
+    <string id="lh_castle_challenge_back" text="Geri" />
+    <string id="lh_castle_challenge_disabled_culture" text="Orkları sadece orklar dövüşe çağırabilir." />
+    <string id="lh_castle_challenge_disabled_siege" text="Kuşatma sırasında olmaz." />
+    <string id="lh_castle_challenge_disabled_cooldown" text="Bu savaşçı hâlâ toparlanıyor. {DAYS} gün daha bekle." />
+    <string id="lh_castle_challenge_no_troop" text="Bu birim TOR tarafından yüklenmedi." />
+    <string id="lh_castle_challenge_victory_desc" text="Ork {TROOP} ayaklarının dibinde ölü yatıyor. +{TEEF} diş{REWARD_TROOP}." />
+    <string id="lh_castle_challenge_defeat_desc" text="Ork {TROOP} daha güçlüydü. Bahsini kaybettin ve utançla çekildin." />
+    <string id="lh_castle_challenge_victory_accept" text="Cesetten dişleri sök" />
+    <string id="lh_castle_challenge_defeat_accept" text="Utançla çekil" />
+    <string id="lh_castle_challenge_option_verb" text="Düelloya çağır: " />
+    <string id="lh_castle_challenge_err_no_troop" text="[Düello] Birim '{TROOP_ID}' yüklenmedi." />
+    <string id="lh_castle_challenge_err_no_scene" text="[Düello] Bu kalede uygun sahne yok (lordshall eksik)." />
+    <string id="lh_castle_challenge_err_no_teef" text="[Düello] Bahis için yeterli diş yok." />
+    <string id="lh_castle_challenge_err_no_gold" text="[Düello] Bahis için yeterli altın yok." />
+    <string id="lh_castle_challenge_err_generic" text="[Düello] Hata: {ERROR}" />
+    <string id="lh_castle_challenge_reward_troop_join" text=", ve onun gibi biri grubuna katılır" />
+    <string id="lh_settings_economy_title" text="Lore-Hardcore: ekonomi seçimi" />
+    <string id="lh_settings_economy_desc" text="Bu seçim kaydında sabittir. Değiştirmek için yeni oyuna başla." />
+    <string id="lh_settings_economy_teef_title" text="Ork diş ekonomisi (Warhammer kanonu)" />
+    <string id="lh_settings_economy_teef_hint" text="Kale ork seçkinlerini savaşta kazanılan dişlerle (ork para birimi) satın al. Goblinler hâlâ altın kullanır. Sahip olduğun her ork şehri/kalesi için günde +5 diş. Warhammer Fantasy lore'una sadık — orklar altına saygı duymaz." />
+    <string id="lh_settings_economy_classic_title" text="Klasik (her şey altın için)" />
+    <string id="lh_settings_economy_classic_hint" text="Orklar ve goblinler vanilla TOR'daki gibi altın için işe alınır. Diş ekonomisi yok, fiefden günlük gelir yok. Basit ve tanıdık." />
+    <string id="lh_settings_economy_confirm" text="Onayla" />
+    <string id="lh_castle_no_teef" text="Yeterli diş yok: {LH_TEEF_NEEDED} gerek, {LH_TEEF_HAVE} var." />
+    <string id="lh_castle_not_orc" text="Sadece ork kahramanlar için. Orklar yabancılara saygı duymaz." />
+    <string id="lh_teef_daily_msg" text="Ork şehir ve kalelerinden +{TEEF} diş ({COUNT})" />
+    <string id="lh_teef_battle_msg" text="{COUNT} tecrübeli düşmandan (T4+) +{TEEF} diş söküldü." />
+    <string id="lh_teef_lord_kill_msg" text="{NAME} lord'unu öldürdüğün için +{TEEF} diş." />
+    <string id="lh_castle_challenge_no_fee_teef" text="Meydan okumak için {FEE} diş gerek (var {HAVE})." />
+    <string id="lh_castle_challenge_no_fee_gold" text="Meydan okumak için {FEE} altın gerek (var {HAVE})." />
+    <string id="lh_teef_recruit_msg" text="{TROOP} ×{COUNT} için -{TEEF} diş." />
+    <string id="lh_teef_recruit_no_teef" text="{TROOP} için yeterli diş yok ({NEED} gerek, {HAVE} var)." />
+    <string id="lh_bt_conflict_title" text="Mod çatışması: BetterTime + Lore-Hardcore" />
+    <string id="lh_bt_conflict_text" text="Üçüncü taraf BetterTime modu Lore-Hardcore ile birlikte yüklendi. Bu mod The Old Realms ile UYUMSUZ.{newline}{newline}Lore-Hardcore ZATEN BetterTime işlevini içerir:{newline}D3 / Numpad3 — hızlı ileri ×4{newline}D4 / Numpad4 — ultra hızlı ×8{newline}Tuşu bırak — normal hıza dön{newline}{newline}ÖNERİ: oyunu kapat, üçüncü taraf BetterTime'ı Launcher'da devre dışı bırak, yeniden başlat." />
+    <string id="lh_bt_conflict_ok" text="Anladım, halledeceğim" />
+    <string id="lh_teef_unit" text="diş" />
+    <string id="lh_tournament_cannot_leave" text="Dövüş bitmedi. Kaçış yok." />
+<!-- ============ Lore-Hardcore Encyclopedia (in-game guide, hotkey H) ============ -->
+    <string id="lh_orc_execute_enemy_buff" text="Düşman infaz edildi. Ork müfrezesi gurur duyuyor. Moral +10, Onur itibarı geri kazanıldı." />
+    <string id="lh_chaos_uprising_announce" text="!!! KAOS GÜÇLERİ AYAKLANDI — haritada bir Kaos ayaklanması belirdi !!!" />
+    <string id="lh_enc_title" text="Lore-Hardcore — Oyun içi rehber" />
+    <string id="lh_enc_pick_topic" text="Okumak için bir konu seç:" />
+    <string id="lh_enc_read" text="Oku" />
+    <string id="lh_enc_back" text="Konulara dön" />
+    <string id="lh_enc_close" text="Kapat" />
+
+    <string id="lh_enc_topic_teef_economy_title" text="Diş Ekonomisi" />
+    <string id="lh_enc_topic_teef_economy_body" text="Ork ve goblin oyuncuları için Diş Ekonomisi HER ZAMAN aktiftir — oyun ortasında geçiş yok, başlangıçta diyalog yok. İnsanlar, cüceler, vampirler eskiden olduğu gibi altın kullanır.{newline}{newline}Ork olarak oynadığında:{newline}- Ork yerleşimlerinde her şey için altın yerine diş ödersin.{newline}- Ork yerleşimleri dışında (İmparatorluk, Bretonya vb.) hâlâ altın ödersin.{newline}- Dişler SADECE gerçek savaşta kazanılır: T4+ birim öldürmeleri, lord öldürmeleri, kavga zaferleri, kale meydan okumaları, sahip olduğun ork tımarlarından günlük haraç.{newline}- Ork birlikleri klanından altın çekmez — ödenmemiş maaş için moral cezası ork birlikleri için bastırılmıştır (zaten onları ödemiyorsun).{newline}- Günlük diş geliri, AI ork lordlarının haritayı ele geçirmemesi için sınırlandırılmıştır." />
+
+    <string id="lh_enc_topic_career_path_title" text="Kariyer: Bully'den Patrona" />
+    <string id="lh_enc_topic_career_path_body" text="Ork kariyerinin karakter oluşturmada seçilen iki yolu vardır: Bully Yolu (Patron olur) veya Şaman Yolu.{newline}{newline}Lore-Hardcore için vanilla TOR'dan azaltılmış gereksinimler:{newline}- Seviye 2 (Patron): silah becerileri 80/80/30, 30 savaş, 5 turnuva, 10 kavga, 2000 diş.{newline}- Seviye 3 (Patron): silah becerileri 150/120/60, 70 savaş, 15 turnuva, 20 kavga, 5 lord düellosu, 5 ele geçirilmiş şehir, 10000 diş.{newline}- Seviye 2 (Şaman): bir tapınakta dua, Büyücülük 50, İnanç 50, 3 büyü, 2000 diş, 5 yağmalanmış tapınak.{newline}- Seviye 3 (Şaman): Büyücülük 120, İnanç 100, 8 büyü, 10000 diş, 5 şehir, 30 tapınak." />
+
+    <string id="lh_enc_topic_orc_morale_waaagh_title" text="Ork morali ve WAAAGH!" />
+    <string id="lh_enc_topic_orc_morale_waaagh_body" text="Ork birlik morali ve AI ölçeklemesi yeniden dengelendi.{newline}{newline}- Ork lordları temel olarak +%40 HP ve +%30 savaş becerilerine sahiptir.{newline}- Moral çarpanı: x1.5 (orklar insanlardan daha agresif).{newline}- Elit orklar (Kara Ork, Patron, Berzerka, Bigun) KORKUSUZ — düşük moral veya sayısal üstünlükten asla panik yapmaz.{newline}- WAAAGH! yakınlık bonusu, kitlesel ork saldırılarında birikir.{newline}{newline}AI dengelemesi (orklar haritayı domine etmesin diye):{newline}- AI ork lord birlik boyutu yumuşak limit: 80 birim.{newline}- Mareşalin Ordusu en fazla 5 birlik (lider + 4 çağrılan) tutar — orklar 3000 yerine 400-500'lük mini-ordularla saldırır.{newline}- AI güç tahmini: orklar x1.8, goblinler x0.8, troller/Big'Un'lar/warbosslar x3.0 — imparatorluk AI artık ork tehdidini doğru değerlendirir.{newline}- Massif Choppas 22'den 14 lorda indi; Crooked Eye ve Red Eye 17'ye. Başkent refahı yeniden dengelendi.{newline}{newline}Oyuncu birliği normal vanilla limitleri kullanır." />
+
+    <string id="lh_enc_topic_castle_challenge_title" text="Kale düellosu" />
+    <string id="lh_enc_topic_castle_challenge_body" text="Bir ork kalesini ziyaret ederken, elit bir orkı diş bahsi karşılığında düelloya çağırabilirsin.{newline}{newline}- Zafer: elit, birliğine kupa birim olarak katılır, ayrıca +15 diş.{newline}- Yenilgi: bahsin kaybedilir, kaledeki itibarın geçici olarak düşer.{newline}{newline}Kaleye göre mevcut elitler: Bigun, Patron, Kara Ork, Brute, Berzerka. Her birinin kendi fiyatı ve zorluğu vardır.{newline}{newline}Bahisler elit rütbesiyle ölçeklenir — Bigun ~50 diş, Kara Ork ~150 diş, Patron ~250 diş.{newline}{newline}Düellonun kendisi gerçek bir 1v1 dövüşüdür kale sahnesinde. Hile yok, otomatik çözüm yok." />
+
+    <string id="lh_enc_topic_orc_sieges_ram_title" text="Ork kuşatmaları ve koçbaşı" />
+    <string id="lh_enc_topic_orc_sieges_ram_body" text="Ork kuşatmaları Lore-Hardcore'da farklı çalışır.{newline}{newline}- Orklar trebuşet inşa EDEMEZ. Lore: parabolik yörünge matematiği olan bir denge ağırlık makinesi bir ork için fazla mühendisliklidir. Mevcut kuşatma silahları: balistler, onagrelar, mancınıklar (ateş varyantları dahil).{newline}- Koçbaşı güçlendirildi: 5x daha sert vurur, 3.5x daha uzun dayanır. Kapılar vanilla 30+ yerine 5-10 darbede düşer. Lore: diş öğüten kafataslı, demir zırhlı, sekiz kaslı orkun ittiği bir kütük.{newline}- Otomatik çözüm aynı koçbaşı bonusunu alır, böylece ork kuşatmaları sahne veya atlamada doğru hissettirir." />
+
+    <string id="lh_enc_topic_prisoner_cannibalism_title" text="Esir yamyamlığı" />
+    <string id="lh_enc_topic_prisoner_cannibalism_body" text="Orklar esirleri yerinde kesmez. Et SADECE yürüyüş açlığı yamyamlığından gelir.{newline}{newline}Bir savaştan sonra:{newline}- Ganimet ekranında otomatik kesim: 0 et (kaç esir alındığına bakılmaksızın).{newline}- Levazımda 'Kes' düğmesi: 0 et.{newline}- Öldürmelerden et (TOR otomatik formülü): oyuncu zaferleri için 0.{newline}{newline}Esirlerden et almanın tek yolu — onları al, yiyecek bitsin, bekle. Boş kilerle her oyun saati:{newline}1. Önce ESİRLER. Her biri = 1 et.{newline}2. Sonra GOBLİNLER. Her biri = 1 et.{newline}3. Lordlar ve yoldaşlar ASLA yenmez (lord = fidye, yoldaş = görev hattı).{newline}{newline}Lore: orklar esirleri yolda canlı yer, kasap kütüğünde değil.{newline}{newline}AI ork birlikleri açlıktan ölmemek için vanilla TOR savaş-ti formülünü korur." />
+
+    <string id="lh_enc_topic_brawl_arena_title" text="Yeşilderi kavga arenası" />
+    <string id="lh_enc_topic_brawl_arena_body" text="Yeşilderi Kavgası, ork yerleşimlerine özgü bir yumruk dövüş arenasıdır.{newline}{newline}- Maç başına 18 düşman (vanilla arenadan çok daha büyük).{newline}- Ödül kişisel öldürme sayına göre hesaplanır, sadece hayatta kalmaya değil.{newline}- Sınır dışı bölgelere düşen kaçak düşmanlar, maçın donmasını önlemek için saniyede bir kez otomatik öldürülür.{newline}- Goblinler artık arena çatısında doğmaz (eski TOR yerleştirme bug'u).{newline}- Zafer koşulu: ayakta kalan son kişi olmak VEYA hayatta kalırsan en çok öldüren takım.{newline}- Fethedilmiş ork olmayan şehirlerde (bretonyalı, imparatorluk hanları) eski GPU'larda 'cannot find entry point' hatalarını önlemek için kavga atmosfer shader'ları bastırılır.{newline}{newline}İyi: Tek El becerisi eğitimi, diş kazanma, ork kariyer görevi kavga hedefini tamamlama." />
+
+    <string id="lh_enc_topic_execute_enemy_buff_title" text="Irk düşmanlarını idam etme" />
+    <string id="lh_enc_topic_execute_enemy_buff_body" text="Bir ork oyuncu yakalanmış bir ırk düşmanı lordunu idam ettiğinde, ork birliği kutlar — yas tutmaz.{newline}{newline}Vanilla Bannerlord her idamı -1000 Onur XP ile cezalandırır. Bir ork için bir Cüce, Vampir, Elf veya İmparatorluk lordunu öldürmek bir başarıdır, günah değil.{newline}{newline}Lore-Hardcore bir bonus ekler:{newline}- Onur XP tamamen telafi edildi (+1000), vanilla cezası iptal edildi.{newline}- Merhamet özelliği sembolik +1 XP alır (statü dengesi).{newline}- Ork birliği anında +10 moral kazanır.{newline}- Yeşil bir mesaj uygulanan bonusu doğrular.{newline}{newline}Sadece oyuncu ork kültüründeyse (TOR'da aserai) ve kurban bir ırk düşmanıysa uygulanır: Cüce (sturgia), Vampir Kontları (khuzait), İmparatorluk, Bretonya (vlandia), Orman Elfleri (battania), Eonir, Mousillon, Kan Ejderhaları, Chaos, Yüksek Elfler, Karanlık Elfler.{newline}{newline}KENDİ ırkını (diğer orklar) idam etmek vanilla cezasını korur — bu bir ork savaş lordu için utançtır." />
+
+    <!-- ========== Lore-Hardcore Settings UI (v0.1.5+) ========== -->
+    <string id="lh_settings_button" text="Lore-Hardcore Ayarları" />
+    <string id="lh_set_title" text="Lore-Hardcore — Ayarlar" />
+    <string id="lh_set_mode_full" text="Ana menü — tüm parametreler" />
+    <string id="lh_set_mode_live" text="Kampanya — sadece canlı" />
+    <string id="lh_set_races_header" text="IRKLAR" />
+    <string id="lh_set_race_orc" text="Orklar" />
+    <string id="lh_set_race_empire" text="İmparatorluk" />
+    <string id="lh_set_race_dwarf" text="Cüceler" />
+    <string id="lh_set_race_bretonnia" text="Bretonya" />
+    <string id="lh_set_race_chaos" text="Kaos" />
+    <string id="lh_set_confirm_reset_race_title" text="Irkı sıfırla" />
+    <string id="lh_set_confirm_reset_race_body" text="Seçili ırkın tüm parametreleri varsayılana sıfırlansın mı?" />
+    <string id="lh_set_confirm_reset_all_title" text="TÜMÜNÜ sıfırla" />
+    <string id="lh_set_confirm_reset_all_body" text="Tüm ırkların TÜM parametreleri varsayılana sıfırlansın mı? Bu her şeyi etkiler." />
+    <string id="lh_set_confirm_yes" text="Sıfırla" />
+    <string id="lh_set_confirm_yes_all" text="Tümünü sıfırla" />
+    <string id="lh_set_confirm_no" text="İptal" />
+    <string id="lh_set_race_phase02" text="0.2 fazında geliyor" />
+    <string id="lh_set_race_phaseFuture" text="Gelecek bir fazda geliyor" />
+    <string id="lh_set_tab_battle" text="Savaş" />
+    <string id="lh_set_tab_army" text="Ordular" />
+    <string id="lh_set_tab_ai" text="AI tayfası" />
+    <string id="lh_set_tab_economy" text="Ekonomi" />
+    <string id="lh_set_tab_caves" text="Mağaralar" />
+    <string id="lh_set_tab_system" text="Sistemler" />
+    <string id="lh_set_tab_main" text="Ana" />
+    <string id="lh_set_tab_vassalage" text="Bağlılık" />
+    <string id="lh_set_tab_conversion" text="Kaos Hediyesi" />
+    <string id="lh_set_tab_tempting" text="Cazibe" />
+    <string id="lh_set_tab_troops" text="Birlikler" />
+    <string id="lh_set_tab_recruit" text="İşe Alım" />
+    <string id="lh_set_btn_reset_race" text="Irkı sıfırla" />
+    <string id="lh_set_btn_reset_all" text="HEPSİNİ sıfırla" />
+    <string id="lh_set_btn_save" text="Kaydet" />
+    <string id="lh_set_btn_close" text="Kapat" />
+    <string id="lh_set_cat_instant" text="anında uygulanır" />
+    <string id="lh_set_cat_nexttick" text="bir saniye içinde uygulanır" />
+    <string id="lh_set_cat_worldstate" text="yeni doğmalara uygulanır" />
+    <string id="lh_set_cat_restart" text="oyunun yeniden başlatılmasını gerektirir" />
+    <string id="lh_set_toggle_on" text="AÇIK" />
+    <string id="lh_set_toggle_off" text="KAPALI" />
+
+    <string id="lh_set_OrcHPMultWithPlayer_lbl" text="Ork HP (oyuncuyla)" />
+    <string id="lh_set_OrcHPMultWithPlayer_desc" text="PlayerTeam'in bulunduğu canlı savaşta orklar için HP çarpanı." />
+    <string id="lh_set_OrcHPMultAINoPlayer_lbl" text="Ork HP (AI vs AI)" />
+    <string id="lh_set_OrcHPMultAINoPlayer_desc" text="Oyuncusuz AI vs AI savaşlarında orklar için HP çarpanı." />
+    <string id="lh_set_OgreHPMultAINoPlayer_lbl" text="Ogre HP (AI vs AI)" />
+    <string id="lh_set_OgreHPMultAINoPlayer_desc" text="AI vs AI savaşlarında troller / Big Uns / Black Orcs için HP çarpanı. Normal orklardan daha düşük çünkü motorun kuşatma mekaniği yok — bu nerf olmadan 3 trol 50 insanı öldürebilir." />
+    <string id="lh_set_GoblinHPMult_lbl" text="Goblin HP" />
+    <string id="lh_set_GoblinHPMult_desc" text="Tüm goblinler için HP çarpanı." />
+    <string id="lh_set_OrcAttackerOnPlayerSide_lbl" text="Müttefik ork hasarı" />
+    <string id="lh_set_OrcAttackerOnPlayerSide_desc" text="Oyuncunun tarafındaki orklar için hasar çarpanı." />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_lbl" text="Düşman ork hasarı" />
+    <string id="lh_set_OrcAttackerEnemyOfPlayer_desc" text="Oyuncuya karşı savaşan orklar için hasar çarpanı." />
+    <string id="lh_set_OrcVictimOnPlayerSide_lbl" text="Müttefik orkun aldığı hasar" />
+    <string id="lh_set_OrcVictimOnPlayerSide_desc" text="Senin tarafındaki bir ork vurulduğunda hasar çarpanı (düşük = daha dayanıklı)." />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_lbl" text="Düşman orkun aldığı hasar" />
+    <string id="lh_set_OrcVictimEnemyOfPlayer_desc" text="Düşman bir ork vurulduğunda hasar çarpanı (yüksek = öldürmesi daha kolay)." />
+    <string id="lh_set_AxeShieldDmgMult_lbl" text="Balta tahta kalkana karşı" />
+    <string id="lh_set_AxeShieldDmgMult_desc" text="Tahta kalkanlara vuran baltalar için hasar çarpanı." />
+    <string id="lh_set_MaceShieldDmgMult_lbl" text="Topuz/çekiç metal kalkana karşı" />
+    <string id="lh_set_MaceShieldDmgMult_desc" text="Künt silahların (topuzlar, çekiçler, çift elli çekiçler) METAL kalkanlara verdiği hasar çarpanı. Kılıçlar ve baltalar metali zar zor çizer, ama ezici bir darbe onu göçertir. Örnek: 4.0 = 4 kat hasar, metal kalkanlar birkaç vuruşta kırılır. 1.0 = vanilla (kapalı)." />
+    <string id="lh_set_OrcAgentStructDmgMult_lbl" text="Ogre kapı hasarı" />
+    <string id="lh_set_OrcAgentStructDmgMult_desc" text="Canlı savaşta Ogre / Big Un / Trollerin kapılara verdiği hasar." />
+    <string id="lh_set_OrcKickStunMult_lbl" text="Ork tekmesi sersemleme süresi" />
+    <string id="lh_set_OrcKickStunMult_desc" text="Ork tekmelerinin uyguladığı sersemleme süresi." />
+    <string id="lh_set_OrcShieldBashStunMult_lbl" text="Ork kalkan vuruşu sersemleme" />
+    <string id="lh_set_OrcShieldBashStunMult_desc" text="Ork kalkan vuruşlarından sersemleme süresi." />
+    <string id="lh_set_OrcSkillMult_lbl" text="Ork dövüş becerileri" />
+    <string id="lh_set_OrcSkillMult_desc" text="Ork dövüş becerileri için çarpan (tek el, iki el, mızrak)." />
+    <string id="lh_set_TrollAthleticsMult_lbl" text="Troll atletizmi" />
+    <string id="lh_set_TrollAthleticsMult_desc" text="Trollerin atletizm becerisi (düşük = daha yavaş)." />
+    <string id="lh_set_GoblinAthleticsMult_lbl" text="Goblin atletizmi" />
+    <string id="lh_set_GoblinAthleticsMult_desc" text="Goblinlerin atletizm becerisi (yüksek = daha hızlı)." />
+    <string id="lh_set_GoblinSpeedMult_lbl" text="Goblin hızı" />
+    <string id="lh_set_GoblinSpeedMult_desc" text="Yayan goblinler için hız çarpanı." />
+    <string id="lh_set_OrcMoraleWaaaghMult_lbl" text="WAAAGH! moral bonusu" />
+    <string id="lh_set_OrcMoraleWaaaghMult_desc" text="Öldürme başına ork tarafı için moral kazanma çarpanı." />
+
+    <string id="lh_set_AILordHardCap_lbl" text="AI lord tayfa limiti" />
+    <string id="lh_set_AILordHardCap_desc" text="AI ork lordunun tayfa büyüklüğüne katı limit. Büyümeye anında uygulanır, mevcut aşırı büyük tayfalar kademeli olarak küçülür." />
+    <string id="lh_set_MaxOrcCalledParties_lbl" text="WAAAGH! başına tayfa" />
+    <string id="lh_set_MaxOrcCalledParties_desc" text="Bir mareşale kaç tayfa katılabilir. Ordu = lider + N. Tavan = (1+N) x lord başı limit." />
+    <string id="lh_set_MilPowerEliteEstimate_lbl" text="Elit güç (AI tahmini)" />
+    <string id="lh_set_MilPowerEliteEstimate_desc" text="AI'nin elit orkların gücünü nasıl tahmin ettiği. Savaş/kaç kararlarını etkiler." />
+    <string id="lh_set_MilPowerOrcEstimate_lbl" text="Ork gücü (AI tahmini)" />
+    <string id="lh_set_MilPowerOrcEstimate_desc" text="Düzenli orkların gücünün AI tahmini." />
+    <string id="lh_set_MilPowerGoblinEstimate_lbl" text="Goblin gücü (AI tahmini)" />
+    <string id="lh_set_MilPowerGoblinEstimate_desc" text="Goblinlerin gücünün AI tahmini." />
+    <string id="lh_set_MilPowerEliteCombat_lbl" text="Elit güç (savaş)" />
+    <string id="lh_set_MilPowerEliteCombat_desc" text="Auto-resolve'da elit orkların gerçek savaş gücü." />
+    <string id="lh_set_MilPowerOrcCombat_lbl" text="Ork gücü (savaş)" />
+    <string id="lh_set_MilPowerOrcCombat_desc" text="Düzenli orkların gerçek savaş gücü." />
+    <string id="lh_set_MilPowerGoblinCombat_lbl" text="Goblin gücü (savaş)" />
+    <string id="lh_set_MilPowerGoblinCombat_desc" text="Goblinlerin gerçek savaş gücü." />
+
+    <string id="lh_set_OrcCastleHireChance_lbl" text="AI kale tayfa şansı" />
+    <string id="lh_set_OrcCastleHireChance_desc" text="AI lordunun bir kalede elit ork satın alma saatlik şansı." />
+    <string id="lh_set_OrcCastleHireVirtualChance_lbl" text="Sanal tayfa şansı" />
+    <string id="lh_set_OrcCastleHireVirtualChance_desc" text="Lord fiziksel olarak bir kalede olmasa da klanı bir kaleye sahipse saatlik sanki-ziyaret-edilmiş tayfa şansı." />
+    <string id="lh_set_OrcCastleHireGoldBuffer_lbl" text="AI altın tamponu (kale)" />
+    <string id="lh_set_OrcCastleHireGoldBuffer_desc" text="AI'nin kale satın alımından sonra elinde tuttuğu minimum altın." />
+    <string id="lh_set_OrcVillageGoblinHireChance_lbl" text="AI goblin tayfa şansı" />
+    <string id="lh_set_OrcVillageGoblinHireChance_desc" text="AI lordunun bir köyde bir çift goblin satın alma saatlik şansı." />
+    <string id="lh_set_OrcVillageGoblinPairPrice_lbl" text="Goblin çift fiyatı" />
+    <string id="lh_set_OrcVillageGoblinPairPrice_desc" text="AI'nin bir köyde bir çift goblin için ne kadar ödediği." />
+    <string id="lh_set_OrcVillageGoblinsPerHire_lbl" text="Tayfa başına goblin" />
+    <string id="lh_set_OrcVillageGoblinsPerHire_desc" text="AI'nin köy satın alımı başına kaç goblin aldığı." />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_lbl" text="AI altın tamponu (köy)" />
+    <string id="lh_set_OrcVillageGoblinGoldBuffer_desc" text="AI'nin köy satın alımından sonra elinde tuttuğu minimum altın." />
+    <string id="lh_set_TrollAIRecruitChance_lbl" text="AI troll tayfa şansı" />
+    <string id="lh_set_TrollAIRecruitChance_desc" text="Ziyaret başına AI lordunun bir ork yerleşiminde troll alma şansı." />
+    <string id="lh_set_TrollAICapPerParty_lbl" text="Tayfa başına AI troll limiti" />
+    <string id="lh_set_TrollAICapPerParty_desc" text="AI lordunun tutabileceği maksimum troll sayısı." />
+
+    <string id="lh_set_OrcUpgradeMultiplier_lbl" text="Yükseltme maliyet çarpanı" />
+    <string id="lh_set_OrcUpgradeMultiplier_desc" text="Vanilla yükseltme maliyet formülüne uygulanan çarpan." />
+    <string id="lh_set_OrcUpgradeMinCost_lbl" text="Ork yükseltme min maliyeti" />
+    <string id="lh_set_OrcUpgradeMinCost_desc" text="Ork birim yükseltmeleri için minimum altın maliyeti." />
+    <string id="lh_set_GoblinUpgradeMinCost_lbl" text="Goblin yükseltme min maliyeti" />
+    <string id="lh_set_GoblinUpgradeMinCost_desc" text="Goblin yükseltmeleri için minimum altın maliyeti." />
+    <string id="lh_set_OrcEliteAIDiscount_lbl" text="AI elit indirimi" />
+    <string id="lh_set_OrcEliteAIDiscount_desc" text="AI elit ork maliyetinin x N'ini öder (1.0 = tam fiyat)." />
+    <string id="lh_set_OrcChopMeatRegular_lbl" text="Normal esir başı et" />
+    <string id="lh_set_OrcChopMeatRegular_desc" text="Normal bir esiri doğramaktan elde edilen et verimi." />
+    <string id="lh_set_OrcChopMeatLarge_lbl" text="Büyük esir başı et" />
+    <string id="lh_set_OrcChopMeatLarge_desc" text="Büyük bir esiri doğramaktan elde edilen et verimi (troll, minotor)." />
+    <string id="lh_set_BrawlGoldMult_lbl" text="Brawl altın çarpanı" />
+    <string id="lh_set_BrawlGoldMult_desc" text="Brawl kazanma altın ödülü x N." />
+    <string id="lh_set_ShrineLootGold_lbl" text="Türbe yağma altını" />
+    <string id="lh_set_ShrineLootGold_desc" text="Bir türbeyi yağmalamak için altın ödülü." />
+    <string id="lh_set_OrcExtorsionMinTier_lbl" text="Haraç için min tier" />
+    <string id="lh_set_OrcExtorsionMinTier_desc" text="Sadece Tier >= N olan orklar Haraç yoluyla diş üretir." />
+
+    <string id="lh_set_HideoutCooldownDays_lbl" text="Saklanma yeri cooldown (gün)" />
+    <string id="lh_set_HideoutCooldownDays_desc" text="Temizlenmiş bir saklanma yerinin yeniden aktifleşebilmesi için geçen gün." />
+    <string id="lh_set_MaxHideouts_lbl" text="Fraksiyon başı max saklanma yeri" />
+    <string id="lh_set_MaxHideouts_desc" text="Aynı anda aktif maksimum saklanma yeri." />
+    <string id="lh_set_TrollCaveMaxRaidParties_lbl" text="Max troll akın tayfası" />
+    <string id="lh_set_TrollCaveMaxRaidParties_desc" text="Tek bir mağaradan aynı anda kaç akın tayfası canlı olabilir." />
+    <string id="lh_set_TrollCaveDailySpawnChance_lbl" text="Günlük doğma şansı" />
+    <string id="lh_set_TrollCaveDailySpawnChance_desc" text="Bir mağaranın yeni bir akın tayfası doğurma günlük şansı." />
+    <string id="lh_set_TrollCaveTargetBattleSize_lbl" text="Mağara savunmacı sayısı" />
+    <string id="lh_set_TrollCaveTargetBattleSize_desc" text="Oyuncuyu mağara girişinde kaç troll karşılar." />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_lbl" text="Akın tayfası başına max troll" />
+    <string id="lh_set_TrollCaveMaxTrollsPerParty_desc" text="Tek bir akın tayfasının büyüklüğüne sınır." />
+    <string id="lh_set_TrollCaveTroopLimit_lbl" text="Mağara savaşına birlik" />
+    <string id="lh_set_TrollCaveTroopLimit_desc" text="Mağara temizliğine kaç birlik alabilirsin (vanilla 20). 7 troll 20 insanı birebir bile ezebilir — 40 sayısal şans verir." />
+    <string id="lh_set_TrollCaveLureAllowed_lbl" text="Troll çekme izinli" />
+    <string id="lh_set_TrollCaveLureAllowed_desc" text="Açıksa — mağara menüsüne 'Troll çek (10 et)' seçeneği ekler. Varsayılan kapalı (denge: 10 et için T6 troll sömürülebilir)." />
+
+    <string id="lh_set_EnableOrcHPBuff_lbl" text="Ork HP bonusu" />
+    <string id="lh_set_EnableOrcHPBuff_desc" text="Ork HP çarpanlarını tamamen devre dışı bırakır." />
+    <string id="lh_set_EnableOrcDamageMods_lbl" text="Team-aware hasar" />
+    <string id="lh_set_EnableOrcDamageMods_desc" text="Hasar oyuncunun tarafına bağlıdır." />
+    <string id="lh_set_EnableTeefEconomy_lbl" text="TeefEconomy" />
+    <string id="lh_set_EnableTeefEconomy_desc" text="Orkları altın yerine dişlerle tayfa." />
+    <string id="lh_set_EnableOrcArmyCaps_lbl" text="Ork ordu limitleri" />
+    <string id="lh_set_EnableOrcArmyCaps_desc" text="Tayfa ve ordu boyutlarına limitler." />
+    <string id="lh_set_EnableTrollCaveNerf_lbl" text="Troll mağarası nerfi" />
+    <string id="lh_set_EnableTrollCaveNerf_desc" text="Daha düşük troll doğma oranları ve akın boyutları." />
+    <string id="lh_set_EnableHideoutCooldown_lbl" text="Saklanma yeri cooldown" />
+    <string id="lh_set_EnableHideoutCooldown_desc" text="Temizlenmiş saklanma yerleri 60 gün kapalı kalır." />
+    <string id="lh_set_EnableBrawlRewardNerf_lbl" text="Brawl ödül nerfi" />
+    <string id="lh_set_EnableBrawlRewardNerf_desc" text="Brawl altın ödülünü keser." />
+    <string id="lh_set_EnableShrineLootNerf_lbl" text="Türbe yağma nerfi" />
+    <string id="lh_set_EnableShrineLootNerf_desc" text="Türbelerden sadece altın — et veya diş yok." />
+    <string id="lh_set_EnableOrcCareerQuestNerf_lbl" text="Kariyer görevi nerfi" />
+    <string id="lh_set_EnableOrcCareerQuestNerf_desc" text="Ork kariyer görevlerinin gerekliliklerini düşürür." />
+    <string id="lh_set_EnableOrcNoTrebuchet_lbl" text="Trebuşetsiz orklar" />
+    <string id="lh_set_EnableOrcNoTrebuchet_desc" text="Orklar karmaşık kuşatma makineleri inşa etmez." />
+    <string id="lh_set_EnableAxeShieldBonus_lbl" text="Balta kalkan kırar" />
+    <string id="lh_set_EnableAxeShieldBonus_desc" text="Baltalar tahta kalkanlara bonus hasar verir." />
+    <string id="lh_set_EnableMaceShieldBonus_lbl" text="Topuz kalkan kırar" />
+    <string id="lh_set_EnableMaceShieldBonus_desc" text="Künt silahlar (topuzlar, çekiçler) metal kalkanlara bonus hasar verir." />
+    <string id="lh_health_title" text="Lore-Hardcore: uyumluluk kontrolü" />
+    <string id="lh_ck_duel_abort" text="Düello burada başlayamaz. Kral'a açık alanda meydan oku." />
+    <string id="lh_health_intro" text="Bazı Lore-Hardcore özellikleri başka bir mod tarafından engelleniyor:" />
+    <string id="lh_health_ui" text="Harita zaman paneli (ek hız düğmesi ve Kaos ilerleme çubuğu) eklenemedi." />
+    <string id="lh_health_suspect" text="Olası neden: {LIST}" />
+    <string id="lh_health_footer" text="Lore-Hardcore'u TOR'dan SONRA yükleyin. UIExtenderEx, MCM ve ButterLib gibi kütüphaneler gereklidir ve sorun değildir - onları kapatmayın. Bir özellik hâlâ bozuksa, UI/savaş overhaul modlarını kapatmayı deneyin." />
+    <string id="lh_set_EnableGoblinSpeedBuff_lbl" text="Daha hızlı goblinler" />
+    <string id="lh_set_EnableGoblinSpeedBuff_desc" text="Goblinler için +%50 hız." />
+    <string id="lh_set_EnableOrcKickStunBuff_lbl" text="Uzun tekme sersemlemesi" />
+    <string id="lh_set_EnableOrcKickStunBuff_desc" text="Ork tekmeleri daha uzun sersemletir." />
+    <string id="lh_set_EnableChaosVassalRecruit_lbl" text="Chaos tayfası" />
+    <string id="lh_set_EnableChaosVassalRecruit_desc" text="Chaos vasalları Chaos birlikleri tayfa edebilir." />
+    <string id="lh_set_EnableBrawlRandomSpawn_lbl" text="Rastgele brawl doğma" />
+    <string id="lh_set_EnableBrawlRandomSpawn_desc" text="Oyuncu rastgele bir arena noktasında doğar." />
+    <string id="lh_set_EnableRecruitIconSwap_lbl" text="Diş ikonu" />
+    <string id="lh_set_EnableRecruitIconSwap_desc" text="Tayfa menüsü altın yerine diş ikonunu gösterir." />
+    <string id="lh_set_EnableOrcRace_lbl" text="Orc Revizyonunu Etkinleştir" />
+    <string id="lh_set_EnableOrcRace_desc" text="Tüm ork ırkı değişikliklerimiz için ana kontrol. KAPALI konumu her ork yamasını ve davranışını kapatır, böylece yeşil deriler saf vanilla TOR mekaniklerini kullanır. Oyun yeniden başlatma gerektirir." />
+    <string id="lh_set_EnableChaosRace_lbl" text="Kaos Revizyonunu Etkinleştir" />
+    <string id="lh_set_EnableChaosRace_desc" text="Tüm Kaos ırkı değişikliklerimiz için ana kontrol. KAPALI konumu her kaos yamasını ve davranışını kapatır. Oyun yeniden başlatma gerektirir. Kapsar: taverna ve köylerde Kaos birimleri işe alma, karanlık fraksiyonlarla barış, dostane Cultist sığınakları, Kaos Hediyesi (dönüşüm) ve daha fazlası." />
+    <string id="lh_set_ChaosVassalageTributeRequired_lbl" text="Bağlılık için Haraç (altın)" />
+    <string id="lh_set_ChaosVassalageTributeRequired_desc" text="Bir Kaos Lordunun sizi bir bağlı olarak kabul etmesi için Tanrılara hediye olarak talep ettiği altın miktarı." />
+    <string id="lh_set_ChaosVassalageMinClanTier_lbl" text="Bağlılık için Min. Klan Seviyesi" />
+    <string id="lh_set_ChaosVassalageMinClanTier_desc" text="Bir Kaos Lordundan bağlılık talep etmek için gereken minimum oyuncu klan seviyesi." />
+    <string id="lh_set_ChaosDarkPactMinClanTier_lbl" text="Kaos Hediyesi için Min. Klan Seviyesi" />
+    <string id="lh_set_ChaosDarkPactMinClanTier_desc" text="Kaos kültürüne dönüşüm ritüelini gerçekleştirmek için gereken minimum oyuncu klan seviyesi." />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_lbl" text="Dönüşümde Beceri XP Artışı" />
+    <string id="lh_set_ChaosDarkPactSkillXpBoost_desc" text="Kaos Hediyesini kabul ettiğinde oyuncunun her bir savaş becerisinin kazandığı XP miktarı." />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_lbl" text="Günlük Cazibe İlerlemesi" />
+    <string id="lh_set_ChaosTemptingBaseProgressPerDay_desc" text="Esaret sırasında günde kaç puan cazibe ilerlemesi eklenir. Varsayılan 1.5, Hediye'ye yaklaşık 67 gün sürer." />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_lbl" text="Kaos Oyuncusu için Bonus" />
+    <string id="lh_set_ChaosTemptingChaosCultureBonus_desc" text="Oyuncu zaten kaos kültüründeyse (Hediye'den sonra) ilerleme çarpanı. Varsayılan 0.5 = +50%." />
+    <string id="lh_set_ChaosTemptingThreshold_lbl" text="Dönüşüm Eşiği" />
+    <string id="lh_set_ChaosTemptingThreshold_desc" text="Bir esirin Kaos Hediyesini kabul etmeye hazır olduğu ilerleme seviyesi. Varsayılan 100." />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_lbl" text="Önceki Dönüşüm Başına Ceza" />
+    <string id="lh_set_ChaosTemptingPerConversionPenalty_desc" text="Her zaten dönüştürülmüş lord oranı N kadar düşürür (zamanla zorlaşır). Varsayılan 0.10 = -10%." />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_lbl" text="Özgürken Günlük İlerleme Azalması" />
+    <string id="lh_set_ChaosTemptingDecayPerDayWhenFree_desc" text="Bir esir serbest bırakılırsa veya kaçar, ilerleme günde N kadar düşer. Varsayılan 5." />
+    <string id="lh_set_ChaosNorscanHPMult_lbl" text="Norscan Can Artışı" />
+    <string id="lh_set_ChaosNorscanHPMult_desc" text="Tüm Norscan birimleri için can çarpanı (kabilelişten şampiyona). Varsayılan 0.30 = +30%." />
+    <string id="lh_set_ChaosGorHPMult_lbl" text="Canavar Adamlar Gor Can Artışı" />
+    <string id="lh_set_ChaosGorHPMult_desc" text="Gor için can çarpanı (gor / foerender / manripper). Varsayılan 0.25 = +25%." />
+    <string id="lh_set_ChaosMinotaurHPMult_lbl" text="Minotaur Can Artışı" />
+    <string id="lh_set_ChaosMinotaurHPMult_desc" text="Minotavrlar için can çarpanı (kaynak: devasa bir yaratık). Varsayılan 0.50 = +50%." />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_lbl" text="+1 Parti Sınırı Başına Birlik" />
+    <string id="lh_set_ChaosFodderUnitsPerCapBonus_desc" text="Parti sınırına +1 eklemek için kaç Cultist veya Ungor gerekir (yem mekanik). Varsayılan 2." />
+    <string id="lh_set_ChaosMinotaurInjectChance_lbl" text="Minotaur İşe Alma Şansı (kale)" />
+    <string id="lh_set_ChaosMinotaurInjectChance_desc" text="Bir kale kasabasına ziyarette bir Minotaur'un 5. yuvaya enjekte edilme şansı. Varsayılan 0.20 = 20%." />
+    <string id="lh_set_ChaosUprisingCooldownDays_lbl" text="Kaos Ayaklanmaları Arası Bekleme Süresi (gün)" />
+    <string id="lh_set_ChaosUprisingCooldownDays_desc" text="Kaos Ayaklanmaları arasında kaç gün geçmesi gerekir. Vanilla TOR 126 gündür (yaklaşık 4 ay). Varsayılanımız 30'dur (yaklaşık 1 ay). Yeni bir kampanyada uygulanır: ilk ayaklanma bu kadar gün sonra gerçekleşir." />
+
+    <string id="lh_orc_appetite" text="Yeşilderi iştahı" />
+    <string id="lh_goblin_changer_hub_leave_p" text="Belki sonra, gobo." />
+    <string id="lh_goblin_changer_cooldown" text="Eh patronosh, dün vermiştim ya! {DAYS} gün sonra gel, daha kazmam lazım, anladıv mı?" />
+    <string id="lh_goblin_changer_hub_no_gold_p" text="Şu an o kadar parlağım yok." />
+    <string id="lh_goblin_changer_intro" text="Hey PATRONOSH! Senin parlaklara karşı dişlerim var, takas, ha? Hihi!" />
+    <string id="lh_goblin_changer_after_no_gold" text="He-he! Parlak yoksa diş de yok. Önce insancıkları yolmaya git, ha?" />
+    <string id="lh_goblin_changer_hub_trade" text="Takas: 1000 parlağa {AMOUNT} diş ver." />
+    <string id="lh_goblin_changer_after_trade" text="*Goblin {NOMINAL} dişi sayar, {HIDDEN} parayı sinsice yan cebine kaydırır.* İş iştir, PATRONOSH!" />
+    <string id="lh_goblin_changer_town_ok" text="Çekil" />
+    <string id="lh_goblin_changer_town_title" text="Goblin Sarraf" />
+    <string id="lh_goblin_changer_town_outcome" text="*Goblin taverna masasında {NOMINAL} dişi sayar, hızlıca {HIDDEN} parayı kemerindeki keseye kaydırır ve geri kalanı sana doğru iter.* İş iştir, PATRONOSH!" />
+    <string id="lh_goblin_changer_town_intro" text="*Köşe masada kurnaz bir goblin sana el sallıyor, küçük paraları parmaklıyor. Fısıldıyor:* Hey PATRONOSH! Senin parlaklara karşı dişlerim var. 1000 parlak — {NOMINAL} sayarım. {HIDDEN} parayı yan cebime kaydırır mıyım? Olabilir... Takas mı?" />
+    <string id="lh_goblin_changer_town_cancel" text="Belki sonra" />
+    <string id="lh_goblin_changer_town_option" text="Tavernadaki goblin sarrafla konuş" />
+    <string id="lh_goblin_changer_town_no_gold" text="*Köşedeki bir goblin kesene koklayıp burnunu kıvırıyor.* He-he! Parlak yoksa diş de yok. Önce insancıkları yolmaya git, ha?" />
+    <string id="lh_goblin_changer_town_trade" text="Takas" />
+    <string id="lh_goblin_changer_town_cooldown" text="*Tavernanın köşesindeki bir goblin sana şüpheyle bakıp arkasını dönüyor.* Eh patron, birkaç gün önce vermiştim! {DAYS} gün sonra gel, anladıv mı?" />
+    <string id="lh_goblin_changer_intro_town" text="Selamz, PATRONOSH! Boyz izliyor ki burda dürüst takas yapıyom — düzenbazlık yok. Parlaklarını dişe takas mı?" />
+    <string id="lh_goblin_changer_after_town_trade" text="*Goblin tam {AMOUNT} dişi avucuna sayar — temiz ve dürüst, boyz izliyor.* Başka şey var mı, PATRONOSH?" />
+    <string id="lh_goblin_changer_village_trade" text="Takas: 1000 parlağa {AMOUNT} diş ver." />
+    <string id="lh_goblin_changer_intro_village" text="Hey PATRONOSH! Senin parlaklara karşı dişlerim var, takas, ha? Hihi!" />
+    <string id="lh_goblin_changer_town_out_of_stock_p" text="Eee, takas mı?" />
+    <string id="lh_goblin_changer_town_after_out_of_stock" text="Üzgünüm patron, bugünlük diş kalmadı. Yarın gel, boyz'dan daha kazıp gelirim, ha?" />
+    <string id="lh_set_race_common" text="Genel" />
+    <string id="lh_set_tab_general" text="Genel" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_lbl" text="Sana karşı düşman ork gücü (otomatik çözüm)" />
+    <string id="lh_set_MilPowerOrcVsPlayerCombat_desc" text="Otomatik çözümde SANA karşı savaşan orkların savaş gücü. Savaş artışı otomatik çözümde de geçerlidir, ancak düşman orklar için canlı savaştaki zayıflatma geçerli DEĞİLDİR — bu yüzden küçük bir ork ordusu otomatikte senin büyük ordunu yenebiliyordu. Varsayılan 1,4 = orklar orijinalden biraz daha korkutucu, ama yine de sayılar kazanır (190 ork x1,4 = 266 &lt; senin 540). 1,0 = saf orijinal. Düşman orkları otomatik çözümde daha tehlikeli yapmak için yükselt. YZ&apos;ye karşı YZ savaşlarını etkilemez." />
+    <string id="lh_set_ExtraCompanionSlots_lbl" text="Ek yoldaş yuvaları" />
+    <string id="lh_set_ExtraCompanionSlots_desc" text="SENİN klanın için orijinal sınırın üzerine ek yoldaş (gezgin) yuvaları. 0 = orijinal. Örnek: 10, klan kademenin normalde izin verdiğinden 10 yoldaş fazla tutmanı sağlar. Yalnızca oyuncu klanına uygulanır." />
+    <string id="lh_chaos_exec_reward" text="Karanlık Tanrılar kurbanın tadını çıkarıyor. +{DE} Karanlık Enerji." />
+    <string id="lh_chaos_tempt_popup_title" text="Baştan çıkarma tamamlandı" />
+    <string id="lh_chaos_tempt_popup_body" text="{HERO} esarette kırıldı ve Kaos&apos;un Armağanı&apos;nı kabule hazır. Onu dönüştürüp saflarına alacak mısın?" />
+    <string id="lh_chaos_tempt_popup_yes" text="Dönüştür" />
+    <string id="lh_chaos_tempt_popup_no" text="Henüz değil" />
+    <string id="lh_chaos_upgrade_de" text="{COUNT}× {NAME} için -{DE} Karanlık Enerji." />
+    <string id="lh_ungor_pierce_arrows" text="Ungor dikenli okları" />
+    <string id="str_tor_chaos_norscan_reaver" text="Norscalı Avcı" />
+    <string id="str_tor_chaos_norscan_champion" text="Norscalı Cengâver" />
+    <string id="lh_norscan_savage" text="Norscalı Vahşi" />
+    <string id="lh_norscan_warrior" text="Norscalı Savaşçı" />
+    <string id="lh_norscan_thrower" text="Norscalı Atıcı" />
+    <string id="lh_norscan_champion_thrower" text="Norscalı Şampiyon Atıcı" />
+    <string id="lh_norscan_rider" text="Norscalı Süvari" />
+    <string id="lh_chaos_battle_thanks" text="Kaos müttefikleri savaştaki yardımından memnun." />
+    <string id="lh_chaos_tempt_offer" text="Tanrılar adını fısıldıyor. Kaos&apos;un Armağanı&apos;nı kabul et, seni bir kardeş olarak salıvereyim." />
+    <string id="lh_chaos_tempt_accept_line" text="...Evet. Onları duyuyorum. Artık karşı koyamam. Yeminimi al — seninim." />
+    <string id="lh_chaos_tempt_success" text="Lord, Kaos&apos;un Armağanı&apos;nı kabul edip senin tarafına geçiyor." />
+    <string id="lh_chaos_darkpact_request" text="Beni de sizden biri yap." />
+    <string id="lh_chaos_darkpact_response_lord" text="Bu ayin geri döndürülemez. Ölümlü doğan ölecek. Hazır mısın?" />
+    <string id="lh_chaos_darkpact_accept_p" text="Hazırım." />
+    <string id="lh_chaos_darkpact_decline_p" text="Bunu düşünmem gerek." />
+    <string id="lh_chaos_darkpact_chaos_flesh_lord" text="Oldu bitti. Artık Gerçek Yol&apos;un bir parçasısın." />
+    <string id="lh_chaos_darkpact_message" text="Ayin tamamlandı. Sen ve klanın artık Kaos&apos;a aitsiniz:\n- tımarlarında Kaos birlikleri toplayabilirsin;\n- yerleşimlerin artık yabancı kültür yüzünden sadakat kaybetmiyor;\n- Kaos&apos;un hizmetkârları seni artık yabancı görmüyor;\n- Tanrılar ham savaş gücü bağışlar (silah ve atletizm becerilerin fırlar).\nÖlümlü gözlere bedenin değişmedi - Kaos&apos;un mührü ruhunda." />
+    <string id="lh_chaos_darkpact_title" text="Kaos&apos;un Armağanı kabul edildi" />
+    <string id="lh_continue" text="Devam et" />
+    <string id="lh_chaos_encounter_talk" text="Konuş (ikimiz de Tanrıların bakışı altındayız)" />
+    <string id="lh_chaos_lord_peaceful_intro" text="Seni topraklarımıza ne getirdi, ölümlü? Çabuk konuş — Tanrılar boş sözlerden hoşlanmaz." />
+    <string id="lh_chaos_lord_vassal_offer" text="Karanlık Tanrılar&apos;a hizmet etmek istiyorum." />
+    <string id="lh_chaos_lord_nolands" text="Henüz hiç toprağımız yok, ölümlü — seni alacak bir yer yok. Tanrılar bize bir kale bahşettiğinde geri dön." />
+    <string id="lh_chaos_hire_merc" text="Tahtıma paralı asker olarak hizmet et." />
+    <string id="lh_chaos_hire_merc_accept" text="Tanrılar altınına lütufkâr. Kılıçlarımız senindir, lordum." />
+    <string id="lh_chaos_lord_ask_leader" text="Efendin şu an nerede?" />
+    <string id="lh_chaos_lord_subordinate_response" text="Efendim {LEADER_LOC}. Ben yalnızca onun eliyim." />
+    <string id="lh_chaos_lord_leave" text="Sadece geçiyordum." />
+    <string id="lh_chaos_hideout_pass_peace" text="Barışça geç (Karanlık Tanrılar kanını duyuyor)" />
+    <string id="lh_chaos_hideout_recruit" text="Kaos&apos;un hizmetkârlarını inden çağır" />
+    <string id="lh_chaos_portal_peace" text="Geçidin önünde eğil ve barışça geç" />
+    <string id="lh_chaos_portal_recruit" text="Kaos&apos;un Seçilmişleri&apos;ni geçitten çağır" />
+    <string id="lh_chaos_recruit_cd" text="Burası henüz gücünü toplamadı. Sonra geri dön." />
+    <string id="lh_chaos_recruit_nogold" text="Adak için yeterli altın yok." />
+    <string id="lh_chaos_portal_got" text="{NAME} geçitten beliriyor." />
+    <string id="lh_chaos_vassal_offer" text="Karanlık Tanrılar&apos;a hizmet etmek istiyorum." />
+    <string id="lh_chaos_vassal_response_lord" text="Hah! Bana {VASSAL_GOLD} altın getir, yeminini kabul edeyim." />
+    <string id="lh_chaos_vassal_pay_p" text="İşte altın." />
+    <string id="lh_chaos_vassal_no_gold_p" text="O kadarı bende yok." />
+    <string id="lh_chaos_vassal_decline_p" text="Bunu düşüneceğim." />
+    <string id="lh_chaos_vassal_accepted_lord" text="Mükemmel! Tanrılar yeminini kabul ediyor." />
+    <string id="lh_chaos_vassal_rejected_lord" text="Hazır olduğunda geri dön." />
+    <string id="lh_chaos_vassal_join_flavor" text="Kaos lordları yeni hizmetkârlarını bir akıncı teçhizatıyla donatır — bir kuzey baltası, kalkan ve kürkler artık envanterinde. Bunları kuşan (I&apos;ye bas). Karanlık Tanrılar&apos;ın kutsanmış savaş teçhizatı kanla kazanılır, sınanmamışlara verilmez." />
+    <string id="lh_darkenergy_desc" text="Karanlık Enerji, yasak kültlerin mistik gücüdür. Nekromanslar onu ölüleri diriltmek ve hortlakları ayakta tutmak için kullanır. Karanlık Tanrılar&apos;ın hizmetkârları, silahları büyülemek ve seçilmiş savaşçıları eğitmek için ondan beslenir. Kaynaklar: dökülen kan, kirletilmiş güç mekânları, karanlık ayinler." />
+    <string id="lh_chaos_wand_intro" text="Ne istiyorsun, ölümlü?" />
+    <string id="lh_chaos_wand_tellme" text="Kendinden bahset, yolcu." />
+    <string id="lh_chaos_wand_skip" text="İşe geçelim. Sana bir iş var." />
+    <string id="lh_chaos_wand_hire" text="Yeteneklerine ihtiyacım var. Benimle gelir misin?" />
+    <string id="lh_chaos_fodder_partysize" text="Kaos&apos;un top yemi" />
+    <string id="lh_enc_menu_button" text="Lore-Hardcore Rehberi" />
+    <string id="lh_enc_race_orc" text="Orklar" />
+    <string id="lh_enc_race_chaos" text="Kaos" />
+    <string id="lh_enc_orc_overview_t" text="Ork Yenilemesi — Genel Bakış" />
+    <string id="lh_enc_orc_overview_b" text="Lore-Hardcore, Yeşilderilileri bir top yemi sürüsünden gerçek bir Warhammer hizbine dönüştürür.\n\nTemel fikirler:\n- Orklar dayanıklıdır ve sert vurur, ama sahaya sürmesi PAHALIDIR ve yavaş büyürler, böylece harita asla bedava orklarla dolup taşmaz.\n- Orklar altına saygı duymaz. Ork topraklarında «diş»le ödersin; bu, savaşarak kazandığın bir para birimidir (bkz. Diş Ekonomisi bölümü).\n- Seçkin orklar (Kara Orklar, Patronlar, Koca Orklar) korkusuz ve gaddardır, ama YZ&apos;nin çığ gibi büyümesini önlemek için sayıları sınırlıdır.\n- Pek çok küçük atmosfer sistemi: yürüyüşte yamyamlık, kavga arenası, kale düelloları, yeniden tasarlanmış kuşatma koçbaşı ve bir ork kariyeri.\n\nSoldaki her başlık bir sistemi anlatır: ne yaptığını, neden var olduğunu ve nasıl kullanılacağını. Daha önce hiç Yeşilderili oynamadıysan, önce «Diş Ekonomisi» ve «Kariyer»i oku." />
+    <string id="lh_enc_orc_teef_t" text="Diş Ekonomisi (Dişler)" />
+    <string id="lh_enc_orc_teef_b" text="Ork ve goblin kahramanlar için Diş Ekonomisi HER ZAMAN açıktır. Kurulum diyaloğu da oyun ortasında geçiş de yoktur. İnsanlar, cüceler ve vampirler altını normal şekilde kullanmaya devam eder.\n\nBir ork oynadığında:\n- Ork yerleşimlerinde neredeyse her şey için altın yerine DİŞ ödersin (seçkin ork toplama, düellolar, kavga).\n- Ork toprakları dışında sıradan hizmetler için yine altın ödersin.\n- Goblinler hâlâ altınla tutulur (ucuz ayaktakımı).\n\nDiş NASIL kazanılır:\n- Savaşta sağlam düşmanları yere serme (4. kademe ve üzeri).\n- Düşman lordları öldürme.\n- Kavgaları ve kale düellolarını kazanma.\n- Sahip olduğun her ork şehri veya kalesinden günlük haraç.\n\nNeden var: Warhammer&apos;da orklar dişleri tam anlamıyla para olarak kullanır — altın onlar için önemsizdir. Ekonomi YZ&apos;yi de dizginler: ork lordlar klanından altın çekmez (ücret morali cezası bastırılır, çünkü onlara aslında hiç ödeme yapmazsın) ve günlük diş geliri sınırlıdır, böylece YZ savaş ağaları sonsuz bir seçkin ordu satın alamaz." />
+    <string id="lh_enc_orc_career_t" text="Kariyer: Kabadayı ve Şaman" />
+    <string id="lh_enc_orc_career_b" text="Bir ork kahraman, karakter oluştururken iki kariyer yolundan birini seçer.\n\nKabadayı Yolu (Patron olur): savaşarak büyüyen bir yakın dövüş ezicisi — silah becerileri, savaşlar, turnuvalar, kavgalar ve kazanılan dişler.\n\nŞaman Yolu: inanç ve büyüyle büyüyen bir büyücü — Büyücülük, İnanç, büyülemeler, dişler ve yağmalanan tapınaklar.\n\nLore-Hardcore, ork kariyerinin normal bir oyunda gerçekten ulaşılabilir olması için TOR&apos;un orijinal kariyer gereksinimlerini DÜŞÜRÜR. Kabaca:\n- Patron 2. kademe: silah becerileri ~80/80/30, 30 savaş, 5 turnuva, 10 kavga, 2000 diş.\n- Patron 3. kademe: ~150/120/60, 70 savaş, 15 turnuva, 20 kavga, 5 lord düellosu, 5 alınan şehir, 10000 diş.\n- Şaman 2. kademe: bir tapınakta dua, Büyücülük 50, İnanç 50, 3 büyüleme, 2000 diş, 5 yağmalanan tapınak.\n- Şaman 3. kademe: Büyücülük 120, İnanç 100, 8 büyüleme, 10000 diş, 5 şehir, 30 tapınak.\n\nKavga arenası ve kale düelloları kısmen bu hedefleri işaretlemene yardım etmek için vardır." />
+    <string id="lh_enc_orc_morale_t" text="Moral ve WAAAGH!" />
+    <string id="lh_enc_orc_morale_b" text="Ork savaşı ve YZ davranışı, Yeşilderililer tüm haritayı fethetmeden tehlikeli hissettirsin diye yeniden dengelendi.\n\nSavaş alanında:\n- Ork lordlar temelde yaklaşık +40% CP ve savaş becerilerine +30% kazanır.\n- Seçkin orklar (Kara Ork, Patron, Berzerka, Koca Ork) KORKUSUZDUR ve asla paniğe kapılmaz.\n- Yığınla ork bir dövüşe akın ettikçe bir WAAAGH! moral bonusu birikir.\n\nYZ çığ gibi büyümesin diye:\n- YZ ork lordların müfreze boyutuna yumuşak bir tavan (varsayılan yaklaşık 80; ayarlardan değiştirilebilir).\n- Bir mareşalin ordusu yalnızca bir avuç müfreze tutar, böylece orklar 3000 yerine 400-500&apos;lük savaş bölükleriyle saldırır.\n- YZ&apos;nin güç tahmini orkları, goblinleri ve büyük canavarları gerçek ağırlıklarıyla sayar, böylece imparatorluk lordları bir ork tehdidini doğru değerlendirir ve kendilerini boşa harcamaz.\n\nKendi müfrezen normal orijinal boyut sınırlarını kullanır — bu tavanlar YZ içindir." />
+    <string id="lh_enc_orc_challenge_t" text="Kale Düellosu" />
+    <string id="lh_enc_orc_challenge_b" text="Bir ork kalesini ziyaret et ve onun seçkin orklarından birini diş bahsiyle teke tek düelloya davet edebilirsin.\n\n- Galibiyet: yenilen seçkin, ganimet birimi olarak müfrezene katılır ve diş kazanırsın.\n- Mağlubiyet: bahsin yanar ve kaledeki itibarın bir süre düşer.\n\nDövüş, bir kale sahnesinde gerçek bir 1&apos;e 1&apos;dir — elinden gelenin en iyisini yap. Hangi seçkinlerin sunulacağı kaleye bağlıdır (Koca Ork, Patron, Kara Ork, Vahşi, Berzerka) ve daha sağlam düşmanlar daha yüksek bahse mal olur. Bir seçkin birim kazanmanın ve ork kariyerinin düello hedefini tamamlamanın hızlı bir yoludur." />
+    <string id="lh_enc_orc_sieges_t" text="Kuşatmalar ve Koçbaşı" />
+    <string id="lh_enc_orc_sieges_b" text="Orklar, medeni hizipler gibi kuşatma yapmaz.\n\n- Orklar mancınık (trebuşet) İNŞA ETMEZ — ince mühendislik için sabırları yoktur. Balista, mancınık ve katapult kullanırlar (ateşli türler dahil).\n- Koçbaşıları büyük ölçüde güçlendirilmiştir: çok daha sert vurur ve çok daha uzun dayanır, böylece kapılar düzinelerce yerine bir avuç darbede düşer.\n- Otomatik çözüm de aynı koçbaşı güçlendirmesini alır, böylece bir ork kuşatması, izlesen de izlemesen de hızla sonuçlanır.\n\nFikir, yavaş bir topçu düellosu değil, gaddar, hızlı bir «kapıyı kır» ork saldırısıdır." />
+    <string id="lh_enc_orc_cannibalism_t" text="Esir Yamyamlığı" />
+    <string id="lh_enc_orc_cannibalism_b" text="Orklar ganimet ekranında esirleri DOĞRAMAZ. Et YALNIZCA yürüyüşteki açlıktan gelir.\n\nBir savaştan sonra esirleri doğramaktan veya otomatik ganimetten sıfır et alırsın — bu yol oyuncu için bilerek kapatılmıştır.\n\nEsirlerden et almanın tek yolu: esir al, erzakın bitsin ve yürümeye devam et. Kileri boş her saat müfrezen bir boğaz yer:\n1. Önce esirler (her biri 1 et verir).\n2. Sonra goblinler (her biri 1 et verir).\n3. Lordlar ve yoldaşlar ASLA yenmez — bir lord fidye değerindedir, bir yoldaş senin hikâyenin parçasıdır.\n\nLore: orklar esirleri yolda diri diri yutar, bir kasap kütüğünde derli toplu değil. YZ ork müfrezeleri, sefer boyunca açlıktan ölmesinler diye orijinal savaş-eti&apos;ni korur." />
+    <string id="lh_enc_orc_brawl_t" text="Yeşilderili Kavga Arenası" />
+    <string id="lh_enc_orc_brawl_b" text="Kavga, ork yerleşimlerinde bulunan bir yumruk dövüşü arenasıdır.\n\n- Maç başına yaklaşık 18 düşman.\n- Ödülün, kişisel olarak kaç kişiyi yere serdiğine göre artar.\n- Sınırların dışına çıkan düşmanlar otomatik olarak işini bitirilir, böylece bir maç takılıp kalmaz.\n\nTek El&apos;i geliştirmek, diş kazanmak ve ork kariyerinin kavga hedefini işaretlemek için harika bir yer. Fethedilmiş ork olmayan şehirlerde, eski makinelerde grafik hatalarını önlemek için arenanın atmosfer efektleri bastırılır." />
+    <string id="lh_enc_chaos_overview_t" text="Kaos Nedir" />
+    <string id="lh_enc_chaos_overview_b" text="Kaos, karanlık güçler hizbinin yenilemesidir: kuzeyin dört Karanlık Tanrısı&apos;na hizmet eden savaşçılar, hayvanlar ve kültistler. Norscalı kabileleri, hayvan-adamları (Gor, Ungor, Minotorlar), Kaos Savaşçıları&apos;nı ve medeni topraklarda gizlice ibadet eden saklı kültleri bir araya getirir.\n\nKaos bir BETA özelliğidir ve varsayılan olarak KAPALIDIR. Ayarlardaki «Kaos yenilemesini etkinleştir» ana anahtarıyla aç (oyunu yeniden başlatmak gerekir). Kapalıyken, Yeşilderililer ve herkes normal davranır ve aşağıdaki sistemlerin hiçbiri geçerli olmaz.\n\nKaos&apos;la iki şekilde ilgilenebilirsin:\n1. Onunla savaş — Kaos tüm dünyayla savaş hâlindedir. İstilalara ve kült ayaklanmalarına karşı dur.\n2. Ona katıl — Karanlık Tanrılar&apos;ın bir hizmetkârı ol: Kaos&apos;un Armağanı&apos;nı al, bir Kaos lorduna hizmet et, karanlık birlikler topla ve esir aldığın lordları kendi tarafına çevir.\n\nBu rehber, adım adım, nasıl bir Kaos oyuncusu olacağını ve beraberinde gelen her sistemi anlatır. «Başlangıç / Katılma» ile başla ve listeyi aşağı doğru oku." />
+    <string id="lh_enc_chaos_joining_t" text="Başlangıç / Katılma" />
+    <string id="lh_enc_chaos_joining_b" text="Kaos olarak başlamazsın — düşmeyi sen seçersin.\n\nAğıla iki yol vardır:\n\n1) Bir Kaos lorduna vasal ol.\n- BAĞIMSIZ bir klanken (kendi krallığın yokken ve kimseye yemin etmemişken) Kaos&apos;la kalıcı bir savaşa zorlanmazsın, böylece gerçekten bir Kaos lorduna yaklaşıp konuşabilirsin.\n- Kültürü Kaos olan bir lord bul, diyaloğu aç ve «Karanlık Tanrılar&apos;a hizmet etmek istiyorum» seçeneğini seç.\n- Tanrılara bir adak olarak altın haraç ister. Öde, krallığına vasal olarak katılırsın. Miktar ve asgari klan kademesi ayarlardan belirlenir.\n\n2) Kendi kahramanını ve klanını kaos kültürüne çevirmek için Kaos&apos;un Armağanı&apos;nı doğrudan al (bkz. sonraki bölüm).\n\nÖnemli: bir Kaos krallığına ait olduğun an, tüm dünya seninle savaş hâlindedir — bu kasıtlıdır (bkz. «Savaş ve Diplomasi»). Yemin etmeden önce bu savaşa hazır olduğundan emin ol." />
+    <string id="lh_enc_chaos_gift_t" text="Kaos&apos;un Armağanı" />
+    <string id="lh_enc_chaos_gift_b" text="Kaos&apos;un Armağanı, kahramanını — ve tüm klanını — kaos kültürüne çeviren bir ayindir. Karanlık Tanrılar&apos;a derin adanmadır.\n\nNe yapar:\n- Kahramanının kültürünü kaosa ve, kritik olarak, KLANININ kültürünü de değiştirir. Bu önemlidir: yalnızca kahraman değişseydi, tımarların bir sadakat uyumsuzluğu yaşardı. Kaos yerleşimleri sana sadık kalsın diye ikisi de çevrilir.\n- Oyunun desteklediği yerlerde görünüşünü kaos dokunmuş bir hâle doğru değiştirmeye çalışır.\n- Tanrıların yeni inananlara akıttığı ham gücü yansıtan bir savaş deneyimi patlaması verir.\n\nNasıl alınır: diyalogda bir Kaos lordundan seni «onlardan biri yapmasını» iste (asgari bir klan kademesi geçerlidir, ayarlardan belirlenir). Dönüşüm kalıcıdır.\n\nArmağan&apos;dan sonra kaos topraklarında serbestçe karanlık birlik toplayabilir, kültist inlerinden barışça geçebilir ve Karanlık Enerji üretmeye başlarsın." />
+    <string id="lh_enc_chaos_darkenergy_t" text="Karanlık Enerji" />
+    <string id="lh_enc_chaos_darkenergy_b" text="Karanlık Enerji, Kaos oyuncusunun kaynağıdır — Karanlık Tanrılar&apos;ın açığa çıkmış lütfu. Orkların dişleri ya da vampirlerin rüzgârları gibi çalışır: yalnızca senin hizbinin kullandığı özel bir para birimi.\n\nNasıl KAZANILIR:\n- Esirleri infazla kurban etme (Tanrılar adağın tadını çıkarır).\n- Hizip büyüdükçe başka karanlık işler.\n\nNeye HARCANIR:\n- Seçkin Kaos birliklerini yükseltmeye. Bir birimi gerçek bir Kaos seçkinine terfi ettirmek, normal yükseltmenin üzerine Karanlık Enerji&apos;ye mal olur. Gücün yetmezse, yeterince biriktirene dek yükseltme arayüzde engellenir — böylece borca giremezsin.\n\nKaranlık Enerji asla sıfırın altına düşmez ve onu yalnızca Kaos&apos;la hizalandığında görürsün. Onu Tanrıların en iyi şampiyonları için aldığı bedel olarak düşün: büyümek için onları beslemeyi sürdürmelisin." />
+    <string id="lh_enc_chaos_troops_t" text="Kaos Birlikleri" />
+    <string id="lh_enc_chaos_troops_b" text="Kaos orduları ucuz top yemini korkunç seçkinlerle harmanlar.\n\nKadro, kabaca en zayıftan en güçlüye:\n- Kültistler ve Çömezler — insan fanatikleri, saf top yemi.\n- Ungorlar — daha küçük hayvan-adamlar, onlar da top yemi.\n- Norscalı kabileler ve şampiyonları — kuzeyin insan savaşçıları. Lore&apos;un gerektirdiği gibi, bir Norscalı sıradan bir insandan daha sağlam olsun diye CP bonusu aldılar.\n- Gorlar ve seçkinleri — daha büyük hayvan-adamlar, Norscalılardan yüksek bir CP bonusuyla.\n- Kaos Savaşçıları — Karanlık Tanrılar&apos;ın zırhlı şampiyonları.\n- Minotorlar — hepsinin en büyük CP bonusuna sahip devasa canavarlar.\n\nTop yemi mekaniği: Kültistler ve Ungorlar müfrezende DAHA AZ yer kaplar. Taşıdığın her çift top yemi birimi için müfreze sınırın bir artar — tıpkı vampir hizbinin küçük hortlakları gibi. Bu, ucuz ayaktakımını değerli müfreze yuvalarını ziyan etmeden oynanabilir tutar.\n\nFarklı bir denge istersen tüm CP bonusları ayarlardan değiştirilebilir." />
+    <string id="lh_enc_chaos_recruiting_t" text="Kaos Birlikleri Toplama" />
+    <string id="lh_enc_chaos_recruiting_b" text="Kaos&apos;la hizalandığında (vasal/kral ya da kaos kültüründen) karanlık ordular toplamanın birkaç yolunu kazanırsın. Bir yabancı olarak bunların hiçbirini yapamazsın — kültler yalnızca inananlara açılır.\n\nToplama yolları:\n- Yerleşimler: kaosla hizalı şehir, kale ve köylerdeki ileri gelenler, normal acemiler yerine karanlık gönüllüler sunar. Kale bölgeleri seçkin savaşçılara meyleder; şehirler araya top yemi katar.\n- Kültist ve hayvan-adam İNLERİ (orman ve bozkır kültlerinin haydut tarzı sığınakları): onlarla savaşmak yerine barışça geçebilir, hatta altın karşılığı hizmetkârlarını çağırabilirsin. Bir bekleme süresi vardır, böylece bir ini sonsuza dek sömüremezsin.\n- Kaos GEÇİTLERİ: eğilip geçebileceğin ya da bir bedel karşılığı Kaos&apos;un Seçilmişleri&apos;ni — seçkinlerin seçkinini — çağırabileceğin özel mekânlar.\n- Bir kaos kalesini ziyaret ettiğinde Minotorlar nadir bir toplama yuvası olarak belirir.\n\nBir mekânın hangi top yemini sunduğu kültürüne bağlıdır (bozkır inleri Ungor, orman kültleri Kültist verir)." />
+    <string id="lh_enc_chaos_tempting_t" text="Esirleri Baştan Çıkarma" />
+    <string id="lh_enc_chaos_tempting_b" text="Bir Kaos oyuncusu olarak, esir aldığın lordları yozlaştırabilir, düşman soyluları yalnızca fidyeye bağlamak yerine Karanlık Tanrılar&apos;ın hizmetkârlarına çevirebilirsin.\n\nNasıl çalışır:\n- Bir düşman lordu esir tut. Zindanındaki her gün, Tanrılar ona fısıldadıkça «baştan çıkarma» ilerlemesi ekler.\n- İlerleme eşiği aştığında, esir Kaos&apos;un Armağanı&apos;nı kabule hazırdır. Onu dönüştürme seçeneği elde edersin — kırılır ve senin tarafına geçer.\n- Esir serbest bırakılır ya da kaçarsa, ilerlemesi azalır.\n- Zaten dönüştürdüğün her lord bir sonrakini biraz daha zorlaştırır, böylece tüm dünyayı sonsuza dek toplu hâlde dönüştüremezsin.\n\nTüm sayılar — gün başına ilerleme, eşik, dönüşüm başına ceza, azalma oranı ve zaten kaos kültüründensen bir bonus — ayarlardan değiştirilebilir. Varsayılan olarak bir lordu çevirmek birkaç ay esaret alır." />
+    <string id="lh_enc_chaos_vassalage_t" text="Vasallık ve Ödüller" />
+    <string id="lh_enc_chaos_vassalage_b" text="Kendini bir Kaos krallığına adadığında eli boş gönderilmezsin — Karanlık Tanrılar yeni şampiyonlarını donatır.\n\nBir Kaos krallığına katılırken kahramanına başlangıç Kaos teçhizatı verilir: dört tanrının (Khorne, Nurgle, Tzeentch, Slaanesh) temasındaki zırh, miğferler ve silahlar; ayrıca evrensel Kaos Savaşçısı parçaları ve bir binek. Hangi takımı istersen kuşan.\n\nKaos&apos;a hizmet ilişkilerini de değiştirir — karanlık lordlar seni akraba gibi karşılar, medeni dünya ise sana sırt çevirir.\n\nBu ödül bir kez verilir, klanın bir kaos kültürü krallığına ilk katıldığında. Eşyalar bir şekilde görünmezse, sorun görünür olsun diye mod başlangıçta bir uyarı kaydeder (oyun yüklenirken her teçhizat kimliğini denetler)." />
+    <string id="lh_enc_chaos_uprisings_t" text="Kaos Ayaklanmaları" />
+    <string id="lh_enc_chaos_uprisings_b" text="Kaos yerinde durmaz. Belli aralıklarla bir Kaos Ayaklanması patlak verir — medeni diyarları tehdit etmek için haritaya fışkıran bir karanlık güç dalgası.\n\nOrijinal TOR&apos;da ilk ayaklanma çok uzaktadır (yaklaşık 126 gün). Lore-Hardcore arayı kısaltır (varsayılan yaklaşık 30 gün, ayarlardan belirlenir), böylece Kaos çok daha erken yaşayan bir tehdit hâline gelir ve dünya gerçek bir baskı altında hissettirir.\n\nBekleme süresi yeni bir seferin başından itibaren geçerlidir: ilk ayaklanma seçtiğin gün sayısından sonra olur ve o sayaca göre tekrarlanır. Kaos&apos;un musallat olduğu çılgın bir dünya için düşür; daha yavaş bir yanış için yükselt." />
+    <string id="lh_enc_chaos_war_t" text="Savaş ve Diplomasi" />
+    <string id="lh_enc_chaos_war_b" text="Katılmadan önce anlaman gereken en önemli şey: TÜM dünya Kaos&apos;la savaş hâlindedir ve bir Kaos krallığına ait olduğun an, bu, tüm dünyanın SENINLE savaş hâlinde olması demektir.\n\nBu kasıtlıdır. Kaos, her medeni hizbin büyük düşmanıdır — Karanlık Tanrılar&apos;ın yeminli bir hizmetkârı olarak kalıcı barış mümkün değildir. Her yönden saldırı bekle.\n\nTek istisna katılmadan ÖNCE&apos;dir: hâlâ krallığı olmayan bağımsız bir klanken, mod seni Kaos&apos;la savaşa zorlamaz. İşte bu pencere, bir Kaos lorduna gidip katılımını pazarlık etmene olanak tanır. Yemin ettiğin an eldivenler çıkar ve dünya sana karşı birleşir.\n\nBuna göre planla: bu adımı atmadan önce güçlü, kendi kendine yeten bir karanlık ordu kur (sayı için top yemi, vuruş için seçkinler ve canavarlar), çünkü herkese karşı savaşacaksın." />
+    <string id="lh_ck_challenge" text="Kaos tahtı en güçlünündür. Seni dövüşe çağırıyorum!" />
+    <string id="lh_ck_resp_lord" text="Küstah ölümlü! Öyle olsun — Tanrılar kana susadı. Surların dışında, açık arazide karşıma çık. Hazır olduğunda gel — birimiz gün batımını göremeyecek." />
+    <string id="lh_ck_accept_p" text="Bu taht benim olacak." />
+    <string id="lh_ck_decline_p" text="Henüz değil." />
+    <string id="lh_ck_disgraced_p" text="Seni yeniden meydan okuyorum!" />
+    <string id="lh_ck_taunt_lord" text="Kaderini çoktan denedin ve yere serildin, zavallı solucan! Karanlık Tanrılar hilenı görüyor — işte cezan." />
+    <string id="lh_ck_load_penalty" text="Karanlık Tanrılar korkaktan yüz çevirdi: Kaos Şanın soluyor." />
+    <string id="lh_ck_wound" text="Tanrılar küstahlığını cezalandırdı. Yaralarını iyileştir ve tahta layık olduğunu kanıtla." />
+    <string id="lh_ck_defeat" text="Kaos Kralı seni yere serer. Onu yeniden zorlamak için {DAYS} gün sonra dön." />
+    <string id="lh_ck_victory" text="Kaos Kralı&apos;nın ölü ellerinden tahtı çekip aldın! Karanlık Tanrılar yeni bir efendiyi tanıyor. Krallık senindir." />
+    <string id="lh_ck_victory_title" text="Gaspçı tahta çıkıyor" />
+    <string id="lh_ck_eligible" text="Karanlık Tanrılar gözlerini sana dikti! Kaos Kralı'nı — bir Kaos krallığının hükümdarını — bul, onunla konuş ve tahtı için ona meydan oku." />
+    <string id="lh_ck_bar_legend" text="Kaos Şanı" />
+    <string id="lh_ck_bar_ready" text="Meydan okuma hazır" />
+    <string id="lh_ck_bar_disgrace" text="Gözden düşmüş" />
+    <string id="lh_cw_bs_a" text="Karanlık Tanrılar adına uzun bir yol yürüdüm." />
+    <string id="lh_cw_bs_b" text="Kan ve şan — artık önemli olan tek şey bu." />
+    <string id="lh_cw_bs_c" text="Zayıflar hizmet eder, güçlüler hükmeder. Sen hangisisin?" />
+    <string id="lh_cw_bs_d" text="Yeter konuşma. Senin için savaşırım — doğru bedele." />
+    <string id="lh_cw_resp1" text="Güce saygı duyarım. Daha fazlasını anlat." />
+    <string id="lh_cw_resp2" text="Hikâyeleri bana sakla. İşe koyulalım." />
+    <string id="lh_cw_leave" text="Başka zaman o halde." />
+    <string id="lh_cw_pay" text="Kılıcım senindir — {GOLD_AMOUNT} karşılığında." />
+    <string id="lh_cw_accept" text="Anlaştık. {GOLD_AMOUNT} senindir." />
+    <string id="lh_cw_decline" text="Şu an bunu ödeyemem." />
+    <string id="lh_enc_chaos_market_t" text="Lanetli pazarlar" />
+    <string id="lh_enc_chaos_market_b" text="Kaos&apos;un silah ve zırhlarından dürüst halk kaçınır ve bunlar YALNIZCA Kaos&apos;un elindeki şehirlerin pazarlarında satılır. Yağmacı teçhizatı, kültist cüppeleri, kaos silahları, kalkanlar ve bir kaos atı her Kaos şehrinde bulunur; Karanlık Tanrıların (Khorne, Nurgle, Tzeentch, Slaanesh) kutsanmış savaş zırhları ve Seçilmişlerin miğferleri yalnızca başkentte — en müreffeh Kaos şehrinde — ve bir servete satılır.\nKaos şehrinde herkes satın alabilir, ama lanetli mallar Kaos şehir ve köyleri dışında hiçbir yerde SATILAMAZ — başka hiçbir tüccar onlara dokunmaz." />
+    <string id="lh_enc_chaos_throne_t" text="Kralı devir" />
+    <string id="lh_enc_chaos_throne_b" text="Güçlü olan haklıdır. Kendi elinle yeterince düşman öldür, Karanlık Tanrılar seni hüküm süren Kaos Kralı'na rakip olarak işaretlesin.\nKişisel öldürmelerin bir Kaos Şanı oluşturur (harita saatinin üzerindeki çubuk). Kaos'a en az 30 gün hizmet et ve Kaos Şanı Kralınkinin üzerine çıkar. Tanrılar fark ettiğinde Kralı ölümcül bir düelloya çağır: sen Krala ve iki Kaos Savaşçısına karşı.\nKazanırsan tahtı, tımarları ve vassalları senindir, kutsanmış savaş teçhizatını ganimet olarak alırsın. Kaybedersen Kaos Şanı üçte bir kırılır." />
+    <string id="lh_chaos_wand_full_p" text="Sana yerim yok — maiyetim zaten dolu." />
+    <string id="lh_chaos_wand_full_lord" text="Öyleyse yer açtığında dön, ölümlü. Karanlık Tanrılar beklemeyi sevmez." />
+    <string id="lh_ck_where_p" text="Efendin Kral&apos;ı nerede bulabilirim?" />
+    <string id="lh_ck_loc_court" text="Efendimiz {SETTLEMENT} şehrinde divan kuruyor." />
+    <string id="lh_ck_loc_march" text="Efendimiz sefere çıktı, {SETTLEMENT} yakınlarında." />
+    <string id="lh_ck_loc_prison" text="Efendimiz {SETTLEMENT} zindanlarında tutsak yatıyor." />
+    <string id="lh_ck_loc_unknown" text="Efendimiz vahşi diyarlarda dolaşıyor — nerede olduğunu ben bile bilmiyorum." />
+    <string id="lh_ck_bar_days" text="hizmet: {DAYS} gün kaldı" />
+    <string id="lh_ck_ready_title" text="Taht bekliyor" />
+    <string id="lh_ck_ready_msg" text="Kendini kan ve hizmetle kanıtladın. Kaos Kralı&apos;nı bul — herhangi bir Kaos lorduna nerede divan kurduğunu sor — ve tahtı için ona meydan oku." />
+    <string id="lh_ck_cd_p" text="Seninle yeniden karşılaşmak istiyorum, Kaos Kralı." />
+    <string id="lh_ck_cd_lord" text="Yenilgiyi çoktan tattın, ölümlü. Yaralarını yala ve layık olduğunda dön — {DAYS} gün sonra. Defol!" />
+    <string id="lh_ck_cd_leave" text="Gidiyorum... utanç içinde." />
+    <string id="lh_ck_bar_cooldown" text="meydan okuma {DAYS}g sonra" />
+    <string id="lh_kd_begin" text="Silahını çek — düelloya başla." />
+    <string id="lh_kd_escort_title" text="Şampiyonlarını seç" />
+    <string id="lh_kd_escort_desc" text="Yanında kimin savaşacağını seç (en fazla {MAX}). Kaos Kralı eşit sayıda muhafız getirecek. Onunla yalnız yüzleşmek için kimseyi seçme." />
+    <string id="lh_kd_escort_ok" text="Savaşa!" />
+    <string id="lh_kd_escort_back" text="Geri" />
+    <string id="lh_kd_prep_text" text="Kaos tarikatçıları tarlada kafataslarından ve kara demirden bir dövüş çemberi kurdu. Kaos Kralı {KING} seninle yüzleşmek için içeri adımını atıyor — çemberden yalnızca biriniz canlı çıkacak." />
+    <string id="lh_kd_won_text" text="Kaos Kralı ayaklarının dibinde ölü yatıyor. Karanlık Tanrılar onaylarını haykırıyor — kendi tahtına giden yol açık." />
+    <string id="lh_kd_claim" text="Kaos tahtını al." />
+    <string id="lh_kd_lost_text" text="Yenildin ve yere serildin. Yaralarını yala ve yeniden denemek için {DAYS} gün sonra dön." />
+    <string id="lh_ck_found_title" text="Kendi Kaos krallığını kur" />
+    <string id="lh_ck_found_text" text="Taht kanınla senindir. Yeni Kaos krallığına bir ad ver." />
+    <string id="lh_ck_found_default" text="Kaos Ordusu" />
+    <string id="lh_ck_founded" text="Kaos krallığın kuruldu. Karanlık Tanrılar yeni şampiyonlarını gözlüyor." />
+    <string id="lh_kd_chicken" text="Bugün değil — geri çekiliyorum. (ayrıl)" />
+    <string id="lh_extorsion_tier_too_low" text="Seviye çok düşük — sadece T4+ orklarda alınmaya değer altın diş bulunur." />
+    <string id="lh_set_MaxBanditPartiesPerHideout_lbl" text="Sığınak başına haydut devriyesi" />
+    <string id="lh_set_MaxBanditPartiesPerHideout_desc" text="HER aktif sığınağın çevresinde kaç gezgin haydut grubunun çıkabileceği. TOR varsayılanı 6'dır — haritada dolaşan grupları azaltmak için düşürün. Örnek: 3." />
+    <string id="lh_set_MaxLooterParties_lbl" text="Maks. çapulcu/firari grubu" />
+    <string id="lh_set_MaxLooterParties_desc" text="Haritadaki çapulcu ve firari gruplarına kesin üst sınır. TOR en fazla 200'e izin verir — bu yalnızca düşürür (TOR'un kampanya aşamasının izin verdiğinin üzerine asla çıkarmaz). Örnek: 60." />
+    <string id="lh_god_khorne" text="Khorne, Kan Tanrısı" />
+    <string id="lh_god_nurgle" text="Nurgle, Veba Efendisi" />
+    <string id="lh_god_tzeentch" text="Tzeentch, Yolların Değiştiricisi" />
+    <string id="lh_god_slaanesh" text="Slaanesh, Karanlık Prens" />
+    <string id="lh_god_none" text="Tanrı yok" />
+    <string id="lh_god_khorne_flv" text="Kafatası tahtına kafatasları. Khorne, açık katliamda kafa toplayan amansız kasabı kayırır." />
+    <string id="lh_god_nurgle_flv" text="Vebaların Büyükbabası dayananları kucaklar. Seçilmişleri çürür ama düşmeyi reddeder." />
+    <string id="lh_god_tzeentch_flv" text="Kaderin Mimarı, büyü rüzgârlarını iradesine boyun eğdiren kurnaz büyücüyü ödüllendirir." />
+    <string id="lh_god_slaanesh_flv" text="Zevkin Prensi hızlı ve kusursuz olanı sever - öldürmeyi sanata dönüştüren düellocuyu." />
+    <string id="lh_god_choose_title" text="Bir Karanlık Tanrı'ya yemin et" />
+    <string id="lh_god_choose_desc" text="Kaos sunağının önünde diz çökersin. İşaretini taşıyacağın tanrıyı seç — bu seçim kesindir. {SET} öldürmede tanrın sana tam savaş teçhizatını bahşeder; {DUEL} öldürmede tahtı için Overlord'un kendisine meydan okuyabilirsin." />
+    <string id="lh_god_choose_ok" text="Yemini et" />
+    <string id="lh_god_chosen_msg" text="Artık {GOD} adına yeminlisin. {FLAVOR}" />
+    <string id="lh_god_set_granted" text="Karanlık Tanrılar katliamını ödüllendirir - {GOD} tam savaş teçhizatı artık envanterinde. Envanterinden kuşan (I tuşu)." />
+    <string id="lh_god_set_title" text="Bir Tanrı'nın Lütfu" />
+    <string id="lh_set_tab_gods" text="Karanlık Tanrılar" />
+    <string id="lh_set_ChaosGodSetKillThreshold_lbl" text="Tanrının savaş takımı için öldürme" />
+    <string id="lh_set_ChaosGodSetKillThreshold_desc" text="Kaos'a yemin ettiğinde dört Karanlık Tanrı'dan birini seçersin (Khorne, Nurgle, Tzeentch, Slaanesh). Kişisel öldürme sayın bu rakama ulaştığında, tanrın seni en üst seviye zırh ve silahtan oluşan tam takımla ödüllendirir. Düşük = seçkin teçhizatı daha erken kazanırsın. Örnek: 1000, kendi elinle öldürdüğün yaklaşık 1000 düşman demektir. Aralık 500-2000." />
+    <string id="lh_set_ChaosGodDuelKillThreshold_lbl" text="Overlord'a meydan okumak için ek öldürme" />
+    <string id="lh_set_ChaosGodDuelKillThreshold_desc" text="Savaş takımı eşiğine EK olarak, Kaos Overlord'una (Mortkin) tahtı için düelloya davet edebilmeden önceki ek kişisel öldürmeler. Düello için toplam öldürme = savaş takımı eşiği + bu değer. Düşük = taht meydan okuması daha erken açılır. Örnek: ikisi de 1000 iken ona 2000 öldürmede meydan okursun. Aralık 500-2000." />
+    <string id="lh_chaos_minotaur_weight_relief" text="Minotor ağırlığı (hafifletildi)" />
+    <string id="lh_chaos_recruited_list" text="Çağrılanlar: {LIST}." />
+  </strings>
+</base>
